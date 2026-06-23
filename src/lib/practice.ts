@@ -190,7 +190,8 @@ export function getScoreSummary(session: PracticeSession | null) {
  * Matching rules:
  * 1. Normalize both input and answers (trim, lowercase, collapse whitespace)
  * 2. Exact match against any acceptable answer → correct
- * 3. Abbreviation-only match: if answer has "ChIP (Chromatin immunoprecipitation)",
+ * 3. Singular/plural tolerant: "Prokaryote" matches "Prokaryotes"
+ * 4. Abbreviation-only match: if answer has "ChIP (Chromatin immunoprecipitation)",
  *    accepting "ChIP" or "Chromatin immunoprecipitation" individually.
  */
 export function checkTranslationAnswer(
@@ -200,9 +201,19 @@ export function checkTranslationAnswer(
   const normalized = normalizeAnswerText(userInput)
   if (!normalized) return false
 
-  return question.acceptableAnswers.some(
+  // Exact match
+  if (question.acceptableAnswers.some(
     (answer) => normalizeAnswerText(answer) === normalized,
-  )
+  )) {
+    return true
+  }
+
+  // Singular/plural tolerant match
+  const stemmedInput = removeEnglishPlural(normalized)
+  return question.acceptableAnswers.some((answer) => {
+    const stemmedAnswer = removeEnglishPlural(normalizeAnswerText(answer))
+    return stemmedInput === stemmedAnswer
+  })
 }
 
 function normalizeAnswerText(text: string): string {
@@ -212,6 +223,32 @@ function normalizeAnswerText(text: string): string {
     .replace(/\s+/g, ' ')
     .replace(/[，,。\.！!？?；;：:、\s]+$/, '')  // trailing punctuation
     .replace(/^[，,。\.！!？?；;：:、\s]+/, '')  // leading punctuation
+}
+
+/**
+ * Remove common English plural suffixes to allow singular/plural matching.
+ * Handles: -s (Prokaryotes→Prokaryote), -es (boxes→box),
+ * -ies (bodies→body), -ves (lives→life).
+ * Note: minimal heuristics to avoid false positives.
+ */
+function removeEnglishPlural(word: string): string {
+  if (word.endsWith('ies') && word.length > 4) {
+    return word.slice(0, -3) + 'y'
+  }
+  if (word.endsWith('ves') && word.length > 4) {
+    return word.slice(0, -3) + 'f'
+  }
+  if (word.endsWith('ses') && word.length > 4) {
+    // Could be -s on an -s word (e.g. viruses→virus) or -es (e.g. classes→class)
+    return word.slice(0, -2)
+  }
+  if (word.endsWith('es') && word.length > 4) {
+    return word.slice(0, -2)
+  }
+  if (word.endsWith('s') && word.length > 3) {
+    return word.slice(0, -1)
+  }
+  return word
 }
 
 // ── Answer display ────────────────────────────────────────────────
