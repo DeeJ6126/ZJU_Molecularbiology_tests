@@ -2533,8 +2533,8 @@
       "categoryTitle": "（三）DNA复制、修复与染色体结构",
       "parentTitle": "简答题",
       "number": 16,
-      "prompt": "DNA Pol δ and ε (eukaryotic): responsible for synthesizing the lagging strand and leading strand, respectively;",
-      "referenceAnswer": "⑥ DNA ligase: joins Okazaki fragments on the lagging strand to form a complete DNA strand;\n⑦ Telomerase: unique to eukaryotes, uses its own RNA as a template to synthesize telomeric DNA, solving the end-replication problem of linear chromosomes."
+      "prompt": "DNA Pol delta and epsilon (eukaryotes): responsible for synthesizing the lagging strand and leading strand, respectively.",
+      "referenceAnswer": "DNA polymerase delta (Pol delta): major lagging-strand polymerase in eukaryotes; associates with PCNA for high processivity. DNA polymerase epsilon (Pol epsilon): major leading-strand polymerase in eukaryotes. Both possess 3-prime-to-5-prime proofreading exonuclease activity to ensure high replication fidelity."
     },
     {
       "id": "short-answer-3-q-017",
