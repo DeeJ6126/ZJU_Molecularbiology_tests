@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
 import { getSubcategories, getQuestionTypes } from '../lib/categoryScope'
 import type { QuestionType } from '../types'
@@ -94,6 +94,11 @@ export function CategorySelectionPage() {
             <div className="section-heading">
               <h2>{TYPE_LABELS[type] || type}</h2>
               <div className="toolbar-actions">
+                {type === 'translation' && selectedInType.length > 0 && (
+                  <Link to="/review" className="secondary-button" style={{ textDecoration: 'none' }}>
+                    复习模式
+                  </Link>
+                )}
                 <button
                   className="ghost-button"
                   onClick={() =>

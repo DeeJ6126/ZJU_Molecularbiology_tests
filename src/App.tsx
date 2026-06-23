@@ -7,6 +7,7 @@ import { CategorySelectionPage } from './pages/CategorySelectionPage'
 import { PracticePage } from './pages/PracticePage'
 import { ResultsPage } from './pages/ResultsPage'
 import { MistakesPage } from './pages/MistakesPage'
+import { ReviewPage } from './pages/ReviewPage'
 import { VocabularyPage } from './pages/VocabularyPage'
 import { AboutPage } from './pages/AboutPage'
 import './App.css'
@@ -55,6 +56,7 @@ export function App() {
           <Route path="/practice" element={<PracticePage />} />
           <Route path="/results" element={<ResultsPage />} />
           <Route path="/mistakes" element={<MistakesPage />} />
+          <Route path="/review" element={<ReviewPage />} />
           <Route path="/vocabulary" element={<VocabularyPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<Navigate replace to="/" />} />

@@ -35,6 +35,9 @@ export function AppLayout() {
           <NavLink to="/mistakes" className="nav-link">
             错题本
           </NavLink>
+          <NavLink to="/review" className="nav-link">
+            复习
+          </NavLink>
           <NavLink to="/vocabulary" className="nav-link">
             生词本
           </NavLink>
