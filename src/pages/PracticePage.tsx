@@ -163,6 +163,8 @@ export function PracticePage() {
             question={currentQuestion}
             existingAnswer={existingAnswer}
             onAnswer={(qid, text) => practice.recordTextAnswer(qid, text)}
+            onNext={handleNext}
+            onRemoveMistake={(qid) => practice.removeMistake(qid)}
           />
         )}
 
