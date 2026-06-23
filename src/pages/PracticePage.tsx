@@ -160,6 +160,7 @@ export function PracticePage() {
       <section className="panel">
         {currentQuestion.type === 'translation' && (
           <TranslationInput
+            key={currentQuestion.id}
             question={currentQuestion}
             existingAnswer={existingAnswer}
             onAnswer={(qid, text) => practice.recordTextAnswer(qid, text)}
