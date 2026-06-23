@@ -1,0 +1,3080 @@
+{
+  "generatedAt": "2026-06-23T09:30:45.032378",
+  "totalQuestions": 213,
+  "categories": [
+    {
+      "id": "translation-1",
+      "type": "translation",
+      "title": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "questionCount": 13
+    },
+    {
+      "id": "translation-2",
+      "type": "translation",
+      "title": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "questionCount": 32
+    },
+    {
+      "id": "translation-3",
+      "type": "translation",
+      "title": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "questionCount": 13
+    },
+    {
+      "id": "translation-4",
+      "type": "translation",
+      "title": "表观遗传学",
+      "parentTitle": "中英名词互译",
+      "questionCount": 4
+    },
+    {
+      "id": "translation-5",
+      "type": "translation",
+      "title": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "questionCount": 23
+    },
+    {
+      "id": "translation-6",
+      "type": "translation",
+      "title": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "questionCount": 12
+    },
+    {
+      "id": "translation-7",
+      "type": "translation",
+      "title": "其他",
+      "parentTitle": "中英名词互译",
+      "questionCount": 7
+    },
+    {
+      "id": "true-false-1",
+      "type": "true-false",
+      "title": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "questionCount": 5
+    },
+    {
+      "id": "true-false-2",
+      "type": "true-false",
+      "title": "（二）DNA复制与修复",
+      "parentTitle": "判断题",
+      "questionCount": 1
+    },
+    {
+      "id": "true-false-3",
+      "type": "true-false",
+      "title": "（三）转录与RNA生物学",
+      "parentTitle": "判断题",
+      "questionCount": 4
+    },
+    {
+      "id": "true-false-4",
+      "type": "true-false",
+      "title": "（四）表观遗传学",
+      "parentTitle": "判断题",
+      "questionCount": 1
+    },
+    {
+      "id": "true-false-5",
+      "type": "true-false",
+      "title": "（五）分子克隆与实验技术",
+      "parentTitle": "判断题",
+      "questionCount": 2
+    },
+    {
+      "id": "multiple-choice-1",
+      "type": "multiple-choice",
+      "title": "（一）分子生物学史与技术发明",
+      "parentTitle": "选择题",
+      "questionCount": 2
+    },
+    {
+      "id": "multiple-choice-2",
+      "type": "multiple-choice",
+      "title": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "questionCount": 5
+    },
+    {
+      "id": "multiple-choice-3",
+      "type": "multiple-choice",
+      "title": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "questionCount": 6
+    },
+    {
+      "id": "multiple-choice-4",
+      "type": "multiple-choice",
+      "title": "（四）DNA复制与染色体结构",
+      "parentTitle": "选择题",
+      "questionCount": 1
+    },
+    {
+      "id": "multiple-choice-5",
+      "type": "multiple-choice",
+      "title": "（五）分子克隆与实验技术",
+      "parentTitle": "选择题",
+      "questionCount": 3
+    },
+    {
+      "id": "short-answer-1",
+      "type": "short-answer",
+      "title": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "questionCount": 5
+    },
+    {
+      "id": "short-answer-2",
+      "type": "short-answer",
+      "title": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "questionCount": 7
+    },
+    {
+      "id": "short-answer-3",
+      "type": "short-answer",
+      "title": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "questionCount": 7
+    },
+    {
+      "id": "short-answer-4",
+      "type": "short-answer",
+      "title": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "questionCount": 6
+    },
+    {
+      "id": "short-answer-5",
+      "type": "short-answer",
+      "title": "（五）表观遗传学",
+      "parentTitle": "简答题",
+      "questionCount": 4
+    },
+    {
+      "id": "short-answer-6",
+      "type": "short-answer",
+      "title": "（六）蛋白质相互作用与修饰",
+      "parentTitle": "简答题",
+      "questionCount": 2
+    },
+    {
+      "id": "short-answer-7",
+      "type": "short-answer",
+      "title": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "questionCount": 10
+    },
+    {
+      "id": "short-answer-8",
+      "type": "short-answer",
+      "title": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "questionCount": 11
+    },
+    {
+      "id": "short-answer-9",
+      "type": "short-answer",
+      "title": "（九）植物转基因与基因编辑",
+      "parentTitle": "简答题",
+      "questionCount": 3
+    },
+    {
+      "id": "short-answer-10",
+      "type": "short-answer",
+      "title": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "questionCount": 6
+    },
+    {
+      "id": "essay-1",
+      "type": "essay",
+      "title": "（一）RNA加工与可变剪接",
+      "parentTitle": "分析论述题",
+      "questionCount": 2
+    },
+    {
+      "id": "essay-2",
+      "type": "essay",
+      "title": "（二）染色体结构与端粒",
+      "parentTitle": "分析论述题",
+      "questionCount": 3
+    },
+    {
+      "id": "essay-3",
+      "type": "essay",
+      "title": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "questionCount": 7
+    },
+    {
+      "id": "essay-4",
+      "type": "essay",
+      "title": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "questionCount": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "translation-1-q-001",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 1,
+      "prompt": "Eukaryote/eucaryon",
+      "direction": "en-to-zh",
+      "answerTerm": "Eukaryote",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "eucaryon",
+        "eukaryote"
+      ],
+      "chineseMeaning": "真核生物"
+    },
+    {
+      "id": "translation-1-q-002",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 2,
+      "prompt": "Prokaryotes",
+      "direction": "en-to-zh",
+      "answerTerm": "Prokaryotes",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "prokaryotes"
+      ],
+      "chineseMeaning": "原核生物"
+    },
+    {
+      "id": "translation-1-q-003",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 3,
+      "prompt": "Operon",
+      "direction": "en-to-zh",
+      "answerTerm": "Operon",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "operon"
+      ],
+      "chineseMeaning": "操纵子"
+    },
+    {
+      "id": "translation-1-q-004",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 4,
+      "prompt": "Operator",
+      "direction": "en-to-zh",
+      "answerTerm": "Operator",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "operator"
+      ],
+      "chineseMeaning": "操纵位点"
+    },
+    {
+      "id": "translation-1-q-005",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 5,
+      "prompt": "Promoter",
+      "direction": "en-to-zh",
+      "answerTerm": "Promoter",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "promoter"
+      ],
+      "chineseMeaning": "启动子"
+    },
+    {
+      "id": "translation-1-q-006",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 6,
+      "prompt": "Enhancer",
+      "direction": "en-to-zh",
+      "answerTerm": "Enhancer",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "enhancer"
+      ],
+      "chineseMeaning": "增强子"
+    },
+    {
+      "id": "translation-1-q-007",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 7,
+      "prompt": "Terminator",
+      "direction": "en-to-zh",
+      "answerTerm": "Terminator",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "terminator"
+      ],
+      "chineseMeaning": "终止子"
+    },
+    {
+      "id": "translation-1-q-008",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 8,
+      "prompt": "Attenuator",
+      "direction": "en-to-zh",
+      "answerTerm": "Attenuator",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "attenuator"
+      ],
+      "chineseMeaning": "衰减子"
+    },
+    {
+      "id": "translation-1-q-009",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 9,
+      "prompt": "Open reading frame(ORF)",
+      "direction": "en-to-zh",
+      "answerTerm": "ORF",
+      "answerFullTerm": "Open reading frame",
+      "acceptableAnswers": [
+        "orf",
+        "orf (open reading frame)",
+        "open reading frame"
+      ],
+      "chineseMeaning": "开放阅读框"
+    },
+    {
+      "id": "translation-1-q-010",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 10,
+      "prompt": "Codon preference/Codon bias",
+      "direction": "en-to-zh",
+      "answerTerm": "Codon preference",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "codon bias",
+        "codon preference"
+      ],
+      "chineseMeaning": "密码子偏好性"
+    },
+    {
+      "id": "translation-1-q-011",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 11,
+      "prompt": "Replication",
+      "direction": "en-to-zh",
+      "answerTerm": "Replication",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "replication"
+      ],
+      "chineseMeaning": "复制"
+    },
+    {
+      "id": "translation-1-q-012",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 12,
+      "prompt": "Transcription",
+      "direction": "en-to-zh",
+      "answerTerm": "Transcription",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "transcription"
+      ],
+      "chineseMeaning": "转录"
+    },
+    {
+      "id": "translation-1-q-013",
+      "type": "translation",
+      "categoryId": "translation-1",
+      "categoryTitle": "基础分子生物学概念",
+      "parentTitle": "中英名词互译",
+      "number": 13,
+      "prompt": "Translation",
+      "direction": "en-to-zh",
+      "answerTerm": "Translation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "translation"
+      ],
+      "chineseMeaning": "翻译"
+    },
+    {
+      "id": "translation-2-q-014",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 14,
+      "prompt": "Deoxyribonucleic acid",
+      "direction": "en-to-zh",
+      "answerTerm": "Deoxyribonucleic acid",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "deoxyribonucleic acid"
+      ],
+      "chineseMeaning": "脱氧核糖核酸"
+    },
+    {
+      "id": "translation-2-q-015",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 15,
+      "prompt": "Nucleotide",
+      "direction": "en-to-zh",
+      "answerTerm": "Nucleotide",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "nucleotide"
+      ],
+      "chineseMeaning": "核苷酸"
+    },
+    {
+      "id": "translation-2-q-016",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 16,
+      "prompt": "Nucleoside",
+      "direction": "en-to-zh",
+      "answerTerm": "Nucleoside",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "nucleoside"
+      ],
+      "chineseMeaning": "核苷"
+    },
+    {
+      "id": "translation-2-q-017",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 17,
+      "prompt": "Exon",
+      "direction": "en-to-zh",
+      "answerTerm": "Exon",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "exon"
+      ],
+      "chineseMeaning": "外显子"
+    },
+    {
+      "id": "translation-2-q-018",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 18,
+      "prompt": "Intron",
+      "direction": "en-to-zh",
+      "answerTerm": "Intron",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "intron"
+      ],
+      "chineseMeaning": "内含子"
+    },
+    {
+      "id": "translation-2-q-019",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 19,
+      "prompt": "Alternative splicing",
+      "direction": "en-to-zh",
+      "answerTerm": "Alternative splicing",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "alternative splicing"
+      ],
+      "chineseMeaning": "可变剪接"
+    },
+    {
+      "id": "translation-2-q-020",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 20,
+      "prompt": "Trans-splicing",
+      "direction": "en-to-zh",
+      "answerTerm": "Trans-splicing",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "trans-splicing"
+      ],
+      "chineseMeaning": "反式剪接"
+    },
+    {
+      "id": "translation-2-q-021",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 21,
+      "prompt": "Spliceosome",
+      "direction": "en-to-zh",
+      "answerTerm": "Spliceosome",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "spliceosome"
+      ],
+      "chineseMeaning": "剪接体"
+    },
+    {
+      "id": "translation-2-q-022",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 22,
+      "prompt": "snRNPs/snRNP",
+      "direction": "en-to-zh",
+      "answerTerm": "snRNPs",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "snrnp",
+        "snrnps"
+      ],
+      "chineseMeaning": "核小核糖核蛋白颗粒"
+    },
+    {
+      "id": "translation-2-q-023",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 23,
+      "prompt": "LncRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "LncRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "lncrna"
+      ],
+      "chineseMeaning": "长链非编码RNA"
+    },
+    {
+      "id": "translation-2-q-024",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 24,
+      "prompt": "miRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "miRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "mirna"
+      ],
+      "chineseMeaning": "微小RNA"
+    },
+    {
+      "id": "translation-2-q-025",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 25,
+      "prompt": "siRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "siRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "sirna"
+      ],
+      "chineseMeaning": "小干扰RNA"
+    },
+    {
+      "id": "translation-2-q-026",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 26,
+      "prompt": "RISC",
+      "direction": "en-to-zh",
+      "answerTerm": "RISC",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "risc"
+      ],
+      "chineseMeaning": "RNA诱导沉默复合体"
+    },
+    {
+      "id": "translation-2-q-027",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 27,
+      "prompt": "PTGS",
+      "direction": "en-to-zh",
+      "answerTerm": "PTGS",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "ptgs"
+      ],
+      "chineseMeaning": "转录后基因沉默"
+    },
+    {
+      "id": "translation-2-q-028",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 28,
+      "prompt": "mRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "mRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "mrna"
+      ],
+      "chineseMeaning": "信使RNA"
+    },
+    {
+      "id": "translation-2-q-029",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 29,
+      "prompt": "tRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "tRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "trna"
+      ],
+      "chineseMeaning": "转运RNA"
+    },
+    {
+      "id": "translation-2-q-030",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 30,
+      "prompt": "rRNA",
+      "direction": "en-to-zh",
+      "answerTerm": "rRNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "rrna"
+      ],
+      "chineseMeaning": "核糖体RNA"
+    },
+    {
+      "id": "translation-2-q-031",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 31,
+      "prompt": "Telomere",
+      "direction": "en-to-zh",
+      "answerTerm": "Telomere",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "telomere"
+      ],
+      "chineseMeaning": "端粒"
+    },
+    {
+      "id": "translation-2-q-032",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 32,
+      "prompt": "Telomerase",
+      "direction": "en-to-zh",
+      "answerTerm": "Telomerase",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "telomerase"
+      ],
+      "chineseMeaning": "端粒酶"
+    },
+    {
+      "id": "translation-2-q-033",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 33,
+      "prompt": "Centromere",
+      "direction": "en-to-zh",
+      "answerTerm": "Centromere",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "centromere"
+      ],
+      "chineseMeaning": "着丝粒"
+    },
+    {
+      "id": "translation-2-q-034",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 34,
+      "prompt": "Kinetochore",
+      "direction": "en-to-zh",
+      "answerTerm": "Kinetochore",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "kinetochore"
+      ],
+      "chineseMeaning": "动粒/着丝点"
+    },
+    {
+      "id": "translation-2-q-035",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 35,
+      "prompt": "Nucleosome",
+      "direction": "en-to-zh",
+      "answerTerm": "Nucleosome",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "nucleosome"
+      ],
+      "chineseMeaning": "核小体"
+    },
+    {
+      "id": "translation-2-q-036",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 36,
+      "prompt": "Nucleoid",
+      "direction": "en-to-zh",
+      "answerTerm": "Nucleoid",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "nucleoid"
+      ],
+      "chineseMeaning": "拟核"
+    },
+    {
+      "id": "translation-2-q-037",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 37,
+      "prompt": "Chromosome",
+      "direction": "en-to-zh",
+      "answerTerm": "Chromosome",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "chromosome"
+      ],
+      "chineseMeaning": "染色体"
+    },
+    {
+      "id": "translation-2-q-038",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 38,
+      "prompt": "Chromatin",
+      "direction": "en-to-zh",
+      "answerTerm": "Chromatin",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "chromatin"
+      ],
+      "chineseMeaning": "染色质"
+    },
+    {
+      "id": "translation-2-q-039",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 39,
+      "prompt": "Heterochromatin",
+      "direction": "en-to-zh",
+      "answerTerm": "Heterochromatin",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "heterochromatin"
+      ],
+      "chineseMeaning": "异染色质"
+    },
+    {
+      "id": "translation-2-q-040",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 40,
+      "prompt": "Topoisomerase",
+      "direction": "en-to-zh",
+      "answerTerm": "Topoisomerase",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "topoisomerase"
+      ],
+      "chineseMeaning": "拓扑异构酶"
+    },
+    {
+      "id": "translation-2-q-041",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 41,
+      "prompt": "Helicase",
+      "direction": "en-to-zh",
+      "answerTerm": "Helicase",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "helicase"
+      ],
+      "chineseMeaning": "解旋酶"
+    },
+    {
+      "id": "translation-2-q-042",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 42,
+      "prompt": "Primase",
+      "direction": "en-to-zh",
+      "answerTerm": "Primase",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "primase"
+      ],
+      "chineseMeaning": "引物酶"
+    },
+    {
+      "id": "translation-2-q-043",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 43,
+      "prompt": "Lagging strand",
+      "direction": "en-to-zh",
+      "answerTerm": "Lagging strand",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "lagging strand"
+      ],
+      "chineseMeaning": "滞后链"
+    },
+    {
+      "id": "translation-2-q-044",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 44,
+      "prompt": "Leading strand",
+      "direction": "en-to-zh",
+      "answerTerm": "Leading strand",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "leading strand"
+      ],
+      "chineseMeaning": "前导链"
+    },
+    {
+      "id": "translation-2-q-045",
+      "type": "translation",
+      "categoryId": "translation-2",
+      "categoryTitle": "核酸结构与功能",
+      "parentTitle": "中英名词互译",
+      "number": 45,
+      "prompt": "Replication slippage/Slipped strand mispairing",
+      "direction": "en-to-zh",
+      "answerTerm": "Replication slippage",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "replication slippage",
+        "slipped strand mispairing"
+      ],
+      "chineseMeaning": "Replication slippage/Slipped strand mispairing"
+    },
+    {
+      "id": "translation-3-q-046",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 46,
+      "prompt": "Amino acid",
+      "direction": "en-to-zh",
+      "answerTerm": "Amino acid",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "amino acid"
+      ],
+      "chineseMeaning": "氨基酸"
+    },
+    {
+      "id": "translation-3-q-047",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 47,
+      "prompt": "Histidine",
+      "direction": "en-to-zh",
+      "answerTerm": "Histidine",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "histidine"
+      ],
+      "chineseMeaning": "组氨酸"
+    },
+    {
+      "id": "translation-3-q-048",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 48,
+      "prompt": "Histone",
+      "direction": "en-to-zh",
+      "answerTerm": "Histone",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "histone"
+      ],
+      "chineseMeaning": "组蛋白"
+    },
+    {
+      "id": "translation-3-q-049",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 49,
+      "prompt": "Histone code",
+      "direction": "en-to-zh",
+      "answerTerm": "Histone code",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "histone code"
+      ],
+      "chineseMeaning": "组蛋白密码"
+    },
+    {
+      "id": "translation-3-q-050",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 50,
+      "prompt": "Phosphorylation",
+      "direction": "en-to-zh",
+      "answerTerm": "Phosphorylation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "phosphorylation"
+      ],
+      "chineseMeaning": "磷酸化"
+    },
+    {
+      "id": "translation-3-q-051",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 51,
+      "prompt": "Acetylation",
+      "direction": "en-to-zh",
+      "answerTerm": "Acetylation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "acetylation"
+      ],
+      "chineseMeaning": "乙酰化"
+    },
+    {
+      "id": "translation-3-q-052",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 52,
+      "prompt": "Methylation",
+      "direction": "en-to-zh",
+      "answerTerm": "Methylation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "methylation"
+      ],
+      "chineseMeaning": "甲基化"
+    },
+    {
+      "id": "translation-3-q-053",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 53,
+      "prompt": "Ubiquitination",
+      "direction": "en-to-zh",
+      "answerTerm": "Ubiquitination",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "ubiquitination"
+      ],
+      "chineseMeaning": "泛素化"
+    },
+    {
+      "id": "translation-3-q-054",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 54,
+      "prompt": "Glycosylation",
+      "direction": "en-to-zh",
+      "answerTerm": "Glycosylation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "glycosylation"
+      ],
+      "chineseMeaning": "糖基化"
+    },
+    {
+      "id": "translation-3-q-055",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 55,
+      "prompt": "Hydroxylation",
+      "direction": "en-to-zh",
+      "answerTerm": "Hydroxylation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "hydroxylation"
+      ],
+      "chineseMeaning": "羟基化"
+    },
+    {
+      "id": "translation-3-q-056",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 56,
+      "prompt": "Proteomics",
+      "direction": "en-to-zh",
+      "answerTerm": "Proteomics",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "proteomics"
+      ],
+      "chineseMeaning": "蛋白质组学"
+    },
+    {
+      "id": "translation-3-q-057",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 57,
+      "prompt": "Aminoacyl tRNA synthetases",
+      "direction": "en-to-zh",
+      "answerTerm": "Aminoacyl tRNA synthetases",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "aminoacyl trna synthetases"
+      ],
+      "chineseMeaning": "氨酰tRNA合成酶"
+    },
+    {
+      "id": "translation-3-q-058",
+      "type": "translation",
+      "categoryId": "translation-3",
+      "categoryTitle": "蛋白质结构与修饰",
+      "parentTitle": "中英名词互译",
+      "number": 58,
+      "prompt": "Green fluorescent protein(GFP)",
+      "direction": "en-to-zh",
+      "answerTerm": "GFP",
+      "answerFullTerm": "Green fluorescent protein",
+      "acceptableAnswers": [
+        "green fluorescent protein",
+        "gfp",
+        "gfp (green fluorescent protein)"
+      ],
+      "chineseMeaning": "绿色荧光蛋白"
+    },
+    {
+      "id": "translation-4-q-059",
+      "type": "translation",
+      "categoryId": "translation-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 59,
+      "prompt": "Epigenetics",
+      "direction": "en-to-zh",
+      "answerTerm": "Epigenetics",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "epigenetics"
+      ],
+      "chineseMeaning": "表观遗传学"
+    },
+    {
+      "id": "translation-4-q-060",
+      "type": "translation",
+      "categoryId": "translation-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 60,
+      "prompt": "Epigenomics",
+      "direction": "en-to-zh",
+      "answerTerm": "Epigenomics",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "epigenomics"
+      ],
+      "chineseMeaning": "表观遗传组学"
+    },
+    {
+      "id": "translation-4-q-061",
+      "type": "translation",
+      "categoryId": "translation-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 61,
+      "prompt": "Genomic imprinting",
+      "direction": "en-to-zh",
+      "answerTerm": "Genomic imprinting",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "genomic imprinting"
+      ],
+      "chineseMeaning": "基因组印记"
+    },
+    {
+      "id": "translation-4-q-062",
+      "type": "translation",
+      "categoryId": "translation-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 62,
+      "prompt": "X-inactivation",
+      "direction": "en-to-zh",
+      "answerTerm": "X-inactivation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "x-inactivation"
+      ],
+      "chineseMeaning": "X染色体失活"
+    },
+    {
+      "id": "translation-5-q-063",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 63,
+      "prompt": "Restriction endonuclease",
+      "direction": "en-to-zh",
+      "answerTerm": "Restriction endonuclease",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "restriction endonuclease"
+      ],
+      "chineseMeaning": "限制性核酸内切酶"
+    },
+    {
+      "id": "translation-5-q-064",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 64,
+      "prompt": "Homologous recombination",
+      "direction": "en-to-zh",
+      "answerTerm": "Homologous recombination",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "homologous recombination"
+      ],
+      "chineseMeaning": "同源重组"
+    },
+    {
+      "id": "translation-5-q-065",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 65,
+      "prompt": "Map-based cloning",
+      "direction": "en-to-zh",
+      "answerTerm": "Map-based cloning",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "map-based cloning"
+      ],
+      "chineseMeaning": "图位克隆"
+    },
+    {
+      "id": "translation-5-q-066",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 66,
+      "prompt": "In situ hybridization",
+      "direction": "en-to-zh",
+      "answerTerm": "In situ hybridization",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "in situ hybridization"
+      ],
+      "chineseMeaning": "原位杂交"
+    },
+    {
+      "id": "translation-5-q-067",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 67,
+      "prompt": "Gel electrophoresis",
+      "direction": "en-to-zh",
+      "answerTerm": "Gel electrophoresis",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "gel electrophoresis"
+      ],
+      "chineseMeaning": "凝胶电泳"
+    },
+    {
+      "id": "translation-5-q-068",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 68,
+      "prompt": "Autoradiography",
+      "direction": "en-to-zh",
+      "answerTerm": "Autoradiography",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "autoradiography"
+      ],
+      "chineseMeaning": "放射自显影"
+    },
+    {
+      "id": "translation-5-q-069",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 69,
+      "prompt": "Ultracentrifugation",
+      "direction": "en-to-zh",
+      "answerTerm": "Ultracentrifugation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "ultracentrifugation"
+      ],
+      "chineseMeaning": "超速离心"
+    },
+    {
+      "id": "translation-5-q-070",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 70,
+      "prompt": "PCR",
+      "direction": "en-to-zh",
+      "answerTerm": "PCR",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "pcr"
+      ],
+      "chineseMeaning": "聚合酶链式反应"
+    },
+    {
+      "id": "translation-5-q-071",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 71,
+      "prompt": "RT-PCR",
+      "direction": "en-to-zh",
+      "answerTerm": "RT-PCR",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "rt-pcr"
+      ],
+      "chineseMeaning": "逆转录PCR"
+    },
+    {
+      "id": "translation-5-q-072",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 72,
+      "prompt": "qRT-PCR",
+      "direction": "en-to-zh",
+      "answerTerm": "qRT-PCR",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "qrt-pcr"
+      ],
+      "chineseMeaning": "实时定量PCR"
+    },
+    {
+      "id": "translation-5-q-073",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 73,
+      "prompt": "Southern blot",
+      "direction": "en-to-zh",
+      "answerTerm": "Southern blot",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "southern blot"
+      ],
+      "chineseMeaning": "南方杂交"
+    },
+    {
+      "id": "translation-5-q-074",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 74,
+      "prompt": "Northern blot",
+      "direction": "en-to-zh",
+      "answerTerm": "Northern blot",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "northern blot"
+      ],
+      "chineseMeaning": "北方杂交"
+    },
+    {
+      "id": "translation-5-q-075",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 75,
+      "prompt": "Western blot",
+      "direction": "en-to-zh",
+      "answerTerm": "Western blot",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "western blot"
+      ],
+      "chineseMeaning": "免疫印迹"
+    },
+    {
+      "id": "translation-5-q-076",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 76,
+      "prompt": "ChIP(Chromatin immunoprecipitation)",
+      "direction": "en-to-zh",
+      "answerTerm": "ChIP",
+      "answerFullTerm": "Chromatin immunoprecipitation",
+      "acceptableAnswers": [
+        "chip (chromatin immunoprecipitation)",
+        "chromatin immunoprecipitation",
+        "chip"
+      ],
+      "chineseMeaning": "染色质免疫共沉淀"
+    },
+    {
+      "id": "translation-5-q-077",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 77,
+      "prompt": "EMSA",
+      "direction": "en-to-zh",
+      "answerTerm": "EMSA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "emsa"
+      ],
+      "chineseMeaning": "凝胶迁移实验"
+    },
+    {
+      "id": "translation-5-q-078",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 78,
+      "prompt": "Yeast two-hybrid system(Y2H)",
+      "direction": "en-to-zh",
+      "answerTerm": "Y2H",
+      "answerFullTerm": "Yeast two-hybrid system",
+      "acceptableAnswers": [
+        "y2h (yeast two-hybrid system)",
+        "y2h",
+        "yeast two-hybrid system"
+      ],
+      "chineseMeaning": "酵母双杂交系统"
+    },
+    {
+      "id": "translation-5-q-079",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 79,
+      "prompt": "Bimolecular fluorescence complementation(BiFC)",
+      "direction": "en-to-zh",
+      "answerTerm": "BiFC",
+      "answerFullTerm": "Bimolecular fluorescence complementation",
+      "acceptableAnswers": [
+        "bifc",
+        "bimolecular fluorescence complementation",
+        "bifc (bimolecular fluorescence complementation)"
+      ],
+      "chineseMeaning": "Bimolecular fluorescence complementation(BiFC)"
+    },
+    {
+      "id": "translation-5-q-080",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 80,
+      "prompt": "Fluorescence resonance energy transfer(FRET)",
+      "direction": "en-to-zh",
+      "answerTerm": "FRET",
+      "answerFullTerm": "Fluorescence resonance energy transfer",
+      "acceptableAnswers": [
+        "fret",
+        "fluorescence resonance energy transfer",
+        "fret (fluorescence resonance energy transfer)"
+      ],
+      "chineseMeaning": "Fluorescence resonance energy transfer(FRET)"
+    },
+    {
+      "id": "translation-5-q-081",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 81,
+      "prompt": "Pull-down",
+      "direction": "en-to-zh",
+      "answerTerm": "Pull-down",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "pull-down"
+      ],
+      "chineseMeaning": "拉下实验"
+    },
+    {
+      "id": "translation-5-q-082",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 82,
+      "prompt": "Co-IP",
+      "direction": "en-to-zh",
+      "answerTerm": "Co-IP",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "co-ip"
+      ],
+      "chineseMeaning": "免疫共沉淀"
+    },
+    {
+      "id": "translation-5-q-083",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 83,
+      "prompt": "Bacteriophage/Phage",
+      "direction": "en-to-zh",
+      "answerTerm": "Bacteriophage",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "bacteriophage",
+        "phage"
+      ],
+      "chineseMeaning": "噬菌体"
+    },
+    {
+      "id": "translation-5-q-084",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 84,
+      "prompt": "Phage display",
+      "direction": "en-to-zh",
+      "answerTerm": "Phage display",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "phage display"
+      ],
+      "chineseMeaning": "噬菌体展示"
+    },
+    {
+      "id": "translation-5-q-085",
+      "type": "translation",
+      "categoryId": "translation-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "中英名词互译",
+      "number": 85,
+      "prompt": "Transforming factor",
+      "direction": "en-to-zh",
+      "answerTerm": "Transforming factor",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "transforming factor"
+      ],
+      "chineseMeaning": "转化因子"
+    },
+    {
+      "id": "translation-6-q-086",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 86,
+      "prompt": "C value paradox",
+      "direction": "en-to-zh",
+      "answerTerm": "C value paradox",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "c value paradox"
+      ],
+      "chineseMeaning": "C值悖论"
+    },
+    {
+      "id": "translation-6-q-087",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 87,
+      "prompt": "Transposon",
+      "direction": "en-to-zh",
+      "answerTerm": "Transposon",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "transposon"
+      ],
+      "chineseMeaning": "转座子"
+    },
+    {
+      "id": "translation-6-q-088",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 88,
+      "prompt": "Functional genomics",
+      "direction": "en-to-zh",
+      "answerTerm": "Functional genomics",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "functional genomics"
+      ],
+      "chineseMeaning": "功能基因组学"
+    },
+    {
+      "id": "translation-6-q-089",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 89,
+      "prompt": "Reverse genetics",
+      "direction": "en-to-zh",
+      "answerTerm": "Reverse genetics",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "reverse genetics"
+      ],
+      "chineseMeaning": "反向遗传学"
+    },
+    {
+      "id": "translation-6-q-090",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 90,
+      "prompt": "(Simple sequence repeat)/Short Tandem Repeat",
+      "direction": "en-to-zh",
+      "answerTerm": "(Simple sequence repeat)",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "(simple sequence repeat)",
+        "short tandem repeat"
+      ],
+      "chineseMeaning": "(Simple sequence repeat)/Short Tandem Repeat"
+    },
+    {
+      "id": "translation-6-q-091",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 91,
+      "prompt": "Satellite DNA",
+      "direction": "en-to-zh",
+      "answerTerm": "Satellite DNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "satellite dna"
+      ],
+      "chineseMeaning": "卫星DNA"
+    },
+    {
+      "id": "translation-6-q-092",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 92,
+      "prompt": "Minisatellite DNA",
+      "direction": "en-to-zh",
+      "answerTerm": "Minisatellite DNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "minisatellite dna"
+      ],
+      "chineseMeaning": "小卫星DNA"
+    },
+    {
+      "id": "translation-6-q-093",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 93,
+      "prompt": "Microsatellite DNA",
+      "direction": "en-to-zh",
+      "answerTerm": "Microsatellite DNA",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "microsatellite dna"
+      ],
+      "chineseMeaning": "微卫星DNA"
+    },
+    {
+      "id": "translation-6-q-094",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 94,
+      "prompt": "Non-sense mutation",
+      "direction": "en-to-zh",
+      "answerTerm": "Non-sense mutation",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "non-sense mutation"
+      ],
+      "chineseMeaning": "无义突变"
+    },
+    {
+      "id": "translation-6-q-095",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 95,
+      "prompt": "Mismatch repair",
+      "direction": "en-to-zh",
+      "answerTerm": "Mismatch repair",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "mismatch repair"
+      ],
+      "chineseMeaning": "错配修复"
+    },
+    {
+      "id": "translation-6-q-096",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 96,
+      "prompt": "Mitosis",
+      "direction": "en-to-zh",
+      "answerTerm": "Mitosis",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "mitosis"
+      ],
+      "chineseMeaning": "有丝分裂"
+    },
+    {
+      "id": "translation-6-q-097",
+      "type": "translation",
+      "categoryId": "translation-6",
+      "categoryTitle": "基因组与遗传学",
+      "parentTitle": "中英名词互译",
+      "number": 97,
+      "prompt": "Meiosis",
+      "direction": "en-to-zh",
+      "answerTerm": "Meiosis",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "meiosis"
+      ],
+      "chineseMeaning": "减数分裂"
+    },
+    {
+      "id": "translation-7-q-098",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 98,
+      "prompt": "Nucleolus",
+      "direction": "en-to-zh",
+      "answerTerm": "Nucleolus",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "nucleolus"
+      ],
+      "chineseMeaning": "核仁"
+    },
+    {
+      "id": "translation-7-q-099",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 99,
+      "prompt": "trans-activation domain",
+      "direction": "en-to-zh",
+      "answerTerm": "trans-activation domain",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "trans-activation domain"
+      ],
+      "chineseMeaning": "反式激活结构域"
+    },
+    {
+      "id": "translation-7-q-100",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 100,
+      "prompt": "Polycistron",
+      "direction": "en-to-zh",
+      "answerTerm": "Polycistron",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "polycistron"
+      ],
+      "chineseMeaning": "多顺反子"
+    },
+    {
+      "id": "translation-7-q-101",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 101,
+      "prompt": "Monocistron",
+      "direction": "en-to-zh",
+      "answerTerm": "Monocistron",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "monocistron"
+      ],
+      "chineseMeaning": "单顺反子"
+    },
+    {
+      "id": "translation-7-q-102",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 102,
+      "prompt": "Shine-Dalgarno sequence(SD)",
+      "direction": "en-to-zh",
+      "answerTerm": "SD",
+      "answerFullTerm": "Shine-Dalgarno sequence",
+      "acceptableAnswers": [
+        "sd",
+        "shine-dalgarno sequence",
+        "sd (shine-dalgarno sequence)"
+      ],
+      "chineseMeaning": "夏因-达尔加诺序列"
+    },
+    {
+      "id": "translation-7-q-103",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 103,
+      "prompt": "Kozak sequence",
+      "direction": "en-to-zh",
+      "answerTerm": "Kozak sequence",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "kozak sequence"
+      ],
+      "chineseMeaning": "科扎克序列"
+    },
+    {
+      "id": "translation-7-q-104",
+      "type": "translation",
+      "categoryId": "translation-7",
+      "categoryTitle": "其他",
+      "parentTitle": "中英名词互译",
+      "number": 104,
+      "prompt": "IRES",
+      "direction": "en-to-zh",
+      "answerTerm": "IRES",
+      "answerFullTerm": null,
+      "acceptableAnswers": [
+        "ires"
+      ],
+      "chineseMeaning": "内部核糖体进入位点"
+    },
+    {
+      "id": "true-false-1-q-001",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 1,
+      "prompt": "遗传密码是完全通用的（Genetic codons are always universal）",
+      "answerIsTrue": false,
+      "explanation": "线粒体、叶绿体的密码子存在大量特例（如人线粒体UGA编码色氨酸而非终止密码），部分生物核基因组密码也有变异，并非绝对通用"
+    },
+    {
+      "id": "true-false-1-q-002",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 2,
+      "prompt": "原核翻译起始氨基酸为fMet，真核为Met",
+      "answerIsTrue": true,
+      "explanation": "原核起始tRNA携带甲酰甲硫氨酸(fMet)，真核起始为未修饰的甲硫氨酸(Met)"
+    },
+    {
+      "id": "true-false-1-q-003",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 3,
+      "prompt": "原核依靠SD序列完成翻译起始",
+      "answerIsTrue": true,
+      "explanation": "原核mRNA的5'UTR保守SD序列与核糖体16S rRNA互补，定位起始密码子位置"
+    },
+    {
+      "id": "true-false-1-q-004",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 4,
+      "prompt": "CAP、lac、ara、trp操纵子的mRNA都带有SD序列",
+      "answerIsTrue": true,
+      "explanation": "原核多顺反子mRNA的每个开放阅读框(ORF)上游都有独立的SD序列，保证每个基因独立翻译"
+    },
+    {
+      "id": "true-false-1-q-005",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "（一）遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 5,
+      "prompt": "Class III转录复合体所有转录过程都需要TFIII A因子",
+      "answerIsTrue": false,
+      "explanation": "仅RNA聚合酶III转录5S rRNA依赖TFIII A，tRNA、U6 snRNA等其他Pol III转录物不需要该因子"
+    },
+    {
+      "id": "true-false-2-q-006",
+      "type": "true-false",
+      "categoryId": "true-false-2",
+      "categoryTitle": "（二）DNA复制与修复",
+      "parentTitle": "判断题",
+      "number": 6,
+      "prompt": "RdDP（DNA依赖的DNA聚合酶）参与DNA复制",
+      "answerIsTrue": true,
+      "explanation": "RdDP是DNA复制的核心催化酶，负责以DNA为模板合成新的DNA链"
+    },
+    {
+      "id": "true-false-3-q-007",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 7,
+      "prompt": "真核miRNA前体pri-miRNA是具有茎环结构的长链RNA",
+      "answerIsTrue": true,
+      "explanation": "pri-miRNA的茎环结构是Drosha酶识别切割的必需特征，是miRNA生物合成的关键中间体"
+    },
+    {
+      "id": "true-false-3-q-008",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 8,
+      "prompt": "增强子enhancer是调控基因的蛋白质",
+      "answerIsTrue": false,
+      "explanation": "增强子是顺式作用DNA序列，通过结合转录因子等反式作用蛋白发挥调控作用，本身不是蛋白质"
+    },
+    {
+      "id": "true-false-3-q-009",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 9,
+      "prompt": "Cas13蛋白家族介导RNA敲低",
+      "answerIsTrue": true,
+      "explanation": "CRISPR/Cas13系统特异性切割单链RNA，实现转录后基因沉默，不作用于DNA"
+    },
+    {
+      "id": "true-false-3-q-010",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 10,
+      "prompt": "siRNA的生理功能是介导转录后基因沉默",
+      "answerIsTrue": true,
+      "explanation": "siRNA引导RISC复合物降解靶标mRNA，特异性抑制基因表达，是真核生物抗病毒防御的重要机制"
+    },
+    {
+      "id": "true-false-4-q-011",
+      "type": "true-false",
+      "categoryId": "true-false-4",
+      "categoryTitle": "（四）表观遗传学",
+      "parentTitle": "判断题",
+      "number": 11,
+      "prompt": "母本的育幼（mothering）行为可影响子代雌性的育幼行为，性状可跨代传递",
+      "answerIsTrue": true,
+      "explanation": "经典大鼠表观遗传实验表明，母鼠的抚育行为通过改变子代海马区糖皮质激素受体基因的甲基化模式，影响其成年后的育幼行为，且该性状可跨代传递"
+    },
+    {
+      "id": "true-false-5-q-012",
+      "type": "true-false",
+      "categoryId": "true-false-5",
+      "categoryTitle": "（五）分子克隆与实验技术",
+      "parentTitle": "判断题",
+      "number": 12,
+      "prompt": "农杆菌Helper辅助质粒带有vir毒性基因",
+      "answerIsTrue": true,
+      "explanation": "农杆菌双元载体系统中，辅助质粒保留了vir毒性区，编码T-DNA转移所需的蛋白，而T-DNA位于独立的微型Ti质粒上"
+    },
+    {
+      "id": "true-false-5-q-013",
+      "type": "true-false",
+      "categoryId": "true-false-5",
+      "categoryTitle": "（五）分子克隆与实验技术",
+      "parentTitle": "判断题",
+      "number": 13,
+      "prompt": "蓝白斑筛选中，外源目的片段插入载体后菌落呈现白色",
+      "answerIsTrue": true,
+      "explanation": "外源片段插入载体的lacZα基因中，破坏其编码的β-半乳糖苷酶α亚基的活性，无法分解底物X-gal产生蓝色，因此菌落为白色；未插入片段的载体表达完整的α亚基，菌落为蓝色"
+    },
+    {
+      "id": "multiple-choice-1-q-001",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-1",
+      "categoryTitle": "（一）分子生物学史与技术发明",
+      "parentTitle": "选择题",
+      "number": 1,
+      "prompt": "PCR技术的发明者是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "Kary Mullis（凯利·穆利斯）",
+      "explanation": "1983年凯利·穆利斯发明了聚合酶链式反应(PCR)技术，彻底改变了分子生物学研究",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-1-q-002",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-1",
+      "categoryTitle": "（一）分子生物学史与技术发明",
+      "parentTitle": "选择题",
+      "number": 2,
+      "prompt": "证明DNA是遗传物质的实验中，标记蛋白质的放射性同位素是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "³⁵S",
+      "explanation": "蛋白质含有硫元素而不含磷，DNA含有磷元素而不含硫，因此赫尔希-蔡斯实验用³⁵S标记蛋白质，³²P标记DNA",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-2-q-003",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "number": 3,
+      "prompt": "原核翻译起始的第一个氨基酸是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "N-甲酰甲硫氨酸(fMet)",
+      "explanation": "原核生物的起始tRNA携带甲酰甲硫氨酸，而真核生物起始tRNA携带未修饰的甲硫氨酸",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-2-q-004",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "number": 4,
+      "prompt": "AUG密码子编码的氨基酸是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "延伸阶段通用甲硫氨酸(Met)；原核起始为fMet，真核起始为Met",
+      "explanation": "AUG既是起始密码子，也是编码甲硫氨酸的密码子，在原核生物中起始位置编码fMet，延伸位置编码Met；真核生物中均编码Met",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-2-q-005",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "number": 5,
+      "prompt": "SD序列仅存在于哪类生物的mRNA中？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "原核生物（细菌、古菌）",
+      "explanation": "SD序列是原核mRNA特有的核糖体结合位点，真核生物mRNA依靠5'帽子结构和Kozak序列招募核糖体",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-2-q-006",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "number": 6,
+      "prompt": "原核翻译中，将氨基酰-tRNA转运到核糖体A位的延伸因子是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "EF-Tu",
+      "explanation": "EF-Tu-GTP复合物与氨基酰-tRNA结合，将其转运到核糖体A位；EF-G负责核糖体在mRNA上的移位",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-2-q-007",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "选择题",
+      "number": 7,
+      "prompt": "Wobble theory（摆动假说）的定义是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "tRNA反密码子5'摆动位碱基可和mRNA密码子3'第三位发生非标准配对，一种tRNA可识别多个同义密码子",
+      "explanation": "摆动假说解释了遗传密码的简并性，减少了细胞所需tRNA的种类",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-008",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 8,
+      "prompt": "CRISPR/Cas13系统的核心功能是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "靶向切割RNA，实现RNA敲低",
+      "explanation": "Cas13是RNA靶向的CRISPR效应蛋白，特异性切割单链RNA，用于基因表达的转录后调控",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-009",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 9,
+      "prompt": "pre-miRNA加工为成熟miRNA的关键酶是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "Dicer",
+      "explanation": "pre-miRNA被Exportin-5转运到细胞质后，由Dicer酶切割产生约22nt的成熟miRNA双链",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-010",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 10,
+      "prompt": "Coding strand（编码链）的别名是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "non-template strand（非模板链）",
+      "explanation": "编码链与转录产生的mRNA序列（除T/U替换外）一致，因此也称为有义链或非模板链",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-011",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 11,
+      "prompt": "转录RNA三元复合体（ternary complex）包含哪些组分？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "核心RNA聚合酶core enzyme、DNA模板链、新生RNA链",
+      "explanation": "Sigma因子仅参与转录起始，延伸阶段脱落，因此不属于三元复合体",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-012",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 12,
+      "prompt": "长mRNA转录耗时很长的原因是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "选E（RNA聚合酶易发生流产转录，长序列需要多次重启，总时长增加）",
+      "explanation": "RNA聚合酶在转录起始阶段常发生流产转录（合成短片段RNA后脱落），长基因需要多次成功起始才能完成全长转录，因此耗时更长",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-3-q-013",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-3",
+      "categoryTitle": "（三）转录与RNA生物学",
+      "parentTitle": "选择题",
+      "number": 13,
+      "prompt": "pre-mRNA剪接必需的元件是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "B（5'剪接位点）、C（3'剪接位点）、E（分支点序列）",
+      "explanation": "5'加帽和3'加尾是独立的转录后修饰，不属于剪接步骤；剪接需要识别5'GU、3'AG和分支点腺苷三个核心元件",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-4-q-014",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-4",
+      "categoryTitle": "（四）DNA复制与染色体结构",
+      "parentTitle": "选择题",
+      "number": 14,
+      "prompt": "农杆菌双元载体的helper载体携带什么关键基因？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "vir（毒性）基因",
+      "explanation": "vir基因编码T-DNA转移所需的一系列蛋白，是农杆菌介导植物转基因的关键",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-5-q-015",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-5",
+      "categoryTitle": "（五）分子克隆与实验技术",
+      "parentTitle": "选择题",
+      "number": 15,
+      "prompt": "转录因子一般包含哪两个核心结构域？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "DNA结合结构域(BD) + 转录激活结构域(AD)",
+      "explanation": "这两个结构域是转录因子发挥功能的基础，酵母双杂交系统正是利用了这一特性",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-5-q-016",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-5",
+      "categoryTitle": "（五）分子克隆与实验技术",
+      "parentTitle": "选择题",
+      "number": 16,
+      "prompt": "无法提升细菌翻译蛋白溶解度的操作是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "选B（同时合成多种蛋白会竞争分子伴侣资源，加剧折叠错误；低温可减慢翻译提升折叠正确率）",
+      "explanation": "同时表达多个蛋白会争夺细胞内的分子伴侣和折叠机器，导致更多蛋白形成包涵体；降低温度、使用融合标签（如MBP）、共表达分子伴侣等方法可提高蛋白溶解度",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "multiple-choice-5-q-017",
+      "type": "multiple-choice",
+      "categoryId": "multiple-choice-5",
+      "categoryTitle": "（五）分子克隆与实验技术",
+      "parentTitle": "选择题",
+      "number": 17,
+      "prompt": "PCR已知上游引物和一条模板链，下游引物选择规则是？",
+      "options": [],
+      "answerKey": null,
+      "answerText": "下游引物与模板链3'端反向互补，5'→3'扩增方向和上游引物相向",
+      "explanation": "PCR扩增需要一对分别结合两条模板链的引物，方向相向，扩增出中间的目的片段",
+      "distractorsGenerated": false
+    },
+    {
+      "id": "short-answer-1-q-001",
+      "type": "short-answer",
+      "categoryId": "short-answer-1",
+      "categoryTitle": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "number": 1,
+      "prompt": "真核Class II转录起始前复合体（PIC）的组装过程",
+      "referenceAnswer": "① TFIID（含TBP和TAFs）率先结合启动子的TATA盒，形成初始结合核心；\n② TFIIA和TFIIB依次结合，稳定TFIID与DNA的相互作用；\n③ TFIIF与RNA聚合酶II（Pol II）结合，引导Pol II进入启动子区域；\n④ TFIIE和TFIIH依次招募，形成完整的转录起始前复合体；\n⑤ TFIIH的解旋酶活性解开DNA双链形成转录泡，同时其激酶活性磷酸化Pol II的C端结构域(CTD)，触发转录延伸启动。"
+    },
+    {
+      "id": "short-answer-1-q-002",
+      "type": "short-answer",
+      "categoryId": "short-answer-1",
+      "categoryTitle": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "number": 2,
+      "prompt": "RNA聚合酶除了Pol I-III之外还有哪些？各有什么作用？",
+      "referenceAnswer": "① 植物特有Pol IV：位于染色质，转录产生siRNA前体，参与RNA依赖的DNA甲基化(RdDM)通路，介导转座子沉默和基因表达调控；\n② 植物特有Pol V：转录产生非编码RNA，作为支架招募siRNA-Ago4复合物，指导DNA甲基化和异染色质形成；\n③ 线粒体RNA聚合酶：单亚基酶，转录线粒体基因组的所有基因；\n④ 叶绿体RNA聚合酶：包括核编码的RNA聚合酶(NEP)和叶绿体编码的RNA聚合酶(PEP)，共同转录叶绿体基因组；\n⑤ 噬菌体RNA聚合酶：如T7、SP6、T3噬菌体的RNA聚合酶，特异性识别自身启动子，高效转录下游序列，广泛用于体外转录实验。"
+    },
+    {
+      "id": "short-answer-1-q-003",
+      "type": "short-answer",
+      "categoryId": "short-answer-1",
+      "categoryTitle": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "number": 3,
+      "prompt": "转录终止的两种机制（原核）",
+      "referenceAnswer": "① rho因子非依赖型终止：转录产物的3'端形成富含GC的发夹结构，下游跟随一串U残基；rU-dA碱基对稳定性差，导致RNA聚合酶从模板链上脱落；\n② rho因子依赖型终止：rho因子结合转录产物的rut位点，利用ATP水解的能量沿RNA链向3'端移动，追上RNA聚合酶后将其从DNA模板上解离，终止转录。"
+    },
+    {
+      "id": "short-answer-1-q-004",
+      "type": "short-answer",
+      "categoryId": "short-answer-1",
+      "categoryTitle": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "number": 4,
+      "prompt": "RNA Pol II的CTD结构域的4项核心功能",
+      "referenceAnswer": "① 转录起始调控：CTD的磷酸化状态决定转录起始向延伸的转换；\n② 招募加帽酶：在转录早期，磷酸化的CTD招募加帽复合物，完成mRNA 5'端加帽；\n③ 调控剪接：CTD招募剪接因子，协调转录与pre-mRNA剪接的偶联；\n④ 招募加尾复合物：在转录晚期，CTD招募多聚腺苷酸化复合物，完成mRNA 3'端加尾。"
+    },
+    {
+      "id": "short-answer-1-q-005",
+      "type": "short-answer",
+      "categoryId": "short-answer-1",
+      "categoryTitle": "（一）转录与转录调控",
+      "parentTitle": "简答题",
+      "number": 5,
+      "prompt": "顺式作用元件的定义与类型",
+      "referenceAnswer": "定义：位于调控基因同一条染色体上的DNA序列，本身不编码蛋白质，通过结合反式作用因子调控基因表达；\n\n类型： ① 启动子：位于基因转录起始位点上游，是RNA聚合酶结合的核心区域； ② 增强子：可在基因上下游、内部甚至远距离增强转录活性，与位置和方向无关； ③ 沉默子：抑制基因转录，同样具有位置和方向独立性； ④ 绝缘子：阻断增强子或沉默子对相邻基因的调控作用，维持基因表达的独立性。"
+    },
+    {
+      "id": "short-answer-2-q-006",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 6,
+      "prompt": "原核与真核翻译起始的核心区别",
+      "referenceAnswer": "原核30S翻译起始复合体的装配过程 ① 翻译结束后，IF1结合核糖体，促使大小亚基分离； ② IF3与30S小亚基结合，防止其与50S大亚基重新结合； ③ IF1和IF2-GTP结合到30S小亚基上； ④ mRNA通过SD序列与30S小亚基的16S rRNA互补结合，IF3介导这一过程； ⑤ fMet-tRNAfMet进入P位点，与起始密码子AUG配对； ⑥ GTP水解，IF1、IF2、IF3释放； ⑦ 50S大亚基与30S小亚基结合，形成70S完整起始复合体。"
+    },
+    {
+      "id": "short-answer-2-q-007",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 7,
+      "prompt": "真核80S翻译起始复合体的装配过程",
+      "referenceAnswer": "① 40S小亚基与eIF-3结合形成40SN复合物；\n② Met-tRNAiMet、eIF2-GTP与40SN结合，形成43S前起始复合体；\n③ 在eIF4F复合体（含eIF4E、eIF4G、eIF4A）的辅助下，43S复合体结合到mRNA的5'帽子结构上，形成48S起始复合体；\n④ 起始复合体沿mRNA 5'→3'方向扫描，找到AUG起始密码子；\n⑤ 在eIF5和eIF5B的辅助下，60S大亚基结合到40S小亚基上；\n⑥ GTP水解，所有起始因子释放，形成80S完整起始复合体。"
+    },
+    {
+      "id": "short-answer-2-q-008",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 8,
+      "prompt": "翻译过程中需要哪几种RNA？说出其生物学功能",
+      "referenceAnswer": "① mRNA（信使RNA）：携带基因的编码信息，作为翻译的模板，其密码子序列决定了蛋白质的氨基酸排列顺序；\n② tRNA（转运RNA）：作为氨基酸的载体，每种tRNA特异性识别并结合一种氨基酸，通过其反密码子与mRNA上的密码子互补配对，将氨基酸准确运送到核糖体的对应位置；\n③ rRNA（核糖体RNA）：与蛋白质共同组成核糖体的大小亚基，是核糖体的结构核心；其中大亚基的23S/28S rRNA具有肽酰转移酶活性，催化肽键的形成，保证翻译过程的顺利进行。"
+    },
+    {
+      "id": "short-answer-2-q-009",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 9,
+      "prompt": "核糖体与tRNA结合的三个位点及其功能",
+      "referenceAnswer": "① A位（氨酰基位点）：氨基酰-tRNA进入核糖体的位置，新的氨基酸在此加入到延伸的肽链中；\n② P位（肽酰基位点）：携带正在合成的肽链的肽酰-tRNA结合的位置；\n③ E位（退出位点）：卸载了氨基酸的空载tRNA暂时结合的位置，随后从核糖体上脱落。"
+    },
+    {
+      "id": "short-answer-2-q-010",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 10,
+      "prompt": "翻译延伸过程中需要的延伸因子及其功能",
+      "referenceAnswer": "① EF-Tu：与GTP结合形成EF-Tu-GTP复合物，护送氨基酰-tRNA进入核糖体A位\n② EF-Ts：催化GDP与GTP的交换，将EF-Tu-GDP重新转化为EF-Tu-GTP，使其可以循环使用；\n③ EF-G：结合GTP后进入核糖体A位，利用GTP水解的能量驱动核糖体沿mRNA移动一个密码子的距离，使肽酰-tRNA从A位移到P位，空载tRNA从P位移到E位"
+    },
+    {
+      "id": "short-answer-2-q-011",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 11,
+      "prompt": "SD序列、Kozak序列、IRES的翻译起始原理",
+      "referenceAnswer": "① SD序列：原核mRNA 5'UTR的保守序列（AGGAGGU），位于起始密码子上游约10nt处，与核糖体30S小亚基16S rRNA的3'端互补，直接定位核糖体到起始密码子位置；\n② Kozak序列：真核mRNA起始密码子AUG上下游的保守序列（GCCRCC AUG G），增强核糖体对起始密码子的识别效率，提高翻译起始的准确性；\n③ IRES（内部核糖体进入位点）：mRNA内部的二级结构元件，不依赖5'帽子结构和扫描过程，直接招募核糖体小亚基并组装起始复合体，常见于病毒mRNA和真核细胞应激状态下的翻译。"
+    },
+    {
+      "id": "short-answer-2-q-012",
+      "type": "short-answer",
+      "categoryId": "short-answer-2",
+      "categoryTitle": "（二）翻译过程与机制",
+      "parentTitle": "简答题",
+      "number": 12,
+      "prompt": "三种改变蛋白活性的翻译后修饰方式",
+      "referenceAnswer": "① 磷酸化：由蛋白激酶催化，将ATP的γ-磷酸基团转移到蛋白质的丝氨酸、苏氨酸或酪氨酸残基上；通过改变蛋白质的构象，激活或抑制其酶活性，是细胞信号转导中最常见的调控方式；可逆，由磷酸酶去除磷酸基团；\n② 乙酰化：由乙酰转移酶(HAT)催化，将乙酰基转移到蛋白质赖氨酸残基的氨基上；中和赖氨酸的正电荷，改变蛋白质与DNA、RNA或其他蛋白质的相互作用；经典例子是组蛋白乙酰化使染色质松散，促进基因转录；可逆，由去乙酰化酶(HDAC)去除乙酰基；\n③ 泛素化：由E1激活酶、E2结合酶和E3连接酶组成的酶系催化，将泛素分子共价连接到蛋白质的赖氨酸残基上；单泛素化可改变蛋白质的定位或相互作用；多聚泛素化（K48连接）标记蛋白质通过26S蛋白酶体降解，是细胞内蛋白质选择性降解的主要途径。"
+    },
+    {
+      "id": "short-answer-3-q-013",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 13,
+      "prompt": "DNA复制的三种主要类型",
+      "referenceAnswer": "① θ型复制：原核生物环状染色体的主要复制方式，从单一复制起点双向复制，形成θ形的复制中间体；\n② 滚环复制：噬菌体、质粒和某些病毒的复制方式，环状DNA的一条链产生一个切口，以另一条完整的链为模板，沿滚动方向合成新链，产生多个串联的基因组拷贝；\n③ D环复制：动物线粒体DNA的复制方式，两条链的复制起点不同步，先以一条链为模板合成新链，置换出另一条链形成D环结构，当复制叉移动到另一条链的起点时，才开始以被置换的链为模板进行复制。"
+    },
+    {
+      "id": "short-answer-3-q-014",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 14,
+      "prompt": "DNA复制需要的酶及其功能",
+      "referenceAnswer": "① 解旋酶：利用ATP水解的能量解开DNA双链，形成复制叉；\n② 单链DNA结合蛋白(SSB)：结合解开的单链DNA，防止其重新配对和被核酸酶降解；\n③ 拓扑异构酶：消除DNA解旋过程中产生的超螺旋张力；拓扑异构酶I制造单链缺口，拓扑异构酶II制造双链缺口，DNA旋回酶（原核特有）引入负超螺旋；\n④ 引物酶：合成RNA引物，为DNA聚合酶提供3'-OH末端；\n⑤ DNA聚合酶："
+    },
+    {
+      "id": "short-answer-3-q-015",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 15,
+      "prompt": "DNA Pol III（原核）：主要的复制酶，负责合成前导链和滞后链；",
+      "referenceAnswer": "DNA Pol I（原核）：切除RNA引物，填补其留下的缺口；"
+    },
+    {
+      "id": "short-answer-3-q-016",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 16,
+      "prompt": "DNA Pol δ和ε（真核）：分别负责合成滞后链和前导链；",
+      "referenceAnswer": "⑥ DNA连接酶：连接滞后链上的冈崎片段，形成完整的DNA链；\n⑦ 端粒酶：真核生物特有，以自身RNA为模板合成端粒DNA，解决线性染色体的末端复制问题。"
+    },
+    {
+      "id": "short-answer-3-q-017",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 17,
+      "prompt": "核小体的组成",
+      "referenceAnswer": "核小体是染色质的基本结构单位，由核心颗粒和连接DNA组成：\n① 核心颗粒：由145-147bp的DNA缠绕组蛋白八聚体1.75圈形成；组蛋白八聚体由两个H2A-H2B二聚体和一个H3-H4四聚体组成；\n② 连接DNA：长度约20-60bp，连接相邻的核心颗粒；\n③ 组蛋白H1：结合在连接DNA进出核心颗粒的位置，起到稳定核小体结构的作用，使核小体排列成更紧密的染色质纤维。"
+    },
+    {
+      "id": "short-answer-3-q-018",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 18,
+      "prompt": "着丝粒（centromere）的三个核心功能",
+      "referenceAnswer": "① 细胞分裂期姐妹染色单体的物理连接位点，确保姐妹染色单体在分离前保持在一起\n② 动粒（kinetochore）的组装平台，动粒是结合纺锤丝的蛋白质复合物；\n③ 结合纺锤丝微管，介导染色体在细胞分裂过程中的运动，确保染色体精确平均分配到两个子细胞中。"
+    },
+    {
+      "id": "short-answer-3-q-019",
+      "type": "short-answer",
+      "categoryId": "short-answer-3",
+      "categoryTitle": "（三）DNA复制、修复与染色体结构",
+      "parentTitle": "简答题",
+      "number": 19,
+      "prompt": "着丝粒的三个特点",
+      "referenceAnswer": "① 含有大量高度重复的DNA序列，这些序列在物种间高度变异；\n② 含有特异性的组蛋白H3变体（如CENP-A），取代了常规的组蛋白H3，是着丝粒的标志性特征；\n③ 在着丝粒区域，每个染色单体上形成一个动粒结构，负责与纺锤丝微管连接。"
+    },
+    {
+      "id": "short-answer-4-q-020",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 20,
+      "prompt": "真核pre-mRNA剪接的完整过程（包括剪接体组装）",
+      "referenceAnswer": "① 剪接体识别：U1 snRNP结合内含子的5'剪接位点(GU)，U2 snRNP结合分支点腺苷序列；\n② 剪接体组装：U4/U6/U5 tri-snRNP结合到复合体上，形成完整的剪接体；\n③ 第一次转酯反应：U1和U4 snRNP离开剪接体，内含子分支点A的2'-羟基攻击5'剪接位点的磷酸二酯键，切断5'外显子，内含子形成套索结构；\n④ 第二次转酯反应：5'外显子的3'-羟基攻击3'剪接位点的磷酸二酯键，切断3'外显子，两个相邻外显子共价连接；\n⑤ 剪接体解离：套索内含子被释放并降解，剪接体各组分解离，释放成熟mRNA。"
+    },
+    {
+      "id": "short-answer-4-q-021",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 21,
+      "prompt": "mRNA 5'加帽的流程与功能",
+      "referenceAnswer": "流程： ① RNA三磷酸酶去除前体mRNA 5'端核苷酸的γ-磷酸； ② 鸟苷酰转移酶将GTP的GMP部分通过5'-5'三磷酸键连接到mRNA的5'端； ③ 甲基转移酶将鸟嘌呤残基的N7位甲基化，形成0型帽； ④ 部分mRNA的第一个或第二个核苷酸的核糖2'-OH也会被甲基化，形成1型或2型帽。\n\n功能： ① 保护mRNA免受5'核酸外切酶的降解，提高其稳定性； ② 促进mRNA从细胞核向细胞质的转运； ③ 增强mRNA的翻译效率，是核糖体识别mRNA的重要信号； ④ 参与pre-mRNA的正确剪接。"
+    },
+    {
+      "id": "short-answer-4-q-022",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 22,
+      "prompt": "mRNA 3'聚腺苷酰化的流程与功能",
+      "referenceAnswer": "流程： ① 转录进行到多聚腺苷酸化信号序列（AAUAAA）下游时，核酸内切酶在信号序列下游10-30nt处切断pre-mRNA； ② 多聚腺苷酸聚合酶(PAP)以ATP为底物，在mRNA的3'端逐步添加约200个腺苷酸残基，形成poly(A)尾； ③ 多聚腺苷酸结合蛋白(PABP)结合到poly(A)尾上，稳定其结构。\n\n功能： ① 保护mRNA免受3'核酸外切酶的降解，延长其半衰期； ② 促进mRNA的翻译效率，PABP与eIF4G相互作用，使mRNA形成环状结构，增强核糖体的招募； ③ 参与mRNA的核输出过程。"
+    },
+    {
+      "id": "short-answer-4-q-023",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 23,
+      "prompt": "反式剪接（trans-splicing）的流程",
+      "referenceAnswer": "反式剪接是指将两个不同的pre-mRNA分子的外显子连接在一起的剪接方式，常见于低等真核生物和某些高等生物的特定基因：\n① 半内含子内的分支点腺苷攻击前导外显子与其半内含子之间的5'剪接位点，形成一个Y形的内含子-外显子中间体；\n② 游离的前导外显子的3'-羟基攻击编码外显子与其半内含子之间的3'剪接位点；\n③ 前导外显子与编码外显子共价连接，形成成熟的mRNA；\n④ Y形内含子被释放并降解。"
+    },
+    {
+      "id": "short-answer-4-q-024",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 24,
+      "prompt": "miRNA的完整生物合成通路",
+      "referenceAnswer": "① 细胞核内，RNA聚合酶II转录miRNA基因，产生具有茎环结构的初级miRNA(pri-miRNA)；\n② Drosha-DGCR8复合物切割pri-miRNA的茎环基部，释放约70nt的前体miRNA(pre-miRNA)；\n③ Exportin-5-RanGTP复合物将pre-miRNA转运到细胞质中；\n④ Dicer酶切割pre-miRNA的茎环末端，产生约22nt的miRNA双链（miRNA/miRNA*）；\n⑤ 双链解旋，引导链（成熟miRNA）进入RNA诱导沉默复合体(RISC)，乘客链(miRNA*)通常被降解；\n⑥ 成熟miRNA引导RISC复合物靶向mRNA的3'UTR，通过不完全互补抑制翻译，或通过完全互补降解mRNA。"
+    },
+    {
+      "id": "short-answer-4-q-025",
+      "type": "short-answer",
+      "categoryId": "short-answer-4",
+      "categoryTitle": "（四）RNA生物学",
+      "parentTitle": "简答题",
+      "number": 25,
+      "prompt": "siRNA与miRNA的详细区别",
+      "referenceAnswer": "真核生物mRNA的降解途径 ① 3'→5'降解途径：首先由脱腺苷酸酶去除mRNA的3'poly(A)尾，然后由外切体复合物从3'端向5'端逐步降解mRNA； ② 5'→3'降解途径：脱腺苷酸化后，脱帽酶去除mRNA的5'帽结构，然后由Xrn1核酸外切酶从5'端向3'端降解mRNA； ③ 核酸内切酶介导的降解：特定的核酸内切酶在mRNA内部切割，产生的片段分别被5'→3'和3'→5'外切酶降解； ④ miRNA介导的降解：miRNA引导RISC复合物结合靶mRNA，通过脱腺苷酸化、脱帽或直接切割促进mRNA降解。"
+    },
+    {
+      "id": "short-answer-5-q-026",
+      "type": "short-answer",
+      "categoryId": "short-answer-5",
+      "categoryTitle": "（五）表观遗传学",
+      "parentTitle": "简答题",
+      "number": 26,
+      "prompt": "什么是表观遗传（Epigenetic inheritance）？列举三个以上的表观遗传事例",
+      "referenceAnswer": "定义：在不改变DNA核苷酸序列的前提下，基因表达或细胞表型发生可遗传的改变；这种改变可以通过细胞分裂传递给子代细胞，在某些情况下还可以跨代传递给个体的后代。"
+    },
+    {
+      "id": "short-answer-5-q-027",
+      "type": "short-answer",
+      "categoryId": "short-answer-5",
+      "categoryTitle": "（五）表观遗传学",
+      "parentTitle": "简答题",
+      "number": 27,
+      "prompt": "表观遗传机制：DNA甲基化、组蛋白修饰、染色质重塑、非编码RNA调控等。",
+      "referenceAnswer": "事例： ① X染色体失活：雌性哺乳动物在胚胎发育早期，两条X染色体中的一条随机发生永久失活，形成巴尔小体；失活的X染色体通过DNA甲基化、组蛋白去乙酰化等表观修饰被沉默，解决了雌雄个体X染色体基因剂量不平衡的问题； ② 基因组印记：某些基因的表达取决于其亲本来源，即父源和母源等位基因中只有一个表达，另一个被表观修饰沉默；例如胰岛素样生长因子2(IGF2)基因仅父源等位基因表达，母源等位基因被甲基化沉默； ③ 母性行为的跨代遗传：大鼠的母性抚育行为（如舔舐、哺乳）通过改变子代海马区糖皮质激素受体基因的甲基化模式，影响其成年后的应激反应和母性行为，且这种性状可以传递给下一代； ④ 干细胞分化：干细胞与分化细胞的DNA序列完全相同，但通过不同的表观修饰模式维持不同的基因表达谱，决定了细胞的分化方向和功能； ⑤ 环境诱导的表观遗传改变：营养、化学物质、压力等环境因素可以改变个体的表观基因组，影响基因表达和疾病易感性，部分改变可跨代传递。"
+    },
+    {
+      "id": "short-answer-5-q-028",
+      "type": "short-answer",
+      "categoryId": "short-answer-5",
+      "categoryTitle": "（五）表观遗传学",
+      "parentTitle": "简答题",
+      "number": 28,
+      "prompt": "导致表观遗传的主要因素/机制",
+      "referenceAnswer": "① DNA甲基化：主要发生在CpG二核苷酸的胞嘧啶5'位，由DNA甲基转移酶(DNMT)催化；通常与基因沉默相关，尤其是启动子区的高甲基化会抑制基因转录；\n② 组蛋白修饰：组蛋白的N端尾巴可以发生多种共价修饰，包括乙酰化、甲基化、磷酸化、泛素化等；不同的修饰组合形成“组蛋白密码”，通过改变染色质的致密程度或招募其他调控蛋白，调控基因表达；例如组蛋白H3K9乙酰化与基因激活相关，H3K27三甲基化与基因沉默相关；\n③ 非编码RNA调控：miRNA、siRNA、lncRNA等非编码RNA通过多种方式参与表观遗传调控，如介导DNA甲基化、组蛋白修饰、染色质重塑等；\n④ 染色质重塑：染色质重塑复合物利用ATP水解的能量，改变核小体的位置或组成，调节DNA的可及性，从而调控基因表达。"
+    },
+    {
+      "id": "short-answer-5-q-029",
+      "type": "short-answer",
+      "categoryId": "short-answer-5",
+      "categoryTitle": "（五）表观遗传学",
+      "parentTitle": "简答题",
+      "number": 29,
+      "prompt": "CpG甲基化生成m5CpG的过程及调控机制",
+      "referenceAnswer": "① 活跃转录的启动子通常带有H3K4me3激活修饰，DNMT3A/B的ADD结构域结合H3K4me3后，其甲基转移酶(MTase)活性被抑制，因此启动子区保持低甲基化状态；\n② 当染色质状态改变，H3K4me3修饰消失后，DNMT3的ADD结构域结合未修饰的组蛋白N端尾巴，解除对MTase结构域的抑制；\n③ DNMT3作为甲基化“写入器”，催化CpG二核苷酸中胞嘧啶的5'位甲基化，生成5-甲基胞嘧啶(m5CpG)；同时DNMT3也作为“阅读器”，识别已有的m5CpG修饰，促进相邻CpG位点的甲基化，维持甲基化模式的稳定；\n④ 甲基化的DNA招募甲基CpG结合蛋白(MBD)，进一步招募组蛋白去乙酰化酶、组蛋白甲基转移酶等抑制性复合物，导致染色质致密化，永久沉默基因转录。"
+    },
+    {
+      "id": "short-answer-6-q-030",
+      "type": "short-answer",
+      "categoryId": "short-answer-6",
+      "categoryTitle": "（六）蛋白质相互作用与修饰",
+      "parentTitle": "简答题",
+      "number": 30,
+      "prompt": "列举所有检测蛋白质相互作用的技术（9种）",
+      "referenceAnswer": "① 酵母双杂交(Y2H)：基于转录因子的分体激活原理，在活细胞内检测蛋白-蛋白相互作用，可用于筛选未知的互作蛋白；\n② 免疫共沉淀(Co-IP)：利用靶蛋白的特异性抗体，从细胞裂解物中捕获靶蛋白及其结合的蛋白复合物，通过Western blot鉴定互作蛋白；\n③ GST Pull-down：将靶蛋白与GST标签融合表达，固定在谷胱甘肽亲和树脂上，捕获细胞裂解物中与其结合的蛋白，适用于体外验证蛋白互作；\n④ Far Western印迹：将电泳分离的蛋白质转移到膜上，用标记的诱饵蛋白检测膜上与其结合的靶蛋白，可直接观察互作蛋白的分子量；\n⑤ 荧光共振能量转移(FRET)：利用两个荧光基团之间的能量转移现象，实时检测活细胞内蛋白质之间的近距离相互作用（<10nm）；\n⑥ 生物分子荧光互补(BiFC)：将荧光蛋白拆分为两个无活性的片段，分别融合到两个待测蛋白上；若两个蛋白互作，荧光蛋白片段会重新组装成有活性的荧光蛋白，产生荧光信号；\n⑦ 蛋白芯片技术：将大量蛋白质固定在芯片上，用标记的诱饵蛋白筛选与其结合的蛋白，可高通量检测蛋白互作；\n⑧ 等离子表面共振(SPR)：通过检测生物分子结合引起的表面等离子共振信号变化，实时、定量分析蛋白-蛋白相互作用的动力学参数；\n⑨ 亲和纯化-质谱(AP-MS)：用标签（如Flag、HA）纯化靶蛋白及其复合物，通过质谱鉴定复合物中的所有蛋白组分，可系统分析蛋白质的相互作用网络。"
+    },
+    {
+      "id": "short-answer-6-q-031",
+      "type": "short-answer",
+      "categoryId": "short-answer-6",
+      "categoryTitle": "（六）蛋白质相互作用与修饰",
+      "parentTitle": "简答题",
+      "number": 31,
+      "prompt": "检测DNA与蛋白质相互作用的三种主要技术",
+      "referenceAnswer": "① 凝胶迁移实验(EMSA)：体外实验，将标记的DNA探针与待测蛋白孵育，通过非变性聚丙烯酰胺凝胶电泳分离；蛋白与DNA结合后，复合物的电泳迁移率变慢，出现“迁移滞后”条带，可定性检测蛋白-DNA结合；\n② 染色质免疫共沉淀(ChIP)：体内实验，用甲醛在活细胞内交联蛋白质与DNA，超声破碎染色质后，用靶蛋白的特异性抗体沉淀蛋白-DNA复合物；去交联后纯化DNA，通过PCR、qPCR或测序（ChIP-seq）分析靶蛋白结合的DNA序列；\n③ DNase I足迹法：体外实验，将待测DNA单端标记，与蛋白孵育后用DNase I进行部分消化；蛋白结合的DNA区域受到保护，不被DNase I切割，电泳后会出现空白的“足迹”区域，可精确定位蛋白结合的DNA位点（单碱基分辨率）。"
+    },
+    {
+      "id": "short-answer-7-q-032",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 32,
+      "prompt": "基因表达载体中蛋白标签(tag)的功能",
+      "referenceAnswer": "① 亲和纯化：His标签（6个组氨酸）可通过镍离子亲和层析纯化重组蛋白；GST标签可通过谷胱甘肽亲和层析纯化；MBP标签可通过麦芽糖亲和层析纯化；\n② 蛋白检测：GFP、RFP等荧光标签可直接观察蛋白在细胞内的定位和动态变化；Flag、HA、Myc等小标签可利用商业化的特异性抗体进行Western blot、免疫荧光、免疫沉淀等检测；\n③ 提高蛋白表达量与可溶性：MBP、GST、NusA等融合标签可以提高异源表达蛋白的可溶性，促进其正确折叠，减少包涵体的形成；\n④ 蛋白互作研究：通过标签进行Co-IP、Pull-down等实验，研究蛋白质之间相互作用\n⑤ 蛋白定位研究：荧光标签或细胞器定位信号标签可用于研究蛋白质的亚细胞定位。"
+    },
+    {
+      "id": "short-answer-7-q-033",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 33,
+      "prompt": "三种将目的基因插入质粒的克隆方法",
+      "referenceAnswer": "① 限制性酶切连接法："
+    },
+    {
+      "id": "short-answer-7-q-034",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 34,
+      "prompt": "原理：用相同或同尾限制性内切酶切割目的基因和质粒载体，产生互补的粘性末端，再用T4 DNA连接酶将两者连接；",
+      "referenceAnswer": "特点：方法经典、操作成熟；使用两种不同的限制酶可实现方向性克隆，避免目的基因反向插入和载体自连；但受限于酶切位点的存在。 ② 无缝同源重组克隆法："
+    },
+    {
+      "id": "short-answer-7-q-035",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 35,
+      "prompt": "原理：在目的基因的两端设计与载体线性化末端同源的序列（15-40bp），通过体外重组酶（如Gibson Assembly、In-Fusion）催化同源序列之间的重组，实现目的基因的无缝插入；",
+      "referenceAnswer": "特点：不依赖限制性酶切位点，拼接后无多余碱基；可同时实现多个片段的拼接；适合高通量克隆和复杂载体构建。 ③ Gateway位点特异性重组克隆法："
+    },
+    {
+      "id": "short-answer-7-q-036",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 36,
+      "prompt": "原理：利用λ噬菌体的位点特异性重组系统，先将目的基因克隆到入门载体，再通过LR重组反应将目的基因转移到各种目的载体中；",
+      "referenceAnswer": "特点：无需酶切连接，可实现目的基因在不同载体间的快速转移；适合大规模功能基因组学研究。"
+    },
+    {
+      "id": "short-answer-7-q-037",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 37,
+      "prompt": "无缝克隆（Seamless Cloning）的实验步骤",
+      "referenceAnswer": "① 引物设计：在目的基因的上下游引物5'端分别加上与线性化载体末端同源的序列（15-40bp），使扩增后的目的基因两端与载体具有重叠区；\n② PCR扩增目的基因：用设计好的引物扩增目的基因，纯化PCR产物，确保无非特异性扩增；\n③ 线性化载体制备：用限制性内切酶或PCR方法将质粒载体线性化，纯化线性化载体；\n④ 无缝拼接反应：将线性化载体与目的基因按摩尔比1:3~1:5混合，加入无缝克隆酶混合物（含5'外切酶、DNA聚合酶、DNA连接酶），50℃反应15-60分钟；\n⑤ 转化与筛选：将反应产物转化到感受态大肠杆菌中，涂布到含有相应抗生素的平板上培养；\n⑥ 鉴定：挑取单菌落，通过PCR、酶切和测序验证重组质粒的正确性。"
+    },
+    {
+      "id": "short-answer-7-q-038",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 38,
+      "prompt": "同源重组实验的基本流程（以基因敲除为例）",
+      "referenceAnswer": "① 同源重组载体构建：设计并构建含有靶基因上下游同源臂（500-2000bp）的打靶载体，同源臂之间插入筛选标记基因（如Neo抗性基因）和负筛选标记（如TK基因）\n② 载体导入：将线性化的打靶载体通过电穿孔、显微注射等方法导入受体细胞（如小鼠ES细胞）；\n③ 同源重组发生：细胞利用自身的同源重组机制，通过同源臂将打靶载体与基因组中的靶基因位点发生重组，用筛选标记基因替换靶基因；\n④ 阳性重组体筛选：在含有G418培养基中筛选稳定整合了Neo基因的细胞；再用更昔洛韦筛选发生了同源重组细胞（随机整合的细胞会保留TK基因，被更昔洛韦杀死）\n⑤ 重组体鉴定：通过PCR、Southern blot和测序验证是否发生了正确的同源重组，获得靶基因敲除的纯合细胞。"
+    },
+    {
+      "id": "short-answer-7-q-039",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 39,
+      "prompt": "选择合适的限制性内切酶插入基因的原则及同尾酶的使用",
+      "referenceAnswer": "酶切选择原则： ① 选择质粒多克隆位点(MCS)中存在的酶切位点； ② 选择目的基因两端存在但基因内部不存在的酶切位点，避免切割目的基因； ③ 尽量选择产生粘性末端的酶，提高连接效率； ④ 选择两种不同的酶切位点，实现目的基因的方向性插入，同时防止载体自连； ⑤ 避免使用产生平末端的酶，平末端连接效率较低。"
+    },
+    {
+      "id": "short-answer-7-q-040",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 40,
+      "prompt": "同尾酶的使用原则：",
+      "referenceAnswer": "同尾酶是指识别序列不同，但切割后产生相同粘性末端的限制性内切酶（如Sal I识别GTCGAC，Xho I识别CTCGAG，均产生5'-TCGA-3'粘性末端）"
+    },
+    {
+      "id": "short-answer-7-q-041",
+      "type": "short-answer",
+      "categoryId": "short-answer-7",
+      "categoryTitle": "（七）分子克隆技术",
+      "parentTitle": "简答题",
+      "number": 41,
+      "prompt": "优点：当目的基因内部含有常用酶切位点时，可使用同尾酶进行克隆；实现方向性插入；连接后的序列不再被原来的两种酶识别，防止载体和目的基因的再次切割，提高克隆稳定性；",
+      "referenceAnswer": "缺点：连接后的序列无法再被原酶切割，不适合后续需要进行亚克隆情况\n\n注意事项：同尾酶连接后会改变原来的酶切位点，设计引物时需考虑对蛋白编码序列的影响。"
+    },
+    {
+      "id": "short-answer-8-q-042",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 42,
+      "prompt": "Southern blot的操作步骤",
+      "referenceAnswer": "① 基因组DNA酶切：用限制性内切酶消化基因组DNA，将其切割成大小合适的片段\n② 凝胶电泳：将酶切后的DNA片段通过琼脂糖凝胶电泳分离；\n③ 变性与转膜：用NaOH溶液使凝胶中的DNA变性为单链，然后通过毛细转膜或电转膜的方法将DNA转移到尼龙膜或硝酸纤维素膜上；\n④ 预杂交：将膜放入预杂交液中，封闭膜上的非特异性结合位点；\n⑤ 杂交：加入标记的特异性DNA探针，与膜上的DNA进行杂交；\n⑥ 洗膜：洗去膜上未结合的游离探针；\n⑦ 检测：根据探针的标记方法（放射性同位素、荧光、化学发光）进行检测，显示特异性条带。"
+    },
+    {
+      "id": "short-answer-8-q-043",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 43,
+      "prompt": "Northern blot的操作步骤",
+      "referenceAnswer": "① 总RNA提取：从组织或细胞中提取高质量的总RNA；\n② 变性凝胶电泳：将RNA在含有甲醛的变性琼脂糖凝胶中电泳分离，防止RNA形成二级结构；\n③ 转膜：将凝胶中的RNA转移到尼龙膜上；\n④ 预杂交与杂交：同Southern blot，用标记的DNA或RNA探针进行杂交；\n⑤ 洗膜与检测：同Southern blot，检测特异性mRNA条带的大小和丰度。"
+    },
+    {
+      "id": "short-answer-8-q-044",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 44,
+      "prompt": "Western blot的操作步骤",
+      "referenceAnswer": "① 蛋白样品制备：从组织或细胞中提取总蛋白，测定蛋白浓度；\n② SDS-PAGE电泳：将蛋白样品进行SDS-聚丙烯酰胺凝胶电泳，按分子量大小分离；\n③ 转膜：将凝胶中的蛋白质转移到PVDF膜或硝酸纤维素膜上；\n④ 封闭：用脱脂牛奶或BSA溶液封闭膜上的非特异性结合位点；\n⑤ 一抗孵育：加入靶蛋白的特异性一抗，4℃孵育过夜；\n⑥ 洗膜：洗去未结合的一抗；\n⑦ 二抗孵育：加入HRP或荧光标记的二抗，室温孵育1小时；\n⑧ 洗膜与显影：洗去未结合的二抗，用化学发光法或荧光法检测蛋白条带。"
+    },
+    {
+      "id": "short-answer-8-q-045",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 45,
+      "prompt": "三种测定样本RNA表达水平的方法及优缺点",
+      "referenceAnswer": "① 实时定量PCR(qRT-PCR)："
+    },
+    {
+      "id": "short-answer-8-q-046",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 46,
+      "prompt": "原理：利用荧光信号实时监测PCR扩增过程，通过Ct值的相对定量分析RNA表达水平；",
+      "referenceAnswer": "步骤：提取总RNA→反转录为cDNA→设计特异性引物→进行荧光定量PCR→ΔΔCt法分析结果；"
+    },
+    {
+      "id": "short-answer-8-q-047",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 47,
+      "prompt": "优点：灵敏度高、特异性强、操作快速、成本较低、适合大量样本的已知基因表达分析；",
+      "referenceAnswer": "缺点：只能检测已知基因，无法发现新的转录本；每次实验只能检测少数几个基因。 ② Northern blot："
+    },
+    {
+      "id": "short-answer-8-q-048",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 48,
+      "prompt": "原理：通过RNA与互补探针的杂交检测RNA的表达水平和分子量大小；",
+      "referenceAnswer": "优点：可同时获得RNA的表达水平和分子量信息；特异性高，可检测可变剪接变体；"
+    },
+    {
+      "id": "short-answer-8-q-049",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 49,
+      "prompt": "缺点：灵敏度低，需要大量RNA；操作复杂、耗时长；无法高通量检测。",
+      "referenceAnswer": "③ RNA测序(RNA-seq)："
+    },
+    {
+      "id": "short-answer-8-q-050",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 50,
+      "prompt": "原理：利用高通量测序技术对样本中的所有RNA进行测序，通过比对到参考基因组计算基因的表达量；",
+      "referenceAnswer": "步骤：提取总RNA→构建cDNA文库→高通量测序→数据分析；"
+    },
+    {
+      "id": "short-answer-8-q-051",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 51,
+      "prompt": "优点：全面分析整个转录组；可发现新的基因、转录本和可变剪接；定量范围广；",
+      "referenceAnswer": "缺点：成本高；数据分析复杂；对样本质量要求高。"
+    },
+    {
+      "id": "short-answer-8-q-052",
+      "type": "short-answer",
+      "categoryId": "short-answer-8",
+      "categoryTitle": "（八）分子生物学实验技术",
+      "parentTitle": "简答题",
+      "number": 52,
+      "prompt": "酵母双杂交(Y2H)的基本操作步骤",
+      "referenceAnswer": "① 载体构建：将诱饵蛋白基因克隆到含有DNA结合结构域(BD)的载体（如pGBKT7），构建诱饵质粒；将猎物蛋白基因或cDNA文库克隆到含有转录激活结构域(AD)的载体（如pGADT7），构建猎物质粒；\n② 自激活检测：将诱饵质粒单独转化酵母菌株，检测其是否能自激活报告基因，排除自激活诱饵；\n③ 共转化：将诱饵质粒和猎物质粒共转化到营养缺陷型酵母菌株（如AH109）；\n④ 初筛：将转化后的酵母涂布在二缺培养基（SD/-Leu/-Trp）上，筛选成功转化的酵母；\n⑤ 复筛：将二缺平板上的菌落影印到三缺（SD/-Leu/-Trp/-His）或四缺（SD/-Leu/-Trp/-His/-Ade）培养基上，筛选激活报告基因的阳性克隆；\n⑥ 验证：通过LacZ显色实验进一步验证阳性克隆；提取酵母质粒，测序鉴定互作蛋白；\n⑦ 对照实验：设置空白对照和阴性对照，排除假阳性结果。"
+    },
+    {
+      "id": "short-answer-9-q-053",
+      "type": "short-answer",
+      "categoryId": "short-answer-9",
+      "categoryTitle": "（九）植物转基因与基因编辑",
+      "parentTitle": "简答题",
+      "number": 53,
+      "prompt": "植物细胞转入质粒常用的细菌及相关关键片段",
+      "referenceAnswer": "常用细菌：农杆菌（Agrobacterium tumefaciens），一种土壤革兰氏阴性细菌，天然具有将自身DNA转入植物细胞的能力。"
+    },
+    {
+      "id": "short-answer-9-q-054",
+      "type": "short-answer",
+      "categoryId": "short-answer-9",
+      "categoryTitle": "（九）植物转基因与基因编辑",
+      "parentTitle": "简答题",
+      "number": 54,
+      "prompt": "关键转移片段：Ti质粒（肿瘤诱导质粒）上的T-DNA（转移DNA）区域：",
+      "referenceAnswer": "① T-DNA：被转移并整合到植物基因组中的DNA片段，其两端是25bp的左右边界序列(LB/RB)，是T-DNA转移的必需信号；\n② vir区（毒性区）：位于Ti质粒上，编码T-DNA转移所需的一系列蛋白（如VirD2切割T-DNA边界，VirE2保护单链T-DNA），但vir区本身不进入植物细胞；\n③ 现代双元载体系统：将Ti质粒改造为两个独立的质粒：微型Ti质粒（含T-DNA边界和目的基因）和辅助质粒（含vir区），提高了转基因安全性和效率。"
+    },
+    {
+      "id": "short-answer-9-q-055",
+      "type": "short-answer",
+      "categoryId": "short-answer-9",
+      "categoryTitle": "（九）植物转基因与基因编辑",
+      "parentTitle": "简答题",
+      "number": 55,
+      "prompt": "将基因导入宿主细胞的常用方法",
+      "referenceAnswer": "① 热激法：将质粒与感受态大肠杆菌混合，42℃热激90秒，使细胞膜通透性增加，质粒进入细胞；适用于细菌转化；\n② 电穿孔法：利用高压电脉冲在细胞膜上形成瞬时微孔，使DNA进入细胞；适用于细菌、酵母、动物细胞和植物细胞；\n③ 脂质体转染法：用阳离子脂质体包裹DNA，形成脂质体-DNA复合物，通过细胞膜融合进入细胞；适用于动物细胞的瞬时转染；\n④ 显微注射法：用显微操作仪将DNA直接注射到细胞核中；适用于动物受精卵和胚胎干细胞；\n⑤ 基因枪法：将DNA包裹在金粉或钨粉颗粒表面，用高压气体将其加速射入细胞或组织中；适用于植物细胞和难转染的动物细胞；\n⑥ 农杆菌介导法：利用农杆菌的天然转化能力，将T-DNA上的目的基因转入植物细胞；是植物转基因最常用的方法。"
+    },
+    {
+      "id": "short-answer-10-q-056",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 56,
+      "prompt": "反向遗传学中获得基因功能丧失(loss of function)的所有方法",
+      "referenceAnswer": "① RNA干扰(RNAi)：导入siRNA、shRNA或miRNA，特异性降解靶mRNA，抑制基因表达；\n② CRISPR/Cas9基因敲除：利用Cas9核酸酶在靶基因位点制造DNA双链断裂，通过非同源末端连接(NHEJ)修复引入移码突变，导致基因功能丧失；\n③ 同源重组定向敲除：通过同源重组将靶基因替换为筛选标记基因，实现基因的完全敲除；\n④ T-DNA插入失活：农杆菌介导的T-DNA随机插入植物基因组，破坏插入位点的基因功能；\n⑤ 转座子插入失活：利用转座子的随机转座插入基因内部，导致基因失活；\n⑥ 点突变失活：通过重叠延伸PCR或大引物诱变法在基因内部引入终止密码子或关键氨基酸突变，使蛋白失去功能；\n⑦ 反义RNA技术：表达与靶mRNA互补的反义RNA，抑制其翻译。"
+    },
+    {
+      "id": "short-answer-10-q-057",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 57,
+      "prompt": "设计实验找出cDNA序列中对应基因的内含子位置",
+      "referenceAnswer": "实验原理：cDNA是由成熟mRNA逆转录而来，不含内含子；而基因组DNA包含外显子和内含子。通过比较两者的PCR产物大小或序列，可确定内含子的位置和大小。"
+    },
+    {
+      "id": "short-answer-10-q-058",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 58,
+      "prompt": "实验方法一：基因组DNA与cDNA PCR比较法",
+      "referenceAnswer": "① 提取该物种的基因组DNA和总RNA；\n② 将总RNA逆转录为cDNA；\n③ 根据已知cDNA序列设计多对引物，覆盖整个cDNA区域；\n④ 分别以基因组DNA和cDNA为模板进行PCR扩增；\n⑤ 琼脂糖凝胶电泳比较扩增产物的大小：若基因组DNA的扩增产物比cDNA产物大，说明该片段中包含内含子，大小差异即为内含子的长度；\n⑥ 将两个PCR产物分别测序，比对序列差异，精确确定内含子的边界（符合GT-AG规则）和大小。"
+    },
+    {
+      "id": "short-answer-10-q-059",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 59,
+      "prompt": "实验方法二：生物信息学比对法",
+      "referenceAnswer": "① 若该物种的基因组序列已测序，将cDNA序列作为查询序列，用BLAST或Splign等工具比对到参考基因组上；\n② 序列比对中断的区域即为内含子，可直接获得内含子的精确位置和大小；\n③ 用RT-PCR和测序验证预测的内含子边界。\n\n补充验证：RNA-seq数据分析，查看reads在剪接位点的覆盖情况，确认内含子的存在和剪接模式。"
+    },
+    {
+      "id": "short-answer-10-q-060",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 60,
+      "prompt": "化学诱变导致单基因突变表型，如何设计实验克隆该突变基因？（图位克隆）",
+      "referenceAnswer": "图位克隆是基于遗传连锁分析的基因克隆方法，无需预先知道基因的序列信息：\n① 构建定位群体：将突变体（如EMS诱变获得）与遗传背景差异大的野生型品系杂交，获得F1代；F1自交获得F2代分离群体，或与突变体回交获得BC1代群体；\n② 筛选突变表型个体：在F2或BC1群体中筛选出具有突变表型的个体，用于连锁分析；\n③ 初定位：利用分布在全基因组的分子标记（如SSR、SNP、Indel）对突变体个体进行基因型分析，找到与突变表型紧密连锁的分子标记，将突变基因定位到染色体的某个区段；\n④ 精细定位：在初定位的区域内开发更多的分子标记，扩大定位群体的规模，筛选重组体，逐步缩小突变基因的定位区间（通常到几十kb甚至几kb）；\n⑤ 候选基因分析：查阅该定位区间内的基因组注释信息，找出所有可能的候选基因；\n⑥ 突变位点鉴定：对候选基因进行PCR扩增和测序，比较突变体和野生型的序列差异，找到导致突变表型的碱基改变（如点突变、缺失、插入等）；\n⑦ 功能验证："
+    },
+    {
+      "id": "short-answer-10-q-061",
+      "type": "short-answer",
+      "categoryId": "short-answer-10",
+      "categoryTitle": "（十）反向遗传学与基因功能研究",
+      "parentTitle": "简答题",
+      "number": 61,
+      "prompt": "互补实验：将野生型候选基因导入突变体中，若突变表型得到恢复，证明该基因就是导致突变的基因；",
+      "referenceAnswer": "反向验证：用CRISPR/Cas9技术在野生型中敲除该基因，若出现与突变体相同的表型，进一步验证基因功能。"
+    },
+    {
+      "id": "essay-1-q-001",
+      "type": "essay",
+      "categoryId": "essay-1",
+      "categoryTitle": "（一）RNA加工与可变剪接",
+      "parentTitle": "分析论述题",
+      "number": 1,
+      "prompt": "可变剪接验证题：已知基因有4个外显子，exon1=500bp、exon2=200bp、exon3=200bp、exon4=300bp，exon2存在可变剪接，可能产生1-2-3-4和1-3-4两种转录本。计算转录本长度并设计实验验证可变剪接的存在",
+      "referenceAnswer": "转录本长度计算： ① 包含所有外显子的转录本1-2-3-4：500+200+200+300=1200bp； ② 跳过exon2的剪接变体1-3-4：500+200+300=1000bp。"
+    },
+    {
+      "id": "essay-1-q-002",
+      "type": "essay",
+      "categoryId": "essay-1",
+      "categoryTitle": "（一）RNA加工与可变剪接",
+      "parentTitle": "分析论述题",
+      "number": 2,
+      "prompt": "完整实验验证方案：",
+      "referenceAnswer": "① RNA提取与反转录：提取该基因高表达组织或细胞的总RNA，用DNase I处理去除基因组DNA污染，然后反转录为cDNA；\n② 引物设计：在外显子1的上游和外显子4的下游设计一对特异性PCR引物，引物跨越多于一个外显子，避免扩增基因组DNA；\n③ RT-PCR扩增：以cDNA为模板进行PCR扩增，设置无模板对照和基因组DNA对照；\n④ 电泳检测：将PCR产物进行琼脂糖凝胶电泳，预期会出现两条清晰的条带，大小分别约为1200bp和1000bp；\n⑤ 测序验证：将两条条带分别切胶回收，进行DNA测序；比对测序结果，确认1000bp的条带确实缺失了exon2的序列，且剪接边界符合GT-AG规则；\n⑥ 定量验证（可选）：设计跨越exon1-exon2和exon1-exon3剪接位点的特异性qPCR引物，定量分析两种转录本在不同组织或不同处理条件下的表达水平；\n⑦ 高通量验证（可选）：进行RNA-seq分析，查看reads在剪接位点的分布情况，全转录组水平验证可变剪接的存在。"
+    },
+    {
+      "id": "essay-2-q-003",
+      "type": "essay",
+      "categoryId": "essay-2",
+      "categoryTitle": "（二）染色体结构与端粒",
+      "parentTitle": "分析论述题",
+      "number": 3,
+      "prompt": "什么是端粒(telomere)？简述端粒的三个主要功能。催化端粒合成的酶是什么？",
+      "referenceAnswer": "定义：端粒是真核生物线性染色体末端的特殊DNA-蛋白质复合物，由富含G的串联重复DNA序列（人类为TTAGGG）和多种端粒结合蛋白组成。端粒不编码蛋白质，对维持基因组的稳定性和完整性至关重要。"
+    },
+    {
+      "id": "essay-2-q-004",
+      "type": "essay",
+      "categoryId": "essay-2",
+      "categoryTitle": "（二）染色体结构与端粒",
+      "parentTitle": "分析论述题",
+      "number": 4,
+      "prompt": "三个主要功能：",
+      "referenceAnswer": "① 保护染色体末端：端粒的特殊结构（T环、D环）和结合蛋白将染色体末端封闭起来，防止其被细胞内的核酸酶降解，同时避免染色体末端之间发生异常融合、重排和环化，维持基因组的稳定；\n② 解决线性DNA的末端复制难题：DNA聚合酶只能从5'→3'方向合成DNA，且需要RNA引物，因此无法复制线性染色体的最末端，导致每次细胞分裂后端粒都会缩短；端粒作为染色体末端的“缓冲序列”，保护内部的编码基因不被丢失；\n③ 调控细胞衰老与增殖：端粒长度随着细胞分裂次数的增加而逐渐缩短，当端粒缩短到临界长度时，会触发细胞的DNA损伤应答，导致细胞进入复制性衰老或程序性死亡；端粒长度是细胞“分裂时钟”的重要标志；在胚胎干细胞、生殖细胞和癌细胞中，端粒酶被激活，维持端粒长度，使细胞获得无限增殖能力。"
+    },
+    {
+      "id": "essay-2-q-005",
+      "type": "essay",
+      "categoryId": "essay-2",
+      "categoryTitle": "（二）染色体结构与端粒",
+      "parentTitle": "分析论述题",
+      "number": 5,
+      "prompt": "催化端粒合成的酶：端粒酶(Telomerase)，是一种特殊的逆转录酶，由蛋白质亚基(TERT)和RNA模板亚基(TERC)组成；端粒酶以自身的RNA为模板，在染色体末端添加端粒重复序列，延长端粒长度。",
+      "referenceAnswer": ""
+    },
+    {
+      "id": "essay-3-q-006",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 6,
+      "prompt": "trp操纵子衰减调控看图说话（结合附图）",
+      "referenceAnswer": "色氨酸(trp)操纵子的衰减调控是一种精细的转录调控机制，通过前导肽的翻译状态与mRNA的二级结构变化偶联，实现对色氨酸合成基因表达的精确调控。"
+    },
+    {
+      "id": "essay-3-q-007",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 7,
+      "prompt": "图a：色氨酸饥饿状态",
+      "referenceAnswer": "当细胞内色氨酸浓度极低时，色氨酰-tRNAtrp的含量不足，核糖体在翻译前导肽的过程中，会在连续的两个色氨酸密码子(UGGUGG)处停滞不前；此时核糖体占据了前导序列的区域1，使得区域2和区域3可以配对形成抗终止茎环结构；区域4无法与区域3配对，因此不能形成终止子结构；RNA聚合酶可以继续转录下游的色氨酸合成结构基因，合成色氨酸满足细胞需求。"
+    },
+    {
+      "id": "essay-3-q-008",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 8,
+      "prompt": "图b：色氨酸充足状态",
+      "referenceAnswer": "当细胞内色氨酸浓度充足时，色氨酰-tRNAtrp的含量丰富，核糖体可以顺利翻译完前导肽，并在终止密码子处脱落；此时核糖体占据了前导序列的区域1和区域2，使得区域3和区域4可以配对形成强终止子茎环结构；终止子下游的一串U残基导致RNA聚合酶从DNA模板上脱落，转录提前终止，停止色氨酸合成基因的表达，避免氨基酸的浪费。"
+    },
+    {
+      "id": "essay-3-q-009",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 9,
+      "prompt": "色氨酸(trp)操纵子的两层调控机制",
+      "referenceAnswer": "色氨酸操纵子是原核生物中典型的负调控操纵子，通过阻遏调控和衰减调控两层机制，精确调控色氨酸的合成："
+    },
+    {
+      "id": "essay-3-q-010",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 10,
+      "prompt": "第一层：阻遏调控（粗调控）",
+      "referenceAnswer": "由trpR基因编码的阻遏蛋白本身没有活性，不能结合操纵序列；当细胞内色氨酸浓度高时，色氨酸作为辅阻遏物与阻遏蛋白结合，使其构象发生改变而活化；活化的阻遏蛋白结合到trp操纵子的操纵序列上，阻挡RNA聚合酶的前进，抑制转录的起始；当色氨酸浓度低时，辅阻遏物解离，阻遏蛋白恢复无活性状态，从操纵序列上脱落，转录开启。"
+    },
+    {
+      "id": "essay-3-q-011",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 11,
+      "prompt": "第二层：衰减调控（精调控）",
+      "referenceAnswer": "阻遏调控只能控制转录的起始与否，而衰减调控可以在转录起始后，根据细胞内色氨酸的浓度精细调节转录的终止效率；通过前导肽的翻译状态控制mRNA的二级结构变化，决定转录是否提前终止（详见上题）。"
+    },
+    {
+      "id": "essay-3-q-012",
+      "type": "essay",
+      "categoryId": "essay-3",
+      "categoryTitle": "（三）原核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 12,
+      "prompt": "协同作用：阻遏调控和衰减调控协同作用，使色氨酸操纵子的表达能够快速、精确地响应细胞内色氨酸浓度的变化，维持细胞内色氨酸水平的稳定。",
+      "referenceAnswer": ""
+    },
+    {
+      "id": "essay-4-q-013",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 13,
+      "prompt": "原核（细菌）与真核（人）细胞质阶段基因表达的异同",
+      "referenceAnswer": "相同点： ① 翻译的核心化学机制高度保守，都以mRNA为模板，tRNA为氨基酸载体，核糖体为翻译机器，催化肽键的形成； ② 都遵循统一的遗传密码（除少数线粒体密码子例外）； ③ 翻译过程都分为起始、延伸和终止三个阶段，都需要延伸因子和释放因子参与 ④ 都存在翻译水平的调控机制，如mRNA稳定性调控、翻译起始调控等。\n\n不同点： ① 时空耦合关系："
+    },
+    {
+      "id": "essay-4-q-014",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 14,
+      "prompt": "原核生物：转录和翻译同时进行，mRNA的转录尚未完成，核糖体就已经结合到mRNA上开始翻译；",
+      "referenceAnswer": "真核生物：转录发生在细胞核内，mRNA经过加帽、加尾、剪接等加工后，通过核孔转运到细胞质中，才开始翻译；转录和翻译在时空上完全分离。 ② mRNA结构特征："
+    },
+    {
+      "id": "essay-4-q-015",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 15,
+      "prompt": "原核生物：mRNA多为多顺反子，一条mRNA编码多个功能相关的蛋白质，每个ORF上游都有独立的SD序列；mRNA半衰期短，通常只有几分钟；",
+      "referenceAnswer": "真核生物：mRNA多为单顺反子，一条mRNA仅编码一个蛋白质；具有5'帽子结构和3'poly(A)尾，半衰期较长，从几分钟到几天不等。 ③ 翻译起始机制："
+    },
+    {
+      "id": "essay-4-q-016",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 16,
+      "prompt": "原核生物：核糖体通过SD序列与16S rRNA互补直接定位到起始密码子；起始氨基酸为fMet；起始因子仅3种；",
+      "referenceAnswer": "真核生物：核糖体通过5'帽子结构结合到mRNA上，然后扫描找到AUG起始密码子；起始氨基酸为Met；起始因子有十余种，过程更复杂。 ④ 核糖体结构："
+    },
+    {
+      "id": "essay-4-q-017",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 17,
+      "prompt": "原核生物：70S核糖体，由30S小亚基和50S大亚基组成；",
+      "referenceAnswer": "真核生物：80S核糖体，由40S小亚基和60S大亚基组成。 ⑤ 翻译后修饰："
+    },
+    {
+      "id": "essay-4-q-018",
+      "type": "essay",
+      "categoryId": "essay-4",
+      "categoryTitle": "（四）真核基因表达调控",
+      "parentTitle": "分析论述题",
+      "number": 18,
+      "prompt": "原核生物：翻译后修饰较少，主要是简单的剪切和磷酸化；",
+      "referenceAnswer": "真核生物：翻译后修饰复杂多样，包括糖基化、磷酸化、泛素化、乙酰化、剪切等，对蛋白质的功能和定位至关重要。"
+    }
+  ]
+}
