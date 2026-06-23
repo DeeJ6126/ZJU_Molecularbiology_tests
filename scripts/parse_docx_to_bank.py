@@ -173,8 +173,8 @@ def parse_translation_tables(doc: Any) -> list[dict]:
                 "categoryTitle": subcat,
                 "parentTitle": "中英名词互译",
                 "number": question_num,
-                "prompt": en_term,
-                "direction": "en-to-zh",
+                "prompt": zh_term,           # show Chinese, ask for English
+                "direction": "zh-to-en",
                 "answerTerm": answer_term,
                 "answerFullTerm": answer_full_term,
                 "acceptableAnswers": list(set(acceptable_answers)),

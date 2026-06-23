@@ -222,8 +222,16 @@ function normalizeAnswerText(text: string): string {
  */
 export function getAnswerDisplay(question: Question): string {
   switch (question.type) {
-    case 'translation':
+    case 'translation': {
+      if (question.direction === 'zh-to-en') {
+        const parts: string[] = [question.answerTerm]
+        if (question.answerFullTerm && question.answerFullTerm !== question.answerTerm) {
+          parts.push(`(${question.answerFullTerm})`)
+        }
+        return parts.join(' ')
+      }
       return question.chineseMeaning || question.answerTerm
+    }
 
     case 'true-false':
       return question.answerIsTrue ? '正确' : '错误'

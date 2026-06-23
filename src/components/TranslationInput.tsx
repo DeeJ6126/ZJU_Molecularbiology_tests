@@ -16,6 +16,8 @@ export function TranslationInput({
   const answered = Boolean(existingAnswer)
   const isCorrect = existingAnswer?.isCorrect ?? false
 
+  const isZhToEn = question.direction === 'zh-to-en'
+
   function handleSubmit() {
     if (answered || !input.trim()) return
     onAnswer(question.id, input.trim())
@@ -28,12 +30,48 @@ export function TranslationInput({
     }
   }
 
+  function buildAnswerDisplay(): string {
+    if (isZhToEn) {
+      const parts: string[] = []
+      if (question.answerTerm) parts.push(question.answerTerm)
+      if (question.answerFullTerm && question.answerFullTerm !== question.answerTerm) {
+        parts.push(`(${question.answerFullTerm})`)
+      }
+      return parts.join(' ')
+    } else {
+      return question.chineseMeaning || ''
+    }
+  }
+
+  function buildAcceptableDisplay(): string {
+    // Show original casing variants, not normalized
+    const seen = new Set<string>()
+    const result: string[] = []
+    if (isZhToEn) {
+      if (question.answerTerm && !seen.has(question.answerTerm)) {
+        result.push(question.answerTerm)
+        seen.add(question.answerTerm)
+      }
+      if (question.answerFullTerm && !seen.has(question.answerFullTerm)) {
+        result.push(question.answerFullTerm)
+        seen.add(question.answerFullTerm)
+      }
+      if (question.answerTerm && question.answerFullTerm) {
+        const combined = `${question.answerTerm} (${question.answerFullTerm})`
+        if (!seen.has(combined)) {
+          result.push(combined)
+        }
+      }
+    }
+    return result.join(' / ')
+  }
+
   return (
     <div className="question-panel">
       {/* Prompt */}
       <p className="question-text">{question.prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
-        请输入中文翻译
+        {isZhToEn ? '请输入英文翻译' : '请输入中文翻译'}
       </p>
 
       {/* Input */}
@@ -41,7 +79,7 @@ export function TranslationInput({
         type="text"
         className="option-button"
         style={{ width: '100%', padding: '16px 18px' }}
-        placeholder="输入你的翻译..."
+        placeholder={isZhToEn ? '输入英文翻译...' : '输入中文翻译...'}
         value={input}
         onChange={(event) => setInput(event.target.value)}
         onKeyDown={handleKeyDown}
@@ -69,19 +107,16 @@ export function TranslationInput({
             <>
               <strong style={{ color: 'var(--incorrect)' }}>✗ 回答错误</strong>
               <p>
-                正确答案：
-                {question.chineseMeaning || question.answerTerm}
-                {question.answerFullTerm && (
-                  <span style={{ color: 'var(--ink-soft)', marginLeft: 8 }}>
-                    ({question.answerFullTerm})
-                  </span>
-                )}
+                正确答案：{buildAnswerDisplay()}
               </p>
             </>
           )}
-          {!isCorrect && question.acceptableAnswers.length > 1 && (
+          {!isCorrect && (
             <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginTop: 4 }}>
-              可接受答案：{question.acceptableAnswers.join(' / ')}
+              {isZhToEn
+                ? `可接受答案：${buildAcceptableDisplay()}`
+                : `可接受答案：${question.chineseMeaning || ''}`
+              }
             </p>
           )}
           {!isCorrect && existingAnswer?.textAnswer && (
