@@ -16,16 +16,16 @@ export function TranslationInput({
   onNext,
   onRemoveMistake,
 }: TranslationInputProps) {
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState(existingAnswer?.textAnswer ?? '')
   const [pending, setPending] = useState(false)
   const [removedFromMistakes, setRemovedFromMistakes] = useState(false)
 
-  // Clear input when question changes
+  // Reset when question changes: clear input for new questions, restore for answered ones
   useEffect(() => {
-    setInput('')
+    setInput(existingAnswer?.textAnswer ?? '')
     setPending(false)
     setRemovedFromMistakes(false)
-  }, [question.id])
+  }, [question.id, existingAnswer?.textAnswer])
 
   const shouldWait = pending && !Boolean(existingAnswer)  // submitted but waiting for parent
   const answered = pending || Boolean(existingAnswer)
