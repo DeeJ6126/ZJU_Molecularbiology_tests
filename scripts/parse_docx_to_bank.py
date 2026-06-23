@@ -149,7 +149,12 @@ def parse_translation_tables(doc: Any) -> list[dict]:
             cells = [clean(c.text) for c in row.cells]
             if len(cells) < 2:
                 continue
-            en_term, zh_term = cells[0], cells[1]
+
+            # Tables 1, 4, 5 have 3 columns where col 2 is the true Chinese translation
+            # (col 1 is sometimes a duplicate of the English term instead of Chinese)
+            zh_term = cells[2] if len(cells) >= 3 else cells[1]
+            en_term = cells[0]
+
             if not en_term or not zh_term:
                 continue
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T10:00:06.542553",
+  "generatedAt": "2026-06-23T13:51:21.697959",
   "totalQuestions": 213,
   "categories": [
     {
@@ -233,8 +233,8 @@
       "answerTerm": "Eukaryote",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "eucaryon",
-        "eukaryote"
+        "eukaryote",
+        "eucaryon"
       ],
       "chineseMeaning": "真核生物"
     },
@@ -362,8 +362,8 @@
       "answerTerm": "ORF",
       "answerFullTerm": "Open reading frame",
       "acceptableAnswers": [
-        "orf",
         "open reading frame",
+        "orf",
         "orf (open reading frame)"
       ],
       "chineseMeaning": "开放阅读框"
@@ -380,8 +380,8 @@
       "answerTerm": "Codon preference",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "codon bias",
-        "codon preference"
+        "codon preference",
+        "codon bias"
       ],
       "chineseMeaning": "密码子偏好性"
     },
@@ -937,15 +937,15 @@
       "categoryTitle": "核酸结构与功能",
       "parentTitle": "中英名词互译",
       "number": 45,
-      "prompt": "Replication slippage/Slipped strand mispairing",
+      "prompt": "复制滑移/滑链错配",
       "direction": "zh-to-en",
       "answerTerm": "Replication slippage",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "replication slippage",
-        "slipped strand mispairing"
+        "slipped strand mispairing",
+        "replication slippage"
       ],
-      "chineseMeaning": "Replication slippage/Slipped strand mispairing"
+      "chineseMeaning": "复制滑移/滑链错配"
     },
     {
       "id": "translation-3-q-046",
@@ -1151,8 +1151,8 @@
       "answerTerm": "GFP",
       "answerFullTerm": "Green fluorescent protein",
       "acceptableAnswers": [
-        "green fluorescent protein",
         "gfp",
+        "green fluorescent protein",
         "gfp (green fluorescent protein)"
       ],
       "chineseMeaning": "绿色荧光蛋白"
@@ -1441,8 +1441,8 @@
       "answerTerm": "ChIP",
       "answerFullTerm": "Chromatin immunoprecipitation",
       "acceptableAnswers": [
-        "chromatin immunoprecipitation",
         "chip",
+        "chromatin immunoprecipitation",
         "chip (chromatin immunoprecipitation)"
       ],
       "chineseMeaning": "染色质免疫共沉淀"
@@ -1475,9 +1475,9 @@
       "answerTerm": "Y2H",
       "answerFullTerm": "Yeast two-hybrid system",
       "acceptableAnswers": [
+        "yeast two-hybrid system",
         "y2h",
-        "y2h (yeast two-hybrid system)",
-        "yeast two-hybrid system"
+        "y2h (yeast two-hybrid system)"
       ],
       "chineseMeaning": "酵母双杂交系统"
     },
@@ -1488,16 +1488,16 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "中英名词互译",
       "number": 79,
-      "prompt": "Bimolecular fluorescence complementation(BiFC)",
+      "prompt": "生物分子荧光互补",
       "direction": "zh-to-en",
       "answerTerm": "BiFC",
       "answerFullTerm": "Bimolecular fluorescence complementation",
       "acceptableAnswers": [
-        "bimolecular fluorescence complementation",
         "bifc",
-        "bifc (bimolecular fluorescence complementation)"
+        "bifc (bimolecular fluorescence complementation)",
+        "bimolecular fluorescence complementation"
       ],
-      "chineseMeaning": "Bimolecular fluorescence complementation(BiFC)"
+      "chineseMeaning": "生物分子荧光互补"
     },
     {
       "id": "translation-5-q-080",
@@ -1506,16 +1506,16 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "中英名词互译",
       "number": 80,
-      "prompt": "Fluorescence resonance energy transfer(FRET)",
+      "prompt": "荧光共振能量转移",
       "direction": "zh-to-en",
       "answerTerm": "FRET",
       "answerFullTerm": "Fluorescence resonance energy transfer",
       "acceptableAnswers": [
-        "fret (fluorescence resonance energy transfer)",
         "fret",
-        "fluorescence resonance energy transfer"
+        "fluorescence resonance energy transfer",
+        "fret (fluorescence resonance energy transfer)"
       ],
-      "chineseMeaning": "Fluorescence resonance energy transfer(FRET)"
+      "chineseMeaning": "荧光共振能量转移"
     },
     {
       "id": "translation-5-q-081",
@@ -1669,15 +1669,15 @@
       "categoryTitle": "基因组与遗传学",
       "parentTitle": "中英名词互译",
       "number": 90,
-      "prompt": "(Simple sequence repeat)/Short Tandem Repeat",
+      "prompt": "简单序列重复/短串联重复",
       "direction": "zh-to-en",
       "answerTerm": "(Simple sequence repeat)",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "short tandem repeat",
-        "(simple sequence repeat)"
+        "(simple sequence repeat)",
+        "short tandem repeat"
       ],
-      "chineseMeaning": "(Simple sequence repeat)/Short Tandem Repeat"
+      "chineseMeaning": "简单序列重复/短串联重复"
     },
     {
       "id": "translation-6-q-091",
@@ -1867,8 +1867,8 @@
       "answerTerm": "SD",
       "answerFullTerm": "Shine-Dalgarno sequence",
       "acceptableAnswers": [
-        "shine-dalgarno sequence",
         "sd",
+        "shine-dalgarno sequence",
         "sd (shine-dalgarno sequence)"
       ],
       "chineseMeaning": "夏因-达尔加诺序列"
