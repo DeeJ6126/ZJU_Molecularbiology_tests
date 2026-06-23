@@ -208,11 +208,12 @@ export function checkTranslationAnswer(
     return true
   }
 
-  // Singular/plural tolerant match
-  const stemmedInput = removeEnglishPlural(normalized)
+  // Singular/plural tolerant match: generate possible stems for both
+  // input and answer, then check if any pair matches.
+  const inputStems = getPossibleStems(normalized)
   return question.acceptableAnswers.some((answer) => {
-    const stemmedAnswer = removeEnglishPlural(normalizeAnswerText(answer))
-    return stemmedInput === stemmedAnswer
+    const answerStems = getPossibleStems(normalizeAnswerText(answer))
+    return inputStems.some((is) => answerStems.includes(is))
   })
 }
 
@@ -226,29 +227,40 @@ function normalizeAnswerText(text: string): string {
 }
 
 /**
- * Remove common English plural suffixes to allow singular/plural matching.
- * Handles: -s (Prokaryotes→Prokaryote), -es (boxes→box),
- * -ies (bodies→body), -ves (lives→life).
- * Note: minimal heuristics to avoid false positives.
+ * Generate possible singular/plural stems for matching.
+ * Returns the original word plus plausible de-pluralized variants.
+ *
+ * For "prokaryotes": ["prokaryotes", "prokaryote"] (strip -s only, -es is too aggressive)
+ * For "boxes":       ["boxes", "boxe", "box"]        (tries both -s and -es)
+ * For "bodies":      ["bodies", "body"]               (-ies → -y)
  */
-function removeEnglishPlural(word: string): string {
+function getPossibleStems(word: string): string[] {
+  const stems = new Set<string>()
+  stems.add(word) // always include original
+
+  if (word.length <= 2) return Array.from(stems)
+
+  // -ies → -y (bodies → body)
   if (word.endsWith('ies') && word.length > 4) {
-    return word.slice(0, -3) + 'y'
+    stems.add(word.slice(0, -3) + 'y')
   }
+
+  // -ves → -f (lives → life)
   if (word.endsWith('ves') && word.length > 4) {
-    return word.slice(0, -3) + 'f'
+    stems.add(word.slice(0, -3) + 'f')
   }
-  if (word.endsWith('ses') && word.length > 4) {
-    // Could be -s on an -s word (e.g. viruses→virus) or -es (e.g. classes→class)
-    return word.slice(0, -2)
-  }
+
+  // -es → "" (boxes → box), but also try -s alone
   if (word.endsWith('es') && word.length > 4) {
-    return word.slice(0, -2)
+    stems.add(word.slice(0, -2))  // drop -es
   }
+
+  // -s → "" (prokaryotes → prokaryote)
   if (word.endsWith('s') && word.length > 3) {
-    return word.slice(0, -1)
+    stems.add(word.slice(0, -1))  // drop -s only
   }
-  return word
+
+  return Array.from(stems)
 }
 
 // ── Answer display ────────────────────────────────────────────────
