@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:51:21.697959",
+  "generatedAt": "2026-06-23T14:44:59.956436",
   "totalQuestions": 213,
   "categories": [
     {
@@ -233,8 +233,8 @@
       "answerTerm": "Eukaryote",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "eukaryote",
-        "eucaryon"
+        "eucaryon",
+        "eukaryote"
       ],
       "chineseMeaning": "真核生物"
     },
@@ -359,11 +359,10 @@
       "number": 9,
       "prompt": "开放阅读框",
       "direction": "zh-to-en",
-      "answerTerm": "ORF",
-      "answerFullTerm": "Open reading frame",
+      "answerTerm": "Open reading frame",
+      "answerFullTerm": "ORF",
       "acceptableAnswers": [
         "open reading frame",
-        "orf",
         "orf (open reading frame)"
       ],
       "chineseMeaning": "开放阅读框"
@@ -380,8 +379,8 @@
       "answerTerm": "Codon preference",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "codon preference",
-        "codon bias"
+        "codon bias",
+        "codon preference"
       ],
       "chineseMeaning": "密码子偏好性"
     },
@@ -573,8 +572,8 @@
       "answerTerm": "snRNPs",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "snrnp",
-        "snrnps"
+        "snrnps",
+        "snrnp"
       ],
       "chineseMeaning": "核小核糖核蛋白颗粒"
     },
@@ -942,8 +941,8 @@
       "answerTerm": "Replication slippage",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "slipped strand mispairing",
-        "replication slippage"
+        "replication slippage",
+        "slipped strand mispairing"
       ],
       "chineseMeaning": "复制滑移/滑链错配"
     },
@@ -1148,12 +1147,11 @@
       "number": 58,
       "prompt": "绿色荧光蛋白",
       "direction": "zh-to-en",
-      "answerTerm": "GFP",
-      "answerFullTerm": "Green fluorescent protein",
+      "answerTerm": "Green fluorescent protein",
+      "answerFullTerm": "GFP",
       "acceptableAnswers": [
-        "gfp",
-        "green fluorescent protein",
-        "gfp (green fluorescent protein)"
+        "gfp (green fluorescent protein)",
+        "green fluorescent protein"
       ],
       "chineseMeaning": "绿色荧光蛋白"
     },
@@ -1438,10 +1436,9 @@
       "number": 76,
       "prompt": "染色质免疫共沉淀",
       "direction": "zh-to-en",
-      "answerTerm": "ChIP",
-      "answerFullTerm": "Chromatin immunoprecipitation",
+      "answerTerm": "Chromatin immunoprecipitation",
+      "answerFullTerm": "ChIP",
       "acceptableAnswers": [
-        "chip",
         "chromatin immunoprecipitation",
         "chip (chromatin immunoprecipitation)"
       ],
@@ -1472,12 +1469,11 @@
       "number": 78,
       "prompt": "酵母双杂交系统",
       "direction": "zh-to-en",
-      "answerTerm": "Y2H",
-      "answerFullTerm": "Yeast two-hybrid system",
+      "answerTerm": "Yeast two-hybrid system",
+      "answerFullTerm": "Y2H",
       "acceptableAnswers": [
-        "yeast two-hybrid system",
-        "y2h",
-        "y2h (yeast two-hybrid system)"
+        "y2h (yeast two-hybrid system)",
+        "yeast two-hybrid system"
       ],
       "chineseMeaning": "酵母双杂交系统"
     },
@@ -1490,12 +1486,11 @@
       "number": 79,
       "prompt": "生物分子荧光互补",
       "direction": "zh-to-en",
-      "answerTerm": "BiFC",
-      "answerFullTerm": "Bimolecular fluorescence complementation",
+      "answerTerm": "Bimolecular fluorescence complementation",
+      "answerFullTerm": "BiFC",
       "acceptableAnswers": [
-        "bifc",
-        "bifc (bimolecular fluorescence complementation)",
-        "bimolecular fluorescence complementation"
+        "bimolecular fluorescence complementation",
+        "bifc (bimolecular fluorescence complementation)"
       ],
       "chineseMeaning": "生物分子荧光互补"
     },
@@ -1508,12 +1503,11 @@
       "number": 80,
       "prompt": "荧光共振能量转移",
       "direction": "zh-to-en",
-      "answerTerm": "FRET",
-      "answerFullTerm": "Fluorescence resonance energy transfer",
+      "answerTerm": "Fluorescence resonance energy transfer",
+      "answerFullTerm": "FRET",
       "acceptableAnswers": [
-        "fret",
-        "fluorescence resonance energy transfer",
-        "fret (fluorescence resonance energy transfer)"
+        "fret (fluorescence resonance energy transfer)",
+        "fluorescence resonance energy transfer"
       ],
       "chineseMeaning": "荧光共振能量转移"
     },
@@ -1561,8 +1555,8 @@
       "answerTerm": "Bacteriophage",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "phage",
-        "bacteriophage"
+        "bacteriophage",
+        "phage"
       ],
       "chineseMeaning": "噬菌体"
     },
@@ -1674,8 +1668,8 @@
       "answerTerm": "(Simple sequence repeat)",
       "answerFullTerm": null,
       "acceptableAnswers": [
-        "(simple sequence repeat)",
-        "short tandem repeat"
+        "short tandem repeat",
+        "(simple sequence repeat)"
       ],
       "chineseMeaning": "简单序列重复/短串联重复"
     },
@@ -1864,10 +1858,9 @@
       "number": 102,
       "prompt": "夏因-达尔加诺序列",
       "direction": "zh-to-en",
-      "answerTerm": "SD",
-      "answerFullTerm": "Shine-Dalgarno sequence",
+      "answerTerm": "Shine-Dalgarno sequence",
+      "answerFullTerm": "SD",
       "acceptableAnswers": [
-        "sd",
         "shine-dalgarno sequence",
         "sd (shine-dalgarno sequence)"
       ],

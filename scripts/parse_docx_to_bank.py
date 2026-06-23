@@ -161,14 +161,29 @@ def parse_translation_tables(doc: Any) -> list[dict]:
             en_variants = [clean(e) for e in en_term.split('/') if clean(e)]
             primary_en = en_variants[0]
 
-            answer_term, answer_full_term = parse_abbreviation(primary_en)
-            acceptable_answers = build_acceptable_answers(answer_term, answer_full_term)
+            abbr, full_term = parse_abbreviation(primary_en)
+
+            # When an abbreviation exists, require the FULL term as the primary answer.
+            # Abbreviation alone is no longer accepted (user asked for this).
+            if full_term:
+                answer_term = full_term       # primary: full term
+                answer_full_term = abbr       # secondary: abbreviation
+                # Accept: full term, combined form "Abbr (Full Term)" — NOT abbreviation alone
+                acceptable_answers = [full_term.strip().lower()]
+                combined = f"{abbr} ({full_term})".strip().lower()
+                if combined not in acceptable_answers:
+                    acceptable_answers.append(combined)
+            else:
+                answer_term = abbr
+                answer_full_term = None
+                acceptable_answers = build_acceptable_answers(answer_term, None)
 
             for variant in en_variants[1:]:
-                var_term, var_full = parse_abbreviation(variant)
-                acceptable_answers.append(var_term.strip().lower())
+                var_abbr, var_full = parse_abbreviation(variant)
                 if var_full:
                     acceptable_answers.append(var_full.strip().lower())
+                else:
+                    acceptable_answers.append(var_abbr.strip().lower())
 
             question_num += 1
             questions.append({

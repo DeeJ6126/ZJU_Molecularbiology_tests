@@ -223,7 +223,8 @@ export function PracticePage() {
         </section>
       )}
 
-      {/* Vocabulary pick mode toggle */}
+      {/* Vocabulary pick mode toggle — hidden for translation questions (prompt is Chinese) */}
+      {currentQuestion.type !== 'translation' && (
       <section className="panel compact-panel">
         <div className="toolbar-actions" style={{ alignItems: 'center' }}>
           <button
@@ -248,6 +249,7 @@ export function PracticePage() {
           </div>
         )}
       </section>
+      )}
 
       {/* Navigation */}
       <section className="practice-actions">
