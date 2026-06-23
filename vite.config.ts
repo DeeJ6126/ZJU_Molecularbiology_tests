@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const repositoryName = 'ZJU_Molecularbiology_Tests'
+const repositoryName = 'ZJU_Molecularbiology_tests'
 const isGitHubPagesBuild = process.env.GITHUB_PAGES === 'true'
 
 // https://vite.dev/config/
