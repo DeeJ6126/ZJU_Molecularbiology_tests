@@ -1,0 +1,327 @@
+=== true-false-1-q-001 (true-false) ===
+遗传密码是完全通用的（Genetic codons are always universal）
+
+=== true-false-1-q-002 (true-false) ===
+原核翻译起始氨基酸为fMet，真核为Met
+
+=== true-false-1-q-003 (true-false) ===
+原核依靠SD序列完成翻译起始
+
+=== true-false-1-q-004 (true-false) ===
+CAP、lac、ara、trp操纵子的mRNA都带有SD序列
+
+=== true-false-1-q-005 (true-false) ===
+Class III转录复合体所有转录过程都需要TFIII A因子
+
+=== true-false-2-q-006 (true-false) ===
+RdDP（DNA依赖的DNA聚合酶）参与DNA复制
+
+=== true-false-3-q-007 (true-false) ===
+真核miRNA前体pri-miRNA是具有茎环结构的长链RNA
+
+=== true-false-3-q-008 (true-false) ===
+增强子enhancer是调控基因的蛋白质
+
+=== true-false-3-q-009 (true-false) ===
+Cas13蛋白家族介导RNA敲低
+
+=== true-false-3-q-010 (true-false) ===
+siRNA的生理功能是介导转录后基因沉默
+
+=== true-false-4-q-011 (true-false) ===
+母本的育幼（mothering）行为可影响子代雌性的育幼行为，性状可跨代传递
+
+=== true-false-5-q-012 (true-false) ===
+农杆菌Helper辅助质粒带有vir毒性基因
+
+=== true-false-5-q-013 (true-false) ===
+蓝白斑筛选中，外源目的片段插入载体后菌落呈现白色
+
+=== multiple-choice-1-q-001 (multiple-choice) ===
+PCR技术的发明者是？
+
+=== multiple-choice-1-q-002 (multiple-choice) ===
+证明DNA是遗传物质的实验中，标记蛋白质的放射性同位素是？
+
+=== multiple-choice-2-q-003 (multiple-choice) ===
+原核翻译起始的第一个氨基酸是？
+
+=== multiple-choice-2-q-004 (multiple-choice) ===
+AUG密码子编码的氨基酸是？
+
+=== multiple-choice-2-q-005 (multiple-choice) ===
+SD序列仅存在于哪类生物的mRNA中？
+
+=== multiple-choice-2-q-006 (multiple-choice) ===
+原核翻译中，将氨基酰-tRNA转运到核糖体A位的延伸因子是？
+
+=== multiple-choice-2-q-007 (multiple-choice) ===
+Wobble theory（摆动假说）的定义是？
+
+=== multiple-choice-3-q-008 (multiple-choice) ===
+CRISPR/Cas13系统的核心功能是？
+
+=== multiple-choice-3-q-009 (multiple-choice) ===
+pre-miRNA加工为成熟miRNA的关键酶是？
+
+=== multiple-choice-3-q-010 (multiple-choice) ===
+Coding strand（编码链）的别名是？
+
+=== multiple-choice-3-q-011 (multiple-choice) ===
+转录RNA三元复合体（ternary complex）包含哪些组分？
+
+=== multiple-choice-3-q-012 (multiple-choice) ===
+长mRNA转录耗时很长的原因是？
+
+=== multiple-choice-3-q-013 (multiple-choice) ===
+pre-mRNA剪接必需的元件是？
+
+=== multiple-choice-4-q-014 (multiple-choice) ===
+农杆菌双元载体的helper载体携带什么关键基因？
+
+=== multiple-choice-5-q-015 (multiple-choice) ===
+转录因子一般包含哪两个核心结构域？
+
+=== multiple-choice-5-q-016 (multiple-choice) ===
+无法提升细菌翻译蛋白溶解度的操作是？
+
+=== multiple-choice-5-q-017 (multiple-choice) ===
+PCR已知上游引物和一条模板链，下游引物选择规则是？
+
+=== short-answer-1-q-001 (short-answer) ===
+真核Class II转录起始前复合体（PIC）的组装过程
+
+=== short-answer-1-q-002 (short-answer) ===
+RNA聚合酶除了Pol I-III之外还有哪些？各有什么作用？
+
+=== short-answer-1-q-003 (short-answer) ===
+转录终止的两种机制（原核）
+
+=== short-answer-1-q-004 (short-answer) ===
+RNA Pol II的CTD结构域的4项核心功能
+
+=== short-answer-1-q-005 (short-answer) ===
+顺式作用元件的定义与类型
+
+=== short-answer-2-q-006 (short-answer) ===
+原核与真核翻译起始的核心区别
+
+=== short-answer-2-q-007 (short-answer) ===
+真核80S翻译起始复合体的装配过程
+
+=== short-answer-2-q-008 (short-answer) ===
+翻译过程中需要哪几种RNA？说出其生物学功能
+
+=== short-answer-2-q-009 (short-answer) ===
+核糖体与tRNA结合的三个位点及其功能
+
+=== short-answer-2-q-010 (short-answer) ===
+翻译延伸过程中需要的延伸因子及其功能
+
+=== short-answer-2-q-011 (short-answer) ===
+SD序列、Kozak序列、IRES的翻译起始原理
+
+=== short-answer-2-q-012 (short-answer) ===
+三种改变蛋白活性的翻译后修饰方式
+
+=== short-answer-3-q-013 (short-answer) ===
+DNA复制的三种主要类型
+
+=== short-answer-3-q-014 (short-answer) ===
+DNA复制需要的酶及其功能
+
+=== short-answer-3-q-015 (short-answer) ===
+DNA Pol III（原核）：主要的复制酶，负责合成前导链和滞后链；
+
+=== short-answer-3-q-016 (short-answer) ===
+DNA Pol δ和ε（真核）：分别负责合成滞后链和前导链；
+
+=== short-answer-3-q-017 (short-answer) ===
+核小体的组成
+
+=== short-answer-3-q-018 (short-answer) ===
+着丝粒（centromere）的三个核心功能
+
+=== short-answer-3-q-019 (short-answer) ===
+着丝粒的三个特点
+
+=== short-answer-4-q-020 (short-answer) ===
+真核pre-mRNA剪接的完整过程（包括剪接体组装）
+
+=== short-answer-4-q-021 (short-answer) ===
+mRNA 5'加帽的流程与功能
+
+=== short-answer-4-q-022 (short-answer) ===
+mRNA 3'聚腺苷酰化的流程与功能
+
+=== short-answer-4-q-023 (short-answer) ===
+反式剪接（trans-splicing）的流程
+
+=== short-answer-4-q-024 (short-answer) ===
+miRNA的完整生物合成通路
+
+=== short-answer-4-q-025 (short-answer) ===
+siRNA与miRNA的详细区别
+
+=== short-answer-5-q-026 (short-answer) ===
+什么是表观遗传（Epigenetic inheritance）？列举三个以上的表观遗传事例
+
+=== short-answer-5-q-027 (short-answer) ===
+表观遗传机制：DNA甲基化、组蛋白修饰、染色质重塑、非编码RNA调控等。
+
+=== short-answer-5-q-028 (short-answer) ===
+导致表观遗传的主要因素/机制
+
+=== short-answer-5-q-029 (short-answer) ===
+CpG甲基化生成m5CpG的过程及调控机制
+
+=== short-answer-6-q-030 (short-answer) ===
+列举所有检测蛋白质相互作用的技术（9种）
+
+=== short-answer-6-q-031 (short-answer) ===
+检测DNA与蛋白质相互作用的三种主要技术
+
+=== short-answer-7-q-032 (short-answer) ===
+基因表达载体中蛋白标签(tag)的功能
+
+=== short-answer-7-q-033 (short-answer) ===
+三种将目的基因插入质粒的克隆方法
+
+=== short-answer-7-q-034 (short-answer) ===
+原理：用相同或同尾限制性内切酶切割目的基因和质粒载体，产生互补的粘性末端，再用T4 DNA连接酶将两者连接；
+
+=== short-answer-7-q-035 (short-answer) ===
+原理：在目的基因的两端设计与载体线性化末端同源的序列（15-40bp），通过体外重组酶（如Gibson Assembly、In-Fusion）催化同源序列之间的重组，实现目的基因的无缝插入；
+
+=== short-answer-7-q-036 (short-answer) ===
+原理：利用λ噬菌体的位点特异性重组系统，先将目的基因克隆到入门载体，再通过LR重组反应将目的基因转移到各种目的载体中；
+
+=== short-answer-7-q-037 (short-answer) ===
+无缝克隆（Seamless Cloning）的实验步骤
+
+=== short-answer-7-q-038 (short-answer) ===
+同源重组实验的基本流程（以基因敲除为例）
+
+=== short-answer-7-q-039 (short-answer) ===
+选择合适的限制性内切酶插入基因的原则及同尾酶的使用
+
+=== short-answer-7-q-040 (short-answer) ===
+同尾酶的使用原则：
+
+=== short-answer-7-q-041 (short-answer) ===
+优点：当目的基因内部含有常用酶切位点时，可使用同尾酶进行克隆；实现方向性插入；连接后的序列不再被原来的两种酶识别，防止载体和目的基因的再次切割，提高克隆稳定性；
+
+=== short-answer-8-q-042 (short-answer) ===
+Southern blot的操作步骤
+
+=== short-answer-8-q-043 (short-answer) ===
+Northern blot的操作步骤
+
+=== short-answer-8-q-044 (short-answer) ===
+Western blot的操作步骤
+
+=== short-answer-8-q-045 (short-answer) ===
+三种测定样本RNA表达水平的方法及优缺点
+
+=== short-answer-8-q-046 (short-answer) ===
+原理：利用荧光信号实时监测PCR扩增过程，通过Ct值的相对定量分析RNA表达水平；
+
+=== short-answer-8-q-047 (short-answer) ===
+优点：灵敏度高、特异性强、操作快速、成本较低、适合大量样本的已知基因表达分析；
+
+=== short-answer-8-q-048 (short-answer) ===
+原理：通过RNA与互补探针的杂交检测RNA的表达水平和分子量大小；
+
+=== short-answer-8-q-049 (short-answer) ===
+缺点：灵敏度低，需要大量RNA；操作复杂、耗时长；无法高通量检测。
+
+=== short-answer-8-q-050 (short-answer) ===
+原理：利用高通量测序技术对样本中的所有RNA进行测序，通过比对到参考基因组计算基因的表达量；
+
+=== short-answer-8-q-051 (short-answer) ===
+优点：全面分析整个转录组；可发现新的基因、转录本和可变剪接；定量范围广；
+
+=== short-answer-8-q-052 (short-answer) ===
+酵母双杂交(Y2H)的基本操作步骤
+
+=== short-answer-9-q-053 (short-answer) ===
+植物细胞转入质粒常用的细菌及相关关键片段
+
+=== short-answer-9-q-054 (short-answer) ===
+关键转移片段：Ti质粒（肿瘤诱导质粒）上的T-DNA（转移DNA）区域：
+
+=== short-answer-9-q-055 (short-answer) ===
+将基因导入宿主细胞的常用方法
+
+=== short-answer-10-q-056 (short-answer) ===
+反向遗传学中获得基因功能丧失(loss of function)的所有方法
+
+=== short-answer-10-q-057 (short-answer) ===
+设计实验找出cDNA序列中对应基因的内含子位置
+
+=== short-answer-10-q-058 (short-answer) ===
+实验方法一：基因组DNA与cDNA PCR比较法
+
+=== short-answer-10-q-059 (short-answer) ===
+实验方法二：生物信息学比对法
+
+=== short-answer-10-q-060 (short-answer) ===
+化学诱变导致单基因突变表型，如何设计实验克隆该突变基因？（图位克隆）
+
+=== short-answer-10-q-061 (short-answer) ===
+互补实验：将野生型候选基因导入突变体中，若突变表型得到恢复，证明该基因就是导致突变的基因；
+
+=== essay-1-q-001 (essay) ===
+可变剪接验证题：已知基因有4个外显子，exon1=500bp、exon2=200bp、exon3=200bp、exon4=300bp，exon2存在可变剪接，可能产生1-2-3-4和1-3-4两种转录本。计算转录本长度并设计实验验证可变剪接的存在
+
+=== essay-1-q-002 (essay) ===
+完整实验验证方案：
+
+=== essay-2-q-003 (essay) ===
+什么是端粒(telomere)？简述端粒的三个主要功能。催化端粒合成的酶是什么？
+
+=== essay-2-q-004 (essay) ===
+三个主要功能：
+
+=== essay-2-q-005 (essay) ===
+催化端粒合成的酶：端粒酶(Telomerase)，是一种特殊的逆转录酶，由蛋白质亚基(TERT)和RNA模板亚基(TERC)组成；端粒酶以自身的RNA为模板，在染色体末端添加端粒重复序列，延长端粒长度。
+
+=== essay-3-q-006 (essay) ===
+trp操纵子衰减调控看图说话（结合附图）
+
+=== essay-3-q-007 (essay) ===
+图a：色氨酸饥饿状态
+
+=== essay-3-q-008 (essay) ===
+图b：色氨酸充足状态
+
+=== essay-3-q-009 (essay) ===
+色氨酸(trp)操纵子的两层调控机制
+
+=== essay-3-q-010 (essay) ===
+第一层：阻遏调控（粗调控）
+
+=== essay-3-q-011 (essay) ===
+第二层：衰减调控（精调控）
+
+=== essay-3-q-012 (essay) ===
+协同作用：阻遏调控和衰减调控协同作用，使色氨酸操纵子的表达能够快速、精确地响应细胞内色氨酸浓度的变化，维持细胞内色氨酸水平的稳定。
+
+=== essay-4-q-013 (essay) ===
+原核（细菌）与真核（人）细胞质阶段基因表达的异同
+
+=== essay-4-q-014 (essay) ===
+原核生物：转录和翻译同时进行，mRNA的转录尚未完成，核糖体就已经结合到mRNA上开始翻译；
+
+=== essay-4-q-015 (essay) ===
+原核生物：mRNA多为多顺反子，一条mRNA编码多个功能相关的蛋白质，每个ORF上游都有独立的SD序列；mRNA半衰期短，通常只有几分钟；
+
+=== essay-4-q-016 (essay) ===
+原核生物：核糖体通过SD序列与16S rRNA互补直接定位到起始密码子；起始氨基酸为fMet；起始因子仅3种；
+
+=== essay-4-q-017 (essay) ===
+原核生物：70S核糖体，由30S小亚基和50S大亚基组成；
+
+=== essay-4-q-018 (essay) ===
+原核生物：翻译后修饰较少，主要是简单的剪切和磷酸化；
+

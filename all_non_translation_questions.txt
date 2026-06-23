@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+    print(f'EXPLANATION: {q.get("explanation","")}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\xb3' in position 50: illegal multibyte sequence
+=== true-false-1-q-001 (true-false) ===
+PROMPT: 遗传密码是完全通用的（Genetic codons are always universal）
+EXPLANATION: 线粒体、叶绿体的密码子存在大量特例（如人线粒体UGA编码色氨酸而非终止密码），部分生物核基因组密码也有变异，并非绝对通用
+
+=== true-false-1-q-002 (true-false) ===
+PROMPT: 原核翻译起始氨基酸为fMet，真核为Met
+EXPLANATION: 原核起始tRNA携带甲酰甲硫氨酸(fMet)，真核起始为未修饰的甲硫氨酸(Met)
+
+=== true-false-1-q-003 (true-false) ===
+PROMPT: 原核依靠SD序列完成翻译起始
+EXPLANATION: 原核mRNA的5'UTR保守SD序列与核糖体16S rRNA互补，定位起始密码子位置
+
+=== true-false-1-q-004 (true-false) ===
+PROMPT: CAP、lac、ara、trp操纵子的mRNA都带有SD序列
+EXPLANATION: 原核多顺反子mRNA的每个开放阅读框(ORF)上游都有独立的SD序列，保证每个基因独立翻译
+
+=== true-false-1-q-005 (true-false) ===
+PROMPT: Class III转录复合体所有转录过程都需要TFIII A因子
+EXPLANATION: 仅RNA聚合酶III转录5S rRNA依赖TFIII A，tRNA、U6 snRNA等其他Pol III转录物不需要该因子
+
+=== true-false-2-q-006 (true-false) ===
+PROMPT: RdDP（DNA依赖的DNA聚合酶）参与DNA复制
+EXPLANATION: RdDP是DNA复制的核心催化酶，负责以DNA为模板合成新的DNA链
+
+=== true-false-3-q-007 (true-false) ===
+PROMPT: 真核miRNA前体pri-miRNA是具有茎环结构的长链RNA
+EXPLANATION: pri-miRNA的茎环结构是Drosha酶识别切割的必需特征，是miRNA生物合成的关键中间体
+
+=== true-false-3-q-008 (true-false) ===
+PROMPT: 增强子enhancer是调控基因的蛋白质
+EXPLANATION: 增强子是顺式作用DNA序列，通过结合转录因子等反式作用蛋白发挥调控作用，本身不是蛋白质
+
+=== true-false-3-q-009 (true-false) ===
+PROMPT: Cas13蛋白家族介导RNA敲低
+EXPLANATION: CRISPR/Cas13系统特异性切割单链RNA，实现转录后基因沉默，不作用于DNA
+
+=== true-false-3-q-010 (true-false) ===
+PROMPT: siRNA的生理功能是介导转录后基因沉默
+EXPLANATION: siRNA引导RISC复合物降解靶标mRNA，特异性抑制基因表达，是真核生物抗病毒防御的重要机制
+
+=== true-false-4-q-011 (true-false) ===
+PROMPT: 母本的育幼（mothering）行为可影响子代雌性的育幼行为，性状可跨代传递
+EXPLANATION: 经典大鼠表观遗传实验表明，母鼠的抚育行为通过改变子代海马区糖皮质激素受体基因的甲基化模式，影响其成年后的育幼行为，且该性状可跨代传递
+
+=== true-false-5-q-012 (true-false) ===
+PROMPT: 农杆菌Helper辅助质粒带有vir毒性基因
+EXPLANATION: 农杆菌双元载体系统中，辅助质粒保留了vir毒性区，编码T-DNA转移所需的蛋白，而T-DNA位于独立的微型Ti质粒上
+
+=== true-false-5-q-013 (true-false) ===
+PROMPT: 蓝白斑筛选中，外源目的片段插入载体后菌落呈现白色
+EXPLANATION: 外源片段插入载体的lacZα基因中，破坏其编码的β-半乳糖苷酶α亚基的活性，无法分解底物X-gal产生蓝色，因此菌落为白色；未插入片段的载体表达完整的α亚基，菌落为蓝色
+
+=== multiple-choice-1-q-001 (multiple-choice) ===
+PROMPT: PCR技术的发明者是？
+EXPLANATION: 1983年凯利·穆利斯发明了聚合酶链式反应(PCR)技术，彻底改变了分子生物学研究
+ANSWERTEXT: Kary Mullis（凯利·穆利斯）
+
+=== multiple-choice-1-q-002 (multiple-choice) ===
+PROMPT: 证明DNA是遗传物质的实验中，标记蛋白质的放射性同位素是？

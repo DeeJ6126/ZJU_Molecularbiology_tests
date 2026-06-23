@@ -131,6 +131,47 @@ def find_section_boundaries(para_map: dict[int, str]) -> dict[str, tuple[int, in
 
 # ── parsers ──────────────────────────────────────────────────────────
 
+# Manual mapping of abbreviation-only terms to their full forms.
+# These terms appear in the DOCX as abbreviations without parenthetical full terms.
+ABBREVIATION_FULL_FORMS: dict[str, str] = {
+    "mRNA": "messenger RNA",
+    "tRNA": "transfer RNA",
+    "rRNA": "ribosomal RNA",
+    "miRNA": "microRNA",
+    "siRNA": "small interfering RNA",
+    "snRNA": "small nuclear RNA",
+    "snoRNA": "small nucleolar RNA",
+    "lncRNA": "long non-coding RNA",
+    "piRNA": "piwi-interacting RNA",
+    "gRNA": "guide RNA",
+    "shRNA": "short hairpin RNA",
+    "tRF": "tRNA-derived fragment",
+    "tiRNA": "stress-induced tRNA fragment",
+    "RNase": "ribonuclease",
+    "DNase": "deoxyribonuclease",
+    "ATP": "adenosine triphosphate",
+    "GTP": "guanosine triphosphate",
+    "CTP": "cytidine triphosphate",
+    "UTP": "uridine triphosphate",
+    "dNTP": "deoxynucleoside triphosphate",
+    "ddNTP": "dideoxynucleoside triphosphate",
+    "NAD+": "nicotinamide adenine dinucleotide",
+    "NADP+": "nicotinamide adenine dinucleotide phosphate",
+    "FAD": "flavin adenine dinucleotide",
+    "cAMP": "cyclic adenosine monophosphate",
+    "IPTG": "isopropyl-beta-D-thiogalactopyranoside",
+    "X-gal": "5-bromo-4-chloro-3-indolyl-beta-D-galactopyranoside",
+}
+
+def resolve_full_term(abbr: str) -> tuple[str, str | None]:
+    """If abbr is a known abbreviation with a full form, return (full_term, abbr).
+    Otherwise return (abbr, None)."""
+    full = ABBREVIATION_FULL_FORMS.get(abbr)
+    if full:
+        return full, abbr
+    return abbr, None
+
+
 def parse_translation_tables(doc: Any) -> list[dict]:
     subcategory_names = [
         "基础分子生物学概念", "核酸结构与功能", "蛋白质结构与修饰",
@@ -162,6 +203,11 @@ def parse_translation_tables(doc: Any) -> list[dict]:
             primary_en = en_variants[0]
 
             abbr, full_term = parse_abbreviation(primary_en)
+
+            # For bare abbreviations not caught by the parenthetical parser
+            # (e.g. "mRNA" without "(messenger RNA)"), use the manual mapping.
+            if not full_term:
+                full_term, abbr = resolve_full_term(abbr)
 
             # When an abbreviation exists, require the FULL term as the primary answer.
             # Abbreviation alone is no longer accepted (user asked for this).
