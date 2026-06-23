@@ -161,6 +161,55 @@ ABBREVIATION_FULL_FORMS: dict[str, str] = {
     "cAMP": "cyclic adenosine monophosphate",
     "IPTG": "isopropyl-beta-D-thiogalactopyranoside",
     "X-gal": "5-bromo-4-chloro-3-indolyl-beta-D-galactopyranoside",
+    "RISC": "RNA-induced silencing complex",
+    "PTGS": "post-transcriptional gene silencing",
+    "PCR": "polymerase chain reaction",
+    "RT-PCR": "reverse transcription polymerase chain reaction",
+    "EMSA": "electrophoretic mobility shift assay",
+    "IRES": "internal ribosome entry site",
+    "ORF": "open reading frame",
+    "ORC": "origin recognition complex",
+    "ARS": "autonomously replicating sequence",
+    "PAM": "protospacer adjacent motif",
+    "TALEN": "transcription activator-like effector nuclease",
+    "ZFN": "zinc finger nuclease",
+    "CEN": "centromere",
+    "NLS": "nuclear localization signal",
+    "NES": "nuclear export signal",
+    "ER": "endoplasmic reticulum",
+    "SRP": "signal recognition particle",
+    "Tm": "melting temperature",
+    "MCS": "multiple cloning site",
+    "polylinker": "multiple cloning site",
+    "SDS": "sodium dodecyl sulfate",
+    "PAGE": "polyacrylamide gel electrophoresis",
+    "PBS": "phosphate-buffered saline",
+    "EDTA": "ethylenediaminetetraacetic acid",
+    "DTT": "dithiothreitol",
+    "PMSF": "phenylmethylsulfonyl fluoride",
+    "DEPC": "diethyl pyrocarbonate",
+    "MOPS": "3-(N-morpholino)propanesulfonic acid",
+    "HEPES": "4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid",
+    "Tris": "tris(hydroxymethyl)aminomethane",
+    "BSA": "bovine serum albumin",
+    "FBS": "fetal bovine serum",
+    "PFA": "paraformaldehyde",
+    "DAPI": "4',6-diamidino-2-phenylindole",
+    "PI": "propidium iodide",
+    "FITC": "fluorescein isothiocyanate",
+    "HRP": "horseradish peroxidase",
+    "AP": "alkaline phosphatase",
+    "ELISA": "enzyme-linked immunosorbent assay",
+    "FACS": "fluorescence-activated cell sorting",
+    "ISH": "in situ hybridization",
+    "FISH": "fluorescence in situ hybridization",
+    "ChIP": "chromatin immunoprecipitation",
+    "Co-IP": "co-immunoprecipitation",
+    "Y2H": "yeast two-hybrid",
+    "BiFC": "bimolecular fluorescence complementation",
+    "FRET": "fluorescence resonance energy transfer",
+    "FRAP": "fluorescence recovery after photobleaching",
+    "SD sequence": "Shine-Dalgarno sequence",
 }
 
 def resolve_full_term(abbr: str) -> tuple[str, str | None]:
@@ -207,7 +256,12 @@ def parse_translation_tables(doc: Any) -> list[dict]:
             # For bare abbreviations not caught by the parenthetical parser
             # (e.g. "mRNA" without "(messenger RNA)"), use the manual mapping.
             if not full_term:
-                full_term, abbr = resolve_full_term(abbr)
+                resolved_full, resolved_abbr = resolve_full_term(abbr)
+                if resolved_abbr is not None:
+                    # Mapping found: full_term = full form, abbr stays as abbreviation
+                    abbr = resolved_abbr
+                    full_term = resolved_full
+                # If no mapping found, keep abbr as-is with no full_term
 
             # When an abbreviation exists, require the FULL term as the primary answer.
             # Abbreviation alone is no longer accepted (user asked for this).
