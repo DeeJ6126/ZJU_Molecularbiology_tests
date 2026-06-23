@@ -2,6 +2,9 @@ import { useEffect, useState, useCallback } from 'react'
 import type { TranslationQuestion } from '../types'
 import { shuffleArray } from '../lib/practice'
 
+// Acronyms that sound natural when spoken as-is by TTS
+const PRONOUNCEABLE_ACRONYMS = new Set(['DNA', 'RNA'])
+
 interface FlashcardReviewProps {
   questions: TranslationQuestion[]
 }
@@ -33,8 +36,21 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
 
     speechSynthesis.cancel()
 
-    // For abbreviations, speak the full term if available
-    const textToSpeak = current.answerFullTerm || current.answerTerm
+    const abbr = current.answerFullTerm   // e.g. "tRNA", "ChIP"
+    const full = current.answerTerm        // e.g. "transfer RNA", "Chromatin immunoprecipitation"
+
+    let textToSpeak: string
+    if (abbr && PRONOUNCEABLE_ACRONYMS.has(abbr)) {
+      // DNA, RNA sound fine as-is
+      textToSpeak = abbr
+    } else if (abbr) {
+      // mRNA, tRNA, ChIP, FRET, etc. → use the full term
+      textToSpeak = full
+    } else {
+      // No abbreviation at all → speak the term directly
+      textToSpeak = full
+    }
+
     const utterance = new SpeechSynthesisUtterance(textToSpeak)
     utterance.lang = 'en-US'
     utterance.rate = 0.85
@@ -44,7 +60,6 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
   // Keyboard shortcuts
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
-      // Ignore if user is typing in an input
       if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) {
         return
       }
@@ -82,6 +97,14 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
     )
   }
 
+  function buildEnglishDisplay(): string {
+    const parts: string[] = [current.answerTerm]
+    if (current.answerFullTerm && current.answerFullTerm !== current.answerTerm) {
+      parts.push(`(${current.answerFullTerm})`)
+    }
+    return parts.join(' ')
+  }
+
   return (
     <div className="page-stack" style={{ alignItems: 'center', textAlign: 'center' }}>
       {/* Progress */}
@@ -96,7 +119,7 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
         {index + 1} / {total}
       </span>
 
-      {/* Flash card */}
+      {/* Flash card — shows Chinese, reveals English */}
       <section
         className="panel hero-panel"
         style={{
@@ -111,7 +134,7 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
         }}
         onClick={toggleAnswer}
       >
-        {/* English term */}
+        {/* Chinese prompt */}
         <h1
           style={{
             fontSize: 'clamp(2rem, 5vw, 3.5rem)',
@@ -120,27 +143,22 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
             letterSpacing: '-0.02em',
           }}
         >
-          {current.answerTerm}
-          {current.answerFullTerm && current.answerFullTerm !== current.answerTerm && (
-            <span style={{ fontSize: '0.5em', color: 'var(--ink-soft)', display: 'block', marginTop: 8 }}>
-              ({current.answerFullTerm})
-            </span>
-          )}
+          {current.prompt}
         </h1>
 
-        {/* Chinese translation (toggled by Enter) */}
+        {/* English translation (toggled by Enter) */}
         {showAnswer && (
           <div
             className="answer-banner is-visible"
             style={{ fontSize: '1.3rem', marginTop: 8 }}
           >
-            <strong>{current.chineseMeaning}</strong>
+            <strong>{buildEnglishDisplay()}</strong>
           </div>
         )}
 
         {!showAnswer && (
           <p className="panel-note" style={{ marginTop: 8 }}>
-            按 Enter / 点击卡片 显示中文翻译
+            按 Enter / 点击卡片 显示英文翻译
           </p>
         )}
       </section>
