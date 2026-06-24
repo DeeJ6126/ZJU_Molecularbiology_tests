@@ -20,7 +20,7 @@ public/
   question-bank.json        # Generated: 213 questions, all types
 scripts/
   parse_docx_to_bank.py          # DOCX → question-bank.json
-  generate_distractors_and_explanations.py  # AI distractor generation (not yet run)
+  generate_distractors.py           # MC distractor generation (DONE)
   translate_prompts.py            # Chinese→English translation dict (non-translation Qs)
 src/
   types.ts                  # All TypeScript interfaces
@@ -98,16 +98,17 @@ python scripts/parse_docx_to_bank.py
 # 2. Translate non-translation questions to English
 python scripts/translate_prompts.py
 
-# 3. Generate distractors for multiple-choice (requires DashScope API key)
-# python scripts/generate_distractors_and_explanations.py
+# 3. Generate distractors for multiple-choice
+python scripts/generate_distractors.py
 ```
 
 ⚠️ **WARNING**: `parse_docx_to_bank.py` regenerates the entire JSON from the Chinese DOCX.
-This overwrites English translations. You MUST re-run `translate_prompts.py` after it.
+This overwrites English translations AND distractors. You MUST re-run `translate_prompts.py`
+and `generate_distractors.py` after it.
 
 ## Known limitations
 
-1. **Multiple-choice distractors not yet generated**. The 17 MC questions have `options: []` and `distractorsGenerated: false`. Run `generate_distractors_and_explanations.py` with a DashScope API key.
+1. **Multiple-choice distractors generated**. 17 MC questions now have English-only A/B/C/D options with domain-plausible distractors. Run `generate_distractors.py` to regenerate if questions change.
 2. **Short-answer parsing includes answer fragments as questions** (~61 items, some are answer-paragraphs misidentified as questions). Manually review `short-answer-3-q-015` through `short-answer-10-q-061`.
 3. **Essay section includes sub-questions** (essay-3 has Qs about individual diagram panels). Consider merging sub-questions.
 4. **No user authentication** — state is per-browser, no sync across devices.

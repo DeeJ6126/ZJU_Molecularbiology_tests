@@ -28,19 +28,23 @@ This script applies English translations via a hardcoded mapping dict (question 
 - Skips `type: "translation"` questions (must stay Chinese)
 - Translates: `prompt`, `explanation`, `referenceAnswer` for all other types
 
-### 3. `scripts/generate_distractors_and_explanations.py`
+### 3. `scripts/generate_distractors.py`
 
-**NOT YET RUN.** Generates A/B/C/D distractors for the 17 multiple-choice questions (which currently have `options: []`).
-Requires DashScope API key. Generates 3 plausible wrong answers + simple explanations.
+**DONE.** Generates A/B/C/D distractors for all 17 multiple-choice questions.
+Hardcoded domain-plausible distractors (same-pathway enzymes, common misconceptions, etc.).
+No API key required — edit the script directly to update options.
+
+Options are **English-only**; `explanation` stays in Chinese from the DOCX parser.
 
 ## ⚠️ Critical: Regeneration order
 
 `parse_docx_to_bank.py` ALWAYS regenerates the JSON from scratch using the Chinese DOCX.
-This **overwrites** any English translations. After any parser change:
+This **overwrites** English translations AND distractors. After any parser change:
 
 ```bash
 python scripts/parse_docx_to_bank.py   # Regenerate from DOCX
 python scripts/translate_prompts.py    # Re-apply English translations
+python scripts/generate_distractors.py # Re-generate MC options
 ```
 
 ## Question ID format

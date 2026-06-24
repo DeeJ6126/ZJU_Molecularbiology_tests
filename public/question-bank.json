@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-06-23T22:31:46.541084",
-  "totalQuestions": 213,
+  "totalQuestions": 238,
   "categories": [
     {
       "id": "translation-1",
@@ -56,35 +56,35 @@
       "type": "true-false",
       "title": "（一）遗传密码与翻译",
       "parentTitle": "判断题",
-      "questionCount": 5
+      "questionCount": 8
     },
     {
       "id": "true-false-2",
       "type": "true-false",
       "title": "（二）DNA复制与修复",
       "parentTitle": "判断题",
-      "questionCount": 1
+      "questionCount": 3
     },
     {
       "id": "true-false-3",
       "type": "true-false",
       "title": "（三）转录与RNA生物学",
       "parentTitle": "判断题",
-      "questionCount": 4
+      "questionCount": 9
     },
     {
       "id": "true-false-4",
       "type": "true-false",
       "title": "（四）表观遗传学",
       "parentTitle": "判断题",
-      "questionCount": 1
+      "questionCount": 4
     },
     {
       "id": "true-false-5",
       "type": "true-false",
       "title": "（五）分子克隆与实验技术",
       "parentTitle": "判断题",
-      "questionCount": 2
+      "questionCount": 4
     },
     {
       "id": "multiple-choice-1",
@@ -218,6 +218,13 @@
       "title": "（四）真核基因表达调控",
       "parentTitle": "分析论述题",
       "questionCount": 6
+    },
+    {
+      "id": "true-false-6",
+      "type": "true-false",
+      "title": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "questionCount": 10
     }
   ],
   "questions": [
@@ -2588,7 +2595,7 @@
       "parentTitle": "简答题",
       "number": 1,
       "prompt": "Assembly process of the eukaryotic Class II transcription preinitiation complex (PIC)",
-      "referenceAnswer": "① TFIID（含TBP和TAFs）率先结合启动子的TATA盒，形成初始结合核心；\n② TFIIA和TFIIB依次结合，稳定TFIID与DNA的相互作用；\n③ TFIIF与RNA聚合酶II（Pol II）结合，引导Pol II进入启动子区域；\n④ TFIIE和TFIIH依次招募，形成完整的转录起始前复合体；\n⑤ TFIIH的解旋酶活性解开DNA双链形成转录泡，同时其激酶活性磷酸化Pol II的C端结构域(CTD)，触发转录延伸启动。"
+      "referenceAnswer": "翻译过程中需要以下三种RNA：\n\n**1. mRNA（信使RNA）——作为模板：** mRNA携带来自DNA的遗传信息，其上的三联体密码子（codon）序列决定了蛋白质中氨基酸的顺序。核糖体沿mRNA从5'到3'方向读取密码子。\n\n**2. tRNA（转运RNA）——作为接头分子：** tRNA充当适配器分子（adapter molecule），一端通过反密码子（anticodon）与mRNA上的密码子互补配对，另一端通过3'端CCA携带相应的氨基酸。氨酰tRNA合成酶催化tRNA与氨基酸的结合（tRNA charging）。\n\n**3. rRNA（核糖体RNA）——结构和催化功能：** rRNA是核糖体的主要结构和功能组分。rRNA将mRNA和tRNA固定在正确的位置上，并且核糖体的蛋白质部分和rRNA共同催化肽键的形成（肽基转移酶活性）。rRNA还参与SD序列与mRNA的配对识别（如原核生物16S rRNA的3'端与mRNA的SD序列互补）。"
     },
     {
       "id": "short-answer-1-q-002",
@@ -2598,7 +2605,7 @@
       "parentTitle": "简答题",
       "number": 2,
       "prompt": "What RNA polymerases exist besides Pol I-III? What are their respective functions?",
-      "referenceAnswer": "① 植物特有Pol IV：位于染色质，转录产生siRNA前体，参与RNA依赖的DNA甲基化(RdDM)通路，介导转座子沉默和基因表达调控；\n② 植物特有Pol V：转录产生非编码RNA，作为支架招募siRNA-Ago4复合物，指导DNA甲基化和异染色质形成；\n③ 线粒体RNA聚合酶：单亚基酶，转录线粒体基因组的所有基因；\n④ 叶绿体RNA聚合酶：包括核编码的RNA聚合酶(NEP)和叶绿体编码的RNA聚合酶(PEP)，共同转录叶绿体基因组；\n⑤ 噬菌体RNA聚合酶：如T7、SP6、T3噬菌体的RNA聚合酶，特异性识别自身启动子，高效转录下游序列，广泛用于体外转录实验。"
+      "referenceAnswer": "在植物中，除Pol I、II、III之外，还存在两种额外的RNA聚合酶：\n\n**1. RNA聚合酶IV（Pol IV）：** 负责合成siRNA，这些siRNA作用于染色质区域（chromatin regions），参与基因沉默。\n\n**2. RNA聚合酶V（Pol V）：** 负责合成长链非编码RNA（long noncoding RNA），这些lncRNA吸引siRNA-AGO4复合物到目标区域，实现基因沉默。\n\nPol IV和Pol V在进化上均由RNA聚合酶II衍生而来（evolutionarily derived from RNA polymerase II）。"
     },
     {
       "id": "short-answer-1-q-003",
@@ -2638,7 +2645,7 @@
       "parentTitle": "简答题",
       "number": 6,
       "prompt": "Key differences between prokaryotic and eukaryotic translation initiation",
-      "referenceAnswer": "原核30S翻译起始复合体的装配过程 ① 翻译结束后，IF1结合核糖体，促使大小亚基分离； ② IF3与30S小亚基结合，防止其与50S大亚基重新结合； ③ IF1和IF2-GTP结合到30S小亚基上； ④ mRNA通过SD序列与30S小亚基的16S rRNA互补结合，IF3介导这一过程； ⑤ fMet-tRNAfMet进入P位点，与起始密码子AUG配对； ⑥ GTP水解，IF1、IF2、IF3释放； ⑦ 50S大亚基与30S小亚基结合，形成70S完整起始复合体。"
+      "referenceAnswer": "| 比较项目 | 原核生物 | 真核生物 |\n|---------|---------|----------|\n| 起始氨基酸 | N-甲酰甲硫氨酸（fMet） | 甲硫氨酸（Met） |\n| mRNA识别机制 | 依赖SD序列（AGGAGGU）与16S rRNA 3'端互补配对 | 无SD序列；40S小亚基识别5'帽子，沿mRNA扫描至第一个AUG |\n| 核糖体亚基 | 30S + 50S = 70S | 40S + 60S = 80S |\n| 起始因子 | IF1、IF2、IF3三种 | 大量eIF（eIF2, eIF3, eIF4F, eIF5等），更为复杂 |\n\n**原核翻译起始（6步）：**\n1. IF-1促进70S核糖体解离为30S和50S亚基\n2. IF-3结合到30S亚基，阻止亚基重新结合\n3. IF-1和IF-2/GTP结合到30S亚基\n4. 通过SD序列与16S rRNA配对，30S与fMet-tRNA和mRNA结合形成30S起始复合物\n5. 50S亚基结合到30S复合物，IF-1和IF-3释放\n6. IF-2上的GTP水解为GDP+Pi，IF-2释放，形成70S起始复合物\n\n<img src=\"images/image-5.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n\n**真核翻译起始：**\n1. 40S亚基与eIF-3结合形成40SN结构\n2. 在eIF-2帮助下，起始tRNA加入形成43S复合物\n3. 在eIF-4帮助下结合到mRNA的5'帽子端形成48S起始复合物\n4. 复合物沿mRNA扫描至正确的AUG起始密码子（扫描由eIF4A ATP依赖性解旋酶促进）\n5. 在eIF-5帮助下，60S亚基加入形成80S起始复合物\n\n<img src=\"images/image-7.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>"
     },
     {
       "id": "short-answer-2-q-007",
@@ -2648,7 +2655,7 @@
       "parentTitle": "简答题",
       "number": 7,
       "prompt": "Assembly process of the eukaryotic 80S translation initiation complex",
-      "referenceAnswer": "① 40S小亚基与eIF-3结合形成40SN复合物；\n② Met-tRNAiMet、eIF2-GTP与40SN结合，形成43S前起始复合体；\n③ 在eIF4F复合体（含eIF4E、eIF4G、eIF4A）的辅助下，43S复合体结合到mRNA的5'帽子结构上，形成48S起始复合体；\n④ 起始复合体沿mRNA 5'→3'方向扫描，找到AUG起始密码子；\n⑤ 在eIF5和eIF5B的辅助下，60S大亚基结合到40S小亚基上；\n⑥ GTP水解，所有起始因子释放，形成80S完整起始复合体。"
+      "referenceAnswer": "**第一步：核糖体亚基解离**\n在每轮翻译结束时，70S核糖体解离为30S和50S亚基。IF1和IF3共同促进这一解离过程。IF3结合到游离的30S亚基上，阻止其与50S亚基重新结合。\n\n**第二步：起始因子结合到30S亚基**\nIF3首先单独结合到30S亚基上；IF1和IF2稳定这种结合。IF2可以在IF1和IF3的帮助下稳定结合。GTP也是IF2在生理浓度下结合所必需的，但GTP在此过程中不被水解。\n\n**第三步：mRNA结合到30S亚基**\nmRNA通过Shine-Dalgarno序列（SD序列，保守序列为AGGAGGU，位于起始密码子上游约10nt）与16S rRNA的3'端互补序列进行碱基配对，从而结合到30S亚基上。这一结合过程由IF3介导，并受IF1和IF2的辅助。\n\n**第四步：fMet-tRNA结合**\nIF2是促进fMet-tRNA结合到30S起始复合物的主要因子，IF1和IF3也起重要的辅助作用。起始密码子通常为AUG（也可以是GUG，少数情况为UUG），起始氨酰tRNA为N-甲酰甲硫氨酰-tRNA（fMet-tRNA）。\n\n**完整的30S起始复合物包含：** 30S核糖体亚基（一个）、mRNA、fMet-tRNA、GTP、以及起始因子IF1、IF2、IF3各一个。"
     },
     {
       "id": "short-answer-2-q-008",
@@ -2708,7 +2715,7 @@
       "parentTitle": "简答题",
       "number": 13,
       "prompt": "Three main types of DNA replication",
-      "referenceAnswer": "① θ型复制：原核生物环状染色体的主要复制方式，从单一复制起点双向复制，形成θ形的复制中间体；\n② 滚环复制：噬菌体、质粒和某些病毒的复制方式，环状DNA的一条链产生一个切口，以另一条完整的链为模板，沿滚动方向合成新链，产生多个串联的基因组拷贝；\n③ D环复制：动物线粒体DNA的复制方式，两条链的复制起点不同步，先以一条链为模板合成新链，置换出另一条链形成D环结构，当复制叉移动到另一条链的起点时，才开始以被置换的链为模板进行复制。"
+      "referenceAnswer": "**加帽（Capping）** 是指在mRNA的5'端通过5'-5'三磷酸连接加上一个甲基化鸟苷酸（methylated guanosine）的过程，发生在细胞核中。\n\n**三种类型：**\n- **Cap 0型**：7-甲基鸟苷（m7G），缺乏2'-O-甲基化修饰。\n- **Cap 1型**：7-甲基化鸟嘌呤加上第一个碱基的核糖上有一个2'-O-甲基。\n- **Cap 2型**：7-甲基化鸟嘌呤加上第一个和第二个碱基的核糖上各有2'-O-甲基。\n\n**加帽的合成过程（四步）：**\n1. 去除pre-mRNA 5'端第一个碱基的γ-磷酸基团；\n2. 鸟苷酸转移酶（guanylyl transferase）将GTP的GMP部分加上，形成三磷酸连接；\n3. 帽结构的鸟嘌呤残基在N7位置被甲基化；\n4. 其他甲基转移酶在后续核苷酸核糖的2'-OH上添加甲基。\n\n<img src=\"images/image-3.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n\n**生物学作用：**\n1. 保护RNA免受降解（Protection of the RNA from degradation）；\n2. 增强mRNA的可翻译性，提高翻译效率；\n3. 促进mRNA从细胞核转运到细胞质；\n4. 促进pre-mRNA的正确剪接。"
     },
     {
       "id": "short-answer-3-q-014",
@@ -2758,7 +2765,7 @@
       "parentTitle": "简答题",
       "number": 18,
       "prompt": "Three core functions of the centromere",
-      "referenceAnswer": "① 细胞分裂期姐妹染色单体的物理连接位点，确保姐妹染色单体在分离前保持在一起\n② 动粒（kinetochore）的组装平台，动粒是结合纺锤丝的蛋白质复合物；\n③ 结合纺锤丝微管，介导染色体在细胞分裂过程中的运动，确保染色体精确平均分配到两个子细胞中。"
+      "referenceAnswer": "着丝粒是染色体上的一个缢缩区域（constricted region），具有以下三个特点/功能：\n\n**1. 染色体分离装置（Segregation device）：** 着丝粒包含动粒（kinetochore）——一个特殊的蛋白质复合体，锁定在微管末端。在有丝分裂或减数分裂中，着丝粒通过动粒附着于纺锤体微管上，确保染色体正确分离到子细胞。没有着丝粒的染色体片段（acentric fragment）会在细胞分裂时丢失。\n\n**2. 含有特异性组蛋白H3变体和重复DNA序列：** 着丝粒特异性组蛋白H3变体（CENP-A）的装配是决定功能性着丝粒的表观遗传学主要因素。高等真核生物染色体的着丝粒含有大量重复DNA序列和独特的组蛋白H3变体。\n\n**3. 染色体的必需功能元件：** 染色体稳定存在需要三个最小元件：端粒（确保存活）、着丝粒（支持分离）、复制起点（启动复制）。"
     },
     {
       "id": "short-answer-3-q-019",
@@ -2778,7 +2785,7 @@
       "parentTitle": "简答题",
       "number": 20,
       "prompt": "Complete process of eukaryotic pre-mRNA splicing (including spliceosome assembly)",
-      "referenceAnswer": "① 剪接体识别：U1 snRNP结合内含子的5'剪接位点(GU)，U2 snRNP结合分支点腺苷序列；\n② 剪接体组装：U4/U6/U5 tri-snRNP结合到复合体上，形成完整的剪接体；\n③ 第一次转酯反应：U1和U4 snRNP离开剪接体，内含子分支点A的2'-羟基攻击5'剪接位点的磷酸二酯键，切断5'外显子，内含子形成套索结构；\n④ 第二次转酯反应：5'外显子的3'-羟基攻击3'剪接位点的磷酸二酯键，切断3'外显子，两个相邻外显子共价连接；\n⑤ 剪接体解离：套索内含子被释放并降解，剪接体各组分解离，释放成熟mRNA。"
+      "referenceAnswer": "mRNA剪接是指将未成熟RNA中的内含子（intron）切除，并将外显子（exon）连接起来形成成熟mRNA的过程。剪接发生在剪接体（spliceosome）上，剪接体由snRNA（U1、U2、U4、U5、U6）和蛋白质（snRNPs）组成。\n\n剪接过程分为**两步转酯反应**：\n\n**第一步：** 位于内含子分支点（branch point）的腺苷酸（A）的2'-羟基攻击5'外显子/内含子边界的磷酸二酯键，使5'外显子被释放，同时内含子形成套索（lariat）结构。\n<img src=\"images/image.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n**第二步：** 5'外显子的3'端攻击3'内含子/外显子边界的磷酸二酯键，将两个外显子连接在一起，同时内含子以套索形式被释放。\n<img src=\"images/image-1.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n**剪接信号特征：** 内含子前两个碱基为GU，最后两个碱基为AG。哺乳动物共有序列为：AG|GUAAGU -- 内含子 -- YNCURAC -- YnNAG|G，其中Y为嘧啶，R为嘌呤，N为任意碱基，A为分支点。\n\n**各snRNP的功能：** U1通过碱基配对识别5'剪接位点；U2与分支点保守序列碱基配对；U5连接两个外显子的最后一个和第一个核苷酸，使两个外显子对齐；U6与内含子5'端结合，并与U2配对形成关键结构；U4与U6配对，在U6被需要参与剪接反应之前与U6结合。"
     },
     {
       "id": "short-answer-4-q-021",
@@ -2788,7 +2795,7 @@
       "parentTitle": "简答题",
       "number": 21,
       "prompt": "Process and functions of mRNA 5' capping",
-      "referenceAnswer": "流程： ① RNA三磷酸酶去除前体mRNA 5'端核苷酸的γ-磷酸； ② 鸟苷酰转移酶将GTP的GMP部分通过5'-5'三磷酸键连接到mRNA的5'端； ③ 甲基转移酶将鸟嘌呤残基的N7位甲基化，形成0型帽； ④ 部分mRNA的第一个或第二个核苷酸的核糖2'-OH也会被甲基化，形成1型或2型帽。\n\n功能： ① 保护mRNA免受5'核酸外切酶的降解，提高其稳定性； ② 促进mRNA从细胞核向细胞质的转运； ③ 增强mRNA的翻译效率，是核糖体识别mRNA的重要信号； ④ 参与pre-mRNA的正确剪接。"
+      "referenceAnswer": "**加帽（Capping）** 是指在mRNA的5'端通过5'-5'三磷酸连接加上一个甲基化鸟苷酸（methylated guanosine）的过程，发生在细胞核中。\n\n**三种类型：**\n- **Cap 0型**：7-甲基鸟苷（m7G），缺乏2'-O-甲基化修饰。\n- **Cap 1型**：7-甲基化鸟嘌呤加上第一个碱基的核糖上有一个2'-O-甲基。\n- **Cap 2型**：7-甲基化鸟嘌呤加上第一个和第二个碱基的核糖上各有2'-O-甲基。\n\n**加帽的合成过程（四步）：**\n1. 去除pre-mRNA 5'端第一个碱基的γ-磷酸基团；\n2. 鸟苷酸转移酶（guanylyl transferase）将GTP的GMP部分加上，形成三磷酸连接；\n3. 帽结构的鸟嘌呤残基在N7位置被甲基化；\n4. 其他甲基转移酶在后续核苷酸核糖的2'-OH上添加甲基。\n\n<img src=\"images/image-3.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n\n**生物学作用：**\n1. 保护RNA免受降解（Protection of the RNA from degradation）；\n2. 增强mRNA的可翻译性，提高翻译效率；\n3. 促进mRNA从细胞核转运到细胞质；\n4. 促进pre-mRNA的正确剪接。"
     },
     {
       "id": "short-answer-4-q-022",
@@ -2818,7 +2825,7 @@
       "parentTitle": "简答题",
       "number": 24,
       "prompt": "The complete miRNA biogenesis pathway",
-      "referenceAnswer": "① 细胞核内，RNA聚合酶II转录miRNA基因，产生具有茎环结构的初级miRNA(pri-miRNA)；\n② Drosha-DGCR8复合物切割pri-miRNA的茎环基部，释放约70nt的前体miRNA(pre-miRNA)；\n③ Exportin-5-RanGTP复合物将pre-miRNA转运到细胞质中；\n④ Dicer酶切割pre-miRNA的茎环末端，产生约22nt的miRNA双链（miRNA/miRNA*）；\n⑤ 双链解旋，引导链（成熟miRNA）进入RNA诱导沉默复合体(RISC)，乘客链(miRNA*)通常被降解；\n⑥ 成熟miRNA引导RISC复合物靶向mRNA的3'UTR，通过不完全互补抑制翻译，或通过完全互补降解mRNA。"
+      "referenceAnswer": "**说明：** 该具体问题在课件中未直接涵盖，以下基于色氨酸操纵子衰减机制的课件内容进行类比推理。\n\n组氨酸操纵子前导序列中7个连续的组氨酸密码子的生物学功能是作为**组氨酸浓度的传感器（sensor）**，参与转录衰减（attenuation）调控：\n\n- **当细胞内组氨酸充足时：** 携带组氨酸的tRNA充足，核糖体顺利通过7个组氨酸密码子完成前导肽翻译，促使前导RNA形成终止子二级结构，RNA聚合酶在衰减子处终止转录，结构基因不被表达。\n- **当细胞内组氨酸缺乏时：** 携带组氨酸的tRNA不足，核糖体在连续的组氨酸密码子处停滞，改变前导RNA的折叠方式，形成抗终止子结构，阻止终止子发夹结构的形成，RNA聚合酶得以继续转录结构基因，合成组氨酸生物合成所需的酶。\n\n这一机制使大肠杆菌能够根据细胞内组氨酸的水平，快速、精细地调节组氨酸合成酶基因的表达。\n\n**来源（类比依据）：** MB7-Trascrioption-in-pro-mzhou, 第54-58页（Trp操纵子衰减机制）\n\n---\n\n### Q22. 什么是表观遗传（Epigenetic inheritance）？列举两个以上事例\n\n**答案：**\n\n**定义：** \"表观遗传学\"（Epigenetics）一词由Conrad H. Waddington于1942年提出。当前定义为：表型的变化是可遗传的，但不涉及DNA序列的改变（DNA突变）。即在不改变DNA核苷酸序列的情况下，基因表达发生了可遗传的变化。\n\n**主要机制：** DNA甲基化、组蛋白修饰与染色质重塑、小RNA、朊病毒等。\n\n**事例列举：**\n\n**(1) Agouti小鼠实验：** Agouti基因使小鼠毛色发黄、肥胖且易患癌症。给怀孕母鼠喂食富含甲基供体（如叶酸）的饮食后，甲基供体进入发育中胚胎的染色体，通过增加DNA甲基化水平\"关闭\"了agouti基因的有害效应。后代小鼠变得瘦小、棕色皮毛，不再易患癌症。母鼠饮食中的BPA（双酚A）暴露则可在错误时间或组织中开启该基因。\n\n**(2) 蜜蜂的皇家饮食与级型分化：** 工蜂和蜂王在遗传上完全相同，但蜂王幼虫被喂食蜂王浆（royal jelly）。蜂王浆中的成分能沉默关键基因Dnmt3，当Dnmt3活跃时幼虫发育为工蜂，当蜂王浆关闭Dnmt3时幼虫发育为蜂王。\n\n**(3) X染色体失活：** 雌性哺乳动物中，两条X染色体中的一条被包装成转录失活的异染色质而沉默，以确保剂量补偿。哪条X失活是随机的，但一旦失活便在该细胞整个生命周期中稳定维持。\n\n**(4) 同卵双胞胎的表观遗传差异：** 幼年同卵双胞胎的表观遗传模式几乎无差异，但年长同卵双胞胎在DNA甲基化和组蛋白乙酰化方面表现出显著差异，影响其基因表达谱。"
     },
     {
       "id": "short-answer-4-q-025",
@@ -2848,7 +2855,7 @@
       "parentTitle": "简答题",
       "number": 27,
       "prompt": "Epigenetic mechanisms: DNA methylation, histone modification, chromatin remodeling, non-coding RNA regulation, etc.",
-      "referenceAnswer": "事例： ① X染色体失活：雌性哺乳动物在胚胎发育早期，两条X染色体中的一条随机发生永久失活，形成巴尔小体；失活的X染色体通过DNA甲基化、组蛋白去乙酰化等表观修饰被沉默，解决了雌雄个体X染色体基因剂量不平衡的问题； ② 基因组印记：某些基因的表达取决于其亲本来源，即父源和母源等位基因中只有一个表达，另一个被表观修饰沉默；例如胰岛素样生长因子2(IGF2)基因仅父源等位基因表达，母源等位基因被甲基化沉默； ③ 母性行为的跨代遗传：大鼠的母性抚育行为（如舔舐、哺乳）通过改变子代海马区糖皮质激素受体基因的甲基化模式，影响其成年后的应激反应和母性行为，且这种性状可以传递给下一代； ④ 干细胞分化：干细胞与分化细胞的DNA序列完全相同，但通过不同的表观修饰模式维持不同的基因表达谱，决定了细胞的分化方向和功能； ⑤ 环境诱导的表观遗传改变：营养、化学物质、压力等环境因素可以改变个体的表观基因组，影响基因表达和疾病易感性，部分改变可跨代传递。"
+      "referenceAnswer": "色氨酸操纵子（Trp operon）编码合成色氨酸所需的酶，受到两种水平的转录调控：\n\n**(1) 反馈阻遏（Feedback Repression / Negative Control）：**\n- Trp操纵子受阻遏蛋白-辅阻遏物系统的负调控。\n- 辅阻遏蛋白（aporepressor）本身无活性，不能结合操纵区。\n- 当细胞内色氨酸浓度高时，色氨酸与辅阻遏蛋白结合，使其变为有活性的阻遏物，结合到操纵区（operator），阻止RNA聚合酶转录，关闭操纵子。\n- 当色氨酸浓度低时，辅阻遏蛋白无活性，不能结合操纵区，操纵子开启转录。\n- 这种阻遏机制控制约**70倍**的转录水平变化。\n\n<img src=\"images/image-10.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>\n\n**(2) 衰减作用（Attenuation）：**\n- 衰减子（attenuator）是位于结构基因上游的一段DNA区域，可在此发生转录的提前终止。\n- 前导RNA转录物可形成两种替代性的茎环结构：终止子结构（3:4茎环）和抗终止子结构（2:3茎环）。\n- 前导肽中含有串联的色氨酸密码子，作为色氨酸浓度的传感器。\n- **色氨酸充足时：** 核糖体顺利翻译前导肽→形成终止子结构→转录终止。\n- **色氨酸缺乏时：** 核糖体在色氨酸密码子处停滞→形成抗终止子结构→转录继续。\n- 衰减作用额外控制约**10倍**，两者叠加使总调控幅度达到约**700倍**。\n\n<img src=\"images/image-9.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>"
     },
     {
       "id": "short-answer-5-q-028",
@@ -2878,7 +2885,7 @@
       "parentTitle": "简答题",
       "number": 30,
       "prompt": "List all techniques for detecting protein-protein interactions (9 methods)",
-      "referenceAnswer": "① 酵母双杂交(Y2H)：基于转录因子的分体激活原理，在活细胞内检测蛋白-蛋白相互作用，可用于筛选未知的互作蛋白；\n② 免疫共沉淀(Co-IP)：利用靶蛋白的特异性抗体，从细胞裂解物中捕获靶蛋白及其结合的蛋白复合物，通过Western blot鉴定互作蛋白；\n③ GST Pull-down：将靶蛋白与GST标签融合表达，固定在谷胱甘肽亲和树脂上，捕获细胞裂解物中与其结合的蛋白，适用于体外验证蛋白互作；\n④ Far Western印迹：将电泳分离的蛋白质转移到膜上，用标记的诱饵蛋白检测膜上与其结合的靶蛋白，可直接观察互作蛋白的分子量；\n⑤ 荧光共振能量转移(FRET)：利用两个荧光基团之间的能量转移现象，实时检测活细胞内蛋白质之间的近距离相互作用（<10nm）；\n⑥ 生物分子荧光互补(BiFC)：将荧光蛋白拆分为两个无活性的片段，分别融合到两个待测蛋白上；若两个蛋白互作，荧光蛋白片段会重新组装成有活性的荧光蛋白，产生荧光信号；\n⑦ 蛋白芯片技术：将大量蛋白质固定在芯片上，用标记的诱饵蛋白筛选与其结合的蛋白，可高通量检测蛋白互作；\n⑧ 等离子表面共振(SPR)：通过检测生物分子结合引起的表面等离子共振信号变化，实时、定量分析蛋白-蛋白相互作用的动力学参数；\n⑨ 亲和纯化-质谱(AP-MS)：用标签（如Flag、HA）纯化靶蛋白及其复合物，通过质谱鉴定复合物中的所有蛋白组分，可系统分析蛋白质的相互作用网络。"
+      "referenceAnswer": "酵母双杂交系统基于真核转录调控因子的组件式结构特征：BD和AD分离时均不能激活转录，但由不同蛋白的BD和AD形成的杂合蛋白能激活转录。\n\n**基本操作步骤：**\n\n1. **构建诱饵载体（Bait）：** 将感兴趣的蛋白X的编码序列与GAL4的DNA结合结构域（BD）融合，克隆入酵母表达载体。\n2. **构建猎物载体（Prey）：** 将待筛选的蛋白Y的cDNA（或cDNA文库）与GAL4的转录激活结构域（AD）融合，克隆入另一酵母表达载体。\n3. **共转化酵母：** 将两种融合载体共同转化至含报告基因的酵母菌株中。报告基因（如LacZ、HIS3、ADE2等）的表达受GAL4结合位点控制。\n4. **选择性培养筛选：** 涂布于选择性缺陷培养基（如sc-leu-trp-his-ade）上。若两个蛋白互作，BD和AD重新形成有功能的转录因子，激活报告基因表达，酵母能在缺陷培养基上生长并变蓝。\n5. **验证阳性克隆：** 对阳性克隆进行测序鉴定，设置阳性对照（如T抗原+p53）和阴性对照（如T抗原+Lamin）以确保实验结果可靠。\n\n<img src=\"images/image-8.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>"
     },
     {
       "id": "short-answer-6-q-031",
@@ -2888,7 +2895,7 @@
       "parentTitle": "简答题",
       "number": 31,
       "prompt": "Three main techniques for detecting DNA-protein interactions",
-      "referenceAnswer": "① 凝胶迁移实验(EMSA)：体外实验，将标记的DNA探针与待测蛋白孵育，通过非变性聚丙烯酰胺凝胶电泳分离；蛋白与DNA结合后，复合物的电泳迁移率变慢，出现“迁移滞后”条带，可定性检测蛋白-DNA结合；\n② 染色质免疫共沉淀(ChIP)：体内实验，用甲醛在活细胞内交联蛋白质与DNA，超声破碎染色质后，用靶蛋白的特异性抗体沉淀蛋白-DNA复合物；去交联后纯化DNA，通过PCR、qPCR或测序（ChIP-seq）分析靶蛋白结合的DNA序列；\n③ DNase I足迹法：体外实验，将待测DNA单端标记，与蛋白孵育后用DNase I进行部分消化；蛋白结合的DNA区域受到保护，不被DNase I切割，电泳后会出现空白的“足迹”区域，可精确定位蛋白结合的DNA位点（单碱基分辨率）。"
+      "referenceAnswer": "**(1) 磷酸化（Phosphorylation）：** 由蛋白激酶在丝氨酸、苏氨酸或酪氨酸残基上添加磷酸基团，由蛋白磷酸酶去除。例如：DNA损伤条件下，蛋白激酶ATM使p53磷酸化，磷酸化的p53变得稳定并快速积累，进而激活下游基因转录，引发细胞凋亡或DNA修复。翻译起始因子eIF2α的磷酸化可抑制翻译起始。\n\n**(2) 乙酰化（Acetylation）：** 由组蛋白乙酰转移酶（HATs，如CBP、p300、GCN5等）在赖氨酸残基上添加乙酰基，由组蛋白去乙酰化酶（HDACs）去除。乙酰化不仅作用于组蛋白（降低组蛋白的抑制活性，与转录活跃相关），也可作用于非组蛋白的激活因子和抑制因子。\n\n**(3) 泛素化（Ubiquitination）：** 转录因子等蛋白可被小蛋白泛素（ubiquitin）修饰。单泛素化对某些激活因子具有激活效应，但多聚泛素化则标记该蛋白进行降解。泛素化由泛素结合酶Rad6/连接酶Bre1等介导。\n\n*（此外还有SUMO化、甲基化和糖基化等修饰方式）*"
     },
     {
       "id": "short-answer-7-q-032",
@@ -2898,7 +2905,7 @@
       "parentTitle": "简答题",
       "number": 32,
       "prompt": "Functions of protein tags in gene expression vectors",
-      "referenceAnswer": "① 亲和纯化：His标签（6个组氨酸）可通过镍离子亲和层析纯化重组蛋白；GST标签可通过谷胱甘肽亲和层析纯化；MBP标签可通过麦芽糖亲和层析纯化；\n② 蛋白检测：GFP、RFP等荧光标签可直接观察蛋白在细胞内的定位和动态变化；Flag、HA、Myc等小标签可利用商业化的特异性抗体进行Western blot、免疫荧光、免疫沉淀等检测；\n③ 提高蛋白表达量与可溶性：MBP、GST、NusA等融合标签可以提高异源表达蛋白的可溶性，促进其正确折叠，减少包涵体的形成；\n④ 蛋白互作研究：通过标签进行Co-IP、Pull-down等实验，研究蛋白质之间相互作用\n⑤ 蛋白定位研究：荧光标签或细胞器定位信号标签可用于研究蛋白质的亚细胞定位。"
+      "referenceAnswer": "**(1) 易于纯化融合蛋白：** 表达载体产生的融合蛋白含有额外的氨基酸序列（标签），可利用亲和层析法（Affinity Chromatography）方便地纯化。例如，6×His tag可利用镍亲和层析纯化——组氨酸与镍离子有高亲和力，融合蛋白被特异性吸附到镍柱上，用咪唑洗脱获得纯化蛋白。\n\n**(2) 便于检测与鉴定：** 标签可被特异性抗体识别，通过Western blot或免疫荧光等方法检测融合蛋白的表达情况、定位和表达量，无需针对每个目的蛋白制备特异性抗体。\n\n**(3) 增加蛋白稳定性与可溶性：** 某些标签（如GST、MBP等）可以帮助提高融合蛋白的可溶性和稳定性，防止包涵体形成，有利于蛋白的正确折叠。"
     },
     {
       "id": "short-answer-7-q-033",
@@ -3098,7 +3105,7 @@
       "parentTitle": "简答题",
       "number": 52,
       "prompt": "Basic operational steps of yeast two-hybrid (Y2H) screening",
-      "referenceAnswer": "① 载体构建：将诱饵蛋白基因克隆到含有DNA结合结构域(BD)的载体（如pGBKT7），构建诱饵质粒；将猎物蛋白基因或cDNA文库克隆到含有转录激活结构域(AD)的载体（如pGADT7），构建猎物质粒；\n② 自激活检测：将诱饵质粒单独转化酵母菌株，检测其是否能自激活报告基因，排除自激活诱饵；\n③ 共转化：将诱饵质粒和猎物质粒共转化到营养缺陷型酵母菌株（如AH109）；\n④ 初筛：将转化后的酵母涂布在二缺培养基（SD/-Leu/-Trp）上，筛选成功转化的酵母；\n⑤ 复筛：将二缺平板上的菌落影印到三缺（SD/-Leu/-Trp/-His）或四缺（SD/-Leu/-Trp/-His/-Ade）培养基上，筛选激活报告基因的阳性克隆；\n⑥ 验证：通过LacZ显色实验进一步验证阳性克隆；提取酵母质粒，测序鉴定互作蛋白；\n⑦ 对照实验：设置空白对照和阴性对照，排除假阳性结果。"
+      "referenceAnswer": "酵母双杂交系统基于真核转录调控因子的组件式结构特征：BD和AD分离时均不能激活转录，但由不同蛋白的BD和AD形成的杂合蛋白能激活转录。\n\n**基本操作步骤：**\n\n1. **构建诱饵载体（Bait）：** 将感兴趣的蛋白X的编码序列与GAL4的DNA结合结构域（BD）融合，克隆入酵母表达载体。\n2. **构建猎物载体（Prey）：** 将待筛选的蛋白Y的cDNA（或cDNA文库）与GAL4的转录激活结构域（AD）融合，克隆入另一酵母表达载体。\n3. **共转化酵母：** 将两种融合载体共同转化至含报告基因的酵母菌株中。报告基因（如LacZ、HIS3、ADE2等）的表达受GAL4结合位点控制。\n4. **选择性培养筛选：** 涂布于选择性缺陷培养基（如sc-leu-trp-his-ade）上。若两个蛋白互作，BD和AD重新形成有功能的转录因子，激活报告基因表达，酵母能在缺陷培养基上生长并变蓝。\n5. **验证阳性克隆：** 对阳性克隆进行测序鉴定，设置阳性对照（如T抗原+p53）和阴性对照（如T抗原+Lamin）以确保实验结果可靠。\n\n<img src=\"images/image-8.png\" alt=\"alt text\" style=\"max-width:70%; height:auto;\"/>"
     },
     {
       "id": "short-answer-9-q-053",
@@ -3108,7 +3115,7 @@
       "parentTitle": "简答题",
       "number": 53,
       "prompt": "Commonly used bacterium for introducing plasmids into plant cells and the relevant key DNA segments",
-      "referenceAnswer": "常用细菌：农杆菌（Agrobacterium tumefaciens），一种土壤革兰氏阴性细菌，天然具有将自身DNA转入植物细胞的能力。"
+      "referenceAnswer": "**(1) 传统限制性内切酶-连接酶法：** 用相同的限制性内切酶分别切割目的基因和载体质粒，产生相同的粘性末端或平末端。将两者混合后用T4 DNA连接酶连接。为防止载体自连，可用碱性磷酸酶去除载体5'-磷酸基团。最后通过转化导入宿主细胞。\n\n**(2) 无缝克隆/同源重组法（Seamless DNA Cloning）：** 利用同源重组原理，不需要依赖限制性内切酶切位点。在目的基因片段两端设计与载体线性化末端具有20bp以上同源序列的引物进行PCR扩增，然后用重组酶介导同源重组，将插入片段定向克隆至载体的任意位置。优点：不需限制性酶切、不需磷酸酶处理、不增加或删除核苷酸（无缝）、可实现多片段一步定向克隆。\n\n**(3) 定向克隆法（Directional Cloning）：** 使用两种不同的限制性内切酶分别切割载体和目的基因的两端，产生两种不同的粘性末端，确保目的基因以正确的方向插入载体，避免反向插入，提高克隆效率。"
     },
     {
       "id": "short-answer-9-q-054",
@@ -3118,7 +3125,7 @@
       "parentTitle": "简答题",
       "number": 54,
       "prompt": "Key transfer segments: T-DNA (transfer DNA) region on the Ti plasmid (tumor-inducing plasmid):",
-      "referenceAnswer": "① T-DNA：被转移并整合到植物基因组中的DNA片段，其两端是25bp的左右边界序列(LB/RB)，是T-DNA转移的必需信号；\n② vir区（毒性区）：位于Ti质粒上，编码T-DNA转移所需的一系列蛋白（如VirD2切割T-DNA边界，VirE2保护单链T-DNA），但vir区本身不进入植物细胞；\n③ 现代双元载体系统：将Ti质粒改造为两个独立的质粒：微型Ti质粒（含T-DNA边界和目的基因）和辅助质粒（含vir区），提高了转基因安全性和效率。"
+      "referenceAnswer": "**常用细菌：** 根癌农杆菌（*Agrobacterium tumefaciens*）\n\n**相关片段：** T-DNA（转移DNA）及其边界序列（T-DNA borders，包括左边界Left Border和右边界Right Border）。\n\n**原理：** 农杆菌含有Ti质粒（Tumor-inducing plasmid），其上的T-DNA区域可整合入植物基因组。基因工程中使用改造的双元质粒系统：\n- **双元载体（Binary plasmid）：** 去除致瘤基因的卸甲Ti质粒，在T-DNA边界序列之间放置目的基因（GOI）、多克隆位点（MCS）和植物筛选标记基因。\n- **辅助质粒（Helper plasmid）：** 含有vir基因，编码的Vir蛋白负责识别T-DNA边界序列并将T-DNA区域切出、转运并整合入植物基因组。\n\n当植物受伤时释放的乙酰丁香酮（AS）等酚类化合物可激活vir基因表达，启动T-DNA的加工和转移过程。"
     },
     {
       "id": "short-answer-9-q-055",
@@ -3138,7 +3145,7 @@
       "parentTitle": "简答题",
       "number": 56,
       "prompt": "All methods for achieving loss-of-function in reverse genetics",
-      "referenceAnswer": "① RNA干扰(RNAi)：导入siRNA、shRNA或miRNA，特异性降解靶mRNA，抑制基因表达；\n② CRISPR/Cas9基因敲除：利用Cas9核酸酶在靶基因位点制造DNA双链断裂，通过非同源末端连接(NHEJ)修复引入移码突变，导致基因功能丧失；\n③ 同源重组定向敲除：通过同源重组将靶基因替换为筛选标记基因，实现基因的完全敲除；\n④ T-DNA插入失活：农杆菌介导的T-DNA随机插入植物基因组，破坏插入位点的基因功能；\n⑤ 转座子插入失活：利用转座子的随机转座插入基因内部，导致基因失活；\n⑥ 点突变失活：通过重叠延伸PCR或大引物诱变法在基因内部引入终止密码子或关键氨基酸突变，使蛋白失去功能；\n⑦ 反义RNA技术：表达与靶mRNA互补的反义RNA，抑制其翻译。"
+      "referenceAnswer": "**(1) 基因特异性敲除（Gene-specific Knockout）与定点突变：** 通过同源重组将外源DNA（如含neo基因）插入靶基因的关键外显子中，破坏基因功能。在动物中通过胚胎干细胞（ES细胞）技术实现基因打靶；在植物中利用T-DNA插入失活实现。定点突变则通过改变特定位点的核苷酸序列来破坏蛋白功能。\n\n**(2) RNA干扰（RNAi）/人工miRNA：** 由双链RNA（dsRNA）介导同源mRNA的高效特异性降解。dsRNA被Dicer酶切割成21-25 nt的siRNA，siRNA引导链与RISC复合物中的Ago2蛋白结合，通过碱基互补配对识别靶mRNA并切割降解（PTGS）。也可使用人工miRNA实现类似效果。\n\n**(3) CRISPR/Cas9基因组编辑技术：** 通过设计单链引导RNA（sgRNA）特异识别靶基因序列，引导Cas9核酸酶切割靶基因的双链，产生双链断裂（DSB）。细胞通过非同源末端连接（NHEJ）修复DSB，可能产生Indel造成移码突变和基因功能丧失。\n\n*（另：反义RNA技术、TALEN技术）*"
     },
     {
       "id": "short-answer-10-q-057",
@@ -3198,7 +3205,7 @@
       "parentTitle": "分析论述题",
       "number": 1,
       "prompt": "Alternative splicing verification problem: A gene has 4 exons, exon1=500 bp, exon2=200 bp, exon3=200 bp, exon4=300 bp. Exon2 undergoes alternative splicing and may produce two transcripts: 1-2-3-4 and 1-3-4. Calculate the transcript lengths and design an experiment to verify the existence of alternative splicing.",
-      "referenceAnswer": "转录本长度计算： ① 包含所有外显子的转录本1-2-3-4：500+200+200+300=1200bp； ② 跳过exon2的剪接变体1-3-4：500+200+300=1000bp。"
+      "referenceAnswer": "**设计原理：** 利用内含子在基因组DNA中存在而可能在cDNA中被剪接去除的差异，通过PCR比较扩增产物大小来判断cDNA中是否含有该内含子。\n\n**实验步骤：**\n\n1. **引物设计：** 在该cDNA上、跨越候选内含子区域的两侧外显子区域分别设计正向和反向引物。引物结合位置位于候选内含子两侧的外显子上。\n2. **模板准备：** 实验组：提取RNA，DNase I处理后逆转录获得cDNA。对照组：提取同一样品的基因组DNA。\n3. **PCR扩增：** 以cDNA和基因组DNA分别为模板，使用同一对引物在相同条件下平行扩增。94℃变性、50-60℃退火、72℃延伸，30-35个循环。\n4. **琼脂糖凝胶电泳分析：** 将cDNA和基因组DNA的PCR产物在同一凝胶中电泳，加入DNA Marker。比较两条泳道中条带的大小。\n5. **结果判断：**\n   - 基因组DNA泳道：条带较大（= 两侧外显子长度 + 内含子长度）。\n   - 若cDNA含该内含子：cDNA条带大小与基因组DNA一致（或接近），比不含内含子时大300 bp。\n   - 若cDNA不含该内含子：cDNA条带比基因组DNA小300 bp（仅两侧外显子长度之和）。\n   - 若cDNA泳道出现两条带：说明存在两种剪接变体（可变剪接）。\n6. **验证（可选）：** 切胶回收各条带测序，确认内含子边界序列是否符合GT-AG规则。"
     },
     {
       "id": "essay-1-q-002",
@@ -3218,7 +3225,7 @@
       "parentTitle": "分析论述题",
       "number": 3,
       "prompt": "What is a telomere? Briefly describe the three main functions of telomeres. What enzyme catalyzes telomere synthesis?",
-      "referenceAnswer": "定义：端粒是真核生物线性染色体末端的特殊DNA-蛋白质复合物，由富含G的串联重复DNA序列（人类为TTAGGG）和多种端粒结合蛋白组成。端粒不编码蛋白质，对维持基因组的稳定性和完整性至关重要。"
+      "referenceAnswer": "| 比较项目 | siRNA | miRNA |\n|---------|-------|-------|\n| 来源 | 外源性（病毒、转座子或实验引入的长dsRNA） | 内源性（基因组自身编码转录产生） |\n| 前体结构 | 长双链RNA（dsRNA），完全互补配对 | pri-miRNA，茎环/发夹结构，内部序列不完全互补 |\n| 加工酶 | 仅由Dicer切割产生~21-25nt siRNA | 核内Drosha切割→~70nt pre-miRNA，胞质Dicer再切割为成熟miRNA |\n| 作用方式 | 与靶mRNA完全互补配对，导致mRNA切割和降解 | 与靶mRNA不完全互补配对，主要导致翻译抑制；高匹配时也可切割mRNA |\n| 作用位置 | 在其产生的位点发挥作用 | 在其他基因组位点发挥作用，可调控多个不同基因 |\n| 生物学功能 | 基因组防御——保护基因组免受病毒和转座子侵害 | 内源基因表达的转录后调控；参与发育时序调控、代谢调控等 |\n| 放大机制 | 可通过RdRp进行扩增，产生二级siRNA，使沉默效应放大 | 无明显扩增机制 |\n\n**共同点：** 二者都通过RISC发挥功能，均为约21-24nt的小RNA分子，均属于转录后基因沉默（PTGS）机制。"
     },
     {
       "id": "essay-2-q-004",
@@ -3248,7 +3255,7 @@
       "parentTitle": "分析论述题",
       "number": 6,
       "prompt": "Describe the attenuation control of the trp operon with reference to the accompanying figure (see attached diagram)",
-      "referenceAnswer": "色氨酸(trp)操纵子的衰减调控是一种精细的转录调控机制，通过前导肽的翻译状态与mRNA的二级结构变化偶联，实现对色氨酸合成基因表达的精确调控。"
+      "referenceAnswer": "色氨酸操纵子的衰减子调控是一种精细的转录水平调控机制，基于前导RNA转录物可形成两种互斥的二级结构。\n\n**结构基础：**\n- Trp操纵子结构基因上游存在一段前导序列（leader sequence）。\n- 前导RNA包含一个编码短前导肽的开放阅读框，其中含有**两个连续的色氨酸密码子**（关键传感器）。\n- 前导RNA可形成两种替代性茎环结构：**终止子结构（3:4茎环）** 和**抗终止子结构（2:3茎环）**。3:4配对形成类似ρ非依赖型终止子的发夹结构，后面接一串U，导致转录终止；2:3配对则阻止3:4终止子发夹的形成。\n\n**当色氨酸浓度高时（Trp充足）：**\n1. 细胞内色氨酸-tRNA充足\n2. 核糖体顺利通过前导肽中两个连续的色氨酸密码子，快速翻译前导肽\n3. 核糖体到达前导肽终止密码子时，占据RNA区域2，导致区域2无法与区域3配对\n4. 区域3与区域4配对，形成**终止子发夹结构**（3:4茎环）\n5. RNA聚合酶识别该终止信号，转录提前终止，结构基因不表达\n\n**当色氨酸浓度低时（Trp缺乏）：**\n1. 细胞内色氨酸-tRNA不足\n2. 核糖体在翻译前导肽时，在连续的色氨酸密码子处**停滞**，占据区域1\n3. 由于核糖体停留在区域1，区域2被释放，与区域3配对形成**抗终止子结构**（2:3茎环）\n4. 区域3已被占用，无法与区域4形成终止子发夹\n5. RNA聚合酶顺利通过衰减子位点，继续转录下游结构基因\n\n**调控效果：** 阻遏控制约70倍，衰减额外控制约10倍，总调控幅度达约700倍。"
     },
     {
       "id": "essay-3-q-007",
@@ -3369,6 +3376,281 @@
       "number": 18,
       "prompt": "Prokaryotes: post-translational modifications are relatively few, primarily simple cleavage and phosphorylation;",
       "referenceAnswer": "真核生物：翻译后修饰复杂多样，包括糖基化、磷酸化、泛素化、乙酰化、剪切等，对蛋白质的功能和定位至关重要。"
+    },
+    {
+      "id": "true-false-6-q-014",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 14,
+      "prompt": "In the lac operon, allolactose acts as an inducer by binding the repressor, causing it to dissociate from the operator and turn on transcription.",
+      "answerIsTrue": true,
+      "explanation": "别乳糖（allolactose）作为诱导物与lac阻遏蛋白结合，使其从操纵区解离，从而开启操纵子转录（MB7第43页）"
+    },
+    {
+      "id": "true-false-6-q-015",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 15,
+      "prompt": "The lac operon is efficiently expressed when both glucose and lactose are present.",
+      "answerIsTrue": false,
+      "explanation": "lac操纵子在葡萄糖存在时受分解代谢物阻遏：葡萄糖→cAMP浓度低→CAP-cAMP复合物不能有效结合启动子→即使有乳糖诱导，转录也处于低水平（MB7第48页）"
+    },
+    {
+      "id": "true-false-6-q-016",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 16,
+      "prompt": "In the Trp operon, the aporepressor is active and can bind to the operator even in the absence of tryptophan.",
+      "answerIsTrue": false,
+      "explanation": "辅阻遏蛋白（aporepressor）本身无活性，必须与色氨酸结合后才能变为有活性的阻遏蛋白结合操纵区。低色氨酸时无阻遏（MB7第52页）"
+    },
+    {
+      "id": "true-false-1-q-006",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 6,
+      "prompt": "原核生物翻译起始使用甲酰甲硫氨酸（fMet-tRNA^fMet），而真核生物翻译起始使用甲硫氨酸（Met-tRNAi^Met）。",
+      "answerIsTrue": true,
+      "explanation": "MB13(7)第24页指出原核起始氨基酸为N-formyl-methionine (fMet)；第34页对比说明真核起始氨基酸为methionine (Met)，不含甲酰基。"
+    },
+    {
+      "id": "true-false-6-q-017",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 17,
+      "prompt": "原核生物mRNA的5'UTR含有SD序列（Shine-Dalgarno sequence），与16S rRNA 3'端互补配对，帮助核糖体30S亚基定位起始密码子。",
+      "answerIsTrue": true,
+      "explanation": "MB13(7)第26-27页：SD序列为富含G的序列（consensus AGGAGGU），位于起始密码子上游约10nt处，与16S rRNA 3'端互补配对。"
+    },
+    {
+      "id": "true-false-1-q-007",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 7,
+      "prompt": "在原核生物中，IF3（起始因子3）的功能是促进fMet-tRNA与30S亚基的结合。",
+      "answerIsTrue": false,
+      "explanation": "MB13(7)第10页和第22页：IF3结合游离的30S亚基并阻止其与50S亚基重新结合，介导SD序列与16S rRNA的配对。促进fMet-tRNA结合的主要是IF2（需要GTP）。"
+    },
+    {
+      "id": "true-false-1-q-008",
+      "type": "true-false",
+      "categoryId": "true-false-1",
+      "categoryTitle": "遗传密码与翻译",
+      "parentTitle": "判断题",
+      "number": 8,
+      "prompt": "遗传密码具有简并性（degeneracy），意味着一个特定的密码子可以编码多种氨基酸。",
+      "answerIsTrue": false,
+      "explanation": "MB13(7)第46页：遗传密码是unambiguous（无歧义的），一个特定密码子只编码一种氨基酸；但它是degenerate（简并的），即多种密码子可以编码同一种氨基酸。"
+    },
+    {
+      "id": "true-false-3-q-011",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 11,
+      "prompt": "真核生物Class III基因的通用转录因子中，TFIIIA是5S rRNA基因转录所必需的，但对tRNA基因的转录不是必需的。",
+      "answerIsTrue": true,
+      "explanation": "MB8第44页：TFIIIA is required for the synthesis of 5s rRNA, but not tRNA. TFIIIB and C are required by both."
+    },
+    {
+      "id": "true-false-3-q-012",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 12,
+      "prompt": "原核生物中，RNA聚合酶核心酶（core enzyme，由α2ββ'组成）可以独立识别启动子并准确起始转录。",
+      "answerIsTrue": false,
+      "explanation": "MB7第10页：核心酶不能转录完整DNA，没有σ因子时丧失转录起始位点的特异性。"
+    },
+    {
+      "id": "true-false-3-q-013",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 13,
+      "prompt": "Class III启动子全部位于基因内部（gene-internal），与Class II启动子位于基因上游不同。",
+      "answerIsTrue": false,
+      "explanation": "MB8第26-29页：Class III启动子分为两类——经典Class III启动子位于基因内部（如5S rRNA、tRNA）；非经典Class III启动子与Class II一样位于基因上游（如U6 snRNA）。"
+    },
+    {
+      "id": "true-false-3-q-014",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 14,
+      "prompt": "siRNA（small interfering RNA）通过RISC介导同源mRNA的序列特异性切割和降解。",
+      "answerIsTrue": true,
+      "explanation": "MB12第13页和第31页：siRNA装载入RISC（含Argonaute蛋白），引导RISC识别并切割同源mRNA使其降解。"
+    },
+    {
+      "id": "true-false-3-q-015",
+      "type": "true-false",
+      "categoryId": "true-false-3",
+      "categoryTitle": "转录与RNA生物学",
+      "parentTitle": "判断题",
+      "number": 15,
+      "prompt": "ρ因子（Rho factor）是原核生物所有转录终止过程都必需的蛋白质因子。",
+      "answerIsTrue": false,
+      "explanation": "MB7第28-35页：原核转录终止有两种机制——ρ依赖性和ρ非依赖性。后者通过发夹结构+一串T残基即可终止，不需要ρ因子。"
+    },
+    {
+      "id": "true-false-2-q-007",
+      "type": "true-false",
+      "categoryId": "true-false-2",
+      "categoryTitle": "DNA复制与修复",
+      "parentTitle": "判断题",
+      "number": 7,
+      "prompt": "RNA依赖的RNA聚合酶（RdRp）参与原核生物DNA复制过程中的引物合成。",
+      "answerIsTrue": false,
+      "explanation": "MB12第14页：RdRp以RNA为模板合成RNA，不参与DNA复制。DNA复制中的RNA引物由引物酶（primase）合成（MB6第35页）。"
+    },
+    {
+      "id": "true-false-6-q-018",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 18,
+      "prompt": "DNA聚合酶只能沿5'→3'方向合成新的DNA链，阅读模板链的方向为3'→5'。",
+      "answerIsTrue": true,
+      "explanation": "MB6第17页：All DNA polymerases synthesize DNA in the 5' to 3' direction, reading the template 3' to 5'."
+    },
+    {
+      "id": "true-false-2-q-008",
+      "type": "true-false",
+      "categoryId": "true-false-2",
+      "categoryTitle": "DNA复制与修复",
+      "parentTitle": "判断题",
+      "number": 8,
+      "prompt": "真核生物染色体DNA复制只有一个复制起始点，从此起始点向两个方向进行双向复制。",
+      "answerIsTrue": false,
+      "explanation": "MB6第51页：真核生物染色体有多个复制起始点（多个replicon），原核生物染色体才只有一个起始点。"
+    },
+    {
+      "id": "true-false-6-q-019",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 19,
+      "prompt": "Trp操纵子中，辅阻遏蛋白（apo-repressor）在色氨酸浓度低时也能与操纵区结合，抑制结构基因的转录。",
+      "answerIsTrue": false,
+      "explanation": "MB7第52页：Aporepressor本身无活性，必须与色氨酸结合后才能作为活性阻遏蛋白结合操纵区。Low trp, no repression。"
+    },
+    {
+      "id": "true-false-6-q-020",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 20,
+      "prompt": "Trp操纵子仅通过阻遏机制（repression）进行转录水平的调控。",
+      "answerIsTrue": false,
+      "explanation": "MB7第54页：Trp操纵子同时受阻遏（70倍）和衰减（attenuation，额外10倍）两种机制调控，总调控达700倍。"
+    },
+    {
+      "id": "true-false-6-q-021",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 21,
+      "prompt": "乳糖操纵子中，别乳糖（allolactose）作为诱导物与lac阻遏蛋白结合，使阻遏蛋白从操纵区解离，从而开启操纵子转录。",
+      "answerIsTrue": true,
+      "explanation": "MB7第43页：Allolactose acts as an inducer by binding the repressor, repressor dissociates from the operator."
+    },
+    {
+      "id": "true-false-6-q-022",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 22,
+      "prompt": "乳糖操纵子（lac operon）的调控中，当葡萄糖和乳糖同时存在时，lac操纵子高效表达。",
+      "answerIsTrue": false,
+      "explanation": "MB7第48页：lac操纵子的结构基因只有在葡萄糖不存在且乳糖存在时才表达。葡萄糖存在导致cAMP浓度低，CAP-cAMP复合物不能有效结合启动子（分解代谢物阻遏）。"
+    },
+    {
+      "id": "true-false-4-q-012",
+      "type": "true-false",
+      "categoryId": "true-false-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "判断题",
+      "number": 12,
+      "prompt": "大鼠的母性抚育行为（舔舐/梳理和弓背哺乳，LG-ABN）可以通过表观遗传机制影响雌性后代的抚育行为方式，从而在代际间延续。",
+      "answerIsTrue": true,
+      "explanation": "MB16(7)第54页：高LG-ABN mothering导致NGFI-A表达增加，进而GR启动子去甲基化、组蛋白乙酰化增加、GR表达升高。表观遗传标记在代际间延续。"
+    },
+    {
+      "id": "true-false-4-q-013",
+      "type": "true-false",
+      "categoryId": "true-false-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "判断题",
+      "number": 13,
+      "prompt": "DNA甲基化通常发生在CpG二核苷酸的胞嘧啶上，启动子区域CpG岛的甲基化通常与基因转录激活相关。",
+      "answerIsTrue": false,
+      "explanation": "MB16(7)第41-44页：启动子CpG岛的甲基化通常导致基因沉默（gene silencing），而非激活。"
+    },
+    {
+      "id": "true-false-4-q-014",
+      "type": "true-false",
+      "categoryId": "true-false-4",
+      "categoryTitle": "表观遗传学",
+      "parentTitle": "判断题",
+      "number": 14,
+      "prompt": "组蛋白乙酰化通常与转录活跃的染色质区域相关，而组蛋白去乙酰化通常与基因沉默相关。",
+      "answerIsTrue": true,
+      "explanation": "MB16(7)第32页：Generally, histone acetylation is associated with transcriptionally active genes. Deacetylation is associated with inactive genes."
+    },
+    {
+      "id": "true-false-5-q-014",
+      "type": "true-false",
+      "categoryId": "true-false-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "判断题",
+      "number": 14,
+      "prompt": "在农杆菌介导的植物遗传转化双元载体系统中，辅助质粒（helper plasmid）含有vir基因，负责编码T-DNA加工和转移所需的蛋白质。",
+      "answerIsTrue": true,
+      "explanation": "MB4第78页：Helper plasmid containing the vir genes."
+    },
+    {
+      "id": "true-false-5-q-015",
+      "type": "true-false",
+      "categoryId": "true-false-5",
+      "categoryTitle": "分子克隆与实验技术",
+      "parentTitle": "判断题",
+      "number": 15,
+      "prompt": "Cas13家族蛋白是RNA靶向的CRISPR系统效应蛋白，可介导RNA敲降（RNA knockdown），用于抑制RNA病毒和调控基因表达。",
+      "answerIsTrue": true,
+      "explanation": "MB5第56页：Cas13 family proteins mediated RNA Knockdown, suppression of RNA viruses."
+    },
+    {
+      "id": "true-false-6-q-023",
+      "type": "true-false",
+      "categoryId": "true-false-6",
+      "categoryTitle": "原核基因表达调控",
+      "parentTitle": "判断题",
+      "number": 23,
+      "prompt": "蓝白斑筛选实验中，在含有IPTG和X-gal的培养基上，成功插入了外源DNA片段（使lacZ失活）的重组细菌菌落呈蓝色。",
+      "answerIsTrue": false,
+      "explanation": "蓝白斑筛选原理：外源DNA插入lacZ基因使其失活→不能产生β-半乳糖苷酶→无法分解X-gal→菌落呈白色。蓝色表示未插入外源片段（载体自连）。"
     }
   ]
 }
