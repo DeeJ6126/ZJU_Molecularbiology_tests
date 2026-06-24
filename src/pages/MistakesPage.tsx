@@ -1,17 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
-
-const TYPE_LABELS: Record<string, string> = {
-  translation: '名词互译',
-  'true-false': '判断',
-  'multiple-choice': '选择',
-  'short-answer': '简答',
-  essay: '论述',
-}
+import { useT } from '../lib/i18n'
 
 export function MistakesPage() {
   const navigate = useNavigate()
   const practice = usePractice()
+  const t = useT()
   const { questionBank, mistakeRecords, beginMistakePractice, removeMistake, clearMistakes } =
     practice
 
@@ -25,20 +19,20 @@ export function MistakesPage() {
       <section className="panel compact-panel">
         <div className="section-heading">
           <div>
-            <h2>错题本</h2>
+            <h2>{t('mistakes', 'title')}</h2>
             <p className="scope-note">
-              共 <strong>{mistakeRecords.length}</strong> 道错题。
-              {mistakeRecords.length > 0 && '点击"开始错题练习"进行针对性复习。'}
+              {t('mistakes', 'count').replace('{n}', String(mistakeRecords.length))}
+              {mistakeRecords.length > 0 && ' ' + t('mistakes', 'hint')}
             </p>
           </div>
           <div className="toolbar-actions">
             {mistakeRecords.length > 0 && (
               <>
                 <button className="primary-button" onClick={handleStartDrill}>
-                  开始错题练习
+                  {t('mistakes', 'startDrillShort')}
                 </button>
                 <button className="ghost-button" onClick={clearMistakes}>
-                  清空全部
+                  {t('mistakes', 'clearAll')}
                 </button>
               </>
             )}
@@ -48,8 +42,8 @@ export function MistakesPage() {
 
       {!mistakeRecords.length ? (
         <section className="panel empty-state">
-          <h2>错题本为空</h2>
-          <p>完成练习后，答错的题目会自动加入错题本。简答题选择"我答错了"也会加入。</p>
+          <h2>{t('mistakes', 'emptyTitle')}</h2>
+          <p>{t('mistakes', 'emptyDesc')}</p>
         </section>
       ) : (
         <div className="mistake-grid">
@@ -63,13 +57,13 @@ export function MistakesPage() {
               <section key={record.questionId} className="panel mistake-card">
                 <div className="mistake-card-top">
                   <span className="chapter-chip">
-                    {TYPE_LABELS[record.questionType] || record.questionType}
+                    {t('mistakes.typeLabels', record.questionType)}
                   </span>
                   <span
                     className="chapter-count"
                     style={{ background: 'var(--incorrect-soft)', color: 'var(--incorrect)' }}
                   >
-                    错 {record.wrongCount} 次
+                    {t('mistakes', 'wrongCount').replace('{n}', String(record.wrongCount))}
                   </span>
                 </div>
 
@@ -81,16 +75,16 @@ export function MistakesPage() {
                 <div className="mistake-answer-row">
                   {record.lastSelectedKey && (
                     <span className="mistake-answer-pill is-wrong">
-                      你的答案：{record.lastSelectedKey}
+                      {t('mistakes', 'yourAnswer')}{record.lastSelectedKey}
                     </span>
                   )}
                   {record.lastTextAnswer && (
                     <span className="mistake-answer-pill is-wrong">
-                      你的答案：{record.lastTextAnswer}
+                      {t('mistakes', 'yourAnswer')}{record.lastTextAnswer}
                     </span>
                   )}
                   <span className="mistake-answer-pill is-correct">
-                    正确答案：{record.correctAnswerDisplay.slice(0, 80)}
+                    {t('mistakes', 'correctAnswer')}{record.correctAnswerDisplay.slice(0, 80)}
                   </span>
                 </div>
 
@@ -99,7 +93,7 @@ export function MistakesPage() {
                   onClick={() => removeMistake(record.questionId)}
                   style={{ marginTop: 8 }}
                 >
-                  从错题本移除
+                  {t('mistakes', 'removeFromMistakes')}
                 </button>
               </section>
             )

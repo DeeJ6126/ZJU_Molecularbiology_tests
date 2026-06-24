@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { TranslationQuestion, PracticeAnswer } from '../types'
+import { useT } from '../lib/i18n'
 
 // Acronyms that sound natural when spoken as-is by TTS
 const PRONOUNCEABLE_ACRONYMS = new Set(['DNA', 'RNA'])
@@ -21,6 +22,7 @@ export function TranslationInput({
   onPrev,
   onRemoveMistake,
 }: TranslationInputProps) {
+  const t = useT()
   const [input, setInput] = useState(existingAnswer?.textAnswer ?? '')
   const [pending, setPending] = useState(false)
   const [removedFromMistakes, setRemovedFromMistakes] = useState(false)
@@ -154,16 +156,14 @@ export function TranslationInput({
     <div className="question-panel">
       <p className="question-text">{question.prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
-        {isZhToEn
-          ? '请输入英文翻译（Enter 提交，← → 切题，Space 下一题，Tab 发音）'
-          : '请输入中文翻译'}
+        {isZhToEn ? t('tr', 'zhToEn') : t('tr', 'enToZh')}
       </p>
 
       <input
         type="text"
         className="option-button"
         style={{ width: '100%', padding: '16px 18px' }}
-        placeholder={isZhToEn ? '输入英文翻译...' : '输入中文翻译...'}
+        placeholder={isZhToEn ? t('tr', 'placeholderEn') : t('tr', 'placeholderZh')}
         value={input}
         onChange={(event) => setInput(event.target.value)}
         onKeyDown={handleKeyDown}
@@ -178,13 +178,13 @@ export function TranslationInput({
           disabled={!input.trim()}
           style={{ width: '100%' }}
         >
-          提交
+          {t('tr', 'submit')}
         </button>
       )}
 
       {shouldWait && (
         <p style={{ color: 'var(--ink-soft)', textAlign: 'center', padding: 12 }}>
-          提交中...
+          {t('tr', 'submitting')}
         </p>
       )}
 
@@ -193,23 +193,21 @@ export function TranslationInput({
         <>
           <div className={`answer-banner ${isCorrect ? 'is-visible' : ''}`}>
             {isCorrect ? (
-              <strong style={{ color: 'var(--correct)' }}>✓ 回答正确！</strong>
+              <strong style={{ color: 'var(--correct)' }}>{t('tr', 'correct')}</strong>
             ) : (
               <>
-                <strong style={{ color: 'var(--incorrect)' }}>✗ 回答错误</strong>
-                <p>正确答案：{buildAnswerDisplay()}</p>
+                <strong style={{ color: 'var(--incorrect)' }}>{t('tr', 'incorrect')}</strong>
+                <p>{t('tr', 'correctAnswer')}{buildAnswerDisplay()}</p>
               </>
             )}
             {!isCorrect && (
               <p style={{ color: 'var(--ink-soft)', fontSize: '0.9rem', marginTop: 4 }}>
-                {isZhToEn
-                  ? `可接受答案：${buildAcceptableDisplay()}`
-                  : `可接受答案：${question.chineseMeaning || ''}`}
+                {t('tr', 'acceptable')}{isZhToEn ? buildAcceptableDisplay() : (question.chineseMeaning || '')}
               </p>
             )}
             {!isCorrect && input && (
               <p style={{ color: 'var(--ink-soft)', marginTop: 4 }}>
-                你的回答：{input}
+                {t('tr', 'yourAnswer')}{input}
               </p>
             )}
           </div>
@@ -217,17 +215,17 @@ export function TranslationInput({
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 8 }}>
             {!isCorrect && !removedFromMistakes && onRemoveMistake && (
               <button className="ghost-button" onClick={handleRemoveMistake}>
-                不放入错题本
+                {t('tr', 'removeMistake')}
               </button>
             )}
             {!isCorrect && removedFromMistakes && (
               <span style={{ color: 'var(--ink-soft)', fontSize: '0.9rem' }}>
-                ✓ 已从错题本移除
+                {t('tr', 'removed')}
               </span>
             )}
             {onNext && (
               <button className="secondary-button" onClick={onNext}>
-                {isCorrect ? '下一题 →' : '下一题 (Space)'}
+                {isCorrect ? t('tr', 'next') : t('tr', 'nextSpace')}
               </button>
             )}
           </div>

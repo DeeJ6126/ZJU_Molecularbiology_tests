@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import type { EssayQuestion } from '../types'
 import type { PracticeAnswer } from '../types'
+import { useLanguage } from '../context/LanguageContext'
+import { useT } from '../lib/i18n'
 
 interface EssayInputProps {
   question: EssayQuestion
@@ -13,10 +15,14 @@ export function EssayInput({
   existingAnswer,
   onSelfJudge,
 }: EssayInputProps) {
+  const { language } = useLanguage()
+  const t = useT()
   const [revealed, setRevealed] = useState(false)
   const [draft, setDraft] = useState('')
   const judged = Boolean(existingAnswer)
   const selfJudgedCorrect = existingAnswer?.selfJudgedCorrect
+
+  const prompt = language === 'zh' ? (question.promptCn ?? question.prompt) : question.prompt
 
   function handleReveal() {
     setRevealed(true)
@@ -29,9 +35,9 @@ export function EssayInput({
 
   return (
     <div className="question-panel">
-      <p className="question-text">{question.prompt}</p>
+      <p className="question-text">{prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
-        论述题 — 请在草稿区写下你的思路，然后查看参考答案并自主判断
+        {t('essay', 'subtitle')}
       </p>
 
       {!judged && (
@@ -43,7 +49,7 @@ export function EssayInput({
             resize: 'vertical',
             fontFamily: 'inherit',
           }}
-          placeholder="在此输入你的分析论述（可选）..."
+          placeholder={t('essay', 'placeholder')}
           value={draft}
           onChange={(event) => setDraft(event.target.value)}
         />
@@ -51,13 +57,13 @@ export function EssayInput({
 
       {!revealed && !judged && (
         <button className="primary-button" onClick={handleReveal} style={{ width: '100%' }}>
-          显示参考答案
+          {t('sa', 'reveal')}
         </button>
       )}
 
       {revealed && (
         <div className="answer-banner is-visible">
-          <strong>参考答案</strong>
+          <strong>{t('sa', 'reference')}</strong>
           <div
             style={{ whiteSpace: 'pre-wrap', lineHeight: 1.7 }}
           >
@@ -78,7 +84,7 @@ export function EssayInput({
             }}
             onClick={() => handleSelfJudge(true)}
           >
-            <strong style={{ color: 'var(--correct)' }}>我基本答对了</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('sa', 'gotIt')}</strong>
           </button>
           <button
             className="option-button"
@@ -90,7 +96,7 @@ export function EssayInput({
             }}
             onClick={() => handleSelfJudge(false)}
           >
-            <strong style={{ color: 'var(--incorrect)' }}>我答错了</strong>
+            <strong style={{ color: 'var(--incorrect)' }}>{t('sa', 'gotWrong')}</strong>
           </button>
         </div>
       )}
@@ -98,14 +104,14 @@ export function EssayInput({
       {judged && (
         <div className={`answer-banner ${selfJudgedCorrect ? 'is-visible' : ''}`}>
           {selfJudgedCorrect ? (
-            <strong style={{ color: 'var(--correct)' }}>✓ 你判断自己回答正确</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('sa', 'judgedCorrect')}</strong>
           ) : (
             <strong style={{ color: 'var(--incorrect)' }}>
-              ✗ 你判断自己回答错误，已加入错题本
+              {t('sa', 'judgedWrong')}
             </strong>
           )}
           <div className="explanation-panel" style={{ marginTop: 12 }}>
-            <strong>参考答案</strong>
+            <strong>{t('sa', 'reference')}</strong>
             <p style={{ whiteSpace: 'pre-wrap' }}>{question.referenceAnswer}</p>
           </div>
         </div>

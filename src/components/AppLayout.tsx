@@ -1,10 +1,14 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
 import { getScoreSummary } from '../lib/practice'
+import { useLanguage } from '../context/LanguageContext'
+import { useT } from '../lib/i18n'
 
 export function AppLayout() {
   const practice = usePractice()
   const { total } = getScoreSummary(practice.session)
+  const { language, toggleLanguage } = useLanguage()
+  const t = useT()
 
   return (
     <div className="app-shell">
@@ -17,47 +21,36 @@ export function AppLayout() {
         <NavLink to="/" className="brand-block">
           <span className="brand-mark">MB</span>
           <div className="brand-copy">
-            <strong>分子生物学习题库</strong>
-            <span className="eyebrow">Molecular Biology · ZJU</span>
+            <strong>{t('brand', 'title')}</strong>
+            <span className="eyebrow">{t('brand', 'subtitle')}</span>
           </div>
         </NavLink>
 
         <nav className="topnav">
-          <NavLink to="/" className="nav-link" end>
-            首页
-          </NavLink>
-          <NavLink to="/categories" className="nav-link">
-            题型选择
-          </NavLink>
-          <NavLink to="/practice" className="nav-link">
-            练习
-          </NavLink>
-          <NavLink to="/mistakes" className="nav-link">
-            错题本
-          </NavLink>
-          <NavLink to="/review" className="nav-link">
-            复习
-          </NavLink>
-          <NavLink to="/vocabulary" className="nav-link">
-            生词本
-          </NavLink>
-          <NavLink to="/results" className="nav-link">
-            结果
-          </NavLink>
-          <NavLink to="/about" className="nav-link">
-            关于
-          </NavLink>
+          <NavLink to="/" className="nav-link" end>{t('nav', 'home')}</NavLink>
+          <NavLink to="/categories" className="nav-link">{t('nav', 'categories')}</NavLink>
+          <NavLink to="/practice" className="nav-link">{t('nav', 'practice')}</NavLink>
+          <NavLink to="/mistakes" className="nav-link">{t('nav', 'mistakes')}</NavLink>
+          <NavLink to="/review" className="nav-link">{t('nav', 'review')}</NavLink>
+          <NavLink to="/vocabulary" className="nav-link">{t('nav', 'vocabulary')}</NavLink>
+          <NavLink to="/results" className="nav-link">{t('nav', 'results')}</NavLink>
+          <NavLink to="/about" className="nav-link">{t('nav', 'about')}</NavLink>
         </nav>
 
         <div className="status-group">
+          <button className="lang-toggle" onClick={toggleLanguage} type="button" title={language === 'en' ? '切换到中文' : 'Switch to English'}>
+            <span className={language === 'en' ? 'lang-active' : 'lang-inactive'}>EN</span>
+            <span className="lang-sep">/</span>
+            <span className={language === 'zh' ? 'lang-active' : 'lang-inactive'}>中</span>
+          </button>
           <span className="status-pill">
-            已答 <strong>{total}</strong> 题
+            {t('status', 'answered')} <strong>{total}</strong> {t('status', 'questions')}
           </span>
           <span className="status-pill">
-            错题 <strong>{practice.mistakeRecords.length}</strong>
+            {t('status', 'mistakes')} <strong>{practice.mistakeRecords.length}</strong>
           </span>
           <span className="status-pill">
-            生词 <strong>{practice.vocabularyRecords.length}</strong>
+            {t('status', 'vocab')} <strong>{practice.vocabularyRecords.length}</strong>
           </span>
         </div>
       </header>

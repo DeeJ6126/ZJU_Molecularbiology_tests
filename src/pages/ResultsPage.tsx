@@ -1,9 +1,11 @@
 import { Link, Navigate } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
 import { getScoreSummary } from '../lib/practice'
+import { useT } from '../lib/i18n'
 
 export function ResultsPage() {
   const practice = usePractice()
+  const t = useT()
   const { session, questionBank } = practice
 
   if (!session || !session.answers.length) {
@@ -35,14 +37,6 @@ export function ResultsPage() {
     }
   }
 
-  const typeLabels: Record<string, string> = {
-    translation: '名词互译',
-    'true-false': '判断',
-    'multiple-choice': '选择',
-    'short-answer': '简答',
-    essay: '论述',
-  }
-
   // Categories included
   const selectedCats = questionBank.categories.filter((c) =>
     session.selectedCategoryIds.includes(c.id),
@@ -53,11 +47,13 @@ export function ResultsPage() {
       {/* Spotlight */}
       <section className="panel result-spotlight">
         <h1 style={{ fontSize: 'clamp(3rem, 5vw, 5rem)' }}>{accuracy}%</h1>
-        <p className="panel-note">正确率</p>
+        <p className="panel-note">{t('results', 'accuracyLabel')}</p>
         <p>
-          {answered} / {total} 已答 · {correct} 正确
-          {selfJudgedCorrect > 0 && ` · ${selfJudgedCorrect} 自主判对`}
-          {selfJudgedIncorrect > 0 && ` · ${selfJudgedIncorrect} 自主判错`}
+          {t('results', 'answered').replace('{n}', String(answered)).replace('{m}', String(total))}
+          {' · '}
+          {t('results', 'correct').replace('{n}', String(correct))}
+          {selfJudgedCorrect > 0 && ` · ${t('results', 'selfJudgedCorrect').replace('{n}', String(selfJudgedCorrect))}`}
+          {selfJudgedIncorrect > 0 && ` · ${t('results', 'selfJudgedWrong').replace('{n}', String(selfJudgedIncorrect))}`}
         </p>
       </section>
 
@@ -65,31 +61,31 @@ export function ResultsPage() {
       <section className="result-grid">
         <div className="panel result-card">
           <strong>{total}</strong>
-          <span>总题数</span>
+          <span>{t('results', 'totalLabel')}</span>
         </div>
         <div className="panel result-card">
           <strong>{answered}</strong>
-          <span>已作答</span>
+          <span>{t('results', 'answeredLabel')}</span>
         </div>
         <div className="panel result-card">
           <strong>{correct}</strong>
-          <span>正确</span>
+          <span>{t('results', 'correctLabel')}</span>
         </div>
         <div className="panel result-card">
           <strong>{unanswered}</strong>
-          <span>未作答</span>
+          <span>{t('results', 'unansweredLabel')}</span>
         </div>
       </section>
 
       {/* Per-type breakdown */}
       {Object.keys(typeStats).length > 0 && (
         <section className="panel compact-panel">
-          <h2 style={{ marginBottom: 14 }}>按题型统计</h2>
+          <h2 style={{ marginBottom: 14 }}>{t('results', 'byType')}</h2>
           <div className="chapter-grid">
             {Object.entries(typeStats).map(([type, stats]) => (
               <div key={type} className="chapter-card" style={{ cursor: 'default' }}>
                 <div className="chapter-card-top">
-                  <span className="chapter-chip">{typeLabels[type] || type}</span>
+                  <span className="chapter-chip">{t('results.typeLabels', type)}</span>
                   <span className="chapter-count">
                     {stats.total > 0
                       ? `${Math.round((stats.correct / stats.total) * 100)}%`
@@ -97,7 +93,7 @@ export function ResultsPage() {
                   </span>
                 </div>
                 <p style={{ color: 'var(--ink-soft)' }}>
-                  {stats.correct} / {stats.total} 正确
+                  {t('results', 'correct').replace('{n}', String(stats.correct))} / {stats.total}
                 </p>
               </div>
             ))}
@@ -108,7 +104,7 @@ export function ResultsPage() {
       {/* Selected categories */}
       {selectedCats.length > 0 && (
         <section className="panel compact-panel">
-          <h2 style={{ marginBottom: 14 }}>本次练习范围</h2>
+          <h2 style={{ marginBottom: 14 }}>{t('results', 'scope')}</h2>
           <div className="chapter-pill-row">
             {selectedCats.map((cat) => (
               <span key={cat.id} className="chapter-pill">
@@ -126,14 +122,14 @@ export function ResultsPage() {
           className="primary-button"
           onClick={() => practice.restartPractice()}
         >
-          再做一次
+          {t('results', 'retry')}
         </button>
         <Link to="/categories" className="secondary-button">
-          返回题型选择
+          {t('results', 'backCategories')}
         </Link>
         {practice.mistakeRecords.length > 0 && (
           <Link to="/mistakes" className="ghost-button">
-            查看错题本
+            {t('results', 'viewMistakes')}
           </Link>
         )}
       </section>

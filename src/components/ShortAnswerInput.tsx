@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import type { ShortAnswerQuestion } from '../types'
 import type { PracticeAnswer } from '../types'
+import { useLanguage } from '../context/LanguageContext'
+import { useT } from '../lib/i18n'
 
 interface ShortAnswerInputProps {
   question: ShortAnswerQuestion
@@ -13,10 +15,14 @@ export function ShortAnswerInput({
   existingAnswer,
   onSelfJudge,
 }: ShortAnswerInputProps) {
+  const { language } = useLanguage()
+  const t = useT()
   const [revealed, setRevealed] = useState(false)
   const [draft, setDraft] = useState('')
   const judged = Boolean(existingAnswer)
   const selfJudgedCorrect = existingAnswer?.selfJudgedCorrect
+
+  const prompt = language === 'zh' ? (question.promptCn ?? question.prompt) : question.prompt
 
   function handleReveal() {
     setRevealed(true)
@@ -29,7 +35,7 @@ export function ShortAnswerInput({
 
   return (
     <div className="question-panel">
-      <p className="question-text">{question.prompt}</p>
+      <p className="question-text">{prompt}</p>
 
       {/* Textarea for user to draft their answer */}
       {!judged && (
@@ -41,7 +47,7 @@ export function ShortAnswerInput({
             resize: 'vertical',
             fontFamily: 'inherit',
           }}
-          placeholder="在此输入你的答案（可选，用于对照检查）..."
+          placeholder={t('sa', 'placeholder')}
           value={draft}
           onChange={(event) => setDraft(event.target.value)}
         />
@@ -50,14 +56,14 @@ export function ShortAnswerInput({
       {/* Reveal button */}
       {!revealed && !judged && (
         <button className="primary-button" onClick={handleReveal} style={{ width: '100%' }}>
-          显示参考答案
+          {t('sa', 'reveal')}
         </button>
       )}
 
       {/* Reference answer */}
       {revealed && (
         <div className="answer-banner is-visible">
-          <strong>参考答案</strong>
+          <strong>{t('sa', 'reference')}</strong>
           <div
             style={{ whiteSpace: 'pre-wrap', lineHeight: 1.7 }}
           >
@@ -79,7 +85,7 @@ export function ShortAnswerInput({
             }}
             onClick={() => handleSelfJudge(true)}
           >
-            <strong style={{ color: 'var(--correct)' }}>我基本答对了</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('sa', 'gotIt')}</strong>
           </button>
           <button
             className="option-button"
@@ -91,7 +97,7 @@ export function ShortAnswerInput({
             }}
             onClick={() => handleSelfJudge(false)}
           >
-            <strong style={{ color: 'var(--incorrect)' }}>我答错了</strong>
+            <strong style={{ color: 'var(--incorrect)' }}>{t('sa', 'gotWrong')}</strong>
           </button>
         </div>
       )}
@@ -100,14 +106,14 @@ export function ShortAnswerInput({
       {judged && (
         <div className={`answer-banner ${selfJudgedCorrect ? 'is-visible' : ''}`}>
           {selfJudgedCorrect ? (
-            <strong style={{ color: 'var(--correct)' }}>✓ 你判断自己回答正确</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('sa', 'judgedCorrect')}</strong>
           ) : (
             <strong style={{ color: 'var(--incorrect)' }}>
-              ✗ 你判断自己回答错误，已加入错题本
+              {t('sa', 'judgedWrong')}
             </strong>
           )}
           <div className="explanation-panel" style={{ marginTop: 12 }}>
-            <strong>参考答案</strong>
+            <strong>{t('sa', 'reference')}</strong>
             <p style={{ whiteSpace: 'pre-wrap' }}>{question.referenceAnswer}</p>
           </div>
         </div>

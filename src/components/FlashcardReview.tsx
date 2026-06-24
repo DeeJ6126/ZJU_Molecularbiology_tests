@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import type { TranslationQuestion } from '../types'
 import { shuffleArray } from '../lib/practice'
+import { useT } from '../lib/i18n'
 
 // Acronyms that sound natural when spoken as-is by TTS
 const PRONOUNCEABLE_ACRONYMS = new Set(['DNA', 'RNA'])
@@ -10,6 +11,7 @@ interface FlashcardReviewProps {
 }
 
 export function FlashcardReview({ questions }: FlashcardReviewProps) {
+  const t = useT()
   const [shuffled] = useState(() => shuffleArray([...questions]))
   const [index, setIndex] = useState(0)
   const [showAnswer, setShowAnswer] = useState(false)
@@ -91,8 +93,8 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
   if (!current) {
     return (
       <section className="panel empty-state">
-        <h2>暂无复习词汇</h2>
-        <p>请先在题型选择页勾选翻译子分类。</p>
+        <h2>{t('flashcard', 'noTerms')}</h2>
+        <p>{t('flashcard', 'noTermsHint')}</p>
       </section>
     )
   }
@@ -158,7 +160,7 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
 
         {!showAnswer && (
           <p className="panel-note" style={{ marginTop: 8 }}>
-            按 Enter / 点击卡片 显示英文翻译
+            {t('flashcard', 'revealHint')}
           </p>
         )}
       </section>
@@ -166,21 +168,21 @@ export function FlashcardReview({ questions }: FlashcardReviewProps) {
       {/* Controls */}
       <div className="practice-actions" style={{ justifyContent: 'center' }}>
         <button className="secondary-button" onClick={goPrev}>
-          ← 上一个
+          {t('flashcard', 'prev')}
         </button>
         <button className="primary-button" onClick={toggleAnswer}>
-          {showAnswer ? '隐藏翻译' : '显示翻译 (Enter)'}
+          {showAnswer ? t('flashcard', 'hide') : t('flashcard', 'show')}
         </button>
-        <button className="ghost-button" onClick={speak} title="按空格键发音">
-          🔊 发音 (Space)
+        <button className="ghost-button" onClick={speak}>
+          {t('flashcard', 'speak')}
         </button>
         <button className="secondary-button" onClick={goNext}>
-          下一个 →
+          {t('flashcard', 'next')}
         </button>
       </div>
 
       <p className="panel-note">
-        键盘快捷键：← 上一个 | → 下一个 | Enter 显示/隐藏翻译 | Space 发音
+        {t('flashcard', 'shortcuts')}
       </p>
     </div>
   )

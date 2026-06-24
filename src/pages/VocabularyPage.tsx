@@ -1,15 +1,11 @@
 import { useRef, useState } from 'react'
 import { usePractice } from '../hooks/usePractice'
+import { useT } from '../lib/i18n'
 import type { VocabularyRecord, VocabularyStatus } from '../types'
-
-const STATUS_LABELS: Record<VocabularyStatus, string> = {
-  new: '新词',
-  learning: '学习中',
-  mastered: '已掌握',
-}
 
 export function VocabularyPage() {
   const practice = usePractice()
+  const t = useT()
   const { vocabularyRecords, removeVocabularyRecord, updateVocabularyRecordStatus, importVocabularyRecords, clearVocabularyRecords } = practice
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -52,7 +48,7 @@ export function VocabularyPage() {
         const records = JSON.parse(reader.result as string) as VocabularyRecord[]
         importVocabularyRecords(records)
       } catch {
-        alert('文件格式不正确')
+        alert(t('vocab', 'importError'))
       }
     }
     reader.readAsText(file)
@@ -67,14 +63,14 @@ export function VocabularyPage() {
       <section className="panel compact-panel">
         <div className="section-heading">
           <div>
-            <h2>生词本</h2>
+            <h2>{t('vocab', 'title')}</h2>
             <p className="scope-note">
-              练习中通过取词模式收集的英文术语，共 <strong>{vocabularyRecords.length}</strong> 个。
+              {t('vocab', 'subtitle').replace('{n}', String(vocabularyRecords.length))}
             </p>
           </div>
           <div className="toolbar-actions">
             <button className="ghost-button file-button" style={{ position: 'relative', overflow: 'hidden' }}>
-              导入
+              {t('vocab', 'import')}
               <input
                 ref={fileInputRef}
                 type="file"
@@ -83,10 +79,10 @@ export function VocabularyPage() {
               />
             </button>
             <button className="ghost-button" onClick={handleExport}>
-              导出
+              {t('vocab', 'export')}
             </button>
             <button className="ghost-button" onClick={clearVocabularyRecords}>
-              清空
+              {t('vocab', 'clear')}
             </button>
           </div>
         </div>
@@ -97,7 +93,7 @@ export function VocabularyPage() {
               className={`secondary-button ${statusFilter === status ? 'is-active' : ''}`}
               onClick={() => setStatusFilter(status)}
             >
-              {status === 'all' ? '全部' : STATUS_LABELS[status]}
+              {status === 'all' ? t('vocab', 'all') : t('vocab.statusLabels', status)}
             </button>
           ))}
         </div>
@@ -105,8 +101,8 @@ export function VocabularyPage() {
 
       {!filtered.length ? (
         <section className="panel empty-state">
-          <h2>暂无生词</h2>
-          <p>在练习页开启取词模式，点击题目中的英文术语即可添加到生词本。</p>
+          <h2>{t('vocab', 'emptyTitle')}</h2>
+          <p>{t('vocab', 'emptyDesc')}</p>
         </section>
       ) : (
         <div className="vocabulary-grid">
@@ -118,23 +114,19 @@ export function VocabularyPage() {
                   className="ghost-button"
                   onClick={() => removeVocabularyRecord(record.id)}
                 >
-                  删除
+                  {t('vocab', 'delete')}
                 </button>
               </div>
               <p className="vocabulary-context">{record.contextText}</p>
               <div className="vocabulary-meta">
                 <span className={`vocabulary-status status-${record.status}`}>
-                  {STATUS_LABELS[record.status]}
+                  {t('vocab.statusLabels', record.status)}
                 </span>
                 <button
                   className="secondary-button"
                   onClick={() => handleStatusChange(record.id, record.status)}
                 >
-                  {record.status === 'new'
-                    ? '→ 学习中'
-                    : record.status === 'learning'
-                      ? '→ 已掌握'
-                      : '→ 新词'}
+                  {t('vocab.nextStatus', record.status)}
                 </button>
               </div>
             </section>

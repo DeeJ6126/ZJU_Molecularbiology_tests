@@ -165,6 +165,49 @@
   color: var(--ink);
 }
 
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--teal-soft);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 180ms ease, color 180ms ease;
+  color: var(--ink-soft);
+}
+
+.lang-toggle:hover {
+  background: var(--teal);
+  color: #fff;
+}
+
+.lang-active {
+  color: var(--teal-deep);
+}
+
+.lang-toggle:hover .lang-active {
+  color: #fff;
+}
+
+.lang-inactive {
+  opacity: 0.45;
+}
+
+.lang-toggle:hover .lang-inactive {
+  opacity: 0.7;
+  color: rgba(255,255,255,0.8);
+}
+
+.lang-sep {
+  opacity: 0.4;
+  margin: 0 1px;
+}
+
 .page-shell {
   position: relative;
   z-index: 1;

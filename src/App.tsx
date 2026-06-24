@@ -10,17 +10,19 @@ import { MistakesPage } from './pages/MistakesPage'
 import { ReviewPage } from './pages/ReviewPage'
 import { VocabularyPage } from './pages/VocabularyPage'
 import { AboutPage } from './pages/AboutPage'
+import { useT } from './lib/i18n'
 import './App.css'
 
 export function App() {
   const { questionBank, loading, error, reload } = useQuestionBank()
+  const t = useT()
 
   if (loading) {
     return (
       <div className="loading-screen">
         <div className="status-panel">
-          <h1>分子生物学习题库</h1>
-          <p>正在加载题库…</p>
+          <h1>{t('app', 'loadingTitle')}</h1>
+          <p>{t('app', 'loading')}</p>
           <div className="progress-track" style={{ marginTop: 16 }}>
             <span className="progress-fill" style={{ width: '60%' }} />
           </div>
@@ -33,10 +35,10 @@ export function App() {
     return (
       <div className="loading-screen">
         <div className="status-panel">
-          <h1>题库加载失败</h1>
+          <h1>{t('app', 'errorTitle')}</h1>
           <p>{error}</p>
           <button className="primary-button" onClick={reload} style={{ marginTop: 16 }}>
-            重新加载
+            {t('app', 'reload')}
           </button>
         </div>
       </div>

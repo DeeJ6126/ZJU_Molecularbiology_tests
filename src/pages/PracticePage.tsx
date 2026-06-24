@@ -9,6 +9,7 @@ import { ShortAnswerInput } from '../components/ShortAnswerInput'
 import { EssayInput } from '../components/EssayInput'
 import { VocabularyPicker } from '../components/VocabularyPicker'
 import { createVocabularyRecord } from '../lib/vocabulary'
+import { useT } from '../lib/i18n'
 import type { AnswerSelection, VocabularySourceType } from '../types'
 
 export function PracticePage() {
@@ -16,6 +17,7 @@ export function PracticePage() {
   const practice = usePractice()
   const { questionBank, session, vocabularyRecords, addVocabularyRecord } =
     practice
+  const t = useT()
 
   const currentSession = session!
   const [vocabPickEnabled, setVocabPickEnabled] = useState(false)
@@ -33,7 +35,7 @@ export function PracticePage() {
     return (
       <div className="page-stack">
         <section className="panel empty-state">
-          <p>题库中找不到当前题目。</p>
+          <p>{t('practice', 'notFound')}</p>
           <button
             className="primary-button"
             onClick={() => {
@@ -41,7 +43,7 @@ export function PracticePage() {
               navigate('/categories')
             }}
           >
-            返回题型选择
+            {t('practice', 'back')}
           </button>
         </section>
       </div>
@@ -110,11 +112,11 @@ export function PracticePage() {
 
   // Question type label
   const typeLabels: Record<string, string> = {
-    translation: '中英名词互译',
-    'true-false': '判断题',
-    'multiple-choice': '选择题',
-    'short-answer': '简答题',
-    essay: '分析论述题',
+    translation: t('practice.typeLabels', 'translation'),
+    'true-false': t('practice.typeLabels', 'true-false'),
+    'multiple-choice': t('practice.typeLabels', 'multiple-choice'),
+    'short-answer': t('practice.typeLabels', 'short-answer'),
+    essay: t('practice.typeLabels', 'essay'),
   }
 
   return (
@@ -133,11 +135,13 @@ export function PracticePage() {
           {currentQuestion.categoryTitle}
         </span>
         <span className="status-pill">
-          第 {currentSession.currentIndex + 1} / {currentSession.questionOrder.length} 题
+          {t('practice', 'questionN')
+            .replace('{n}', String(currentSession.currentIndex + 1))
+            .replace('{m}', String(currentSession.questionOrder.length))}
         </span>
         {isMistakeMode && (
           <span className="status-pill" style={{ background: 'var(--coral-soft)', color: '#8c4d29' }}>
-            错题复习
+            {t('practice', 'mistakeMode')}
           </span>
         )}
       </div>
@@ -208,16 +212,16 @@ export function PracticePage() {
         <section className="panel compact-panel">
           <div style={{ display: 'flex', gap: 14, alignItems: 'center', flexWrap: 'wrap' }}>
             <span className="panel-note">
-              {hasMistake ? '此题在错题本中' : '此题不在错题本中'}
+              {hasMistake ? t('practice', 'inMistakes') : t('practice', 'notInMistakes')}
             </span>
             {hasMistake && (
               <button className="ghost-button" onClick={handleMistakeRemove}>
-                从错题本移除
+                {t('practice', 'removeMistake')}
               </button>
             )}
             {!hasMistake && (
               <button className="ghost-button" onClick={handleMistakeKeep}>
-                加入错题本
+                {t('practice', 'addMistake')}
               </button>
             )}
           </div>
@@ -232,11 +236,11 @@ export function PracticePage() {
             className={`secondary-button ${vocabPickEnabled ? 'is-active' : ''}`}
             onClick={() => setVocabPickEnabled(!vocabPickEnabled)}
           >
-            {vocabPickEnabled ? '✓ 取词模式开' : '生词取词模式'}
+            {vocabPickEnabled ? t('practice', 'vocabOn') : t('practice', 'vocabOff')}
           </button>
           {vocabPickEnabled && (
             <span className="panel-note">
-              点击题目中的英文单词即可收入生词本
+              {t('practice', 'vocabHint')}
             </span>
           )}
         </div>
@@ -255,19 +259,19 @@ export function PracticePage() {
       {/* Navigation */}
       <section className="practice-actions">
         <button className="secondary-button" onClick={handlePrev} disabled={currentSession.currentIndex <= 0}>
-          上一题
+          {t('practice', 'prev')}
         </button>
         {isLastQuestion ? (
           <Link to="/results" className="primary-button">
-            查看结果
+            {t('practice', 'results')}
           </Link>
         ) : (
           <button className="primary-button" onClick={handleNext}>
-            下一题
+            {t('practice', 'next')}
           </button>
         )}
         <button className="ghost-button" onClick={handleRestart}>
-          重新开始
+          {t('practice', 'restart')}
         </button>
       </section>
     </div>

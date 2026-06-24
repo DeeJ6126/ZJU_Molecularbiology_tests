@@ -1,15 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
 import { getSubcategories, getQuestionTypes } from '../lib/categoryScope'
+import { useT } from '../lib/i18n'
 import type { QuestionType } from '../types'
-
-const TYPE_LABELS: Record<QuestionType, string> = {
-  translation: '中英名词互译',
-  'true-false': '判断题',
-  'multiple-choice': '选择题',
-  'short-answer': '简答题',
-  essay: '分析论述题',
-}
 
 const TYPE_ORDER: QuestionType[] = [
   'translation',
@@ -22,6 +15,7 @@ const TYPE_ORDER: QuestionType[] = [
 export function CategorySelectionPage() {
   const navigate = useNavigate()
   const practice = usePractice()
+  const t = useT()
   const { questionBank, selectedCategoryIds, setSelectedCategoryIds, beginPractice } = practice
 
   const types = getQuestionTypes(questionBank).sort(
@@ -59,14 +53,16 @@ export function CategorySelectionPage() {
     .filter((c) => selectedCategoryIds.includes(c.id))
     .reduce((sum, c) => sum + c.questionCount, 0)
 
+  const subtitleParts = t('categories', 'subtitle').split('{n}')
+
   return (
     <div className={`page-stack ${selectedCategoryIds.length > 0 ? 'page-with-dock' : ''}`}>
       <section className="panel compact-panel">
         <div className="section-heading">
           <div>
-            <h2>选择题型与子分类</h2>
+            <h2>{t('categories', 'title')}</h2>
             <p className="scope-note">
-              按题型勾选想练习的子分类。已选 <strong>{totalSelected}</strong> 题。
+              {subtitleParts[0]}<strong>{totalSelected}</strong>{subtitleParts[1]}
             </p>
           </div>
           {selectedCategoryIds.length > 0 && (
@@ -74,7 +70,7 @@ export function CategorySelectionPage() {
               className="primary-button desktop-only"
               onClick={handleStart}
             >
-              开始练习（{totalSelected} 题）
+              {t('categories', 'start').replace('{n}', String(totalSelected))}
             </button>
           )}
         </div>
@@ -92,11 +88,11 @@ export function CategorySelectionPage() {
         return (
           <section key={type} className="panel compact-panel">
             <div className="section-heading">
-              <h2>{TYPE_LABELS[type] || type}</h2>
+              <h2>{t('practice.typeLabels', type)}</h2>
               <div className="toolbar-actions">
                 {type === 'translation' && selectedInType.length > 0 && (
                   <Link to="/review" className="secondary-button" style={{ textDecoration: 'none' }}>
-                    复习模式
+                    {t('categories', 'review')}
                   </Link>
                 )}
                 <button
@@ -105,11 +101,11 @@ export function CategorySelectionPage() {
                     allSelected ? clearType(type) : selectAllInType(type)
                   }
                 >
-                  {allSelected ? '取消全选' : '全选'}
+                  {allSelected ? t('categories', 'deselectAll') : t('categories', 'selectAll')}
                 </button>
                 {selectedInType.length > 0 && (
                   <button className="ghost-button" onClick={() => clearType(type)}>
-                    清空
+                    {t('categories', 'clear')}
                   </button>
                 )}
               </div>
@@ -127,7 +123,7 @@ export function CategorySelectionPage() {
                   >
                     <div className="chapter-card-top">
                       <span className="chapter-chip">{cat.title}</span>
-                      <span className="chapter-count">{cat.questionCount} 题</span>
+                      <span className="chapter-count">{cat.questionCount}</span>
                     </div>
                   </button>
                 )
@@ -141,10 +137,10 @@ export function CategorySelectionPage() {
       {selectedCategoryIds.length > 0 && (
         <div className="mobile-dock">
           <div className="mobile-dock-copy">
-            <strong>已选 {totalSelected} 题</strong>
+            <strong>{subtitleParts[0]}{totalSelected}{subtitleParts[1]}</strong>
           </div>
           <button className="primary-button" onClick={handleStart}>
-            开始练习
+            {t('categories', 'startShort')}
           </button>
         </div>
       )}

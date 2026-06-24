@@ -25,6 +25,8 @@ export type AnswerSelection = OptionKey | 'UNKNOWN'
 export interface QuestionOption {
   key: OptionKey
   text: string
+  /** Chinese option text for zh language mode */
+  textCn?: string
 }
 
 // ── AI explanation ────────────────────────────────────────────────
@@ -47,6 +49,10 @@ interface BaseQuestionFields {
   parentTitle?: string
   number: number
   prompt: string
+  /** Chinese prompt for zh language mode */
+  promptCn?: string
+  /** Chinese explanation for zh language mode (T/F + MC) */
+  explanationCn?: string
   aiExplanation?: AiExplanation
 }
 

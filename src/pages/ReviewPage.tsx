@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import { usePractice } from '../hooks/usePractice'
 import { FlashcardReview } from '../components/FlashcardReview'
+import { useT } from '../lib/i18n'
 import type { TranslationQuestion } from '../types'
 
 export function ReviewPage() {
   const practice = usePractice()
+  const t = useT()
   const { questionBank, selectedCategoryIds } = practice
 
   // Filter translation questions from selected categories
@@ -17,10 +19,10 @@ export function ReviewPage() {
     return (
       <div className="page-stack">
         <section className="panel empty-state">
-          <h2>未选择题型</h2>
-          <p>请先在题型选择页勾选包含翻译题的子分类。</p>
+          <h2>{t('review', 'noSelection')}</h2>
+          <p>{t('review', 'noSelectionHint')}</p>
           <Link to="/categories" className="primary-button" style={{ marginTop: 16 }}>
-            前往题型选择
+            {t('review', 'goToCategories')}
           </Link>
         </section>
       </div>
@@ -31,12 +33,12 @@ export function ReviewPage() {
     return (
       <div className="page-stack">
         <section className="panel empty-state">
-          <h2>没有翻译题</h2>
+          <h2>{t('review', 'noTranslation')}</h2>
           <p>
-            当前选中的子分类中不包含中英名词互译题。请在题型选择页勾选翻译题子分类后再试。
+            {t('review', 'noTranslationHint')}
           </p>
           <Link to="/categories" className="primary-button" style={{ marginTop: 16 }}>
-            前往题型选择
+            {t('review', 'goToCategories')}
           </Link>
         </section>
       </div>

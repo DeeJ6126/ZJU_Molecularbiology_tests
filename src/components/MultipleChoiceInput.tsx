@@ -1,5 +1,7 @@
 import type { MultipleChoiceQuestion } from '../types'
 import type { PracticeAnswer, AnswerSelection } from '../types'
+import { useLanguage } from '../context/LanguageContext'
+import { useT } from '../lib/i18n'
 
 interface MultipleChoiceInputProps {
   question: MultipleChoiceQuestion
@@ -12,10 +14,15 @@ export function MultipleChoiceInput({
   existingAnswer,
   onAnswer,
 }: MultipleChoiceInputProps) {
+  const { language } = useLanguage()
+  const t = useT()
   const answered = Boolean(existingAnswer)
   const isCorrect = existingAnswer?.isCorrect ?? false
   const selectedKey = existingAnswer?.selectedKey
   const correctKey = question.answerKey
+
+  const prompt = language === 'zh' ? (question.promptCn ?? question.prompt) : question.prompt
+  const explanation = language === 'zh' ? (question.explanationCn ?? question.explanation) : question.explanation
 
   function handleSelect(key: AnswerSelection) {
     if (answered) return
@@ -26,15 +33,15 @@ export function MultipleChoiceInput({
   if (!question.distractorsGenerated || !question.options.length) {
     return (
       <div className="question-panel">
-        <p className="question-text">{question.prompt}</p>
+        <p className="question-text">{prompt}</p>
         <div className="inset-panel" style={{ textAlign: 'center', padding: 32 }}>
           <p className="panel-note">
-            该题目的选项尚未生成。答案：{question.answerText || question.answerKey || '未知'}
+            {t('mc', 'noOptions')}{question.answerText || question.answerKey || '未知'}
           </p>
-          {question.explanation && (
+          {explanation && (
             <div className="explanation-panel" style={{ marginTop: 16 }}>
-              <strong>解析</strong>
-              <p>{question.explanation}</p>
+              <strong>{t('mc', 'explanation')}</strong>
+              <p>{explanation}</p>
             </div>
           )}
         </div>
@@ -42,12 +49,15 @@ export function MultipleChoiceInput({
     )
   }
 
+  const correctOption = question.options.find((o) => o.key === correctKey)
+
   return (
     <div className="question-panel">
-      <p className="question-text">{question.prompt}</p>
+      <p className="question-text">{prompt}</p>
 
       <div className="option-list">
         {question.options.map((option) => {
+          const optionText = language === 'zh' ? (option.textCn ?? option.text) : option.text
           let className = 'option-button'
           if (answered) {
             if (option.key === correctKey) {
@@ -68,7 +78,7 @@ export function MultipleChoiceInput({
               type="button"
             >
               <span className="option-key">{option.key}</span>
-              <span>{option.text}</span>
+              <span>{optionText}</span>
             </button>
           )
         })}
@@ -77,16 +87,19 @@ export function MultipleChoiceInput({
       {answered && (
         <div className={`answer-banner ${isCorrect ? 'is-visible' : ''}`}>
           {isCorrect ? (
-            <strong style={{ color: 'var(--correct)' }}>✓ 回答正确！</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('mc', 'correct')}</strong>
           ) : (
             <strong style={{ color: 'var(--incorrect)' }}>
-              ✗ 回答错误，正确答案是：{correctKey}
+              {t('mc', 'wrong')}
+              {correctOption
+                ? `${correctKey}. ${language === 'zh' ? (correctOption.textCn ?? correctOption.text) : correctOption.text}`
+                : correctKey}
             </strong>
           )}
-          {question.explanation && (
+          {explanation && (
             <div className="explanation-panel">
-              <strong>解析</strong>
-              <p>{question.explanation}</p>
+              <strong>{t('mc', 'explanation')}</strong>
+              <p>{explanation}</p>
             </div>
           )}
         </div>

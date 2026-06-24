@@ -1,5 +1,7 @@
 import type { TrueFalseQuestion } from '../types'
 import type { PracticeAnswer, AnswerSelection } from '../types'
+import { useLanguage } from '../context/LanguageContext'
+import { useT } from '../lib/i18n'
 
 interface TrueFalseInputProps {
   question: TrueFalseQuestion
@@ -12,9 +14,14 @@ export function TrueFalseInput({
   existingAnswer,
   onAnswer,
 }: TrueFalseInputProps) {
+  const { language } = useLanguage()
+  const t = useT()
   const answered = Boolean(existingAnswer)
   const isCorrect = existingAnswer?.isCorrect ?? false
   const userChoice = existingAnswer?.selectedKey
+
+  const prompt = language === 'zh' ? (question.promptCn ?? question.prompt) : question.prompt
+  const explanation = language === 'zh' ? (question.explanationCn ?? question.explanation) : question.explanation
 
   function handleSelect(choice: AnswerSelection) {
     if (answered) return
@@ -34,7 +41,7 @@ export function TrueFalseInput({
 
   return (
     <div className="question-panel">
-      <p className="question-text">{question.prompt}</p>
+      <p className="question-text">{prompt}</p>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
         <button
@@ -43,7 +50,7 @@ export function TrueFalseInput({
           disabled={answered}
           style={{ justifyContent: 'center', textAlign: 'center' }}
         >
-          <strong>✓ 正确</strong>
+          <strong>{t('tf', 'correct')}</strong>
         </button>
 
         <button
@@ -52,23 +59,23 @@ export function TrueFalseInput({
           disabled={answered}
           style={{ justifyContent: 'center', textAlign: 'center' }}
         >
-          <strong>✗ 错误</strong>
+          <strong>{t('tf', 'incorrect')}</strong>
         </button>
       </div>
 
       {answered && (
         <div className={`answer-banner ${isCorrect ? 'is-visible' : ''}`}>
           {isCorrect ? (
-            <strong style={{ color: 'var(--correct)' }}>✓ 回答正确！</strong>
+            <strong style={{ color: 'var(--correct)' }}>{t('tf', 'correctMsg')}</strong>
           ) : (
             <strong style={{ color: 'var(--incorrect)' }}>
-              ✗ 回答错误，正确答案是：{question.answerIsTrue ? '正确' : '错误'}
+              {t('tf', 'wrongMsg')}{question.answerIsTrue ? t('tf', 'correct') : t('tf', 'incorrect')}
             </strong>
           )}
-          {question.explanation && (
+          {explanation && (
             <div className="explanation-panel" style={{ marginTop: 12 }}>
-              <strong>解析</strong>
-              <p>{question.explanation}</p>
+              <strong>{t('tf', 'explanation')}</strong>
+              <p>{explanation}</p>
             </div>
           )}
         </div>

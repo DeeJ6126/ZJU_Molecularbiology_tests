@@ -7,6 +7,7 @@ import type {
   QuestionBank,
   TranslationQuestion,
 } from '../types'
+import type { Language } from '../context/LanguageContext'
 import { getAllCategoryIds } from './categoryScope'
 
 // ── Category selection ────────────────────────────────────────────
@@ -275,7 +276,7 @@ function getPossibleStems(word: string): string[] {
  * Return a human-readable string representing the correct answer for a question.
  * Used for mistake record display.
  */
-export function getAnswerDisplay(question: Question): string {
+export function getAnswerDisplay(question: Question, language?: Language): string {
   switch (question.type) {
     case 'translation': {
       if (question.direction === 'zh-to-en') {
@@ -289,12 +290,18 @@ export function getAnswerDisplay(question: Question): string {
     }
 
     case 'true-false':
-      return question.answerIsTrue ? '正确' : '错误'
+      return language === 'zh'
+        ? (question.answerIsTrue ? '正确' : '错误')
+        : (question.answerIsTrue ? 'True' : 'False')
 
     case 'multiple-choice': {
       if (question.answerKey) {
         const option = question.options.find((o) => o.key === question.answerKey)
-        return option ? `${question.answerKey}. ${option.text}` : question.answerKey
+        if (option) {
+          const text = language === 'zh' ? (option.textCn ?? option.text) : option.text
+          return `${question.answerKey}. ${text}`
+        }
+        return question.answerKey
       }
       return question.answerText || '答案待生成'
     }
