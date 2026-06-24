@@ -89,8 +89,7 @@ export function TranslationInput({
             next()
           }
           break
-        case 'ShiftLeft':
-        case 'ShiftRight':
+        case 'Tab':
           event.preventDefault()
           speak()
           break
@@ -156,7 +155,7 @@ export function TranslationInput({
       <p className="question-text">{question.prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
         {isZhToEn
-          ? '请输入英文翻译（Enter 提交，← → 切题，Space 下一题，Shift 发音）'
+          ? '请输入英文翻译（Enter 提交，← → 切题，Space 下一题，Tab 发音）'
           : '请输入中文翻译'}
       </p>
 
