@@ -1,11 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import type { TranslationQuestion, PracticeAnswer } from '../types'
+
+// Acronyms that sound natural when spoken as-is by TTS
+const PRONOUNCEABLE_ACRONYMS = new Set(['DNA', 'RNA'])
 
 interface TranslationInputProps {
   question: TranslationQuestion
   existingAnswer: PracticeAnswer | undefined
   onAnswer: (questionId: string, textAnswer: string) => void
   onNext?: () => void
+  onPrev?: () => void
   onRemoveMistake?: (questionId: string) => void
 }
 
@@ -14,6 +18,7 @@ export function TranslationInput({
   existingAnswer,
   onAnswer,
   onNext,
+  onPrev,
   onRemoveMistake,
 }: TranslationInputProps) {
   const [input, setInput] = useState(existingAnswer?.textAnswer ?? '')
@@ -33,22 +38,68 @@ export function TranslationInput({
 
   const isZhToEn = question.direction === 'zh-to-en'
 
-  // Space key to go to next question after answering
-  useEffect(() => {
-    if (!Boolean(existingAnswer) || !onNext) return
+  // Pronunciation: speak the full term (not abbreviation) via Web Speech API
+  const speak = useCallback(() => {
+    if (!question || typeof speechSynthesis === 'undefined') return
 
+    speechSynthesis.cancel()
+
+    const abbr = question.answerFullTerm
+    const full = question.answerTerm
+
+    let textToSpeak: string
+    if (abbr && PRONOUNCEABLE_ACRONYMS.has(abbr)) {
+      // DNA, RNA sound fine as-is
+      textToSpeak = abbr
+    } else {
+      // Always prefer the full term for pronunciation
+      textToSpeak = full
+    }
+
+    const utterance = new SpeechSynthesisUtterance(textToSpeak)
+    utterance.lang = 'en-US'
+    utterance.rate = 0.85
+    speechSynthesis.speak(utterance)
+  }, [question])
+
+  // Global keyboard shortcuts (arrow nav, space-to-next, shift-to-speak)
+  useEffect(() => {
     const next = onNext
+    const prev = onPrev
 
     function handleKeyDown(event: KeyboardEvent) {
-      if (event.code === 'Space') {
-        event.preventDefault()
-        next()
+      // Don't intercept when user is typing in an input/textarea
+      if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) {
+        return
+      }
+
+      switch (event.code) {
+        case 'ArrowLeft':
+          event.preventDefault()
+          prev?.()
+          break
+        case 'ArrowRight':
+          event.preventDefault()
+          next?.()
+          break
+        case 'Space':
+          // After answering, Space goes to next question
+          if (Boolean(existingAnswer) && next) {
+            event.preventDefault()
+            next()
+          }
+          break
+        case 'ShiftLeft':
+        case 'ShiftRight':
+          event.preventDefault()
+          speak()
+          break
       }
     }
 
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [Boolean(existingAnswer), onNext])
+  }, [Boolean(existingAnswer), onNext, onPrev, speak])
 
   function handleSubmit() {
     if (pending || Boolean(existingAnswer) || !input.trim()) return
@@ -105,7 +156,7 @@ export function TranslationInput({
       <p className="question-text">{question.prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
         {isZhToEn
-          ? '请输入英文翻译（Enter 提交，提交后按 Space 跳转下一题）'
+          ? '请输入英文翻译（Enter 提交，← → 切题，Space 下一题，Shift 发音）'
           : '请输入中文翻译'}
       </p>
 

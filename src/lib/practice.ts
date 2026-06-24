@@ -201,8 +201,14 @@ export function checkTranslationAnswer(
   const normalized = normalizeAnswerText(userInput)
   if (!normalized) return false
 
+  // Collect all acceptable forms: explicit acceptableAnswers + abbreviation
+  const allAcceptable: string[] = [...question.acceptableAnswers]
+  if (question.answerFullTerm) {
+    allAcceptable.push(question.answerFullTerm)
+  }
+
   // Exact match
-  if (question.acceptableAnswers.some(
+  if (allAcceptable.some(
     (answer) => normalizeAnswerText(answer) === normalized,
   )) {
     return true
@@ -211,7 +217,7 @@ export function checkTranslationAnswer(
   // Singular/plural tolerant match: generate possible stems for both
   // input and answer, then check if any pair matches.
   const inputStems = getPossibleStems(normalized)
-  return question.acceptableAnswers.some((answer) => {
+  return allAcceptable.some((answer) => {
     const answerStems = getPossibleStems(normalizeAnswerText(answer))
     return inputStems.some((is) => answerStems.includes(is))
   })
