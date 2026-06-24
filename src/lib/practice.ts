@@ -228,8 +228,8 @@ function normalizeAnswerText(text: string): string {
     .trim()
     .toLowerCase()
     .replace(/\s+/g, ' ')
-    .replace(/[，,。\.！!？?；;：:、\s]+$/, '')  // trailing punctuation
-    .replace(/^[，,。\.！!？?；;：:、\s]+/, '')  // leading punctuation
+    .replace(/[，,。\.！!？?；;：:、\s()（）\[\]【】]+$/, '')  // trailing punctuation
+    .replace(/^[，,。\.！!？?；;：:、\s()（）\[\]【】]+/, '')  // leading punctuation
 }
 
 /**
