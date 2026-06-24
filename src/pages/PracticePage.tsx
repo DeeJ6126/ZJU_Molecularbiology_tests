@@ -144,6 +144,13 @@ export function PracticePage() {
             {t('practice', 'mistakeMode')}
           </span>
         )}
+        {currentQuestion.examSources && currentQuestion.examSources.length > 0 && (
+          currentQuestion.examSources.map((src: string) => (
+            <span key={src} className="status-pill" style={{ background: 'var(--teal-soft)', color: 'var(--teal-deep)', fontSize: '0.78rem' }}>
+              {src}
+            </span>
+          ))
+        )}
       </div>
 
       {/* Question prompt (with optional vocabulary picker) */}

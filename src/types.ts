@@ -48,6 +48,8 @@ interface BaseQuestionFields {
   categoryTitle: string
   parentTitle?: string
   number: number
+  /** Which exam papers this question appeared in (e.g. ['21春夏', '22春夏']) */
+  examSources?: string[]
   prompt: string
   /** Chinese prompt for zh language mode */
   promptCn?: string
