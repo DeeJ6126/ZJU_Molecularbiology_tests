@@ -2064,23 +2064,23 @@
       "options": [
         {
           "key": "A",
-          "text": "Frederick Sanger（弗雷德里克·桑格）"
+          "text": "Frederick Sanger"
         },
         {
           "key": "B",
-          "text": "Walter Gilbert（沃尔特·吉尔伯特）"
+          "text": "Walter Gilbert"
         },
         {
           "key": "C",
-          "text": "Kary Mullis（凯利·穆利斯）"
+          "text": "Kary Mullis"
         },
         {
           "key": "D",
-          "text": "Hamilton Smith（汉密尔顿·史密斯）"
+          "text": "Hamilton Smith"
         }
       ],
       "answerKey": "C",
-      "answerText": "Kary Mullis（凯利·穆利斯）",
+      "answerText": "Kary Mullis",
       "explanation": "1983年凯利·穆利斯发明了聚合酶链式反应(PCR)技术，彻底改变了分子生物学研究",
       "distractorsGenerated": true
     },
@@ -2095,23 +2095,23 @@
       "options": [
         {
           "key": "A",
-          "text": "³²P（磷-32）"
+          "text": "³²P"
         },
         {
           "key": "B",
-          "text": "³⁵S（硫-35）"
+          "text": "³⁵S"
         },
         {
           "key": "C",
-          "text": "¹⁴C（碳-14）"
+          "text": "¹⁴C"
         },
         {
           "key": "D",
-          "text": "³H（氚/氢-3）"
+          "text": "³H"
         }
       ],
       "answerKey": "B",
-      "answerText": "³⁵S（硫-35）",
+      "answerText": "³⁵S",
       "explanation": "蛋白质含有硫元素而不含磷，DNA含有磷元素而不含硫，因此赫尔希-蔡斯实验用³⁵S标记蛋白质，³²P标记DNA",
       "distractorsGenerated": true
     },
@@ -2126,23 +2126,23 @@
       "options": [
         {
           "key": "A",
-          "text": "甲硫氨酸（Met）"
+          "text": "Methionine (Met)"
         },
         {
           "key": "B",
-          "text": "N-甲酰甲硫氨酸（fMet）"
+          "text": "N-formylmethionine (fMet)"
         },
         {
           "key": "C",
-          "text": "脯氨酸（Pro）"
+          "text": "Proline (Pro)"
         },
         {
           "key": "D",
-          "text": "甘氨酸（Gly）"
+          "text": "Glycine (Gly)"
         }
       ],
       "answerKey": "B",
-      "answerText": "N-甲酰甲硫氨酸（fMet）",
+      "answerText": "N-formylmethionine (fMet)",
       "explanation": "原核生物的起始tRNA携带甲酰甲硫氨酸，而真核生物起始tRNA携带未修饰的甲硫氨酸",
       "distractorsGenerated": true
     },
@@ -2157,23 +2157,23 @@
       "options": [
         {
           "key": "A",
-          "text": "甲硫氨酸（Met）"
+          "text": "Methionine (Met)"
         },
         {
           "key": "B",
-          "text": "色氨酸（Trp）"
+          "text": "Tryptophan (Trp)"
         },
         {
           "key": "C",
-          "text": "苯丙氨酸（Phe）"
+          "text": "Phenylalanine (Phe)"
         },
         {
           "key": "D",
-          "text": "亮氨酸（Leu）"
+          "text": "Leucine (Leu)"
         }
       ],
       "answerKey": "A",
-      "answerText": "甲硫氨酸（Met）；原核起始为fMet，延伸及真核均为Met",
+      "answerText": "Methionine (Met); fMet in prokaryotic initiation, Met in elongation and eukaryotes",
       "explanation": "AUG既是起始密码子，也是编码甲硫氨酸的密码子，在原核生物中起始位置编码fMet，延伸位置编码Met；真核生物中均编码Met",
       "distractorsGenerated": true
     },
@@ -2188,23 +2188,23 @@
       "options": [
         {
           "key": "A",
-          "text": "原核生物（细菌、古菌）"
+          "text": "Prokaryotes (bacteria and archaea)"
         },
         {
           "key": "B",
-          "text": "真核生物"
+          "text": "Eukaryotes"
         },
         {
           "key": "C",
-          "text": "所有生物"
+          "text": "All organisms"
         },
         {
           "key": "D",
-          "text": "仅病毒"
+          "text": "Viruses only"
         }
       ],
       "answerKey": "A",
-      "answerText": "原核生物（细菌、古菌）",
+      "answerText": "Prokaryotes (bacteria and archaea)",
       "explanation": "SD序列是原核mRNA特有的核糖体结合位点，真核生物mRNA依靠5'帽子结构和Kozak序列招募核糖体",
       "distractorsGenerated": true
     },
@@ -2219,23 +2219,23 @@
       "options": [
         {
           "key": "A",
-          "text": "EF-Tu（延伸因子Tu）"
+          "text": "EF-Tu (Elongation Factor Tu)"
         },
         {
           "key": "B",
-          "text": "EF-G（延伸因子G）"
+          "text": "EF-G (Elongation Factor G)"
         },
         {
           "key": "C",
-          "text": "EF-Ts（延伸因子Ts）"
+          "text": "EF-Ts (Elongation Factor Ts)"
         },
         {
           "key": "D",
-          "text": "IF2（起始因子2）"
+          "text": "IF2 (Initiation Factor 2)"
         }
       ],
       "answerKey": "A",
-      "answerText": "EF-Tu（延伸因子Tu）",
+      "answerText": "EF-Tu (Elongation Factor Tu)",
       "explanation": "EF-Tu-GTP复合物与氨基酰-tRNA结合，将其转运到核糖体A位；EF-G负责核糖体在mRNA上的移位",
       "distractorsGenerated": true
     },
@@ -2250,23 +2250,23 @@
       "options": [
         {
           "key": "A",
-          "text": "tRNA反密码子5'端碱基与mRNA密码子3'端第三位发生非标准配对"
+          "text": "The 5' base of tRNA anticodon wobble-pairs with the 3' third base of mRNA codon"
         },
         {
           "key": "B",
-          "text": "mRNA密码子5'端碱基与tRNA反密码子3'端发生非标准配对"
+          "text": "The 5' base of mRNA codon wobble-pairs with the 3' base of tRNA anticodon"
         },
         {
           "key": "C",
-          "text": "核糖体在翻译延伸过程中催化密码子-反密码子间的摆动"
+          "text": "The ribosome catalyzes wobble movement during translocation"
         },
         {
           "key": "D",
-          "text": "氨基酰-tRNA合成酶可识别多种tRNA并催化非标准氨基酸装载"
+          "text": "Aminoacyl-tRNA synthetase recognizes multiple tRNAs via wobble pairing"
         }
       ],
       "answerKey": "A",
-      "answerText": "tRNA反密码子5'端第一位碱基与mRNA密码子3'端第三位碱基可发生非标准配对（摆动配对），使一种tRNA可识别多个同义密码子",
+      "answerText": "The 5' base of the tRNA anticodon can form non-canonical (wobble) pairs with the 3' third base of the mRNA codon, allowing one tRNA to recognize multiple synonymous codons",
       "explanation": "摆动假说解释了遗传密码的简并性，减少了细胞所需tRNA的种类",
       "distractorsGenerated": true
     },
@@ -2281,23 +2281,23 @@
       "options": [
         {
           "key": "A",
-          "text": "靶向切割RNA，实现RNA敲低"
+          "text": "Targets and cleaves RNA, achieving RNA knockdown"
         },
         {
           "key": "B",
-          "text": "靶向切割DNA，实现基因敲除"
+          "text": "Targets and cleaves DNA, achieving gene knockout"
         },
         {
           "key": "C",
-          "text": "靶向降解蛋白质，实现蛋白敲低"
+          "text": "Targets and degrades proteins, achieving protein knockdown"
         },
         {
           "key": "D",
-          "text": "催化RNA脱氨基编辑"
+          "text": "Catalyzes RNA deamination editing"
         }
       ],
       "answerKey": "A",
-      "answerText": "靶向切割RNA，实现RNA敲低",
+      "answerText": "Targets and cleaves RNA, achieving RNA knockdown",
       "explanation": "Cas13是RNA靶向的CRISPR效应蛋白，特异性切割单链RNA，用于基因表达的转录后调控",
       "distractorsGenerated": true
     },
@@ -2343,23 +2343,23 @@
       "options": [
         {
           "key": "A",
-          "text": "非模板链（non-template strand）"
+          "text": "Non-template strand (coding / sense strand)"
         },
         {
           "key": "B",
-          "text": "模板链（template strand）"
+          "text": "Template strand (non-coding / antisense strand)"
         },
         {
           "key": "C",
-          "text": "反义链（antisense strand）"
+          "text": "Antisense strand"
         },
         {
           "key": "D",
-          "text": "后随链（lagging strand）"
+          "text": "Lagging strand"
         }
       ],
       "answerKey": "A",
-      "answerText": "非模板链（non-template strand）",
+      "answerText": "Non-template strand (coding strand / sense strand)",
       "explanation": "编码链与转录产生的mRNA序列（除T/U替换外）一致，因此也称为有义链或非模板链",
       "distractorsGenerated": true
     },
@@ -2374,23 +2374,23 @@
       "options": [
         {
           "key": "A",
-          "text": "核心RNA聚合酶 + DNA模板链 + 新生RNA链"
+          "text": "Core RNA polymerase + DNA template strand + nascent RNA"
         },
         {
           "key": "B",
-          "text": "核心RNA聚合酶 + σ因子 + DNA模板链"
+          "text": "Core RNA polymerase + sigma factor + DNA template strand"
         },
         {
           "key": "C",
-          "text": "全酶（holoenzyme）+ DNA模板链 + 新生RNA链"
+          "text": "Holoenzyme + DNA template strand + nascent RNA"
         },
         {
           "key": "D",
-          "text": "RNA聚合酶 + 核糖体 + mRNA"
+          "text": "RNA polymerase + ribosome + mRNA"
         }
       ],
       "answerKey": "A",
-      "answerText": "核心RNA聚合酶 + DNA模板链 + 新生RNA链",
+      "answerText": "Core RNA polymerase + DNA template strand + nascent RNA",
       "explanation": "Sigma因子仅参与转录起始，延伸阶段脱落，因此不属于三元复合体",
       "distractorsGenerated": true
     },
@@ -2405,23 +2405,23 @@
       "options": [
         {
           "key": "A",
-          "text": "RNA聚合酶频繁发生流产转录，长基因需要多次重启"
+          "text": "RNA polymerase frequently undergoes abortive transcription, requiring multiple re-initiation attempts"
         },
         {
           "key": "B",
-          "text": "RNA聚合酶的延伸速度极慢且无法调控"
+          "text": "RNA polymerase elongation rate is extremely slow and cannot be regulated"
         },
         {
           "key": "C",
-          "text": "长mRNA在转录完成前即被核酸酶降解"
+          "text": "Long mRNAs are degraded by nucleases before transcription completes"
         },
         {
           "key": "D",
-          "text": "内含子必须在转录完成前完成剪接"
+          "text": "Introns must be spliced before transcription can finish"
         }
       ],
       "answerKey": "A",
-      "answerText": "RNA聚合酶频繁发生流产转录（abortive transcription），长基因需要多次重启起始",
+      "answerText": "RNA polymerase frequently undergoes abortive transcription, requiring multiple re-initiation attempts for long genes",
       "explanation": "RNA聚合酶在转录起始阶段常发生流产转录（合成短片段RNA后脱落），长基因需要多次成功起始才能完成全长转录，因此耗时更长",
       "distractorsGenerated": true
     },
@@ -2436,23 +2436,23 @@
       "options": [
         {
           "key": "A",
-          "text": "5'剪接位点 + 3'剪接位点 + 分支点序列"
+          "text": "5' splice site (GU) + 3' splice site (AG) + branch point (A)"
         },
         {
           "key": "B",
-          "text": "5'帽子 + 3'polyA尾 + 分支点序列"
+          "text": "5' cap + 3' polyA tail + branch point"
         },
         {
           "key": "C",
-          "text": "5'剪接位点 + 3'剪接位点 + TATA框"
+          "text": "5' splice site + 3' splice site + TATA box"
         },
         {
           "key": "D",
-          "text": "外显子 + 内含子 + 5'剪接位点"
+          "text": "Exon + intron + 5' splice site"
         }
       ],
       "answerKey": "A",
-      "answerText": "5'剪接位点（GU）+ 3'剪接位点（AG）+ 分支点序列（branch point）",
+      "answerText": "5' splice site (GU) + 3' splice site (AG) + branch point sequence (A residue)",
       "explanation": "5'加帽和3'加尾是独立的转录后修饰，不属于剪接步骤；剪接需要识别5'GU、3'AG和分支点腺苷三个核心元件",
       "distractorsGenerated": true
     },
@@ -2467,23 +2467,23 @@
       "options": [
         {
           "key": "A",
-          "text": "vir（毒性）基因"
+          "text": "vir (virulence) genes"
         },
         {
           "key": "B",
-          "text": "T-DNA基因"
+          "text": "T-DNA genes"
         },
         {
           "key": "C",
-          "text": "抗生素抗性基因"
+          "text": "Antibiotic resistance genes"
         },
         {
           "key": "D",
-          "text": "ori（复制起点）"
+          "text": "ori (origin of replication)"
         }
       ],
       "answerKey": "A",
-      "answerText": "vir（毒性）基因",
+      "answerText": "vir (virulence) genes",
       "explanation": "vir基因编码T-DNA转移所需的一系列蛋白，是农杆菌介导植物转基因的关键",
       "distractorsGenerated": true
     },
@@ -2498,23 +2498,23 @@
       "options": [
         {
           "key": "A",
-          "text": "DNA结合结构域（BD）+ 转录激活结构域（AD）"
+          "text": "DNA-binding domain (BD) + transcription activation domain (AD)"
         },
         {
           "key": "B",
-          "text": "二聚化结构域 + 核定位信号（NLS）"
+          "text": "Dimerization domain + nuclear localization signal (NLS)"
         },
         {
           "key": "C",
-          "text": "配体结合结构域 + DNA结合结构域"
+          "text": "Ligand-binding domain + DNA-binding domain"
         },
         {
           "key": "D",
-          "text": "抑制结构域 + 染色质重塑结构域"
+          "text": "Repression domain + chromatin remodeling domain"
         }
       ],
       "answerKey": "A",
-      "answerText": "DNA结合结构域（BD）+ 转录激活结构域（AD）",
+      "answerText": "DNA-binding domain (BD) + transcription activation domain (AD)",
       "explanation": "这两个结构域是转录因子发挥功能的基础，酵母双杂交系统正是利用了这一特性",
       "distractorsGenerated": true
     },
@@ -2529,23 +2529,23 @@
       "options": [
         {
           "key": "A",
-          "text": "降低诱导温度（如从37°C降至18–25°C）"
+          "text": "Lowering induction temperature (e.g., from 37°C to 18–25°C)"
         },
         {
           "key": "B",
-          "text": "同时共表达多种重组蛋白"
+          "text": "Co-expressing multiple recombinant proteins simultaneously"
         },
         {
           "key": "C",
-          "text": "使用融合标签（如MBP、GST、Trx）"
+          "text": "Using fusion tags (e.g., MBP, GST, Trx)"
         },
         {
           "key": "D",
-          "text": "共表达分子伴侣（如GroEL/GroES）"
+          "text": "Co-expressing molecular chaperones (e.g., GroEL/GroES)"
         }
       ],
       "answerKey": "B",
-      "answerText": "同时合成多种蛋白——竞争分子伴侣资源，加剧折叠错误",
+      "answerText": "Co-expressing multiple recombinant proteins simultaneously — competes for chaperone resources, worsening misfolding",
       "explanation": "同时表达多个蛋白会争夺细胞内的分子伴侣和折叠机器，导致更多蛋白形成包涵体；降低温度、使用融合标签（如MBP）、共表达分子伴侣等方法可提高蛋白溶解度",
       "distractorsGenerated": true
     },
@@ -2560,23 +2560,23 @@
       "options": [
         {
           "key": "A",
-          "text": "与模板链3'端反向互补，延伸方向与上游引物相向"
+          "text": "Reverse-complementary to the template 3' end, extending toward the upstream primer"
         },
         {
           "key": "B",
-          "text": "与模板链5'端序列完全相同"
+          "text": "Identical to the template 5' end sequence"
         },
         {
           "key": "C",
-          "text": "与上游引物序列反向互补"
+          "text": "Reverse-complementary to the upstream primer sequence"
         },
         {
           "key": "D",
-          "text": "与上游引物序列完全相同"
+          "text": "Identical to the upstream primer sequence"
         }
       ],
       "answerKey": "A",
-      "answerText": "下游引物与模板链3'端反向互补，5'→3'延伸方向与上游引物相向",
+      "answerText": "The downstream primer must be reverse-complementary to the template strand's 3' end, with its 5'→3' extension direction facing the upstream primer",
       "explanation": "PCR扩增需要一对分别结合两条模板链的引物，方向相向，扩增出中间的目的片段",
       "distractorsGenerated": true
     },
