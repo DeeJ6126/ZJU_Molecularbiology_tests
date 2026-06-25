@@ -2162,11 +2162,11 @@
       "categoryTitle": "（二）DNA复制与修复",
       "parentTitle": "判断题",
       "number": 6,
-      "prompt": "RdDP (DNA-dependent DNA polymerase) participates in DNA replication",
-      "answerIsTrue": true,
-      "explanation": "RdDP是DNA复制的核心催化酶，负责以DNA为模板合成新的DNA链",
-      "promptCn": "RdDP（DNA依赖的DNA聚合酶）参与DNA复制",
-      "explanationCn": "RdDP是DNA复制的核心催化酶，负责以DNA为模板合成新的DNA链",
+      "prompt": "RdDP (RNA-dependent DNA polymerase) participates in DNA replication",
+      "answerIsTrue": false,
+      "explanation": "RdDP即RNA依赖的DNA聚合酶（逆转录酶），以RNA为模板合成DNA，不参与常规DNA复制。参与DNA复制的是DDDP（DNA依赖的DNA聚合酶）。",
+      "promptCn": "RdDP（RNA依赖的DNA聚合酶）参与DNA复制",
+      "explanationCn": "RdDP即RNA依赖的DNA聚合酶（逆转录酶），以RNA为模板合成DNA，不参与常规DNA复制。参与DNA复制的是DDDP（DNA依赖的DNA聚合酶）。",
       "examSources": [
         "22春夏"
       ]

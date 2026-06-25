@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import type { EssayQuestion } from '../types'
 import type { PracticeAnswer } from '../types'
 import { useLanguage } from '../context/LanguageContext'
 import { useT } from '../lib/i18n'
+import { marked } from 'marked'
 
 interface EssayInputProps {
   question: EssayQuestion
@@ -23,6 +24,8 @@ export function EssayInput({
   const selfJudgedCorrect = existingAnswer?.selfJudgedCorrect
 
   const prompt = language === 'zh' ? (question.promptCn ?? question.prompt) : question.prompt
+
+  const answerHtml = useMemo(() => marked.parse(question.referenceAnswer) as string, [question.referenceAnswer])
 
   function handleReveal() {
     setRevealed(true)
@@ -64,11 +67,7 @@ export function EssayInput({
       {revealed && (
         <div className="answer-banner is-visible">
           <strong>{t('sa', 'reference')}</strong>
-          <div
-            style={{ whiteSpace: 'pre-wrap', lineHeight: 1.7 }}
-          >
-            {question.referenceAnswer}
-          </div>
+          <div className="markdown-content" dangerouslySetInnerHTML={{ __html: answerHtml }} />
         </div>
       )}
 
@@ -112,7 +111,7 @@ export function EssayInput({
           )}
           <div className="explanation-panel" style={{ marginTop: 12 }}>
             <strong>{t('sa', 'reference')}</strong>
-            <p style={{ whiteSpace: 'pre-wrap' }}>{question.referenceAnswer}</p>
+            <div className="markdown-content" dangerouslySetInnerHTML={{ __html: answerHtml }} />
           </div>
         </div>
       )}

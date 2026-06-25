@@ -208,6 +208,42 @@
   margin: 0 1px;
 }
 
+/* Markdown-rendered content in reference answers */
+.markdown-content {
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+.markdown-content p { margin: 8px 0; }
+.markdown-content strong { color: var(--ink); font-weight: 700; }
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 0.92rem;
+}
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+}
+.markdown-content th {
+  background: var(--teal-soft);
+  color: var(--teal-deep);
+  font-weight: 600;
+}
+.markdown-content ul, .markdown-content ol {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.markdown-content li { margin: 4px 0; }
+.markdown-content code {
+  background: var(--teal-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
 .page-shell {
   position: relative;
   z-index: 1;
