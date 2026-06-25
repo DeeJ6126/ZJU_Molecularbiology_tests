@@ -1,0 +1,1467 @@
+# MB4-2026 (116 pages)
+
+--- Page 1 ---
+Methods of Molecular Biology (1)
+Chapter 4
+4.1 Gel electrophoresis
+4.2 Protein Analysis by Mass Spectrometry
+4.3 PCR: Polymerase chain reaction
+4.4 gene cloning
+4.5 Expressing cloned genes
+4.6 Nucleic acid hybridization
+4.7 PCR based DNA typing
+4.8 DNA sequencing
+
+
+--- Page 2 ---
+DNA electrophoresis. Samples of DNA are loaded into an agarose gel for separation. 
+The yellow pipet dispenses a blue DNA sample into a well of the gel
+4.1 Gel electrophoresis (电泳）
+
+
+--- Page 3 ---
+4.1 Gel electrophoresis (电泳）
+• DNA and RNA molecules are negative charged, they migrate 
+toward to the positive pole
+• The speed that molecules move to the positive pole differ: 
+smaller molecules move faster than the larger ones
+• The mobilities of fragments are correlated with the log of 
+their molecular weight (or number of base-pairs)
+
+
+--- Page 4 ---
+4.1 Gel electrophoresis (凝胶电泳）
+Use constant current
+
+
+--- Page 5 ---
+1. T h e  l i n e a r 
+relationship between 
+the log of a DNA’s 
+size and its mobility 
+n o  l o n g e r  e x i s t s 
+w h e n  t h e  D N A 
+molecules  are very 
+large
+
+
+--- Page 6 ---
+1. Types of gels:  Aagarose gel琼脂糖凝胶;                         
+Polyacrylamide gel聚丙烯酰胺凝胶
+2. Concentration of Gels
+4.1 Gel electrophoresis 
+
+
+--- Page 7 ---
+SDS-PAGE
+•
+PAGE: polyacrylamide gel electrophoresis(聚丙烯酰胺凝胶电泳), 
+used to separate polypeptides according to their mass (molecular 
+weight).
+•
+SDS-PAGE: treat  protein molecules with detergent (SDS) to 
+denature (dissociate) the subunits of a protein
+1.
+SDS  coats all the polypeptides with negative charges, so they all 
+electrophorese toward the anode
+2.
+It masks the natural charges of the subunits, so they all electrophorese 
+according to their molecular masses, and not by their native charges. 
+Protein electrophoresis
+
+
+--- Page 8 ---
+Comassie Stain of Protein Gel
+
+
+--- Page 9 ---
+Two-dimensional gel electrophoresis (双向凝胶电泳）
+
+
+--- Page 10 ---
+一维电泳：上样
+
+
+--- Page 12 ---
+野生型和突变体棉花胚珠总蛋白质样品的双
+向电泳图谱比较
+
+
+--- Page 13 ---
+Two-dimensional gel electrophoresis (双向凝
+胶电泳）
+w/o Benzoic acid 
+(苯甲酸）
+w/i Benzoic acid
+Mixture of two samples
+
+
+--- Page 14 ---
+4.2 Protein Analysis by Mass Spectrometry
+Matrix-Assisted Laser Desorption 
+Ionization Time-Of-Flight spectrometry，
+MALDI-TOF（基质辅助的激光解析电离-飞行
+时间质谱）and Electrospray ionization，
+ESI-MS（电喷雾质谱）。
+
+
+--- Page 15 ---
+图5-31 MALDI–TOF分子质谱仪原理图 
+
+
+--- Page 16 ---
+Peptide mass fingerprinting
+肽质量指纹图谱（PMF）
+
+
+--- Page 17 ---
+4.3 (PCR)聚合酶链反应技术
+• PCR: Polymerase chain reaction
+• Invented by Kary Mullis, in the 1985
+• Won Nobel prize in 1993
+Purpose of a PCR:  make a huge number of copies of 
+a gene. 
+
+
+--- Page 19 ---
+PCR process
+
+
+--- Page 20 ---
+Mullis K, Faloona F, Scharf S, Saiki R, Horn G, Erlich H. 1986. Specific 
+enzymatic amplification of DNA in vitro: the polymerase chain 
+reaction.Cold Spring Harb Symp Quant Biol. 51 Pt 1:263-73.
+现代全自动PCR仪器
+
+
+--- Page 21 ---
+Principle of PCR
+    21= 
+2 copies
+    22= 
+4 copies
+    23= 
+8 copies
+    24= 
+16 copies
+
+
+--- Page 22 ---
+Cycles of PCR reactions 
+•
+There are 3 major steps in a PCR, which are repeated for 30 or 40 
+cycles. This is done on an automated cycler, which can heat and 
+cool the tubes with the reaction mixture in a very short time.
+•
+Denaturation at 940C: double strand opens to single stranded 
+DNA
+•
+Annealing at 50-600C: primers bind to the DNA template 
+•
+Extension at 720C: the ideal working temperature for the 
+polymerase. The bases (complementary to the template) are 
+coupled to the primer on the 3' side (the polymerase adds dNTP's 
+from 5' to 3', reading the template from 3' to 5' side, bases are 
+added complementary to the template) 
+Steps of PCR
+
+
+--- Page 23 ---
+Requirements for a PCR
+• Sequence information of the GOI for designing 
+primers 
+• Appropriate template (DNA)
+• Enzymes
+• Mg2+ (adjustable)
+• Buffer (pH and salt concentration)
+• dNTP (materials for make new DNA molecule)
+
+
+--- Page 24 ---
+Result of PCR
+
+
+--- Page 25 ---
+    
+RT-PCR: uses reverse transcriptase to 
+convert mRNA to cDNA for use in a PCR 
+reaction.
+Q-PCR: real time quantitative PCR（实时
+定量PCR）
+
+
+--- Page 26 ---
+Protein
+mRNA
+DNA
+transcription
+translation
+CCTGAGCCAACTATTGATGAA
+PEPTIDE
+CCUGAGCCAACUAUUGAUGAA
+Reverse 
+transcription
+正义链
+1.
+Reverse transcriptase: RNA-dependent DNA polymerase
+2.
+RT-PCR: Reverse transcriptase PCR
+Reverse transcription (RT)
+
+
+--- Page 27 ---
+Some concepts:
+•
+cDNA: complementary DNA of a RNA
+•
+cDNA library: a set of clones representing as many as 
+possible of the mRNAs in a given cell type at a given time 
+(Temporal  and spatial specific)
+•
+DNA library:  a collection of cloned DNA fragments, 
+including cDNA library and genomic libary.
+•
+Genomic library:  is a set of DNA clones that ideally 
+contains the entire DNA content of a genome from which 
+the library was derived.
+
+
+--- Page 28 ---
+SYBR Green I
+作探针的实时
+定量PCR实验
+过程图示 
+
+
+--- Page 29 ---
+The threshold line is the level of detection or the point at which a reaction reaches a 
+fluorescent intensity above background levels. This is literally a line in your graph that 
+represents a level above background fluorescence, that also intersects your reaction curve 
+somewhere in the beginning of its exponential phase.
+The Ct value or cycle quantification value is the PCR cycle number at which your sample’s 
+reaction curve intersects the threshold line. This value tells how many cycles it took to 
+detect a real signal from your samples. 
+Ct value :
+The threshold line 
+
+
+--- Page 30 ---
+Han P., Li Q., and Zhu Y.X. (2008) The Plant 
+Cell 20:1482-1493. 
+
+
+--- Page 32 ---
+实时定量PCR的计算: 2-ΔΔCt方法
+如何计算实验组和对照组中目的基因表达量的差异？
+对照组
+实验组
+Gene A
+假设右图中实验组中的
+内参基因（某看家基因）
+Ct值为20，对照组中同
+一内参基因的Ct值为19，
+那么实验组中基因A的表
+达量是对照组的多少倍？
+2-((21.92-31.23)-(20-19))
+=210.31
+ΔΔCT = ΔCT(test gene) – ΔCT(Reference gene)
+Calculation of Relative Quantification 
+
+
+--- Page 33 ---
+Absolute quantification in real-time RT-PCR 
+Calibration curves
+
+
+--- Page 34 ---
+4.4 gene cloning
+Two essential
+items inthe
+molecular
+biologist’s toolkit are restriction
+endonucleases andcloning vectors
+
+
+--- Page 35 ---
+Introduction 
+• restriction endonuclease – An enzyme that 
+recognizes specific short sequences of DNA 
+and cleaves the duplex (sometimes at the 
+target site, sometimes elsewhere, depending 
+on type).
+
+
+--- Page 36 ---
+Nucleases
+• Nucleases hydrolyze an 
+ester bond within a 
+phosphodiester bond.
+• Phosphatases hydrolyze 
+the ester bond in a 
+phosphomonoester bond.
+Figure : The targets of a phosphatase (a) and a nuclease (b) 
+Nucleases can 
+be  specific
+for DNA,
+as DNases, 
+or RNA,
+as RNases,
+or even
+be specific
+for a 
+DNA/RNA hybrid, as RNaseH (which
+cleaves
+the 
+RNA
+strand of
+a hybrid
+duplex).
+Nucleases can 
+be specific
+for either single-stranded nucleotide 
+chains,duplex chains,or both.
+
+
+--- Page 37 ---
+Nucleases
+• endonuclease – Nuclease that cleaves 
+phosphoester bonds within a nucleic acid chain.
+• It may be specific for RNA or for single-stranded 
+or double-stranded DNA.
+• exonuclease – Nuclease that cleaves 
+phosphoester bonds one at a time from the end 
+of a polynucleotide chain.
+• It may be specific for either the 5′ or 3′ end of 
+DNA or RNA.
+
+
+--- Page 38 ---
+Restriction Endonucleases
+限制性内切酶
+•
+The enzymes prevent invasion of foreign DNA (restrict  viral DNA) 
+•
+Characteristics of Types II Restriction Endonucleases (RE):
+1. REs that recognize specific nucleotide sequences and cleave both 
+strands of the DNA containing those sequences. 
+2. Recognition sequences for many enzymes are the same on both 
+strands. Such recognition sequences are said to be palindromic(回文
+序列）. 
+3. Commonly used REs always cleave the DNA strands at a fixed 
+position relative to the recognition sequence. 
+4. Products of cleavage:  flush ends or 5' or 3' overhanging
+内
+
+
+--- Page 39 ---
+Name a restriction enzyme 
+(限制性内切酶的命名)
+1.
+The first three letters is from the Latin name of the 
+microorganism that produces them:
+      The first letter is from the genus (属名), the next two letters are from the 
+species (种名). 
+2.
+The strain (菌株) designation is included as the forth letter. 
+3.
+When the strain of the microorganism produces more than 
+one enzyme, the name ends with the Roman number of the 
+enzyme. 
+4.
+For example: HindIII
+
+
+--- Page 40 ---
+Types II restriction enzymes
+• According to the length of the recognition sequence: 
+     4-bp,6-bp,8-bp sequence enzymes
+4-bp cutter cut genome more frequent than 6-bp cutter
+• Frequency of 4-bp sequence: 1/44=1/256
+• Frequency of 6-bp sequence: 1/46=1/4096
+• Sticky ends or blunt ends
+EcoRI
+5'-G^A A T T C-3‘
+ 3'-C T T A A^G-5' 
+HindIII
+5'-A^A G C T T-3‘
+ 3'-T T C G A^A-5' 
+HaeIII 
+5'GG^CC3' 
+3'CC^GG5' 
+Blunt ends
+Sticky ends
+
+
+--- Page 41 ---
+I s o s c h i z o m e r s  ( 同裂酶) : 
+enzymes originated from different 
+organism and recognize identical 
+sequence. They could cut the 
+sequence cut at same or different 
+sites, SmaI –XmaI
+Isocaudomers (同尾酶):  some 
+RE produce compatibale overhamgs, 
+even though their recongnition 
+sequences are not identical. 
+
+
+--- Page 42 ---
+Recognition Site:
+BglII
+Isocaudomers (同尾酶):
+BamHI
+G
+/
+G
+  
+ 
+A
+  
+ 
+T
+  
+ 
+C
+  
+ 
+C
+C
+  
+ 
+C
+  
+ 
+T
+  
+ 
+A
+  
+ 
+G
+/
+G
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+A
+/
+G
+  
+ 
+A
+  
+ 
+T
+  
+ 
+C
+  
+ 
+T
+T
+  
+ 
+C
+  
+ 
+T
+  
+ 
+A
+  
+ 
+G
+/
+A
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+  
+ 
+  
+   
+ 
+
+
+--- Page 43 ---
+Recombinant DNA
+• Recombinant DNA is DNA that has been 
+created artificially. DNA from two or more 
+sources is incorporated into a single 
+recombinant molecule.
+• Steps of making a recombinant DNA:
+• cut
+• ligate
+• transfer into a host cell 
+
+
+--- Page 44 ---
+Vectors （载体）
+•
+Vector: carriers to allow replication of recombinant DNAs
+•
+Essential components of a vector:
+1.
+ORI (复制子): the site where DNA replication begins; to ensure the 
+replication of the foreign DNA
+2.
+Antibiotic marker gene: to select the host cells with the vector.
+3.
+MCS ( Multiple cloning site,多克隆位点): allow the insertion of 
+foreign DNA
+
+
+--- Page 45 ---
+Types of vectors
+n
+Plasmids are extra-chromosomal DNA elements, 
+circular dsDNA.
+n
+Phages:  Phages containing linear dsDNA. 
+n
+Artificial chromosomes contain all the elements 
+that a DNA needs to function as a chromosome in 
+the host organism 
+1)
+YAC's are yeast artificial chromosomes 
+2)
+BAC's are bacterial artificial chromosomes 
+
+
+--- Page 46 ---
+Plasmid (质粒)
+Plasmids: plasmids are circular, double-
+stranded DNA molecules that exist in 
+bacteria and in the nuclei of some eukaryotic 
+cells.  
+Characteristics of Plasmid
+• Small (a few thousand base pairs) 
+• Usually carry only one or a few genes   
+• Circular 
+• Have a single origin of replication, can replicate 
+independently of the host cell.
+• The size of plasmids ranges from a few kb to near 
+100 kb.
+
+
+--- Page 47 ---
+Plasmid
+•
+Plasmids are replicated by the same 
+machinery that replicates the 
+bacterial chromosome. 
+Plasmid DNA replication rate > that of the 
+host--- multiple plasmids/cell
+Plasmid DNA replication rate =that of the 
+host---single plasmids/cell
+•
+Plasmids enter the bacterial cell with 
+relative ease. 
+
+
+--- Page 48 ---
+pUC Plasmid
+•
+MCS
+•
+Selectable maker
+•
+ORI
+•
+LacZ’: encoding the N terminal 
+portion of β-galactosidase (β-半
+乳糖苷酶), α-peptide. 
+
+
+--- Page 49 ---
+•
+LacZ’ in pUC19 plasmid DNA encodes a short segment of 
+the N-terminus of the β-galactosidase enzyme, α-peptide.  
+•
+A mutant E.coli host cell that has a small deletion (called) in 
+the beginning of its chromosomal lacZ gene， it encodes 
+the C- terminus of the β- galactosidase enzyme, ω -peptide
+•
+E.coli + pUC19: β-galactosidase function is restored  (α-
+peptide complements the chromosomal deletion).  
+兰、白斑的筛选原理
+ Complementation (-互补）
+
+
+--- Page 50 ---
+•
+β-Galactosidase activity is visualized by 
+feeding the transformed cells a lactose 
+analog (乳糖异构体) called X-gal that turns 
+blue when hydrolyzed by β-galactosidase.
+•
+When pUC19 DNA is recombined with 
+other DNA, the inserted DNA interrupts the 
+coding region of the α-peptide. 
+ Complementation (-互补）
+•
+Recombinant pUC19 transformants are white
+•
+Non-recombinant pUC19 transformants are blue
+
+
+--- Page 51 ---
+ Phages (噬菌体)
+•
+Phage is a natural vector system that 
+transduce DNA from one bacterial cell to 
+another. 
+•
+Advantages over plasmids:
+1.  the infection to host cells are much more 
+efficient
+2. Accommodate much more foreign DNA (can 
+be used for make library)
+•
+ Phages: could accommodate 12- 20 kb 
+inserts by replacing the integration-excision 
+(I/E) region  with GOI, it could force  
+phages getting into lytic cycle (裂解循环) 
+and avoid from lysogenic state(溶源循环)
+
+
+--- Page 52 ---
+Yeast Artificial chromosomes (酵母人工染色体，YAC)
+YAC: A vector used to clone DNA fragments (up to 400 kb); it is 
+constructed from the telomeric, centromeric, and replication origin 
+sequences needed for replication in yeast cells. 
+TEL: The telomere which is located at each chromosome end, protects 
+the linear DNA from degradation by nucleases. 
+CEN: The centromere which is the attachment site for mitotic spindle 
+fibers, "pulls" one copy of each duplicated chromosome into each new 
+daughter cell. 
+ARS (autonomous replicating sequence ): specific DNA sequences 
+that allow the DNA replication machinery to assemble on the DNA and 
+move at the replication forks. 
+
+
+--- Page 53 ---
+• Essential components of YAC 
+vectors
+• Centromers (CEN), telomeres 
+( T E L )  a n d  a u t o n o m o u s 
+replicating sequence (ARS)
+• selective markers for identifying 
+cells containing the YAC vector. 
+• Recognition sites of restriction 
+enzymes
+• Procedure
+• The target DNA is partially 
+digested by EcoRI and the YAC 
+vector is cleaved by EcoRI and 
+BamHI. 
+• L i g a t e  t h e  c l e a v e d  v e c t o r 
+segments with a digested DNA 
+fragment to form an artificial 
+chromosome. 
+• Transform yeast cells to make a 
+large number of copies. 
+
+
+--- Page 54 ---
+Bacterial Artificial chromosomes 
+(细菌染色体，BAC)
+BAC: A vector used to clone DNA 
+fragments of 100 to 300 kb insert 
+size (average of 150 kb) in E. coli 
+cells. Based on the naturally 
+occurring F-factor plasmid found in E. 
+coli.
+
+
+--- Page 55 ---
+Cloning Vectors Can Be 
+Specialized for Different Purposes
+Table 2.1: Cloning vectors can be based on plasmids or phages or can mimic eukaryotic 
+chromosomes. 
+
+
+--- Page 56 ---
+• Numerous methods exist to 
+introduce DNA into different target 
+cells.
+
+
+--- Page 57 ---
+ Cloning Vectors Can Be 
+Specialized for Different Purposes
+• Cloning vectors may be bacterial plasmids, 
+phages, cosmids, or yeast artificial 
+chromosomes.
+• Shuttle vectors can be propagated in more than 
+one type of host cell.
+• Expression vectors contain promoters that allow 
+transcription of any cloned gene.
+
+
+--- Page 58 ---
+Enzymes used in cloning
+• Restriction enzyme
+• Alkaline phosphatase remove 5’-
+phosphates necessary for ligation 
+(avoid the self-ligation)
+• DNA Ligase
+
+
+--- Page 59 ---
+Other Enzymes
+• DNA polymerase I: Conversion of both 5´- and 3´-protruding (突出)                    
+DNA termini to blunt (平) ends
+• synthesis of DNA in the 5´-> 3´ direction 
+• 3´-> 5´ exonuclease activity
+• 5´→ 3´ exonuclease function.
+• Large fragment of DNA polymerase I: Klenow fragment
+
+
+--- Page 60 ---
+How does Klenow fragment lead to blunt ends 
+Klenow fragment
+
+
+--- Page 61 ---
+Restriction Mapping
+• Restriction Mapping: （内切酶作图）cut the DNA in 
+question with two or more restriction enzymes in separate 
+reactions, measure the sizes of the resulting fragments
+
+
+--- Page 62 ---
+To determining in 
+which orientation the 
+insertion was ligated 
+into the plasmid
+
+
+--- Page 63 ---
+pCAMBIA1300
+8958 bp
+romycin (R)
+LacZ alpha
+kanamycin (R)
+pBR322 bom
+pVS1 sta
+T-Border (right)
+rder (left)
+35S polyA
+CaMV35S promoter
+pBR322 ori
+pVS1 rep
+BamHI (22)
+ClaI (3472)
+EcoRI (1)
+HindIII (52)
+PstI (44)
+SmaI (19)
+XmaI (17)
+ApaLI (4419)
+ApaLI (4917)
+ApaLI (7312)
+ApaLI (7614)
+AvaI (17)
+AvaI (407)
+AvaI (1037)
+AvaI (2168)
+AvaI (2648)
+AvaI (6835)
+AvaI (7929)
+Insertion
+HindIII
+BamHI
+BamHI
+?
+200bp
+800bp
+
+
+--- Page 64 ---
+Principle 
+of 
+seamless 
+DNA 
+cloning
+重组酶
+ExnaseII
+Ligation Independent Cloning using 
+Homologous Recombination
+
+
+--- Page 65 ---
+Directional cloning with multiple DNA 
+fragments cloned into any vector
+重组酶
+ExnaseII
+
+
+--- Page 66 ---
+•DNA Ligase independent cloning
+•Directional cloning with one or multiple DNA fragments cloned into 
+any vector.
+•Clone any insert, into any location, within any vector you choose as 
+long as 20 bp overlap exists.
+•It does not require restriction digestion (except vector linearization) 
+or phosphatase treatment of vector as carried out in blunt-end 
+cloning to prevent self-ligation.
+•Unlike gateway cloning, this is seamless cloning i,e., it does not 
+add or delete nucleotides.
+•This method can be used for domain swaps, deletion, and insertion 
+of sequences.
+Advantages of seamless DNA cloning
+
+
+--- Page 67 ---
+4.5 Expressing cloned 
+genes
+•
+To make a large quantity of the 
+gene’s product.
+•
+Using cDNA sequence to make the 
+clones: because the introns has 
+been removed in cDNA sequence.
+•
+Could use antibody to identify 
+clones from the expressing library
+
+
+--- Page 68 ---
+表达载体
+Expression vectors
+n  Two essential elements
+1. Strong bacterial promoter
+2. A ribosome binding site near an initiating ATG codon 
+n Inducible expression vector:  Keep a cloned gene repressed until it is 
+time to express it
+1. Eukaryotic protein produced in large quantities in bacteria can be toxic
+2. Even it is not toxic, they interfere with bacterial growth
+
+
+--- Page 69 ---
+Promoters and inducers
+• Lac promoter is inducible to a certain extent, presumably 
+remaining off until stimulated by the synthetic inducer 
+isopropylthiogalactoside (异丙基硫代半乳糖苷, IPTG)
+• PBAD (a promoter from ara operon): the promoter is inducible by 
+the sugar arabinose.
+Immunoblotting 
+
+
+--- Page 70 ---
+Vectors produce fusion proteins 
+(融合蛋白）
+• The expression products contain extra amino acids. 
+• The fusion protein can be easily purified using affinity 
+chromatography (亲和层析法) 
+Nickel affinity chromatography (镍
+亲和层析法 ) for proteins fused by 
+6-histidines at its amino end
+
+
+--- Page 71 ---
+真核表达系统
+Eukaryotic expression systems
+•
+Advantages of “Eukaryotic proteins made in eukaryotic 
+cells” :
+1.
+Protein will be folded properly
+2.
+proteins are modified in a eukaryotic manner
+•
+Using a shutter vector (that can replicate in both bacteria 
+and eukaryotic cells), the initial cloning is usually done in 
+E.Coli, then the recombinant DNA is transferred to the 
+eukaryotic cells 
+•
+Yeast expression vector (2-micro plasmid)
+•
+Baculovirus (杆状病毒）. 
+
+
+--- Page 72 ---
+Other Eukaryotic vectors: Ti plasmid
+Can transport foreign genes into plant cells and ensure their replication there
+
+
+--- Page 73 ---
+Native T-DNA plasmid:  Crown gall (冠狀肿瘤)
+Between T-DNA borders:  genes for plant tumorigenesis (auxin 
+and cytokinin biosynthesis) and making special AA for their 
+survive(opine)冠瘿碱
+
+
+--- Page 74 ---
+Crown Gall Disease
+Two major elements
+• Tumor genes:
+• synthesize extra plant growth hormones to stimulate 
+neoplastic growth of infected cells
+• Opine genes:
+• synthesize unusual amino acids (opines) that can only 
+be metabolized by Agrobacterium
+
+
+--- Page 75 ---
+• Plant wounded
+• Cell wall repairing
+• Phenolic compound AS
+• Vir gene activated by AS
+• Chemotactic approaching
+• Infection
+AS: Acetosyringone
+（乙酰丁香酮）
+
+
+--- Page 76 ---
+Genetic colonization
+
+
+--- Page 77 ---
+Infected plant cell will 
+grow into a tumor
+Secret special AA for 
+Agrobacterium only
+
+
+--- Page 78 ---
+•
+Binary plasmid (双元质粒): Tumorigenesis genes 
+removed: disarmed Ti plasmid. a shuttle vector, it is able to 
+replicate in multiple hosts (E. coli and Agrobacterium tumefaciens).
+      Between T-DNA borders:
+•
+Gene of interest or reporter gene (GOI)
+•
+ Multiple cloning sites (MCS)
+•
+Genetic markers for selection of clones in plants 
+       Outside of T-DNA:
+•
+Genetic markers for selection of clones in bacteria;
+•
+ORI
+•
+Helper plasmid (帮助质粒): containing the vir genes 
+Engineered binary system
+
+
+--- Page 79 ---
+目的基因RT-PCR产物
+pC1390-ubi-GFP5
+11578 bp
+kanamycin (R)
+hygromycin (R)
+mGFP5
+pVS1 sta
+T-Border (right)
+Histidine tag
+pBR322 bom
+T-Border (left)
+Nos poly-A
+CaMV35S polyA
+Ubiquitin promoter
+CaMV35S promoter
+pBR322 ori
+pVS1 rep
+Kpn I(10813)
+SacI(10867)
+目的基因RT-PCR产物
+pC1390-ubi-GFP5
+11578 bp
+kanamycin (R)
+hygromycin (R)
+mGFP5
+pVS1 sta
+T-Border (right)
+Histidine tag
+pBR322 bom
+T-Border (left)
+Nos poly-A
+CaMV35S polyA
+Ubiquitin promoter
+CaMV35S promoter
+pBR322 ori
+pVS1 rep
+Kpn I(10813)
+SacI(10867)
+
+
+--- Page 80 ---
+4.6 Nucleic acid hybridization
+• Principle: a single-stranded nucleic acid can form a double 
+helix with another single strand of complementary base 
+sequence.
+• Southern blot: identifying specific DNA fragments 
+• Northern blot: identifying specific RNA fragments 
+
+
+--- Page 81 ---
+Procedure of a Southern blot
+1.
+Genomic DNA digestion with restriction 
+endonucleases
+2.
+Gel electrophoresis of the digested DNA fragments
+3.
+DNA fragments are denatured and transferred into 
+a nitro-cellulose membrane
+4.
+Using certain labeled probes to hybridize the 
+membrane 
+5.
+Wash out the extra probe
+6.
+Autoradiography or other methods to detect the 
+labeled signal
+
+
+--- Page 83 ---
+Gel picture
+Southern result
+
+
+--- Page 84 ---
+Labeled tracers (标记示踪）
+• Detection of the tiny quantities of substances used in 
+molecule biology experiments generally requires the use of 
+labeled tracers
+ 
+•  Radioactive tracers can be detected by autoradiography  or 
+liquid scintillation counting
+• Nonradiosctive labeled tracers: chemiluminescence (化学发
+光）
+
+
+--- Page 85 ---
+Autoradiography
+ (放射性自显影）
+• 3H, 35S, 32P, common used 
+radioisotopes (放射性同位素）
+• The amount of a radioactivity in a 
+fragment of DNA can be estimated 
+by a densitometer (显像密度计)
+
+
+--- Page 86 ---
+Phosphorimaging (磷屏成像）
+•
+Uses special reusable imaging plates to create an image of the 
+radioactivity present in a two-dimensional sample. The imaging 
+plates are much more sensitive than X-ray film and therefore allow 
+much shorter exposure times to be used. 
+•
+Principle: 
+1. A phsophoriamger plate absorb β-rays.
+2. β-rays excite molecules on the plate, and these molecules remain 
+in an excited state until the phosporimager scanner scans the plate 
+with a laser
+3. When the laser scans the plates, the β-ray energy traped by the 
+plates is released and monitored by a computerized detector
+Computed Radiography
+
+
+--- Page 87 ---
+Nonradioactive tracers
+Detecting nucleic acids with a nonradioactive probe
+Chemoluminescence (化学发光）
+
+
+--- Page 88 ---
+Satellite DNA & DNA 
+fingerprinting
+• Satellite (卫星) DNA:  A 
+p o r t i o n  o f  D N A  i n 
+eukaryotes whose density 
+differs from that of the 
+majority of DNA and that 
+consists of short, repeating 
+sequences 
+CsCl centrifugation
+Mouse genome DNA
+30% GC in satellite DNA
+
+
+--- Page 89 ---
+•
+Highly repetitive DNA (>106).
+•
+Very short (2 to 20-30bp), in tandem arrays
+•
+Concentrated near the centromeres and telomere.
+•
+As separate band in buoyant density gradient
+•
+Minisatellite repeats are the basis of  the DNA 
+fingerprinting (指纹印迹) techniques
+Satellite DNA
+
+
+--- Page 90 ---
+5’ – ATAAACTATAAACTATAAACT – 3’
+3’ – TATTTGATATTTGATATTTGA – 5’
+Drosophila satellite DNA repeat
+(several million copies)
+n
+ACAAACT, 1.1x107 bp, 25% genome
+ATAAACT, 3.6x106 bp, 8% genome
+ACAAATT, 3.6x106 bp, 8% genome
+AATATAG, cryptic
+Satellites comprise more than 40% of the genome
+
+
+--- Page 91 ---
+DNA fingerprinting
+• DNA fingerprinting: the use of highly variable regions of 
+DNA to identify particular individuals, use a minisatellite 
+DNA as a probe
+• Minisatellite DNA(小卫星DNA): highly polymorphic. 5-100 
+bp long, up to 3000 repeats. 
+• Microsatellite DNA (微卫星DNA): 2-6 bp sequence 
+repeated to. 50-100 bp lengths, in human genome, about 
+30000 loci. scattered throughout genome. 
+• SSR (Simple sequence repeat) =STR (Short Tandem 
+Repeat)= Microsatellite DNA 
+
+
+--- Page 94 ---
+Northern Blot
+•
+A Northern blot is similar to a Southern blot, but it contains 
+electrophretically separation RNAs instead of DNAs
+•
+Use DNA as probe
+•
+Use to study the expression of a gene
+
+
+--- Page 95 ---
+Need a loading control
+Using the housekeeping gene as loading control
+
+
+--- Page 96 ---
+Blotting Methods
+• Southern blotting involves the transfer of DNA 
+from a gel to a membrane, followed by detection of 
+specific sequences by hybridization with a labeled 
+probe.
+• Northern blotting is similar to Southern blotting, 
+but involves the transfer of RNA from a gel to a 
+membrane.
+• Western blotting entails separation of proteins on 
+a sodium dodecyl sulfate (SDS) gel, transfer to a 
+nitrocellulose membrane, and detection of proteins 
+of interest using antibodies.
+
+
+--- Page 97 ---
+Western Blotting
+蛋白质电泳分离
+转膜
+抗体孵育杂交
+显影
+
+
+--- Page 98 ---
+In situ DNA hybridization (原位杂交) to 
+locating gene in chromosome
+FISH: fluorescence in situ-hybridization (荧光原位杂交)
+Hybridize labeled probes 
+to whole chromosomes to 
+locate genes or other 
+specific DNA sequence
+
+
+--- Page 99 ---
+In situ RNA hybridization: Hybridize labeled probes to particular 
+tissues to see the expression of a gene
+n
+Gene specifically expressed in leaf axils (Li et al., 2005, Nature)
+
+
+--- Page 100 ---
+STR (Short Tandem Repeat) DNA分型技术：也叫微卫星序
+列分析技术或短串联重复序列分析技术，已经成为法医、亲
+子鉴定领域和DNA数据库建设首选技术。
+无需做Southern, 只需对微卫星基因位点进行PCR扩增
+STR DNA分型技术=SSR DNA分型技术
+目前实验室鉴定常使用STR基因座（位点）有：TH01、
+VWFA31、TPOX、CSFIPO、FIBRA、DS1358、D7S820、
+D8S1179和D5S818等。 实验室可同时采用10几个STR
+基因座来进行DNA分型.
+4.7 PCR based DNA typing
+
+
+--- Page 101 ---
+STR
+Microsatellite: 2-6bp long core sequence 
+repeated over and over many times in a 
+row. Highly polymorphic, widespread and 
+relatively uniformly distributed, ideal 
+markers for mapping
+P1  P2  Het
+P1: GTCTATGAGAGAGGCTAC
+P2: GTCTATGAGAGAGAGAGAGGCTAC
+
+
+--- Page 103 ---
+基因
+座
+D8S
+D21S
+D7S
+CSF1
+D3S
+THO
+1
+D13S
+D16S
+D2S
+D19S
+vWA
+TPO
+X
+D18S
+D5S
+FGA
+哥哥
+13/15
+29/30
+11/11
+11/12
+14/18
+7/9
+10/12
+9/11
+18/24
+13/16
+16/16
+8/8
+13/16
+10/11
+21/21
+弟弟
+15/16
+29/30
+11/11
+11/12
+14/18
+6/9
+10/12
+9/12
+18/24
+13/16
+14/16
+8/8
+13/16
+11/11
+22/24
+父亲
+15/15
+29/29
+11/11
+11/11
+14/17
+9/9
+8/12
+11/12
+23/24
+13/15
+14/16
+8/8
+13/13
+10/11
+22/24
+母亲
+13/16
+28/30
+10/11
+12/13
+15/18
+6/7
+10/10
+9/13
+18/18
+13/16
+14/16
+8/8
+16/16
+11/11
+21/24
+一份亲子鉴定结果：
+如果等位基因中孩子与假设父出现２对或２对以上的不匹配的基因型，则可排除假
+设父与孩子的亲生关系。 
+
+
+--- Page 104 ---
+DNA Typing methods for SNP: 
+CAPS, dCAPS
+
+
+--- Page 105 ---
+1. By using the primers to get a PCR product (a specific DNA 
+band)
+2 Restriction digesting the PCR product using a specific 
+restriction enzyme to detect polymorphisms of the digest 
+products on agrose gel
+3. Genotyping  the polymorphic bands among the population
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+Principle:
+
+
+--- Page 106 ---
+1. Amplify Target Sequence
+2. Cut with a restriction enzyme that differentiates alleles
+X
+P 1
+P 2
+Design  primers (      ) complementary to flanking regions
+Process:
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 107 ---
+3. Alleles can be differentiated by size based on 
+loss or gain of restriction site; May be able to 
+analyze on agarose gel
+Process:
+ M        P1        P2        Het
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 108 ---
+dCAPS: Derived  Cleaved Amplified 
+Polymorphic Sequence
+-------------------GCTTCCACAAGTC--------------------------------------
+-------------------GCTTCCACAAGTT--------------------------------------
+P1
+P2
+SNP
+Design a forward primer: -----GCTTCCACGAGT-
+HinfⅠ recognize site: GANTC
+X
+P 1
+P 2
+HinfⅠ
+Each SNP can be designed a dCAPS marker
+
+
+--- Page 109 ---
+4.8 DNA sequencing
+• The Sanger Chain-termination sequencing method
+• Use dideoxy nucleotides  (双脱氧核苷酸）to terminate 
+DNA synthesis, yielding a series of DNA fragment whose 
+sizes can be measured by electrophoresis
+
+
+--- Page 110 ---
+Sanger Dideoxy Sequencing
+
+
+--- Page 112 ---
+Sample printout of an automated DNA 
+sequencing experiment
+
+
+--- Page 113 ---
+Next generation technology
+• Roche/454 FLX  (2005)
+• Illumina/Solexa Genome Analyzer/Hiseq (2006)
+• Applied Biosystems/SOLiDTM System (2007)
+
+
+--- Page 114 ---
+1 将目标DNA剪切为小片段
+2 单个小片段DNA分子结合到固相表面
+3 单分子独立扩增
+4 每次只复制一个碱基（A,C,T,G）并检测信号, dNTP的聚合与荧光信号释放偶联 
+5 高分辨率的成像系统
+High Throughput Sequencing
+“Next-generation” sequencing technology 
+
+
+--- Page 115 ---
+Emulsion PCR (emPCR)
+Mix DNA Library
+ & capture beads
+(limited dilution)
+“Break micro-reactors”
+Isolate DNA containing beads 
+§ Generation of millions of clonally amplified templates on each bead
+§ No cloning and colony picking
+Create 
+“Water-in-oil” 
+emulsion 
++ PCR Reagents 
++  Emulsion Oil 
+Perform emulsion PCR 
+Adapter carrying 
+library DNA
+A
+B
+Micro-reactors 
+Adapter complement
+Enrich
+Anneal Seq
+primer
+
+
+--- Page 116 ---
+454 sequencing： Deposition of DNA beads into 
+the PicoTiter™Plate
+Load beads into 
+PicoTiter™Plate 
+
+

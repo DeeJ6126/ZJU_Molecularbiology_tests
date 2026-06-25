@@ -1,0 +1,749 @@
+# MB7-Trascrioption-in-pro -mzhou (60 pages)
+
+--- Page 1 ---
+Gene structure and 
+transcription in prokaryotes
+周明
+生命科学学院 植物所
+mingzhou@zju.edu.cn 
+1
+
+
+--- Page 2 ---
+1. Prokaryotic Gene Structure
+2. The mechanism of transcription in Bacteria
+3. Operons: Fine control of bacterial transcription
+2
+
+
+--- Page 3 ---
+• Operon (操纵元）： a unit of gene expression in 
+prokarytoes and which includes structural genes and 
+control elements
+1. Prokaryotic Gene Structure
+Promoter
+Cistron 1
+Cistron 2
+Cistron 3
+Terminator
+Operon
+• Structural gene clusters are coordinately controlled
+3
+
+
+--- Page 4 ---
+1.1 Prokaryotic Gene Structures
+Transcription
+RNA Polymerase
+mRNA 5’
+3’
+Polypeptides
+Translation
+1
+2
+3
+N
+C
+N
+C
+N
+C
+1
+2
+3
+Cistron
+：( 顺反子）A section of DNA that contains the genetic code 
+for a single polypeptide and functions as a hereditary unit.
+•Polycistronic message (多顺反子): an mRNA bearing information from 
+more than one gene
+Promoter
+Cistron 1
+Cistron 2
+Cistron 3
+Terminator
+4
+
+
+--- Page 5 ---
+1.2 Promoter structure in 
+prokaryote
+• Promoter (启动子): A DNA sequence to which RNA 
+polymerase binds prior to initiation of transcription-usually 
+located just upstream of the transcription start site of a gene.
+•
+Two core promoter elements:
+    -10 Box (Pribnow box) : TATAAT, centered in -10 position.  
+    -35 box: TTGACA, centered in -35 bp position.
+•
+UP element: some promoter has an extra element in -40~-60.
+•
+The closer to the consensus sequence, the stronger that promoter 
+will be.
+5
+
+
+--- Page 6 ---
+The rrnB P1 promoter
+Fis sites: bacterial enhancers, which binds to transcription-activator 
+protein Fis
+6
+
+
+--- Page 7 ---
+1.3 Transcription Initiation site
+• The transcription initiation site is a purine in 90% of genes
+• More A>G
+• Mostly there are C and T bases on either side of the start 
+site: i.e. CGT or CAT
+7
+
+
+--- Page 8 ---
+2. The mechanism of transcription 
+in bacteria
+8
+
+
+--- Page 9 ---
+2.1 RNA polymerase
+•
+Isolated in 1969 by SDS- PAGE 
+(polyacrylamide gel electrophoresis)
+•
+Contains:
+1.
+Two large subunits (β,β’)
+2.
+σ & α subunits
+3.
+RNA polymerase holoenzyme (全酶） 
+includes β’, β, σ & α2 
+4.
+Core enzyme (核心酶） : without σsubunit
+Gel Electrophoresis
+9
+
+
+--- Page 10 ---
+Core enzyme and σ factor
+• Core enzyme contains the basic 
+transcription machinery
+• Core enzyme only transcribe 
+nicked DNA template, not 
+intact DNA
+• Without σ (sigma) factor, 
+the core enzyme lost 
+specificity of transcription 
+Initiation site
+10
+
+
+--- Page 11 ---
+(a) Forming the closed promoter 
+complex
+2.2 Transcription Initiation
+(b) Bounding tightly, melting DNA 
+and forming an open promoter 
+complex
+(c) Polymerase remains at the 
+promoter, in an initial 
+transcribing complex
+(d) Promoter clearance
+Holoenzyme search for a binding 
+site on the DNA
+σ factor
+11
+
+
+--- Page 12 ---
+1.  transcription initiates in A or 
+G, more A than G
+2. Measure the rate of initiation 
+by using γ32P labeled ATP or 
+GTP
+sigma stimulate 
+initiation, but not  
+elongation, of 
+transcription
+α
+β
+γ
+12
+
+
+--- Page 13 ---
+Result: sigma can be 
+reused， and the core, 
+not σ factor, governs 
+rifampicin sensitivity or 
+resistance.
+Holoenzyme, -rif
+(Low ionic strength)
+Holoenzyme,  core of 
+resistant polymerase, +rif
+Holoenzyme,  core of resistant 
+polymerase, - rif
+Measure the rate of 
+initiation by using γ32P 
+labeled ATP and GTP
+σ factor can be 
+reused
+13
+
+
+--- Page 14 ---
+σ factor may not 
+dissociate from 
+core during 
+elongation
+FRET: fluorescence resonance 
+energy transfer
+•
+ A fluorescence donor 
+(D, green) is attached to 
+the single cysteine 
+residue in a σ70 mutant
+•
+ A fluorescence 
+acceptor (A, red) is 
+attached to the 5′-end of 
+the DNA. 
+•
+FRET efficiency 
+depends on the distance 
+between the donor and 
+receptor
+14
+
+
+--- Page 15 ---
+Results of FRET
+15
+
+
+--- Page 16 ---
+N
+Two conserved regions of σ are involved in 
+promoter -10 box and -35 box recognition
+Up:  four regions of σ factor
+down:  promoter region of template DNA
+16
+
+
+--- Page 17 ---
+Structure of the open promoter complex
+t
+17
+
+
+--- Page 18 ---
+β'subunit Stimulates σ binding to the nontemplate 
+strand in the -10 region of the promoter
+18
+
+
+--- Page 19 ---
+Summary for σ factor
+(1) σ factor is involved in promoter -10 box and -
+35 box recognition, so σ factor can select the 
+transcriptional initiation site.
+  (2) The σ factor by itself cannot bind to DNA, 
+but interaction with core unmasks a DNA-
+binding region of σ.
+(3) After the initiation, σ factor is bound loosely 
+in the elongating state.
+19
+
+
+--- Page 20 ---
+The role of the α subunit in UP element recognition
+α subunit missing 
+94 C-terminal AAs 
+WT Up element 
+Mutant in Up element 
+W/O a functional α subunit, UP element is no longer an enhancer
+DNA模板
+20
+
+
+--- Page 21 ---
+DNase footprinting
+21
+
+
+--- Page 22 ---
+binding between 
+αsubunit & UP 
+element 
+Footprinting the UP element 
+with pure α -subunit.
+Gourse and colleagues 
+performed DNase footprinting 
+with endlabeled template 
+strand (a) or  nontemplate 
+strand (b) from the rrnB P1 
+promoter. 
+nontemplate strand
+template strand
+22
+
+
+--- Page 23 ---
+2.3 Elongation of transcription
+• Need core enzyme
+• DNA unwinding: topoisomerases
+23
+
+
+--- Page 24 ---
+ᵦ in Phosphodiester bond formation
+@ Urea was used to denature 
+the core enzyme, the 
+denatured protein can be re-
+natured by removing urea.
+β subunit determing the rif 
+sensitivity.
+24
+
+
+--- Page 25 ---
+ᵦ in Phosphodiester bond formation
+1. Rif blocks the transcription initiation
+    β subunit determining the rif sensitivity
+2. Streptodigin (利链菌素) blocks RNA chain elongation
+    β subunit determining the Streptodigin sensitivity
+3. The common thing for initiation and elongation is 
+phosphodiester bond formation.
+     β subunit ensures the formation of phosphodiester bond
+25
+
+
+--- Page 26 ---
+ATP analog
+ᵦ in Phosphodiester bond formation
+Affinity labeling experiment
+Reagent
+26
+
+
+--- Page 27 ---
+Summary: functions of α,β, β'subunits of 
+RNA polymerase 
+(1) All these three subunits are involved in the extension of RNA strain
+(2) α subunit can interact with the UP element of promoter to enhance 
+the transcription
+(4) β' subunit Stimulates σ binding to core element of promoter
+(3) β are involved in the formation of phosphodiester bond
+27
+
+
+--- Page 28 ---
+2.4 Termination of transcription
+•
+Terminator: a specific DNA sequence that 
+signals transcription to terminate
+•
+ρ (rho) independent termination:
+1.
+An inverted repeat that allow a  hairpin to form at 
+the end of the transcription
+2.
+A string of Ts in the non-template strand that 
+results in a string of weak rU-dA base pairs 
+holding the transcription to the template strand. 
+28
+
+
+--- Page 29 ---
+由两个序列元件组成：
+•一段短的反向重复序列
+（大约20个核苷酸）;
+•其后是一段大约8个A：T碱
+基对的序列。
+由它转录出mRNA可形成茎
+环结构，可阻止RNA pol的前
+进。
+Non-template
+Template
+Rho非依赖型终止子的序列
+29
+
+
+--- Page 30 ---
+Model of ρ -independent 
+termination
+(a) The polymerase has paused at a 
+string of weak rU–dA base pairs, 
+and a hairpin has started to form 
+just upstream of these base pairs.
+(b) As the hairpin forms, it further 
+destabilizes the RNA–DNA hybrid. 
+This destabilization could take 
+several forms: The formation of the 
+hairpin could physically pull the 
+RNA out of the polymerase; or it 
+could simply cause the 
+transcription bubble to collapse, 
+expelling the RNA from the hybrid.
+(c) The RNA product and polymerase 
+dissociate completely from the DNA 
+template, terminating transcription.
+30
+@
+
+
+--- Page 31 ---
+ρ -dependent termination
+•
+Need ρ factors
+•
+Need the inverted repeat that allow a  
+hairpin to form at the end of the transcription
+•
+No need of a string of Ts in the non-
+template strand 
+31
+
+
+--- Page 32 ---
+ρ  as a termination factor
+Rho decreases the net rate of 
+RNA synthesis.
+1.
+Roberts allowed E. coli RNA 
+polymerase to transcribe λ 
+phage DNA in the presence of 
+increasing concentrations of 
+rho. 
+2.
+[γ-32P]GTP was used to 
+measure initiation (red) and 
+[3H]UTP to measure 
+elongation (green).
+3.
+Rho depressed the elongation 
+rate, but not initiation. 
+1969, Nature 224:1168-1174
+32
+
+
+--- Page 33 ---
+ρ reduces the size of 
+the RNA product
+•
+E. coli RNA polymerase to transcribe λ 
+DNA. [14C]ATP was used to label the 
+transcripts synthesized in the presence 
+of rho. 3H was used to labeled the 
+transcripts synthesized in absence of 
+rho
+•
+The 14C-labeled transcripts (red) were 
+relatively small, the 3H labeled 
+transcripts (blue) were originally. 
+•
+Thus, rho has no effect on the size of 
+previously made transcripts, but it 
+reduces the size of the transcripts 
+made in its presence.
+33
+
+
+--- Page 34 ---
+ρ Releases Transcripts from 
+the DNA Template
+•
+(a) absence or (b) presence of rho. 
+•
+3H-labeled product (red) to 
+ultracentrifugation to see whether 
+the product was associated with the 
+DNA template (blue).
+•
+(a) The RNA made in the absence 
+of rho sedimented together with the
+       template in a complex that was 
+larger than free DNA. 
+•
+(b) The RNA made in the presence 
+of rho sedimented independently of 
+DNA at a position corresponding to 
+relatively small molecules. 
+•
+Thus, transcription with rho releases 
+transcripts from the DNA template.
+34
+bottom
+top
+
+
+--- Page 35 ---
+          The modle of Rho-
+dependent 
+termination
+(a) Rho has joined the elongation complex 
+by binding directly to RNA polymerase. 
+The end of the nascent transcript has 
+just emerged from the polymerase. 
+(b) The transcript has lengthened and has 
+bound to rho via a rho loading site, 
+forming an RNA loop. Rho can now feed 
+the transcript through its central cavity. 
+(c) The polymerase has paused at a 
+terminator. By continuously feeding the 
+transcript through itself, rho has 
+tightened the RNA loop and irreversibly 
+trapped the elongation complex. Rho 
+has also begun to dissociate the RNA-
+DNA hybrid, which will lead to transcript 
+release.
+35
+@
+
+
+--- Page 36 ---
+3. Regulation of transcription 
+in prokaryotes 
+Control the expression of genes: some on, some off
+36
+
+
+--- Page 37 ---
+Operon (操纵元)
+Operon:  a unit of gene expression in prokaryotes, which 
+includes structural genes and control elements
+•
+Each operon is subjected to stringent regulation:
+      on (increased transcription initiation) or off (decreased 
+transcription initiation) depending on the needs of the 
+microorganism.
+•
+This allows the bacteria to be efficient: it will produce 
+specific proteins only when they are required
+Operator (操纵区): A DNA element found in prokaryotes that 
+binds tightly to a specific repressor and thereby regulates 
+the expression of adjoining genes
+37
+
+
+--- Page 38 ---
+Typical operons
+• Lac operon: utilization of the sugar lactose
+• Ara operon: utilization of the sugar 
+arabinose
+• Trp operon: synthesis of the amino acid 
+tryptophan
+38
+
+
+--- Page 39 ---
+3.1 Lac operon
+•
+Three structure genes: 
+1.
+β-galactosidase (lacZ): break lactose into 
+galactose and glucose
+2.
+Galactoside permease (lacY): to transport 
+lactose into cells
+3.
+Galactoside transacetylase (lacA): unknown 
+function, involving in metabolism of lactose
+39
+
+
+--- Page 40 ---
+Lac I: Gene encoding the Lac repressor (LacR)
+Structure of Lac operon
+•
+Three structure genes: 
+1.
+β- galactosidase (lacZ): break lactose into galactose 
+and glucose
+2.
+Galactoside permease (lacY): to transport lactose 
+into cells
+3.
+Galactoside transacetylase (lacA): involving in 
+metabolism of lactose
+P: Lac promoter (binding site for RNA pol)
+O: Lac operator (binding site for LacR)
+40
+
+
+--- Page 41 ---
+41
+
+
+--- Page 42 ---
+Repressor-operator interactions
+•
+Labeled lacO-containing DNA with 32p
+•
+Binding b/w WT Lac operator & Lac repressor 
+42
+
+
+--- Page 43 ---
+• Two key elements: repressor (阻遏物) and operator (操纵区)
+• The operon is turned off as long as the repressor binds to the 
+operator
+• When the supply of glucose is exhausted and lactose is available, 
+the few molecules of lac operon enzymes produce a few 
+allolactose from lactose.
+• The allolactose acts as an inducer by binding the repressor, 
+repressor dissociate from the operator
+• The operon now is turned on
+Summary of Negative control of  
+the LAC operon
+43
+
+
+--- Page 44 ---
+Controls of  the LAC operon
+•
+Negative control: 
+The binding of repressor to the operator keeps the operon 
+off.
+•
+Positive control: 
+Catabolite activator protein (CAP) in conjunction with 
+cyclic-AMP stimulates transcription.
+44
+
+
+--- Page 45 ---
+Positive control of Lac operon
+•
+ Known: 
+–
+selection in favor of glucose metabolism:  with glucose, lac 
+operon is off. 
+•
+Solution for the puzzle:
+–
+Who is response to glucose concentration? cAMP
+–
+Who is interact with cAMP & promoter? 
+45
+
+
+--- Page 46 ---
+Positive control of Lac operon
+• Mediated by a factor called catabolite activator 
+protein (CAP,代谢分解物激活蛋白)
+• CAP conjugated with cAMP (cyclic-AMP, 环腺苷酸） 
+stimulate transcription
+• cAMP concentration depends on glucose: more 
+glucose, less cAMP
+• The Lac operon is activated only when glucose 
+concentration is low.
+46
+
+
+--- Page 47 ---
+47
+
+
+--- Page 48 ---
+Summary of Lac operon
+•
+Lac structure genes 
+only expressed 
+when: 
+1. No Glucose
+2. Available of lactose
+48
+
+
+--- Page 49 ---
+3.2 The ara operon
+AraC protein as repressor, it binds 
+to the operators in two sites and 
+loop the 210bp DNA  out
+Arabinose acts as inducers
+49
+
+
+--- Page 50 ---
+ 
+•
+Supercoiled DNA have a higher electroretic mobility than the same 
+DNAs unlooped
+•
+Arabinose breaks the loop between araO2 and aral
+50
+
+
+--- Page 51 ---
+ara operon
+• Positive control by CAP-cAMP complex, 
+which is similar to Lac operon
+51
+
+
+--- Page 52 ---
+3.3 The Trp Operon (反馈抑制）
+•
+Genes for enzymes making  tryptophan
+•
+Repression requires the binding of trp and apo-
+repressor (辅阻遏蛋白) 
+•
+Aporepressor is inactive, only when it binds to 
+tryptophan, act as  a repressor. 
+•
+Low trp, no repression
+•
+High trp, repression
+52
+
+
+--- Page 53 ---
+53
+
+
+--- Page 54 ---
+Control the trp operon by 
+attenuation
+• Attenuator: a region of DNA upstream of 
+one or more structure genes, where premature 
+transcription termination can occur
+• Trp operon control  70 folds of transcription
+• Attenuation controls additional 10 folds of 
+transcription
+54
+
+
+--- Page 55 ---
+55
+
+
+--- Page 56 ---
+Looks like a terminator
+56
+Two structures available to the leader–attenuator transcript
+Does not look like a terminator
+
+
+--- Page 57 ---
+57
+
+
+--- Page 58 ---
+Always off
+Always on
+Always on
+Analytical questions:
+58
+
+
+--- Page 59 ---
+59
+
+
+--- Page 60 ---
+Thanks!
+60
+
+

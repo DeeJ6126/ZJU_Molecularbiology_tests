@@ -1,0 +1,735 @@
+# MB8-Transcription in eu-mzhou (66 pages)
+
+--- Page 1 ---
+周明
+浙江大学生科院 植物所
+mingzhou@zju.edu.cn 
+Transcription in eukaryotes
+1
+
+
+--- Page 2 ---
+Basic transcription machinery
+• RNA polymerase (1 in pro-; 3 in eu-)
+• Promoter
+• General transcription factor
+• Transcription activators 
+2
+
+
+--- Page 3 ---
+RNA polymerase activity measured by incorporation of labeled UMP in RNA
+Urchin embryo extracts
+Three types of RNA polymerase
+3
+
+
+--- Page 4 ---
+Nucleoplasmic fraction 
+(II & III)
+Nucleolus fraction (I)
+Sub-Cellular localization of the three 
+rat liver RNA polymerase 
+4
+
+
+--- Page 5 ---
+Amanitin at low concentration completely inhibits the activity of polymerase II, 
+high concentration also inhibits the polymerase III, no effect on polymerase I.
+Amanitin (毒伞肽), Roeder et al, 1974
+5
+
+
+--- Page 6 ---
+Effect of α-amanitin 
+on small RNA 
+synthesis （Pol III）
+6
+
+
+--- Page 7 ---
+（异质核RNA）
+（核小分子RNA）
+（RNA剪切体）
+（分泌蛋白合成信号肽识别）
+（结合class II TF）
+7
+
+
+--- Page 8 ---
+RNA Polymerases
+RNA Polymerase I
+RNA Polymerase II
+RNA Polymerase 
+III
+Location
+Nucleolus (核仁）
+Nucleoplasm (核质）Nucleoplasm (核质）
+Function
+Make large rRNA
+(28S, 18S 5.8S 
+rRNA)
+Make hnRNA, 
+snRNAs, miRNAs
+Make tRNA & 5S 
+rRNA, U6, 7SK, 
+7SL
+hnRNA: heterogeneous nuclear RNA (异质核RNA), precursors of mRNA
+8
+
+
+--- Page 9 ---
+In plants
+RNA Polymerase IV：siRNA for chromatin regions.
+RNA Polymerase V: long noncoding RNA attracts siRNA-AGO4 to regions 
+for silencing.
+Pol IV & Pol V are evolutionarily derived from RNA polymerase II.
+RNA Polymerases
+siRNAs
+lncRNAs
+9
+
+
+--- Page 10 ---
+RNA Polymerases
+2021, CAS, 中国
+2023, SUSTech, 中国
+2015, EMBL, 德国
+2000, Stanford, 美国
+2013, EMBL, 德国
+10
+
+
+--- Page 11 ---
+Promoter regions are essential for gene expression. If a particular 
+gene is to be expressed, then RNA Polymerase and regulation 
+factors must bind to the promoter. 
+Promoter sequences could be grouped into two different classes: 
+1) Conserved sequences: Found in nearly all promoters
+2) Non-conserved sequences: Associated with either temporal or 
+spatial regulation
+Promoter
+11
+
+
+--- Page 12 ---
+•
+Core promoter: 
+1. TFIIB recognition element (BRE)
+2. TATA box
+3. Initiator (Inr)
+4. Downstream promoter element (DPE)
+•
+Upstream promoter element (UPE): GC 
+boxes,  cat box etc.
+Class II promoter
+Core promoter
+12
+
+
+--- Page 13 ---
+ Basic machinery  of transcription: Class II Promoter
+Conserved modules     Sequence                          Possible roles
+TATA Box  (-25bp)        TATAAA                     Define transcription start site
+CAAT Box                     GGCCAATC              Define RNA Polymerase binding site
+GC Box                          TGGGCGG                Define RNA Polymerase binding site        
+13
+
+
+--- Page 14 ---
+No TATA box, the specificity of 
+transcription initiation is lost.
+deletions
+S1 mapping
+14
+
+
+--- Page 15 ---
+Principle of linker scanning
+15
+
+
+--- Page 16 ---
+•
+Done in frog Oocytes
+•
+Two DNA template: 
+1. linker scanning 
+mutated 
+2. WT  different size
+•
+-18 - -29, TATA box 
+region
+-18 - -29
+Mutation in TATA box destroyed 
+the promoter activity (herpes virus 
+tk promoter)
+16
+
+
+--- Page 17 ---
+Some class II promoters require the TATA box for 
+function, but others need it only to position the 
+transcription start site. 
+17
+
+
+--- Page 18 ---
+ Upstream Elements
+-80--105
+-47--61
+-18---29
+• CAT box: an upstream motif, 
+having sequence CCAAT, 
+found in many eukaryotic 
+promoters  
+• GC box: a hexamer having 
+the sequence of GGGCGG on 
+one strand, which occurs in a 
+n u m b e r  o f  m a m m a l i a n 
+structural gene promoter. It is 
+t h e  b i n d i n g  s i t e  f o r  t h e 
+transcription factor Sp1.
+• It is orientation independent, 
+but not position independent
+18
+
+
+--- Page 19 ---
+19
+
+
+--- Page 20 ---
+Summary
+Class II promoters may contain up to five conserved elements: 
+a core promoter composed of 4 elements;
+an upstream promoter element. 
+The core promoter elements:
+the TFIIB recognition elements (BRE), 
+the TATA box , 
+the initiator (Inr), 
+the downstream promoter element (DPE).
+20
+
+
+--- Page 21 ---
+At least one of these elements is missing in most 
+promoters. 
+In fact, TATA-less promoters tend to have DPEs, at least 
+in Drosophila. 
+Promoters for highly expressed specialized genes tend 
+to have TATA boxes, promoters for housekeeping genes 
+tend to lack them. 
+Some promoters (TdT) have only an initiator, possibly 
+with a DPE.
+21
+
+
+--- Page 22 ---
+Class I promoter from rRNA gene
+1. Per cell, there are hundreds of copies of rRNA 
+genes
+2. Each copy in the same species are  the same
+3. Huge variability exists among different species, not 
+much conservative elements
+4. One common feature : AT-rich initiator (rINR) which 
+surrounds the transcription start site
+22
+
+
+--- Page 23 ---
+Class I promoter
+1.
+Two essential elements:
+1. upstream control element:-107- -156
+2. core region: -45-20
+2.
+Need to be apart: delete or add DNA fragment B/w the 
+elements resulted in the decrease of promoter activity
+23
+
+
+--- Page 24 ---
+Effect of spacing of the  two rRNA promoter element
+24
+
+
+--- Page 25 ---
+Summary
+Class I promoters are not well conserved in sequence 
+from one species to another, but the general 
+architecture of the promoter is well conserved. It 
+consists of two elements, a core element surrounding 
+the transcription start site, and an upstream promoter 
+element (UPE) about 100 bp farther upstream. The 
+spacing between the two elements is important.
+25
+
+
+--- Page 26 ---
+Class III Promoter: 
+5s rRNA and tRNA genes
+• Classic class III 
+promoter: lie within the 
+genes                               
+(5S rRNA gene, tRNA gene)
+• Non-classic : similar to 
+class II promoter                               
+(U6 snRNA, 7SL RNA, 7SK 
+RNA gene)
+Effect of 5’-deletions on 5S rRNA gene
++
+26
+
+
+--- Page 27 ---
+Effects of 3’-deletion on 5S rRNA gene transcription
+Using cordycepin triphosphate (3'-脱氧腺苷, 3’-dATP, no 3’ hydroxyl 
+group) to terminate transcription at reproducible sites
+promoter
+27
+
+
+--- Page 28 ---
+NC
+Effects of 3’-deletion on 5S rRNA gene transcription
+28
+
+
+--- Page 29 ---
+Summary: Class III Promoter
+• Classic class III promoter:  lie within the genes 
+                               (5S rRNA gene, tRNA gene)
+• Non-classic : similar to class II promoter
+                               (U6 snRNA, 7SK RNA gene)
+29
+
+
+--- Page 30 ---
+Cis-acting elements （顺式作用元件）
+•
+Cis-acting elements:  genetic  elements, such as enhancers, silencers, etc. 
+which are on the same chromosome of the regulating gene.
+•
+Enhancer: A DNA element that strongly stimulates transcription of a gene or 
+genes.
+•
+Silencer: a DNA element that can act at a distance to decrease transcription 
+from a eukaryotic gene
+•
+Enhancer and silencer are position and orientation independent
+•
+They are usually found upstream of the gene they influences, but they can 
+also function at a distance or in either orientation
+30
+
+
+--- Page 31 ---
+Structure of SV 40 virus early control region: enhancers located upstream 
+of the promoter
+enhancer
+enhancer
+@
+31
+
+
+--- Page 32 ---
+Effects of deletions in the 
+immunoglobulin enhancer
+Enhancer could be within a gene (immunoglobulin)
+@
+32
+
+
+--- Page 33 ---
+• Enhancers act through proteins that bind to them. 
+• These proteins named as: transcription factors, enhancer-binding 
+protein, or activators. 
+How do enhancers stimulate transcription?
+Binding of specific proteins to 
+an enhancer modulates the 
+rate of transcription of the 
+associated gene.  
+TBP=TATA binding protein; 
+TAF:TBP-associated protein; 
+ENH=enhancer
+Trans-acting factors:  factors, usually considered to be proteins, that bind to 
+the cis-acting sequences to control gene expression 
+@
+33
+
+
+--- Page 34 ---
+How do silencers work?
+Silencers cause the chromatin to coil up into a 
+condensed, inaccessible, and therefore inactive 
+form, thereby preventing transcription of 
+neighboring genes. 
+34
+
+
+--- Page 35 ---
+General Transcription factors
+• General transcription factors: attract the RNA polymerases to their respective 
+promoters with  a weak extent. 
+• They support only a basal level of transcription.
+• Cells exert exquisitely fine control over transcription through special 
+transcription factors
+35
+
+
+--- Page 36 ---
+Class II factors
+Preinitiation complex: The combination of 
+RNA polymerase and general transcription 
+factors assembled at promoter just before 
+transcription begins
+Order:
+1. With help of TFII A, TFII D binds to TATA box 
+2. TFII B binds next, protein-DNA interaction
+3. TFII F helps RNA polymerase bind to –34~+17
+4. Remaining factors binds: TFII E & TFII H 
+36
+
+
+--- Page 37 ---
+Building the preinitiation complex
+•TFIID is most 
+important
+•TFIIF is essential 
+for the binding of 
+RNA polymerase
+•The preinitaition 
+complex binds in 
+TATA box region 
+of a promoter
+37
+
+
+--- Page 38 ---
+Structure and function of TFIID
+TFIID is a complex protein containing a TATA-box-
+binding protein (TBP) and 8-10 TBP-associated 
+factors (TAFs, more specifically, TAFIIs)
+38
+
+
+--- Page 39 ---
+T A T A  A A A
+Binding of TFIID to the TATA box is on the minor 
+groove of the TATA box, not in the major groove
+1,4,7 Yeast TBP
+2,5,8 human TBP
+3,6,9 buffer
+MLP  
+次黄嘌呤
+39
+相同
+相同
+不同
+不同
+
+
+--- Page 40 ---
+• TBP binds to the TATA box in the minor groove of DNA.
+• TBP forms a saddle around the DNA and bends it by ~80°. 
+TBP binds to the narrow groove of DNA
+40
+
+
+--- Page 41 ---
+TFIID = a TATA-box binding protein (TBP)  + 8-10TBP associated factors (TAFIIS)
+41
+
+
+--- Page 42 ---
+Class I factors
+•
+Two TFs: 
+1.
+core-binding factor: SL1( human) or 
+TIF-IB (transcription initiation factor) 
+2.
+Upstream-binding factor (UBF) or 
+Upstream-activating factor (UAF) 
+1.
+SL1 is required for the 
+transcription
+2.
+SL1 is species-specific
+rRNA 
+Promoter
+42
+
+
+--- Page 43 ---
+1.
+SL1 caused no 
+footprint on its own
+2.
+UBF+SL1 caused 
+footprint on UCE 
+region of promoter
+Results:
+UBF bound to the promoter 
+and SL1 facilitates its 
+binding
+DNase I footprinting
+human rRNA promoter
+43
+
+
+--- Page 44 ---
+Class III factors (TFIIIA, B, C)
+•
+TFIIIA is required for the 
+synthesis of 5s rRNA, but 
+not tRNA
+•
+TFIIIB and C are required by 
+both 5s rRNA gene and 
+tRNA gene
+1, -antibody, 
+2. +Irrelevant antibody, 
+3.+ TFIIIA antibody
+OOcyte     somatic cell
+44
+
+
+--- Page 45 ---
+Transcription activators 
+(Specific Transcription Factors)
+• Basic transcriptional machinery provide a low level 
+of transcription
+• With the help of transcription activators, the 
+expression of  active genes rises
+45
+
+
+--- Page 46 ---
+Functions of transcription factors:
+• Recognize target sequences in DNA 
+• Interact with other transcription factors
+Control gene expression in following ways: 
+• Expressed in a specific tissue (spatial regulation) 
+• Expressed in at specific time (temporal regulation) 
+• Require modification (e.g. phosphorylation) 
+Transcriptional factors
+46
+
+
+--- Page 47 ---
+1. DNA-binding domain: well characterized structural motif
+     a. Zinc finger
+     b. homeodomains (HDs) helix-turn-helix
+     c. bZip (leucine zipper)
+     d. bHLH (basic helix-loop-helix)
+2. Transcription- activating domain: not well-defined
+     a. Acidic domains
+     b. Glutamine rich domains
+     c. Proline rich domains
+Categories of transcription factors
+Two functional domains
+47
+
+
+--- Page 48 ---
+DNA-binding domain: Zinc finger (锌指)
+β-strand
+α-helix
+Binding occurs in the 
+major groove 
+48
+
+
+--- Page 49 ---
+Zinc fingers
+• The classic zinc finger motif with two histidines and two cysteines 
+binding to the zinc ion  (C2H2 type)
+• Other mononuclear zinc finger motifs can have three or four cysteines. 
+The 3D structures of those are quite different from C2H2 type – they 
+lack the b strands. 
+49
+
+
+--- Page 50 ---
+Zinc finger proteins are multi-domain, with 1-60 tandem 
+zinc finger DNA-binding domains and several other domains 
+which may be responsible for dimerization, ligand or other 
+protein binding
+Zn
+Zn
+Zn
+Zn
+Zn
+Activation
+Repression
+Example: Human GL1 protein 
+has 5 ZNF domains and 
+additional domains for both 
+transcription activation and 
+repression. Only 4 of 5 ZNFs 
+bind to DNA
+50
+
+
+--- Page 51 ---
+DNA-binding domain: homeodomain (同源结构域)
+Homeodomain (helix-turn-helix)
+Binding occurs in 
+the major groove 
+51
+
+
+--- Page 52 ---
+helix-turn-helix domain (螺旋-转角 -螺旋)
+52
+
+
+--- Page 53 ---
+Homeodomains can operate in tandems with similar 
+or different DNA binding domains
+• DNA binding of the two domains in the POU region of the 
+human protein Oct-1, which regulates transcription of small 
+nuclear RNA genes and the histone H2B gene 
+53
+
+
+--- Page 54 ---
+DNA-binding domain: bZIP (leucine zipper, 亮氨酸拉链)
+leucine appears every seven amino acids in a 
+region of the protein 
+54
+
+
+--- Page 55 ---
+DNA-binding domain: bHLH (helix-loop-helix)
+55
+
+
+--- Page 56 ---
+Structure of the complex between the bHLH 
+domain of MyoD and its DNA target
+56
+
+
+--- Page 57 ---
+The GAL4 protein
+•
+Yeast activator  (zinc-containing family)
+•
+GAL4 responsible genes contains a GAL4 target site (enhancer, 
+upstream activating sequences, UASGs)
+•
+GAL4 binds to a UASGs as a dimer
+57
+
+
+--- Page 58 ---
+A binuclear zinc finger binding in GAL4
+• Binuclear zinc finger proteins contain six Cys/His residues 
+and two zinc ions
+58
+
+
+--- Page 59 ---
+Dimer of GAL4 bound to UAS
+• Almost all contacts to DNA 
+in Zn cluster regions are 
+made by protein main 
+chain atoms
+• Linker region determines 
+the specificity of Zn2C6 
+contain proteins
+59
+
+
+--- Page 60 ---
+The UAS/GAL4 ectopic expression system: extremely valuable tool for 
+the overexpression of transgenes in Drosophila melanogaster. 
+• GAL4 as a transcription factor (from yeast), its expression is 
+controlled by D. melanogaster promoter sequences
+• UAS as GAL’s target sequence, (upstream activation sequence)
+• UAS+ GAL:  activate gene (under control of UAS) transcription. 
+GAL4+UAS system
+Promoter of interest (ptin-C)
+GAL4
+pUAS
+Target gene
+Activated by 
+GAL4
+Crossing
+60
+
+
+--- Page 61 ---
+Application of GAL4 transcription factor 
+• Y1H
+• Y2H
+61
+
+
+--- Page 62 ---
+62
+62
+
+
+--- Page 63 ---
+Reporter Gene
+Bait
+Protein
+Binding
+Domain
+Prey 
+Protein
+Activation
+Domain
+The Two-Hybrid System
+• Two hybrid proteins are generated with transcription 
+factor domains
+• Both fusions are expressed in a yeast cell that carries a 
+reporter gene whose expression is under the control of 
+binding sites for the DNA-binding domain
+63
+
+
+--- Page 64 ---
+Reporter Gene
+Bait
+Protein
+Binding
+Domain
+Prey 
+Protein
+Activation
+Domain
+The Two-Hybrid System
+• Interaction of bait and prey proteins localizes the activation 
+domain to the reporter gene, thus activating transcription. 
+• Since the reporter gene typically codes for a survival factor, 
+yeast colonies will grow only when an interaction occurs. 
+64
+
+
+--- Page 65 ---
+Reporter Gene
+Binding
+element
+Prey 
+Protein
+Activation
+Domain
+The One-Hybrid System
+• One hybrid protein is generated with transcription 
+factor activation domain
+• Both constructs are expressed in a yeast cell that carries 
+a reporter gene whose expression is under the control 
+of binding sites for the DNA-binding domain
+65
+
+
+--- Page 66 ---
+谢谢大家！
+66
+
+

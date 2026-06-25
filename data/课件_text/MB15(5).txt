@@ -1,0 +1,1189 @@
+# MB15(5) (98 pages)
+
+--- Page 1 ---
+Functional Genomics (cont)
+
+
+--- Page 2 ---
+Map based cloning
+
+
+--- Page 3 ---
+How to clone mutated target gene 
+by positional cloning?
+Map based cloning:  an approach that identifies the 
+underlying genetic cause of a mutant phenotype. 
+Isolation a gene without prior knowledge of the gene 
+product, using genetic linkage between the mutant gene 
+and a marker as the basis for beginning  a search for 
+target gene. 
+A powerful tool in forward genetic research
+linkage map= genetic map (遗传图谱)
+
+
+--- Page 4 ---
+Linkage analysis: during meiosis, 2 copy homo chromosome will 
+respectively repeat itself  and form bivalent. Crossing-over or 
+recombination will occur. From the frequency of crossing-over, the 
+linkage distance can be estimated.
+A      B
+A      B
+a       b
+a       b
+a        b
+A      B
+P1
+P2
+F1
+X
+AB         Ab            aB           ab
+(1-r)/2    r/2            r/2         (1-r)/2 
+1/2           0               0            1/2
+1/4         1/4             1/4           1/4
+Linkage (0<r<0.5)
+Completely linkage (r = 0)
+Independently r= 0.5
+Recombination frequency: r =发生交换的配子数/总配子数
+
+
+--- Page 5 ---
+a
+a
+A
+A
+a
+A
+m1
+M1
+m1
+M1
+P1
+P2
+F1
+a
+A
+m1
+M1
+A
+M1
+a
+m1
+a
+a
+m1
+F2
+Mutant 
+m1
+M1
+m1
+m1
+M1
+M1
+Marker
+Wild type  
+P1
+P2
+Map based cloning principle
+m1
+M1
+F1
+M1
+M1
+M1
+a
+a
+a
+a
+A
+
+
+--- Page 6 ---
+Mutants from F2 population
+Marker1
+P1
+P2
+Marker2
+Marker3
+Independently
+Linkage
+Completely 
+linkage
+1
+2
+3
+8
+4
+7
+5
+6
+Map based cloning principle
+
+
+--- Page 7 ---
+Molecular marker: RFLPs (1980, Davis Bostein et al.)
+Polymorphism: a genetic locus has different forms, or alleles
+Digesting DNA from  two individuals with Restriction 
+endonucleases may yield fragments of different lengths.
+Restriction endonucleases: are enzyme which cut DNA 
+into defined fragments.
+RFLP, Restriction frangment length 
+polymorphisms
+
+
+--- Page 8 ---
+Recognition seq: Restriction endonucleases cleave DNA 
+symmetrically in both strands at short palindromic (symmetrical) 
+recognition seq to leave a 5’-phosphate and a 3’-OH. They leave 
+blunt ends, or protruding 5’- or 3’-termini.
+SmaI
+5‘-CCCGGG-3’
+3’-GGGCCC-5’
+5’-GAATTC-3’
+3’-CTTAAG-5’
+EcoRI
+A 6 bp recognition seq will occur on average every 46 = 4096 bp in 
+random seq DNA
+RFLP, Restriction frangment length 
+polymorphisms
+
+
+--- Page 10 ---
+RFLP   southern   hybridization
+DNA digestion and electrophoresis
+ BamHI              DraI           EcoRI           EcoRV       HindIII        XbaI
+Nipponbare, Kasalath, IR20, 55178
+
+
+--- Page 11 ---
+An heroic story of identifying Huntington disease 
+gene by positional cloning before genomic era
+By using RFLP, Huntington disease  are found be linked 
+in 500 kb region in chromosome 4  
+(CAG) repeat  in ITl5
+
+
+--- Page 12 ---
+Introduction of  4 popular markers for positional 
+cloning after finish genomic sequence project
+4 PCR based markers:
+SSLP, STS, CAPS，dCAPS
+
+
+--- Page 13 ---
+SSLP: Simple Sequence Length Polymorphism 
+(=SSR, Simple sequence repeat)
+SSLP:
+Microsatellite: 2-4bp long core sequence 
+repeated over and over many times in a row. 
+Highly polymorphic, widespread and relatively 
+uniformly distributed, ideal markers for both 
+linkage and physical mapping
+P1  P2  Het
+P1: TCTATGAGAGAGGC
+P2: TCTATGAGAGAGAGAGAGGC
+
+
+--- Page 15 ---
+STS:  Sequence Tagged Site
+STS : Any sequenced DNA fragment, its specific 
+position on chromosome is known.
+If any STS has polymorphism between alleles, and 
+the polymorphism can be detected by PCR, then it 
+can be a useful marker in linkage map
+
+
+--- Page 16 ---
+1. By using the primers to get a PCR product (a specific DNA 
+band)
+2 Restriction digesting the PCR product using a specific 
+restriction enzyme to detect polymorphisms of the digest 
+products on agrose gel
+3. Genotyping  the polymorphic bands among the population
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+Principle:
+
+
+--- Page 17 ---
+1. Amplify Target Sequence
+2. Cut with a restriction enzyme that differentiates alleles
+X
+P 1
+P 2
+Design  primers (      ) complementary to flanking regions
+Process:
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 18 ---
+3. Alleles can be differentiated by size based on loss or gain 
+of restriction site; May be able to analyze on agarose gel
+Process:
+ M        P1        P2        Het
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 19 ---
+dCAPS: Derived  Cleaved Amplified 
+Polymorphic Sequence
+-------------------GCTTCCACAAGTC--------------------------------------
+-------------------GCTTCCACAAGTT--------------------------------------
+P1
+P2
+SNP
+Design a forward primer: -----GCTTCCACGAGT-
+HinfⅠ recognize site: GANTC
+X
+P 1
+P 2
+HinfⅠ
+Each SNP can be designed as a dCAPS marker
+
+
+--- Page 20 ---
+1. F2 population construction. Cross the rice mutant with another Genotype 
+rice to get F1, self pollinate of F1 to get F2 progeny for mapping.
+2. Initial mapping(初步定位). Screen 30 mutant phenotype plants in F2 
+progeny. Extract DNA of these 30 mutants. Detect the polymorphic bands 
+among this small population using markers on different chromosome. The 
+completely linkage marker can be found.
+3. Fine mapping(精细定位). Screen 1000-2000 mutants in a larger F2 
+population. Extract DNA of these 1000-2000 mutants by pooling. Detect 
+the polymorphic bands among this big population using markers nearby 
+the linkage marker which found in the initial mapping. Finally a candidate 
+gene containing region can be determined between 2 most linked markers.
+4. Sequencing the DNA in the region between the  2 most linked markers 
+to find candidate gene.
+5. Transform wild type candidate gene into mutant to confirm this candidate 
+gene or reoccur mutant phenotype in the wild type by RNAi.
+Procedure of map based cloning
+
+
+--- Page 21 ---
+Col
+hpa1
+We screened a short primary root mutant (plant 
+physiology, 2006, Vol. 141 pp. 1425－1435)
+Lab story on mapping
+
+
+--- Page 22 ---
+WT
+hpa1
+Mutant has very short primary root because of its 
+remarkably reduced meristem zone.
+Lab story on mapping
+
+
+--- Page 23 ---
+1 2948
+3224700bp
+3260692bp
+3313645bp
+ Recombination       
+frequency
+3398195bp
+AGI position on 
+Chromosome5
+Marker  
+name
+NGA249
+10 1220
+10 1220
+M339
+2770217bp
+M322
+M326
+M331
+M35
+3533671bp
+6 1220
+0 2948
+2 2948
+At5g10330
+Chromosome 5
+Fine mapping results with 2948 mutants from F2 population
+
+
+--- Page 24 ---
+T
+Lab story on mapping
+HPA: histidinol-phosphate aminotransferase  
+组氨酸二醇磷酸氨基转移酶
+
+
+--- Page 25 ---
+A: two independently transgenic lines 
+with wild type HPA into mutant 
+WT hpa1 Line1 Line2
+A
+B
+B: Rescuing of the hpa1 root growth 
+defect by Histidine supplementation.
+Lab story on mapping
+
+
+--- Page 26 ---
+Gene cloning using deep sequencing
+n Create a segregation population
+n Bulk the mutant phenotype lines and 
+the wildtype lines and sequencing.
+
+
+--- Page 27 ---
+Genome-wide Association Study (GWAS) 分析
+全基因组关联分析
+    通过高通量分析比较病例与对照人
+群的遗传变异（SNP），基于连锁不平
+衡（LD）原理，将基因型(SNP)与表型
+关联，从而定位影响复杂性状或疾病的
+易感基因位点。
+01
+样本收集
+严格收集大
+样本量的病
+例与健康对
+照
+02
+基因分型
+检测全基因
+组数百万个
+SNP标记位
+点，获取高
+密度基因型
+数据
+03
+统计分析
+计算等位基
+因频率差异
+，筛选位点
+04
+结果验证
+可视化结果
+，并在独立
+群体样本中
+重复验证
+案例：人类身高的遗传解析
+2007
+利用GWAS研究，成功定位了第
+一个与人类身高显著相关的基
+因位点HMGA2。
+2022
+基于540万+样本的元分析，鉴
+定出超过12,000个独立遗传变
+异，累计解释了约40%的身高表
+型遗传度。
+
+
+--- Page 28 ---
+Forward Genetics
+Reverse Genetics
+Phenotype
+Phenotype
+Gene
+Gene
+Goal of Reverse Genetics: to determine gene function through targeted 
+perturbation of gene activity
+
+
+--- Page 29 ---
+Forward Genetics  
+Phenotype  Gene/Protein
+or
+Mutations First  Molecular Analysis Second
+
+
+--- Page 30 ---
+Reverse Genetics
+Gene  Phenotype
+or
+Molecular Analysis First  Mutations Second
+
+
+--- Page 31 ---
+Forward Genetics 
+Random mutagenesis
+Select mutants with 
+the phenotype of 
+interest
+Identify mutated gene
+Reverse Genetics 
+Mutate single gene of 
+interest in cells or 
+organisms 
+Generate cells or organisms 
+with mutanted gene
+Look at phenotype
+
+
+--- Page 32 ---
+Ways to disrupt gene activity
+n Delete/disrupt by homologous recombination
+n Works very well in bacteria, yeast, & mice (via ES cells)
+n Elaborate strategies required in fruit flies
+n Poorly in other common models
+n Screening random insertional mutagenesis
+n Multiple organisms
+n High throughput, nulls not guaranteed
+n Screening for point mutations in genes of interest
+n Interfere with transcription/translation
+n Interfering RNA (RNAi)
+Gene editing techiques: TALLEN; CRISPR/Cas9
+
+
+--- Page 33 ---
+Yeast deletion Project I
+n Can target yeast genes at very high efficiency 
+by homologous recombination of vectors
+n Very short lengths of homology needed for 
+efficient recombination (~50 bp sufficient)
+n Makes vector construction simple
+n Most yeast genes don’t have introns
+n Makes targeting strategies simpler
+n In mid-1990s, an international consortium 
+was formed to delete all yeast genes
+n
+http://sequence-
+www.stanford.edu/group/yeast/yeast_deletion_project/new_deletion_strategy.html
+
+
+--- Page 34 ---
+Figure 5.20  Genomes 3 (© Garland Science 2007)
+
+
+--- Page 35 ---
+Figure 5.21  Genomes 3 (© Garland Science 2007)
+
+
+--- Page 36 ---
+Yeast deletion collection II
+-can examine each strain 
+one at a time. Entire 
+collection is easily 
+distributable to 
+investigators around the 
+world.
+-or, conduct selective 
+screens on whole 
+collection at once in 
+batches
+“barcodes”
+
+
+--- Page 37 ---
+Approaches in reverse genetics
+• Gain of function (基因功能获得);
+• Loss of function (功能缺失或减弱 )。
+
+
+--- Page 38 ---
+          Gain of function：
+•    Overexpression using strong promoters;
+      - 35S，Ubiquitin promoter.
+•   Increase copy number；
+      - tandem repeat.
+
+
+--- Page 39 ---
+35S/ubi 
+Gene ORF
+OCS
+Diagram of overexpression construct
+
+
+--- Page 40 ---
+Loss of function
+1.Gene specific knockout (基因敲除)，Site-
+directed mutagenesis(定点突变) 
+2.Screen mutant of specific gene from library
+3.RNA interfering, Artificial miRNA
+4.Antisense RNA
+5.TALLEN; CRISPR 
+
+
+--- Page 41 ---
+Transgenics
+Using the power of molecular biology to 
+isolate and clone the DNA of our choice, and 
+then to express it in a controlled manner in 
+the organism of choice.
+Why?
+•  To study the role of a gene in 
+development
+•  To see where a gene is expressed
+•  To understand what happens 
+when a gene is misregulated
+•  To “cover” a genetic defect
+
+
+--- Page 42 ---
+ 
+ 
+ 
+Copyright ©2003 American Society of Plant Biologists
+Valentine,L. Plant Physiol. 2003;133:948-955
+Transgenics in plant
+The path that the T-DNA travels from the stage of T-DNA processing from the Ti 
+plasmid (pTi) to stable integration into the plant genome (Rossi et al., 1998)
+
+
+--- Page 43 ---
+ 
+ 
+Copyright ©2003 American Society of Plant Biologists
+Valentine,L. Plant Physiol. 2003;133:948-955
+T-DNA processing
+Transgenics in plant
+
+
+--- Page 44 ---
+Model for the integration of T-DNA into the plant 
+genome by illegitimate recombination
+Valentine (2003) Plant Physiology 133: 948-955
+Transgenics in plant
+
+
+--- Page 45 ---
+Day 50 
+(end of Week 7)
+What about 
+transgenics in 
+mammals?
+
+
+--- Page 46 ---
+Recipe for a gene "knockout“ in mice: 
+Step 1
+Problem: Find a cell line that can grow in 
+tissue culture but also retains the potential 
+to become part of a real embryo. 
+Solution- Embryonic stem cells
+
+
+--- Page 47 ---
+ES or Embryonic 
+stem cells:
+Blastocyst (囊胚) –stage 
+cells that have been 
+coaxed
+and coddled into
+growing in culture
+
+
+--- Page 48 ---
+Blastocyst stage cells can be easily incorporated into a different 
+blastocyst stage embryo, leading to production of chimeras
+透明带
+链霉蛋白酶
+分裂球
+
+
+--- Page 49 ---
+A mouse with
+“3 parents”
+
+
+--- Page 50 ---
+Adding a gene: Production of Transgenic Mice
+滋养层
+
+
+--- Page 51 ---
+Production of Transgenic Mice 2
+Embryonic stem cells (ES 
+cells) are then incorporated 
+into blastocysts, with the 
+hope that they “go 
+germline”. 
+germline
+If so, a line is created
+
+
+--- Page 52 ---
+Production of Transgenic Mice 3
+
+
+--- Page 53 ---
+Production of Transgenic Mice 3
+
+
+--- Page 54 ---
+OK, we've added a gene 
+(Transgenics). 
+Now, we want to make a KO
+(Reverse Genetics)
+
+
+--- Page 55 ---
+Mario Capecchi
+mRNA
+Gene X
+mRNA
+Gene X
+A normal cell has two copies of gene  X:
+ No 
+mRNA
+Gene X
+mRNA
+Gene X
+Neo resistance gene
+Scientists use homologous recombination to 
+insert gene for resistance to the drug neomycin 
+into the middle of one of the copies of gene X, 
+destroying its function. 
+ 
+  
+Recipe to "knockout" a gene: 
+Step 2 
+Oliver 
+Smithies
+Recombinant ES 
+cells can then be 
+selected in culture.
+
+
+--- Page 56 ---
+Technique for Gene Targeting (1 of 3)
+
+
+--- Page 57 ---
+Technique for Gene Targeting (2 of 3)
+
+
+--- Page 58 ---
+Technique for Gene Targeting (3 of 3)
+
+
+--- Page 59 ---
+Morphological Analysis of Bmp7 
+Knockout Mice
+
+
+--- Page 60 ---
+Morphological Analysis of Bmp7 
+Knockout Mice
+
+
+--- Page 61 ---
+Gene Targeting in Mice
+n Uses embryonic stem (ES) cells
+n Done via yeast-like homologous recombination
+n But much less efficient (~2% targeting rate)
+n Not all ES cells retain germline competence
+n Requires special facilities
+n Lots of fancy alleles can be made
+n Building vectors is a pain..labor intensive
+n Cryopreservation and distribution is easy (ES 
+cells)
+n But user must generate chimeras
+
+
+--- Page 62 ---
+TILLING (Targeted Induced Local Lesions in Genomes)
+n Method for finding mutations produced by 
+chemical mutagens in specific genes.
+n Great for organisms without targeted 
+knockout technology.
+n Chemical mutagenesis
+n Usually produces point mutations
+n Can give non-null alleles, such as hypomorphs
+定向诱导基因组局部突变
+
+
+--- Page 63 ---
+TILLING in Arabidopsis I
+n EMS used to mutagenize 
+Arabidopsis
+n Grow individual 
+mutagenized lines
+n Make primers flanking 
+gene of interest
+n Amplify using PCR
+WT
+mutant
+gene   Z
+gene Z
+WT
+mutant
+PCR amplification
+from wild type
+and mutant
+EMS
+mutagenize
+seed
+
+
+--- Page 64 ---
+TILLING in Arabidopsis II
+n Denature DNA from 
+pools of mutant lines
+n Allow to hybridize to 
+wild-type DNA
+n Detect mismatches in 
+hybridized DNA
+n Cel I enzyme cuts at 
+mismatches
+n Denaturing HPLC
+n Sequence to identify 
+site of mutation
+ATGCGGACTG
+|||||| |||
+TACGCCGGAC
+ATGCGG   CTG
+||||||   |||
+TACGCC   GAC
+Cel 1
++
+
+
+--- Page 65 ---
+Colbert, T. B.  et al. (2001). High-throughput screening for induced point 
+mutations. Plant Physiol. 126: 480-484.
+Actual TILLING data
+
+
+--- Page 66 ---
+TILLING in other organisms
+• Mice
+n  ENU treat males, take offspring, make 
+DNA from them to screen, and 
+cryopreserve sperm
+n Chemically mutagenize ES cells, make DNA 
+and cryopreserve, screen DNAs.
+n Zebrafish
+n ENU treat; cryopreserve sperm.
+n Flies, Maize etc.
+
+
+--- Page 67 ---
+Proteomics 
+
+
+--- Page 68 ---
+What is Proteomics?
+    Proteomics is the study of protein expression, regulation, 
+modification, and function in living systems for understanding 
+how living systems use proteins. Using a variety of 
+techniques, proteomics can be used to study how proteins 
+interact within a system, or how proteins change due to 
+applied stresses.
+    Proteomics requires the use of advanced measurement 
+techniques with an emphasis on separations and mass 
+spectrometry.
+
+
+--- Page 69 ---
+Why?
+     The number of found genes (ORFs) in genome 
+(human) is much less than the number of expressed 
+proteins, and therefore, more information is needed 
+about the “working units” of the cells.
+
+
+--- Page 70 ---
+How?
+• Proteomics “branches”:
+      – Proteomic analysis (analytical protein chemistry)
+         • Characterization of proteins and their post-translational modifications
+      – Expression proteomics (differential display proteomics)
+         • Profiling of expressed proteins using quantitative methods
+      – Cell-mapping proteomics (cataloging of protein-protein interactions)
+         • Identification of protein complexes
+      – Structural Proteomics
+         • High throughput X-ray Crystallography/Modelling; • NMR 
+Spectroscopy/Modelling;  • Cryo-electron microscope Analysis/Modelling
+• Used approaches:
+      – Gel-based proteomics
+      – Mass spectrometry driven proteomics
+      – Protein arrays, Yeast two-hybrid arrays,... etc.
+
+
+--- Page 71 ---
+Gel-based proteomics
+• “Older" approach to screen the protein expression at the 
+large scale
+• The typical flow of gel-based proteomics (2DE & MS)
+    – Sample preparation
+    – First-dimension isoelectric focusing (IEF)
+    – Second-dimension SDS-PAGE
+    – Visualization & evaluation
+    – Expression analysis
+    – Protein identification by MS
+
+
+--- Page 72 ---
+Protein arrays
+• “Basic idea similar as in cDNA arrays”;
+    – Substrate (protein, antibody etc) is bound on the 
+surface of the array
+    – The sample is introduced to array → binding
+    – Detection and analysis
+• Used for several purposes
+    – Screening/profiling
+    – Protein - protein interactions
+    – Protein - small molecule interactions
+    – Kinase - substrate interactions
+    – etc.
+
+
+--- Page 73 ---
+Protein arrays cont.
+
+
+--- Page 74 ---
+Protein arrays cont.
+       •  “Similarity” to cDNA arrays
+   – “Technique exists”
+   – Problems e.g.
+       • Specificity of substrates, also some proteins are 
+more  “sticky” than others
+       • Background variations
+       • Normalization among experiments
+
+
+--- Page 75 ---
+Yeast two-hybrid system
+Used to identify protein-protein interactions
+– Systematic testing of binding candidates
+– Used firstly with yeast (S. cerevisiae the whole 
+genome know), but nowadays applied also to other 
+organisms
+
+
+--- Page 76 ---
+Reporter Gene
+Bait
+Protein
+Binding
+Domain
+Prey 
+Protein
+Activation
+Domain
+n Two hybrid systems are generated with transcription 
+factor domains
+n Both fusions are expressed in a yeast cell that carries a 
+reporter gene whose expression is under the control of 
+binding sites for the DNA-binding domain
+The Two-Hybrid System
+
+
+--- Page 77 ---
+Reporter Gene
+Bait
+Protein
+Binding
+Domain
+Prey 
+Protein
+Activation
+Domain
+The Two-Hybrid System
+n Interaction of bait and prey proteins localizes the activation 
+domain to the reporter gene, thus activating transcription. 
+n Since the reporter gene typically codes for a survival factor, 
+yeast colonies will grow only when an interaction occurs. 
+
+
+--- Page 78 ---
+Yeast two-hybrid cont.
+The method has been highly successful in detecting many 
+potential protein-protein interactions, but it has several 
+limitations
+    – A bait capable to self-activation of the reporter gene is 
+unsuitable
+    – If post-translational modifications (e.g. phosphorylation) 
+are required for binding activity, interaction is less likely to 
+be detected
+    – Also if additional non-peptide factors (e.g. DNA 
+sequence) are needed, the interaction is less likely to be 
+detected
+    – Some interactions may lack biological content
+    
+
+
+--- Page 79 ---
+Interaction maps
+
+
+--- Page 80 ---
+Major Approaches for Protein Separation
+n Gel based (2D electrophoresis)
+-
+separates by isoelectric point and MW
+n Liquid Phase Separation (chromatography)
+-
+separates by size and hydrophobicity
+Downstream analysis by MS is improved by simplifying the complexity of a 
+protein mixture (from a cell or tissue, for example).
+But, sample losses at each step are an issue (no protein PCR!) 
+
+
+--- Page 81 ---
+The first dimension 
+(separation by isoelectric focusing)
+- gel with an immobilised pH gradient
+- electric current causes charged 
+proteins to move until it reaches the 
+isoelectric point 
+(pH gradient makes the net charge 0)
+The second dimension 
+ (separation by mass)
+-pH gel strip is loaded onto a SDS gel
+-SDS denatures and linearizes the 
+protein (to make movement solely 
+dependent on mass, not shape)
+2D-SDS PAGE
+(PAGE - Polyacrylamide gel electrophoresis) 
+
+
+--- Page 82 ---
+2D-SDS PAGE gel
+• Can resolve 
+>8,000 proteins.
+• Can be used for 
+both analytical and 
+preparative 
+purposes 
+Can cut out and 
+purify for MS
+
+
+--- Page 83 ---
+2D-gel usage (now, getting to be old school)
+
+
+--- Page 84 ---
+2D PAGE Advantages vs. Disadvantages
+1. Good resolution of 
+proteins
+2. Detection of post-
+translational 
+modifications
+1. Not for hydrophobic proteins
+2. Limited by pH range 
+3. Not easy for low abundant 
+proteins
+4. Analysis and quantification are 
+difficult
+Pros
+Cons
+
+
+--- Page 85 ---
+Mass Spectrometry (MS) Stages
+n Introduce sample to the instrument
+n Generate ions in the gas phase
+n Separate ions on the basis of differences in m/z 
+with a mass analyzer 
+n Detect ions 
+
+
+--- Page 86 ---
+Mass spectrometry – method of separating 
+molecules based on mass/charge ratio
+Compare peptide m/z 
+with protein databases
+(trypsinase)
+Mass spectometry (MS)
+
+
+--- Page 87 ---
+Artificial 
+spectra built
+Artificially 
+trypsinated
+Database of 
+sequences
+(i.e. SwissProt)
+Spot removed 
+from gel
+Fragmented 
+using trypsinase
+Spectrum of 
+fragments 
+generated
+MATCH
+Library
+Protein identification by Peptide Mass fingerprint
+
+
+--- Page 88 ---
+n Works well for relatively purified mixtures:
+n 2D gel spot
+n band(s) from PAGE gel
+n co-IP experiment
+n pull-down experiment
+Protein identification by Peptide Mass 
+fingerprint
+
+
+--- Page 89 ---
+Liquid Chromatography: 2D - LC/LC
+Study protein 
+mixtures without gel 
+electrophoresis
+Peptides all bind to 
+cation exchange 
+column
+Peptides are 
+separated by 
+hydrophobicity on 
+reverse phase 
+column
+Successive elution 
+with increasing salt 
+gradients separates 
+peptides by charge
+Complex mixture is 
+simplified prior to 
+MS/MS by 2D LC
+(trypsin)
+
+
+--- Page 90 ---
+Polypeptides enter the column in the mobile phase…
+…the hydrophobic “foot” of the polypeptides adsorb to the hydrophobic (non 
+polar) surface of the reverse-phase material (stationary phase; usually silica 
+based, coated with an alkyl group) where they remain until…
+…the organic modifier concentration rises to critical concentration and desorbs 
+the polypeptides.
+Non-polar groups are retained longer.
+Reverse Phase column
+
+
+--- Page 91 ---
+2D - LC
+HPLC = high pressure liq 
+chromatography
+
+
+--- Page 92 ---
+Deducing the protein sequence.
+n Use Tandem MS: two mass analyzer in 
+series with a collision cell in between
+n Collision cell: a region where the ions 
+collide with a gas (He, Ne, Ar) resulting 
+in fragmentation of the ion
+n Fragmentation of the peptides in the 
+collision cell occur in a predictable 
+fashion, mainly at the peptide bonds 
+(also phosphoester bonds)
+n The resulting daughter ions have masses 
+that are consistent with known 
+molecular weights of dipeptides, 
+tripeptides, tetrapeptides…
+Ser-Glu-Leu-Ile-Arg-Trp
+Collision Cell
+Ser-Glu-Leu-Ile-Arg
+Ser-Glu-Leu
+Ser-Glu-Leu-Ile
+Etc…
+
+
+--- Page 93 ---
+Instrumentation
+
+
+--- Page 94 ---
+ISOTOPE-CODED AFFINITY TAG (ICAT): 
+Quantitative Proteomics
+n Label protein samples with heavy and light reagent
+n Reagent contains affinity tag and heavy or light isotopes
+Chemically reactive group: forms a 
+covalent bond to the protein or peptide
+Isotope-labeled linker: heavy or light, 
+depending on which isotope is used
+Affinity tag: enables the protein or 
+peptide bearing an ICAT to be isolated by 
+affinity chromatography in a single step
+GOAL: Identify proteins that are in different abundance in 2 different 
+samples. Analogous to gene expression   
+
+
+--- Page 95 ---
+Example of an ICAT Reagent
+S
+O
+I
+N
+H
+*
+*
+*
+*
+O
+O
+O
+N
+H
+O
+O
+NH
+NH
+Biotin Affinity tag: 
+Binds tightly to 
+streptavidin-agarose 
+resin
+Linker: Heavy version will 
+have deuteriums(氘) at *
+Light version will have 
+hydrogens  at *
+Reactive group: Thiol(硫醇)-
+reactive group will bind to Cys
+Drawback: only CYS-containing 
+proteins can be detected
+
+
+--- Page 96 ---
+How ICAT works?
+Proteolysis
+(eg trypsinase)
+Lyse &
+ Label
+MIX
+Affinity isolation on 
+streptavidin beads
+Quantification
+MS
+Identification
+MS/MS
+100
+m/z
+200
+400
+600
+0
+100
+550
+570
+590
+0
+m/z
+Light
+Heavy
+NH2-EACDPLR-COOH
+
+
+--- Page 97 ---
+Protein modifications
+n Phosphorylation
+n Ubiquitination
+n SUMOylation
+n Acetylation
+n Glycosylation
+n Methylation
+n Etc 
+  
+
+
+--- Page 98 ---
+Student’s presentation
+Paper: TMK1-mediated auxin signalling 
+regulates differential growth of the 
+apical hook
+Presenter: Group 13
+
+

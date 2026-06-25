@@ -1,0 +1,874 @@
+# MB16(7) (73 pages)
+
+--- Page 1 ---
+• Introduction & Definitions 
+Epigenetics  (表观遗传学)
+• Mechanisms of epigenetics 
+
+
+--- Page 2 ---
+Mendelian Genetics
+Laws of inheritance 
+Mendel & Morgan
+DNA structure
+Watson, Crick, Wilkins, Franklin
+DNA 
+sequence
+Gene expression---
+protein
+Phenotype
+1822-1884
+    1865
+1866-1945
+    1928
+1953
+
+
+--- Page 3 ---
+Epigenetics - non-Mendelian genetics
+Lamarckian phenomenon
+Jean-Baptiste Lamarck
+Charles Darwin
+(1809-1882)
+(1744-1829)
+
+
+--- Page 4 ---
+Laws of Lamarckian evolution
+•
+The law of use and disuse:  
+• A more frequent and continuous use of any organ: gradually 
+strengthens, develops and enlarges, and gives it a power 
+proportional to the length of time it has been so used;
+•  The permanent disuse of any organ: imperceptibly weakens and 
+deteriorates, and progressively diminishes its functional capacity, 
+until it finally disappears.
+•
+The law of inheritance of acquired characteristics: 
+• All the acquisitions or losses wrought by nature on individuals, 
+are preserved by reproduction to the new individuals which arise
+• The acquired modifications are common to both sexes, or at 
+least to the individuals which produce the young.  
+
+
+--- Page 5 ---
+Evidence for Lamarckism
+The evolution of Giraffe necks  (Jean-Baptiste Lamarck)  
+•
+Giraffes stretching their necks 
+to reach leaves high in trees 
+(especially Acacias), strengthen 
+and gradually lengthen their 
+necks. 
+•
+These giraffes have offspring 
+with slightly longer necks 
+•
+The phenomena is also known 
+as "soft inheritance" 
+
+
+--- Page 6 ---
+Traditional examples considered as 
+Lamarckian inheritance 
+•
+A blacksmith, through his 
+work, strengthens the 
+muscles in his arms. 
+•
+His sons will have similar 
+muscular development when 
+they mature. 
+
+
+--- Page 7 ---
+Paul Kammerer
+(1880-1926) 
+Story of Midwife toad 
+•
+Most frogs and toads mate in water and lay their eggs in aquatic 
+environments.
+•
+Midwife toads mate on dry land, and males subsequently wrap the 
+strings of eggs around their legs, carrying them around until the 
+embryos are ready to emerge as tadpoles.
+
+
+--- Page 8 ---
+•
+Kammerer confined the toads to a 
+dry, overheated environment, 
+driving them to mate and lay their 
+eggs in water.
+•
+Most of the eggs died, but the 3% 
+to 5% of offspring that survived 
+had lost the terrestrial habits of 
+their parents.
+•
+Even in cool, moist environments, 
+they opted to mate and deposit 
+their eggs in water, a preference 
+that Kammerer said persisted for at 
+least six generations, the amount of 
+time Kammerer studied them.
+
+
+--- Page 10 ---
+Victim of his time? 
+l Kammerer reported that by generation F4, ‘‘water’’ males were 
+developing noticeable nuptial pads on its foot - an acquired 
+characteristic brought about by adaptation to environment.
+l Controversy: specimen distributed. 
+l Claims arose that the result of the experiment had been falsified. 
+The most notable of these claims was made by Dr. Noble in the 
+scientific journal Nature in 1926. 
+Six weeks later, Kammerer committed suicide.
+Dr. Noble  reported that the black pad 
+actually had a far more mundane 
+explanation: it had simply been injected 
+there with Indian ink. 
+
+
+--- Page 11 ---
+Science 4 September 2009:
+Vol. 325. no. 5945, pp. 1194 - 1195
+DOI: 10.1126/science.325_1194
+Paul Kammerer has been called the perpetrator of one of the most 
+celebrated scientific frauds of the early 20th century. He has also 
+been defended as the victim of forgery by a lab assistant; some even 
+say he was framed by political or scientific opponents. Now, a new 
+analysis published this week suggests his infamous experiments may 
+have been the first demonstrations of a recently recognized 
+phenomenon: epigenetics. 
+The Case of the Midwife Toad: Fraud or Epigenetics?
+Elizabeth Pennisi 
+
+
+--- Page 12 ---
+•
+A re-examination of Kammerer’s descriptions of hybrid 
+crosses of treated and nontreated toads reveals parent-of-
+origin effects like those documented in epigenetic inheritance.
+ 
+•
+Modification of the extracellular matrix of the egg provides a 
+plausible cause for altered gene methylation patterns. Traits 
+such as altered egg and adult body size in Kammerer’s 
+‘‘treated’’ toads are inherited epigenetically in other tetrapods. 
+
+
+--- Page 13 ---
+Fig. 3. A preliminary epigenetic model for Paul Kammerer’s hybrid cross using a 
+male ‘‘water’’ toad.
+
+
+--- Page 14 ---
+Fig. 3. A preliminary epigenetic model for Paul Kammerer’s hybrid cross using a 
+male ‘‘water’’ toad.
+
+
+--- Page 15 ---
+F i g .  4 .  A h y p o t h e s i s  o n  t h e 
+difference of fertilization as exposed 
+to water or air in Kammerer’s basic 
+experiment (Fig. 1). When exposed 
+to water, only eggs fertilized with 
+sperm carrying an inactive ‘‘a’’ allele 
+can develop to term. Only a few 
+individuals in Kammerer’s initial 
+population of land toads would carry 
+the rare ‘‘a’’ allele. This may explain 
+the low rate of egg survival 
+described by Kammerer in F1. The 
+few surviving F1 toads would carry 
+an ‘‘a’’ paternally inherited allele 
+and a maternally inherited ‘‘A’’ allele 
+that is silenced upon exposure to 
+water, developing the ‘‘water’’ 
+phenotype.
+
+
+--- Page 16 ---
+Types of inheritance
+l Hard inheritance: essentially Mendelian; hereditary material 
+remains constant between generations (except random mutations) 
+l Soft inheritance (软式遗传) : the generation of a new phenotype is 
+less rigidly determined and shows a more rapid response to environment
+l
+Soft inheritance is adaptive in the sense used by evolutionary biologists
+l
+The ability of epigenetic mechanisms to perpetuate gene expression patterns 
+relatively stably, and to retain the capacity to react to environmental cues, 
+makes them ideal for facilitating soft inheritance. 
+l
+The largest barrier to such a system is the resetting of epigenetic marks between 
+generations.
+l Parental effects: effects on the phenotype of offspring that are not 
+determined by the offspring’s own genotype but by the genotype or 
+environmental experience of its parents
+
+
+--- Page 17 ---
+The term ‘Epigenetics' was introduced by Conrad H. 
+Waddington in 1942 to describe “The interactions of genes 
+with their environment that bring the phenotype into being”. 
+The current concept of 
+Epigenetics: 
+Changes in phenotype that are inheritable 
+but do not involve DNA mutation. 
+Conrad H. Waddington 
+         (1905-1975) 
+Definitions
+
+
+--- Page 18 ---
+Soft genetics and Lamarckian evolution
+l Lamarck: both environment and behavior direct organic 
+change in an organism’s form and guide adaptation through 
+the generations.
+l A major problem with Lamarckian evolution is the 
+separation of germline and soma.
+
+
+--- Page 19 ---
+Science 7 April 2000:Vol. 288. p. 38
+Was Lamarck Just a Little Bit Right?
+Michael Balter 
+Although Jean-Baptiste Lamarck is remembered mostly for the 
+discredited theory that acquired traits can be passed down to offspring, 
+new findings in the field of epigenetics, the study of changes in gene 
+expression that are not linked to alterations in DNA sequences, are 
+returning his name to the scientific literature. Although these new 
+findings do not support Lamarck's overall concept, they raise the 
+possibility that "epimutations," as they are called, could play a role in 
+evolution.
+Lamarck was a true pioneer of evolutionary theory! 
+
+
+--- Page 20 ---
+• Introduction & Definitions 
+Epigenetics  (表观遗传学)
+• Mechanisms of epigenetics 
+
+
+--- Page 21 ---
+Stories of Agouti mice (豚鼠)
+ Dr. Jirtle and Waterland , Duke University
+
+
+--- Page 22 ---
+Agouti mice
+l DNA Is Not Destiny :  
+l Fat yellow mice known to scientists as agouti mice, so called 
+because they carry a particular gene—the agouti gene—that in 
+addition to making the rodents ravenous and yellow renders them 
+prone to cancer and diabetes. 
+l Typically, when agouti mice breed, most of the offspring are 
+identical to the parents: just as yellow, fat as pincushions, and 
+susceptible to life-shortening disease. 
+l The parent mice in Jirtle and Waterland's experiment, however, 
+produced a majority of offspring that looked altogether different. 
+These young mice were slender and mousy brown. Moreover, they 
+did not display their parents' susceptibility to cancer and diabetes 
+and lived to a spry old age. The effects of the agouti gene had been 
+virtually erased.
+
+
+--- Page 23 ---
+What make the transformation?
+l Without altering a single letter of the mouse's DNA. 
+l Only  changed the moms' diet
+l Fed a test group of mother mice a diet rich in methyl donors. 
+l These molecules are common in the environment and are found in 
+many foods, including onions, garlic, beets, and in the food 
+supplements often given to pregnant women. 
+l After being consumed by the mothers, the methyl donors worked 
+their way into the developing embryos' chromosomes and onto the 
+critical agouti gene. 
+l The mothers passed along the agouti gene to their children intact, but 
+thanks to their methyl-rich pregnancy diet, they had added to the 
+gene a chemical switch that dimmed the gene's deleterious effects.
+
+
+--- Page 26 ---
+Diets changes the genetics of the mother mice
+l Yellow fur and brown fur mouse are genetics identical, but the ectopic 
+agouti expression is different, depending on the methylation of agouti 
+gene
+l Maternal diet during pregnancy affects the methylation of the gene. 
+l Folic acid or other methyl-rich diet, resulted in brown health 
+offspring
+l Exposure to Bisphenol A turns on the gene at wrong time or in 
+wrong tissue
+
+
+--- Page 27 ---
+A Bee’s Royal Diet 
+•
+Royal jelly: complex, protein-rich substance secreted from glands on the heads of worker 
+bees. 
+• Workers and queens are genetically identical
+•
+With the royal jelly diet, the queen will develop functional ovaries and a larger 
+abdomen for egg laying, while worker bees remain sterile. 
+•
+Royal jelly silences a key gene (Dnmt3), which codes for an enzyme involved in 
+genome-wide gene silencing.
+•
+When Dnmt3 is active, the queen genes 
+are epigenetically silenced and the 
+larvae develop into the default “worker” 
+variety.
+•
+When royal jelly turns Dnmt3 off, 
+certain genes jump into action that turn 
+the lucky larvae into queens. 
+Kucharski R., Maleszka J., Foret S., Maleszka R. Nutritional Control of Reproductive Status in 
+Honeybees via DNA Methylation (2008). Science, 319: 1827 - 1830. 
+
+
+--- Page 28 ---
+Mechanism of epigenetics 
+1.
+DNA methylation 
+2.
+Histone modification and chromatin remodeling 
+3.
+Small RNAs
+4.
+Prions 
+5.
+Others
+
+
+--- Page 29 ---
+Chromatin remodeling
+• Chromatin= DNA + the histone proteins 
+• Histone proteins are little spheres that DNA 
+wraps around. 
+• If the way that DNA is wrapped around the 
+histones changes, gene expression can 
+change as well. 
+
+
+--- Page 30 ---
+组蛋白有五种H1、H2A、H2B、H3和H4，在真核细胞中，组蛋白与DNA紧密结合
+形成核小体。核小体中心由(H3—H4)2四聚体组成，H2A—H2B二聚体位于其两侧。
+核小体被大约146个碱基对的DNA缠绕，多个核小体串联在一起，中间靠H1(有
+20～60个碱基对DNA围绕)连接，这种结构再进一步弯曲、折叠即形成染色质。用
+微球菌核酸酶和3M脲素消化核小体，分解出3个亚基：H1与60—70个碱基对DNA
+复合体；H2A—H2B与50—60个碱基对DNA复合体以及(H3—H4)2与70～80个碱
+基对DNA复合物。在合适的条件中，这些组蛋白—DNA复合体处于可溶性稳定状
+态。
+
+
+--- Page 31 ---
+Mechanisms of chromatin 
+remodeling
+l Modification of histone proteins: 
+      Histone proteins are made up of long chains of amino acids. If the amino acids that are in 
+the chain are changed, the shape of the histone sphere might be modified.   By altering the 
+shape of the histones around it, these modified histones would ensure that a differentiated 
+cell would stay differentiated, and not convert back into being a stem cell. 
+l Methylation of  DNA, at CpG sites:
+      to convert cytosine to 5-methylcytosine. Cytosine is the nucleotide that our cells can 
+"read." Our cells cannot "read" methylcytosine. If DNA is conceived as an instruction 
+manual again, changing cytosine to methylcytosine, the cell can no longer "read" the gene. 
+Thus, the gene is turned off. 
+
+
+--- Page 32 ---
+Histone code
+l Histone code (组蛋白密码)：组蛋白在翻译后的修饰
+中会发生改变，提供一种识别的标志，为其他蛋白和
+DNA的结合产生不同效应（协同或拮抗）。是一种动
+态转录调控成分。
+Modifications of the Histone tails act as marks that
+can be read by other proteins to control the expression or
+replication of chromosomal regions. The coding in the
+histones may be heritable.
+Generally, histone acetylation is associated with　transcriptionally 
+active genes
+Deactylation is associated with inactive genes　(= gene silencing)
+
+
+--- Page 33 ---
+Histone modifications
+l Throughout the entire sequence, particularly in the 
+unstructured termini of histones -  “histone tails” 
+l Including: 
+l Acetylation:  associated with "active" transcription
+ acetylation of the K14 and K9 lysines of the tail of histone H3 by 
+histone acetyltransferase enzymes (HATs) is generally correlated 
+with transcriptional competence
+l Methylation: 
+l Ubiquitylation
+l Phosphorylation
+l Sumoylation
+
+
+--- Page 34 ---
+l
+Different combinations of histone modifications, especially located near or 
+within a gene’s promoter, may be VERY SPECIFIC to the transcriptional state 
+of the gene
+Histone Modifications
+
+
+--- Page 35 ---
+ 
+Enzymes providing histone 
+modifications
+Acetylation: HATs - CBP, p300, GCN5, ATF2, Tip 60…
+Deacetylation: HDACs- class I and II
+Methylation: 
+•Lysine : SET-domain HMTase and non-SET domain HMTase (Dot1) 
+•Arginine: PRMT family, CARM1
+Demethylation: LSD1(demethylate mono- and di-methylated 
+lysines )
+Ubiquitination: ubiquitin conjugase Rad6/ligase Bre1　for H2B
+De-Ubiquitination: SAGA-associated Ubp10
+
+
+--- Page 36 ---
+Enzymes providing histone 
+methyaltion
+ Methylated histones first described in 1964, Murray 1964 Biochemistry 3, 10-15 
+
+
+--- Page 37 ---
+Histone demethylase LSD-1
+Metzger et al. (2005)
+Shi et al., (2004).
+
+
+--- Page 38 ---
+Histone variants
+K. Sharma 2005,NATURE REVIEWS
+
+
+--- Page 39 ---
+Connection between histone 
+variants and modifications
+Variant histones are assembled by specific complexes
+Example:    The modifications shown by ChIP to be enriched in active 
+chromatin, including acetylation of K9, K14, K18 and K23 and 
+methylation of K4 and K79, were found to be enriched two to fivefold 
+in H3.3 relative to H3. 
+Example: The SWR1(Snf2/Snf2-related ATPase)  complex appears to 
+destabilize the nucleosome, exchanging H2A.Z–H2B for H2A–H2B. 
+
+
+--- Page 40 ---
+Histone code hypothesis
+ 
+Something is writing this code….
+  
+and 
+Something is reading this code… 
+
+
+--- Page 41 ---
+DNA Methylation and CpGs sites 
+•
+DNA methylation:  a type of chemical modification of DNA 
+that can be inherited and subsequently removed without changing 
+the original DNA sequence
+•
+CpG sites:  regions of DNA where a cytosine nucleotide occurs next to a 
+guanine nucleotide in the linear sequence of bases along its length. 
+•
+C in CpG dinucleotides can be methylated by DNA methyltransferases in 
+many eukaryotic organisms to form 5-methylcytosine. 
+•  ~ 70%-80% of C in CpG are methylated.
+
+
+--- Page 42 ---
+Frequency of CpGs sites
+l CpG frequency: 1% in human genome, lower than expected (4X)
+l Expected: 
+l
+GC content in human genome: 42%
+l
+Frequency of G or C: 21%
+l
+Frequency of  CpG: 0.21*0.21=4.41%
+l Why? 
+l Transitions (C-T) occur at 10-40 fold higher than other dinucleotides.
+l Thus, CpGs are not randomly distributed in the genome.
+
+
+--- Page 43 ---
+CpG islands
+l CpG islands: regions of DNA that have a higher concentration 
+of unmethylated CpG sites.
+l ~ 70%-80% of all CpGs are methylated in mammals, CpGs are 
+methylated in repeats and 3’ regions of genes, but not in CpG 
+islands.
+l Unmethylated CpGs are grouped in clusters called "CpG 
+islands" that are present in the 5' regulatory regions of many genes.
+l CpG islands are associated with the start of the gene.
+l a CpG island is used to help in the prediction and annotation of 
+genes
+~ 26,000-45,000 CpG islands, many located in the promoter regions of 
+housekeeping genes and some tissue specific genes.
+
+
+--- Page 44 ---
+Methylation, silencing, and cancer
+l Methylation of CpG sites within the promoters 
+of genes can lead to their silencing, 
+l human cancers: the silencing of tumor suppressor 
+genes: 
+As many as 50% of point mutations in p53 gene in human 
+tumors occur at CpG. 
+l In contrast, the hypomethylation (低甲基化) of 
+CpG sites has been associated with the over-
+expression of oncogenes within cancer cells.
+
+
+--- Page 45 ---
+How does methylation occur?
+• De Novo methylation (重新甲基化 ): DNA methylation patterns is 
+set up early in development. What signals de novo methylation? Some 
+evidence that repeats may alter chromatin structure and signal de novo 
+methylation. 
+• Maintenance Methylation- DNA methyltransferase (DNMT) is the 
+proposed maintenance methyltransferase that is responsible for copying 
+DNA methylation patterns to the daughter strands during DNA 
+replication. 
+• DNA demethylation:  a process of removal of methyl group from 
+nucleotide in DNA. 
+•
+Passive demethylation:  takes place in the absence of methylation of 
+newly synthesised DNA strands by DNMT1
+•
+Active demethylation:  Active DNA demethylation occurs via active 
+dismiss of methyl group.
+
+
+--- Page 46 ---
+DNA Methylases
+-Dnmt 1 thought to be primarily a maintenance methylase. 10-40 fold preference 
+for hemimethylated DNA. Localizes to replication loci.
+-Dnmt 3A and 3B are thought to be de novo methylases. DNMT3 family contain 
+similar catalytic domain, but different regulatory domains. Contains a PHD (plant 
+homeodomain) found in many chromatin associated proteins.
+
+
+--- Page 47 ---
+Dnmts
+l
+The Knock-out of any of the methyltransferase genes is lethal during 
+development (Dnmt 1 or 3B) or shortly thereafter (3A; about 4 weeks of age).
+l
+mutations in Dnmt3B cause ICF syndrome (Imunodeficiency, centromeric 
+instability, facial anomalies).
+
+
+--- Page 48 ---
+Interaction between DNA methylation 
+and Histone acetylation
+Transcriptionally active DNA- unmethylated DNA with acetylated histones
+Repressed (silent) DNA- methylated DNA with deacetylated histones 
+
+
+--- Page 49 ---
+Prions (感染性蛋白质,朊病毒）
+" Prion" is short for "Proteinaceous Infectious particle”
+Prions: are infectious forms of proteins. Proteins generally fold into 
+discrete units which perform distinct cellular functions, but some proteins 
+are also capable of forming an infectious conformational state known as a 
+prion. 
+•
+Although often viewed in the context of infectious disease, 
+•
+Also is defined by their ability to catalytically convert other native 
+state versions of the same protein to an infectious conformational 
+state. 
+•
+~ as epigenetic agents: inducing a phenotypic change without a 
+modification of the genome.
+Fungal prions are considered epigenetic because the infectious 
+phenotype caused by the prion can be inherited without modification of 
+the genome. 
+
+
+--- Page 50 ---
+Transgenerational epigenetic effects
+l ~ effects: phenotypes present in successive generations that are not genetically 
+determined.
+l ~ inheritance (gametic epigenetic inheritance): a phenotype present in 
+successive generations that is nongenetically determined and results from 
+epigenetic modifications passed via the gametes that escape reprogramming
+•  Epigenetic modification: 
+Methylation of CpG + modification of chromatin protein
+•  Erase the epigenetic markers: 
+Germline and somatic reprogramming
+
+
+--- Page 51 ---
+Transgenerational epigenetic 
+effects≠  ~  inheritance
+
+
+--- Page 52 ---
+Adaptive parental effect
+lAdaptive maternal effects exist in plants.
+Environmental stimuli acting on the mother, including predation, 
+competition, soil type, temperature, light, and nutrient availability has been 
+found to induce changes to F1 phenotype.
+lPolygonum persicaria (春蓼) 
+l offspring of grown under low light allocate proportionately more 
+resources to shoot growth than those of parents with higher light 
+exposures. 
+l Conversely, offspring of limited nutrient plants allocate 
+proportionately more to root growth than genetically similar 
+individuals with nutrient-rich parents
+
+
+--- Page 53 ---
+Radishes and caterpillars 
+(Agrawal, 1999)
+l Radishes produce physical spines and insect-repellent 
+chemicals in response to predation by caterpillars 
+l Seedlings from parent plants that had been damaged by 
+caterpillars develop phenotypic features (spines) more like 
+their parents than seedlings from unexposed plants. 
+l These changes to the F1 are associated with reduced 
+predation from caterpillars.
+
+
+--- Page 54 ---
+Transgenerational inheritance of 
+mothering style and stress in rat
+l High LG-ABN mothering leads to increased expression of 
+the transcription factor nerve growth factor inducible 
+protein A (NGFI-A). 
+l Binding of NGFI-A to the promoter of the glucocorticoid (GR) 
+receptor to stimulates DNA hypomethylation, histone 
+acetylation, and increased expression of GR. 
+l Higher GR in the hippocampus（海马） are associated with 
+reduced stress levels. 
+l The epigenetic marks maintain the GR expression state into 
+adulthood and in females will determine the level of LG-ABN 
+mothering, thus perpetuating the phenotype. 
+
+
+--- Page 55 ---
+仔细照料
+粗心照料
+Expression of the  transcription factor,  nerve growth factor inducible protein A (NGFI-A), is 
+controlled by the way how the mother is taking care of the offspring
+LG: licking, grooming
+ABN: arched-back nursing
+
+
+--- Page 56 ---
+Some interesting examples of 
+epigenetic inheritance and variation
+
+
+--- Page 57 ---
+Too big!   Apparently as a result of abnormal imprinting, 
+the cloned lamb at left is bigger than the normal lamb at right. 
+Cloned animals often have other health problems as well. 
+
+
+--- Page 58 ---
+Genomic imprinting can be defined as the 
+gamete-of-origin dependent modification 
+of phenotype. 
+Paternal imprinting:  an allele 
+inherited from the father is not 
+expressed in offspring. 
+Maternal imprinting: an allele 
+inherited from the mother is not 
+expressed in offspring. 
+Body color
+ (hypothetical)
+
+
+--- Page 59 ---
+"parent-of-origin effects" discovered ~3000 years ago 
+by mule breeders in Asia.
+
+
+--- Page 60 ---
+X-chromosome Inactivation 
+•  X-inactivation:  a process by which one of the two copies of the X 
+chromosome present in female mammals is inactivated. 
+•
+The inactive X chromosome is silenced by packaging into 
+transcriptionally inactive heterochromatin. X-inactivation occurs 
+so that the female, with two X chromosomes, does not have twice 
+as many X chromosome gene products as the male, which only 
+possess a single copy of the X chromosome
+•
+The choice of which X chromosome will be inactivated is random 
+in placental mammals such as mice and humans, but once an X 
+chromosome is inactivated it will remain inactive throughout the 
+lifetime of the cell. 
+•
+Unlike the random X-inactivation in placental mammals, 
+inactivation in marsupials applies exclusively to the paternally 
+derived X chromosome. 
+
+
+--- Page 61 ---
+ Epigenetic variation among monozygous twins
+Monozygous twins are considered genetically identical, but 
+significant phenotypic discordance between them exist, 
+which is particularly noticeable for psychiatric diseases.
+Monozygous Twins with 
+Different Hair Color 
+
+
+--- Page 62 ---
+Although MZ twins are epigenetically indistinguishable during early years 
+of life, older MZ twins exhibited remarkable differences in their overall 
+content and genomic distribution of 5-methylcytosine DNA and histone 
+acetylation, affecting their gene expression portrait.
+ Epigenetic variation among monozygous twins
+Fraga et al. 2005, PNAS 102: 10604-9
+
+
+--- Page 63 ---
+你遗传给后代的比你想象的要多
+——表观遗传的祖辈“原罪”
+原创 2016-06-10 丁广进 赛先生
+Other cases
+受饥荒影响的女性所生后代易发代谢和精神疾病
+吃不饱的孕鼠后代个头小易患糖尿病
+                                     
+2014年，来自剑桥大学和哈佛医学院的研究团队发表在《科
+学》上的论文通过使用小鼠模型，模拟了妊娠期营养不良对
+后代的影响（给怀孕12.5天到18.5天的小鼠喂食比平时少
+50%热量的食物），发现该种情况下孕育的后代（F1代）个
+体较小、且更易患糖尿病，令人更为惊讶的是这些雄性小鼠
+（F1代，在没有饮食限制的前提下）的后代（F2代）也出现
+了相同的症状。
+                                                                              Science, 345(6198), 1255903.
+
+
+--- Page 64 ---
+吃太好所生后代出现代谢紊乱
+在2014年12月4日发表在《细胞》（Cell）杂志上的封面文章
+中，研究人员在雄性果蝇交配的前两天内增加其饮食的糖含量
+，然后使之与正常饮食的雌果蝇交配。雌果蝇产下的卵经过正
+常发育至成年后，与正常营养条件下繁殖的后代相比，其体
+重偏大且甘油三酯水平显著升高。 Cell, 159(6), 1352-1364.
+2015年年底，来自中科院段恩奎、翟琦巍、周琪等课题组合
+作发表在《Science》上的研究，运用高脂饲喂诱导的父代肥
+胖小鼠模型，发现一类成熟精子中高度富集的小
+RNA(tsRNAs)可作为一种表观遗传信息的载体，将高脂诱导
+的父代代谢紊乱表型遗传给子代。
+                                                              Science. 2016，351(6271):397-400.
+
+
+--- Page 65 ---
+父辈的恐惧情绪记忆可遗传至子代
+2013年，发表在《Nature Neuroscience》上的一篇论文
+激起表观遗传学领域的专家学者热烈的讨论。在这篇文章
+中，来自美国埃默里大学医学院等研究机构人员通过使用
+电击等手段使实验鼠对某种气味（苯乙酮）产生恐惧，然
+后对他们进行正常饲养。结果发现实验组小鼠的后代都会
+对这种气味非常敏感，并表现出恐惧感，即便是通过人工
+授精获得的后代（第三代）也不例外。
+ 
+                                                 Nature neuroscience, 17(1), 89-96.
+
+
+--- Page 66 ---
+“组蛋白去甲基化酶KDM6B调控了红耳龟
+的温度依赖型性别决定”
+红耳龟在较低的孵化温度(26℃)产
+生 100%的雄性子代, 较高的温度
+(32℃)则产生全雌子代, 是 TSD 机
+制研究的一个理想动物模型。
+浙江万里学院葛楚天等 Science. 2018.5
+在性腺分化前，Kdm6b
+能快速响应温度变化。
+KDM6B通过消除启动
+子区H3K27me3标记，
+直接促进红耳龟雄性性
+别决定基因Dmrt1的表
+达。
+
+
+--- Page 67 ---
+Science重要发现：母爱竟会改变孩子DNA
+母亲的关怀（maternal 
+care）与海马体的L1拷贝
+数量之间存在相关性：拥
+有细心母亲的小鼠携带的
+L1拷贝数较少，而拥有疏
+忽大意母亲的小鼠拥有更
+多的L1拷贝。“生母疏忽
+大意但养母细心的小鼠”
+比“生母细心但养母疏忽
+大意的小鼠”拥有更少的
+L1拷贝。
+
+
+--- Page 68 ---
+越来越多的证据表明，在不改变遗传物质DNA序列的情况下
+，上一辈可以将在不良营养习惯和环境压力产生的某些获得
+性性状遗传给下一代，这种传递通常是通过表观遗传的方式
+进行的。值得注意的是，目前在哺乳动物中获得的实验数据
+表明，获得性性状的遗传很难像经典遗传学中的基因突变持
+续遗传下去，实验数据表明这种遗传很难超过三代，但是不
+可否认这种遗传方式具有重要意义。人们应该从这些科学研
+究中，认识到自身的生活饮食习惯、所处环境、心态情绪等
+对下一代可能造成的影响。
+
+
+--- Page 69 ---
+Multigenerational cold 
+stress induces heritable 
+ACT1 promoter 
+hypomethylation, 
+enabling rice to acquire 
+cold tolerance for high-
+latitude adaptation.
+Song et al., 2025, Cell 188, 1–12
+Inheritance of acquired adaptive cold tolerance in rice 
+through DNA methylation
+
+
+--- Page 70 ---
+母亲孕期铁元素缺乏竟能让儿子变女儿！
+在孕期缺铁的小鼠中，部分本应发育为雄性的胚胎，
+竟发育出卵巢结构，最终表现出雌性表型。
+
+
+--- Page 71 ---
+表观遗传信息的丢失是哺乳动物衰老的原因之一
+真核生物的衰老是由于转录
+网络和表观遗传信息随着时
+间的推移而丢失，由一种保
+守机制驱动，该机制进化为
+共同调节对细胞损伤的反应
+，如DSB或挤压损伤。
+哈佛医学院
+David Sinclair
+DNA变化不是衰老的唯一原
+因。相反，染色质的化学和
+结构变化在不改变遗传密码
+本身的情况下加速衰老。
+
+
+--- Page 72 ---
+Thank you for your support ,
+wish you all GREAT SUCCESS !
+你是你，也可以是更好的你！
+
+
+--- Page 73 ---
+Contact information
+Mao Chuanzao 毛传澡
+l Tel: 0571-88206108; 131-1571-2387
+l E-mail: mcz@zju.edu.cn
+
+

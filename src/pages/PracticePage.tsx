@@ -185,6 +185,7 @@ export function PracticePage() {
 
         {currentQuestion.type === 'short-answer' && (
           <ShortAnswerInput
+            key={currentQuestion.id}
             question={currentQuestion}
             existingAnswer={existingAnswer}
             onSelfJudge={(qid, isCorrect) => practice.recordSelfJudge(qid, isCorrect)}
@@ -193,6 +194,7 @@ export function PracticePage() {
 
         {currentQuestion.type === 'essay' && (
           <EssayInput
+            key={currentQuestion.id}
             question={currentQuestion}
             existingAnswer={existingAnswer}
             onSelfJudge={(qid, isCorrect) => practice.recordSelfJudge(qid, isCorrect)}

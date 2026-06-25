@@ -1,0 +1,801 @@
+# MB5-2026 (90 pages)
+
+--- Page 1 ---
+Methods of Molecular Biology
+                         (2)
+     gene function research
+
+
+--- Page 2 ---
+1.
+1 Reporter gene transcription
+(利用启动子融合报告基因)
+•
+Promoter-reporter gene cassette can also be used for higher eukaryotic 
+organism:
+1. Using transformation technology, Promoter-reporter gene cassette can 
+be expressed in the organism
+2. By assaying the expression of the reporter gene, we can study where, 
+when, and how the gene (regulated by who? ) is expressed
+§
+GUS (uidA)  (-glucuronidase, 葡萄糖甘酶); luc  (luciferase,荧光素酶
+); GFP  (Green fluorescent protein, 绿色荧光蛋白)
+1. Gene expression measurement
+                          基因表达研究技术
+
+
+--- Page 3 ---
+Ubiquitin promoter
+ (组成型表达启动子)
+  -zein promoter
+ (胚乳特异表达启动子)
+GFP assay
+可见光下观察
+荧光下观察
+
+
+--- Page 4 ---
+M
+O
+N
+P
+Q
+IAA20 promoter::GUS
+Pericycle specific promoter::GFP
+
+
+--- Page 5 ---
+1.2 RNA-Seq: a revolutionary tool for 
+transcriptomics  Applications of next-generation sequencing 
+
+
+--- Page 6 ---
+1. 3 Quantitative RT-PCR (定量RT-PCR)
+
+
+--- Page 7 ---
+基因芯片（DNA chip），又称DNA微阵列（DNA 
+microarray）技术是能同时监测大量靶基因表达的
+实验手段，从而迅速准确地在基因组水平上阐述不
+同生物组织或细胞中各种转录本的变化规律。
+1. 4 cDNA基因表达谱芯片
+
+
+--- Page 8 ---
+DNA microarray
+
+
+--- Page 9 ---
+基因芯片的应用
+
+
+--- Page 11 ---
+Tissue type &Treatment
+Feng JX et al. (2005) Plant Molecular Biology 59: 
+853-868.
+
+
+--- Page 12 ---
++3wt/-3wt
++5wt/+3wt
++10wt/+3wt
++15wt/+3wt
++20wt/+3wt
++10fl/+3wt
++3fl/-3wt
+0wt/-3wt
+
+
+--- Page 13 ---
+2. site-directed mutagenesis
+           (体外基因定点突变).
+通过改变基因特定位点核苷酸序列来改变所编码的
+氨基酸序列，用于研究某个（些）氨基酸残基对蛋
+白质的结构、催化活性以及结合配体能力的影响，
+也可用于改造DNA调控元件特征序列、修饰表达载
+体、引入新的酶切位点等。
+目前，主要采用两种PCR方法，重叠延伸技术和大
+引物诱变法，在基因序列中进行定点突变。 
+
+
+--- Page 14 ---
+重
+叠
+延
+伸
+诱
+变
+法
+示
+意
+图
+Site-directed mutagenesis 
+by overlap extension 
+
+
+--- Page 15 ---
+大引物诱变法示意图 
+Site-Directed Mutagenesis In Vitro by 
+Megaprimer PCR
+
+
+--- Page 16 ---
+3. Approaches for gene edit in transgenic 
+organism
+经典遗传学（Forward genetics）是从一个突
+变体的表型出发，研究其基因型，进而找出该
+基因的编码序列。
+现代遗传学（Reverse genetics，反向遗传学）
+首先从基因序列出发，推测其表现型，进而推
+导出该基因的功能。
+
+
+--- Page 17 ---
+3. 1 Gene knock out 基因敲除技术基本原理
+基因敲除（gene knock-out）又称基因打靶，通
+过外源DNA与染色体DNA之间的同源重组，进行精
+确的定点修饰和基因改造，具有专一性强、染色
+体DNA可与目的片段共同稳定遗传等特点。
+
+
+--- Page 18 ---
+基因敲除分为完全基因敲除和条件型基因敲除
+（又称不完全基因敲除）两种。
+完全基因敲除是指通过同源重组法完全消除细胞
+或者动物个体中的靶基因活性，条件型基因敲除
+是指通过定位重组系统实现特定时间和空间的基
+因敲除。
+
+
+--- Page 19 ---
+正负筛选法（PNS法）筛选已发生同源重组的细胞 
+
+
+--- Page 20 ---
+      正向选择基因neo通常被插入载体靶DNA功
+能最关键的外显子中，或通过同源重组法置换
+靶基因的功能区。
+      负向选择基因HSV-tk则被置于目的片段外
+侧，含有该基因的重组细胞不能在选择培养基
+上生长。如果细胞中发生了随机重组，负向选
+择基因就可能被整合到基因组中，导致细胞死
+亡。 
+
+
+--- Page 21 ---
+3. 2 高等动物基因敲除技术
+真核生物基因敲除的技术路线主要包括构建重
+组基因载体，用电穿孔、显微注射等方法把重
+组DNA导入胚胎干细胞纯系中，使外源DNA与
+胚胎干细胞基因组中相应部分发生同源重组，
+将重组载体中的DNA序列整合到内源基因组中
+并得以表达。
+
+
+--- Page 22 ---
+Knockouts and Transgenes
+• Probing structures and activities of genes does not 
+answer questions about the role of the gene in the 
+life of the organism
+• Targeted disruption of genes is now possible in 
+several organisms
+• When genes are disrupted in mice the products are 
+called knockout mice
+• Foreign genes, called transgenes, can also be 
+added to an organism, such as a mouse, to create 
+transgenic mice
+
+
+--- Page 23 ---
+Stage 1 of the Knockout Mouse
+• Cloned DNA containing the mouse gene to be knocked 
+out is interrupted with another gene that confers 
+resistance to neomycin
+• A thymidine kinase gene is placed outside the target 
+gene
+• Mix engineered mouse DNA with stem cells so 
+interrupted gene will find way into nucleus and 
+homologous recombination will occur between the  
+altered gene and the resident, intact gene
+• These events are rare, many cells will need to be 
+screened using the introduced genes
+
+
+--- Page 24 ---
+Making a Knockout Mouse: Stage 1
+
+
+--- Page 25 ---
+Stage 2 of the Knockout Mouse
+• Introduce the interrupted gene into a whole mouse
+• Inject engineered cells into a mouse blastocyst
+• Implant the embryo into a surrogate mother who will 
+give birth to chimeric mouse
+• True heterozygote results when chimera mates with 
+a black mouse to produce brown mice, half of which 
+will have interrupted gene
+
+
+--- Page 26 ---
+Making a Knockout Mouse: Stage 2
+
+
+--- Page 27 ---
+显微注射命中率较高，技术难度相对大些。电
+穿孔法命中率比显微注射低，操作使用方便。
+胚胎干细胞（ES细胞）分离和体外培养的成功
+奠定了哺乳动物基因敲除的技术基础。
+
+
+--- Page 28 ---
+3. 3 植物基因敲除技术
+T-DNA插入失活技术曾是植物中使用最为广泛的
+基因敲除手段。
+利用根癌农杆菌T-DNA介导转化，将带有报告基
+因的DNA序列整合到基因组DNA上，如果这段
+DNA插入到目的基因内部或附近，就会影响该
+基因的表达，从而使该基因“失活”。但不能定
+向敲除。只能从插入突变体库中筛选，看是否有
+命中感兴趣的基因。
+
+
+--- Page 29 ---
+3.4 RNAi（RNA interference, RNA干涉）技术
+及其应用
+post-transcriptional gene silencing, or 
+PTGS
+
+
+--- Page 30 ---
+Gene silencing induced by 
+transgene
+1990, in petunia (Rich Jorgensen)
+Tried to deepen the color by 
+boosting the activity of the pigment 
+producing gene
+The result was…
+co-suppression  silencing of an 
+endogenous gene by the presence 
+of a homologous transgene. 
+(expression of both genes is 
+suppressed)
+Quelling – in fungi,  (Neorospora carassa) by 
+the introduction of a transgene
+Hypo-pigmentation
+
+
+--- Page 32 ---
+The coin of the term “RNAi”
+Andrew Fire, SiQun Xu, Mary K. Montgomery, Steven A. Kostas, Samuel E. Driver & 
+Craig C. Mello (1998) Potent and specific genetic interference by double-stranded 
+RNA in Caenorhabditis elegans. Nature 391:806-811
+A, Control, no probe; B, Control, with probe;
+C, Antisense RNA;  D,  dsRNA
+Double-stranded RNA
+C. elegans
+sens
+e
+antisense
+Conclusion: dsRNA reduced mex-3 mRNA 
+better than antisense mRNA
+injected
+
+
+--- Page 33 ---
+Craig  Mello
+University of Massachusetts Medical
+ School in Worcester, USA
+Andrew  Fire
+Stanford University, 
+California, USA 
+The Nobel Prize in Physiology or Medicine 2006
+
+
+--- Page 34 ---
+RNA Interference
+• RNA interference occurs when a cell encounters 
+dsRNA from a virus, transposon, or transgene 
+• Trigger dsRNA is degraded into 21-25 nt fragments 
+(siRNAs) by an RNase III-like enzyme called Dicer
+• The guide strand of siRNA base-pairs with target 
+mRNA in the active site of Ago2 in RISC (RNA-
+induced silencing complex)
+– Ago2 is an RNase H-like enzyme known as a slicer
+– Slicer cleaves the target mRNA in the middle region 
+of its base-pairing with the siRNA
+– ATP-dependent step ejects the cleaved RNA from 
+RISC which then accepts a new molecule of mRNA 
+for degradation
+
+
+--- Page 35 ---
+Trigger double stranded RNAs
+
+
+--- Page 36 ---
+Cleavage of trigger dsRNA by Dicer to generate siRNA
+
+
+--- Page 37 ---
+Ago cleaves mRNA using siRNA as a guide
+
+
+--- Page 38 ---
+Reuse of RISC to cleave additional mRNA
+
+
+--- Page 39 ---
+miRNA作用机制
+SiRNA作用机制
+
+
+--- Page 41 ---
+Differences between siRNAs and miRNAs
+•
+siRNAs silence genes by degrading target mRNAs, while 
+miRNAs interfere with translation mostly. However, miRNAs 
+can also cause cleavage of target mRNAs that have a perfect 
+match in sequence.---- (post-transcriptional gene silencing, or 
+PTGS )
+•
+siRNAs are formed by Dicer action on double stranded RNAs,    
+which could be exogenous or endogenous. In contrast, 
+miRNAs are formed by sequential action by Drosha and Dicer 
+on the double-stranded part of a stem-loop RNA that is a 
+normal cellular product.
+•
+siRNAs base-pair perfectly with target mRNAs, whereas 
+miRNAs usually base-pair imperfectly with their target 
+mRNAs.
+•
+RNAi can be involved in histone methylation, and the resulting 
+heterochromatin formation and gene silencing.----- 
+(transcriptional gene silencing, or TGS) 
+
+
+--- Page 42 ---
+RNA interference - Nature video
+
+
+--- Page 43 ---
+Phenotypic characterization of bard1-3
+
+
+--- Page 44 ---
+•
+The PCR product (A 553bp  BARD1 C-terminal coding 
+region) was cloned in sense (digested with SacI, KpnI) and 
+anti-sense (digested with XbaI, BamHI) directions, 
+separated by a 10-nucleotide spacer. 
+BARD1-RNAi 载体构建策略:
+ATCGGAATGC
+TAGCCTTACG
+GCATTCCGAT
+CGTAAGGCTA
+5’
+5’
+3’
+3’
+AT CGGAATGC
+UAGCCUUACG
+GCATT CCGAT
+CGUAAGGCUA
+5’
+3’
+DNA双链
+DNA反义链
+mRNA单链
+5’
+3’
+Poly A
+AUCGGAAUGC
+UAGCCUUACG
+Poly A
+5’帽
+mRNA形成发夹结构
+
+
+--- Page 45 ---
+RNAi plants against C-terminal BARD1 
+display  bard1-3 phenotype
+
+
+--- Page 46 ---
+Classical approaches for establishing gene 
+function
+• RNAi（RNA干涉）
+     由双链RNA（double-stranded RNA，dsRNA）介导同源
+mRNA高效特异性降解的过程，从而剔除或关闭特定基因的表
+达。
+• Homologous recombination（同源重组）
+     发生在含有同源序列的DNA分子之间或分子之内的重新组合
+。 
+    
+(McManus et al., Nat. Rev. Genet,2002)
+              (Capecchi M R. Science, 1989)
+
+
+--- Page 47 ---
+• zinc-finger nucleases (ZFNs)
+     锌指核酸酶
+     (Miller J C et al., Nature biotechnology, 2007)
+• transcription activator-like effector nucleases 
+(TALENs) 类转录激活因子效应物核酸酶
+     (Christian M et al., Genetics, 2010)
+• CRISPR/Cas-based RNA-guided DNA 
+endonucleases
+     (Cong L. et al., Science Express, 2013)
+3.5 New approaches of genome-editing technologies
+√
+
+
+--- Page 48 ---
+ZFNs，TALENs and CRISPR/Cas的差别
+Fig. 1 Differences between ZFNs，TALENs and CRISPR/Cas
+•
+对于不同的靶基因，ZFNs 和 
+TALENs需要合成特异的蛋白酶
+复合体特异靶向基因序列， 
+CRISPR/Cas只需要合成一段
+gRNA序列即可特异结合靶基因
+(Gaj T et al., Trends in biotechnology, 2013)
+
+
+--- Page 49 ---
+CRISPR/Cas-based methods for genome 
+engineering
+clustered regulatory interspaced short palindromic 
+repeats (CRISPR) 
+（Cas: CRISPR associated proteins)-based RNA-
+guided DNA endonucleases
+规律性成簇间隔短回文重复及其伴侣因子
+
+
+--- Page 50 ---
+CRISPR/Cas system
+•
+CRISPR/Cas系统组成：CRISPR位点和相关的Cas基因
+•
+CRISPR位点由间隔序列(spacer)和重复序列(repeats)组成。重复序列通常
+21~48 bp，高度保守；间隔序列一般26~72 bp，长度与细菌种类和
+CRISPR 位点有关。
+•
+在一个原核细胞基因组中通常存在1个及以上的CRISPR 位点。
+•
+Cas表达双链核酸酶，可以对靶基因进行切割，与FokI类似，但是不需要形
+成二聚体起作用。
+•
+CRISPR/Cas系统有三种主要类型。
+Fig. 2 Overview of the CRISPR/cas system
+(Horvath P et al., Science, 2010)
+trancrRNA
+crRNA
+
+
+--- Page 51 ---
+•
+对入侵序列的 proto-spacers的选择可能依赖于proto-spacer adjacent motif (PAM). 产脓链球菌（S. 
+pyogenes）为NGG，嗜热链球菌（S. thermophilus）为NGGNG等。
+The three stages of CRISPR–Cas action 
+
+
+--- Page 52 ---
+crRNA , tracrRNA and Cas9 complex-mediated DNA 
+cleavage
+crRNA (CRISPR RNA)
+tracrRNA (trans-activating crRNA)
+
+
+--- Page 53 ---
+DNA cleavage in the Type II CRISPR–Cas systems
+•
+Cas9 具有 HNH 和 RuvC-like 核酸酶功能域，分别切割靶基因的双链，产生平末端的
+基因产物，DSB（Double Strand Break）
+(Jinek M et al., Science, 2012)
+sgRNA（single guide RNA 单链引导RNA）in 
+engineering vector
+
+
+--- Page 54 ---
+OsU6-2
+sgRNA
+2x35S
+3xFlag
+NLS
+Cas9
+NLS
+Nos ter
+KpnI
+HindIII
+EcoRI
+sgRNA and Cas9 in engineering vector
+
+
+--- Page 55 ---
+特点
+1. 产生DSB（Double Strand Break），通过HDR (homologous 
+recombination) 或NHEJ (non-homologous end joining) 进行修
+复，可能产生 Indel（including insertions or deletions ）修饰
+2. 效率效率更高,精确度高，脱靶率相对低。 
+  CRISPR-Cas系统甚至可以一次性修饰多个基因位点 ；
+3. Cas蛋白不具有特异性，只需合成一个sgRNA，实现对基因的
+特异性修饰，更加简便
+4.Cas9蛋白作用于靶序列不会受到DNA甲基化的影响，无论甲基
+化是在PAM元件中还是靶序列中。
+Features of CRISPR/Cas system
+
+
+--- Page 56 ---
+RNA-targeting CRISPR systems
+Cas13 family proteins 
+mediated RNA Knockdown
+suppression of RNA viruses
+1.
+Abudayyeh, et al.,(2016). C2c2 is a single-component programmable RNA-guided RNA-targeting CRISPR 
+effector. Science 353.
+2.
+Konermann, et al. (2018). Transcriptome Engineering with RNA-Targeting Type VI-D CRISPR Effectors. Cell 
+173, 665.
+3.
+Smargon, et al. (2017). Cas13b Is a Type VI-B CRISPR-Associated RNA-Guided RNase Differentially 
+Regulated by Accessory Proteins Csx27 and Csx28. Mol Cell 65, 618.
+Reference:
+Gene expression knockdown
+
+
+--- Page 57 ---
+Engineered Cas9 for all kinds of base edit
+
+
+--- Page 58 ---
+Engineered Cas9 for all kinds of base edit
+
+
+--- Page 59 ---
+https://www.zhihu.com/zvideo/1455505782083571712
+What else can CRISPR do?
+
+
+--- Page 60 ---
+4 Protein-DNA interaction technology
+4. 1 （Yeast one-hybrid system）
+
+
+--- Page 61 ---
+增强子
+enhancer
+转录因子
+通用转录因子
+顺式元件
+cis-element
+
+
+--- Page 62 ---
+•
+There are 2 vectors involved:
+Yeast-1-hybrid
+If the protein encoded by the cDNA binds to the element of interest, the 
+GAL4 transcription factor will bind to the minimal promoter and initiate 
+transcription of the reporter gene.
+1.
+ Report vector -contains the DNA 
+element of interest fused to a minimal 
+promoter of Yeast (GAL4) in front of a 
+reporter gene
+2.
+AD vector– contains the cDNA 
+encoding potential transcription factors 
+fused to a known Yeast transcription 
+factor (GAL4) which binds to the 
+minimal promoter (in Bait) to initiate 
+transcription
+Tanscription 
+factor
+Report
+Interested 
+cis-element
+LacZ
+
+
+--- Page 64 ---
+4.2 EMSA (Electromobility Shift Assays)
+凝胶迁移滞后 
+1.
+Bare DNA
+2.
+1 protein + DNA
+3.
+2 proteins + DNA
+
+
+--- Page 66 ---
+4.3 Chromatin immuno precipitation
+染色体免疫共沉淀
+(蛋白-DNA间 in vivo)
+
+
+--- Page 67 ---
+Cross-link 
+protein to DNA
+Sheared DNA
+Pre-clear with 
+Protein A/G
+Add 
+antibody 
+(including 
+controls)
+Immunoprecipitation 
+with Protein A/G
+Reverse 
+Cross-link
+Detection of target 
+of DNA fragment
+
+
+--- Page 68 ---
+5. In vitro protein interaction methods                   
+体外蛋白质相互作用技术
+(1)、Far Western印迹技术
+用32P标记的体外表达蛋白作探针,直接检测与该
+蛋白发生相互作用的蛋白或表达该蛋白的cDNA。
+
+
+--- Page 69 ---
+图6-18 Far 
+Western印迹
+试验 
+
+
+--- Page 70 ---
+(2)、GST Pull down
+融合蛋白沉降技术
+利用GST对谷胱甘肽偶联的琼脂糖球珠的亲和
+性，从混合蛋白质样品中纯化得到相互作用蛋
+白。
+
+
+--- Page 71 ---
+ GST pull down
+
+
+--- Page 72 ---
+(3)、Protein microarray
+        蛋白质芯片技术
+蛋白质芯片可以用来大规模筛选蛋白之间的相互
+作用。将荧光标记的探针蛋白与蛋白质芯片孵育，
+洗脱非特异性结合的蛋白后，可以通过扫描芯片
+上的荧光点检测到稳定的相互作用蛋白点 。
+
+
+--- Page 73 ---
+Gong W. et al. 
+(2008) 
+Molecular 
+Plant
+1: 27-41.
+
+
+--- Page 74 ---
+(4)、surface plamon resonance technology,
+SPR 
+          等离子表面共振技术
+将诱饵蛋白结合于葡聚糖表面并固定于纳米级厚度的金属
+膜上。当蛋白质混合物经过时，如果有蛋白质同“诱饵”
+蛋白发生相互作用，那么两者的结合将使金属膜表面的折
+射率上升，导致共振角度的改变。
+
+
+--- Page 76 ---
+6. Proein interaction test in Yeast
+ （Yeast two-hybrid system）
+               酵母双杂交系统       
+真核生物转录调控因子具有组件式结构（modular）特征，
+这些蛋白往往由两个或两个以上相互独立的结构域，其中
+DNA结合结构域（binding domain，BD）和转录激活结
+构域（activation domain，AD）是转录激活因子发挥功
+能所必须的。
+
+
+--- Page 77 ---
+BD能与特定基因启动区结合，但不能激活基因转录，由不
+同转录调控因子的BD和AD所形成的杂合蛋白却能行使激
+活转录的功能。
+
+
+--- Page 78 ---
+图6-17 酵母双杂交技术原理示意图 
+
+
+--- Page 79 ---
+我们得到了20个棉花F-box（FBP) 基因，4个Skp 
+基因，用酵母双杂交检测GhFBP和GhSKP家族成
+员之间的相互作用.
+
+
+--- Page 80 ---
+Left，sc-leu-trp +x-a-gal plate；Right，sc-leu-trp-his-
+ade+x-a-gal plate。
+Clockwise（12点）：T+p53 (positive control), T+lamin 
+(negative control), GhFBP2+GhSKP1, 
+GhFBP2+GhSKP3, GhFBP2+GhSKP2, 
+GhFBP2+GhSKP4
+
+
+--- Page 81 ---
+7. Co-immunoprecipitation(Co-IP),
+protein-protein interaction (in vivo or in 
+vitro)
+免疫共沉淀技术
+将靶蛋白的抗体连接到固体基质上，再将可能与靶蛋白发生相
+互作用的待筛选蛋白加入反应体系中，用低离心力沉淀或微膜
+过滤法在固体基质和抗体的共同作用下将蛋白复合物沉淀到试
+管的底部或微膜上。
+
+
+--- Page 82 ---
+免疫共沉淀
+示意图 
+
+
+--- Page 83 ---
+用免疫共沉淀(Co-IP)技术验证水稻中LIR1 和FNR之间相互作用(蛋白-蛋白间)
+Co-IP results example
+Flag-LIR1
+Flag-LIR1
+WT
+WT
+Input
+IP
+α-Flag
+α-FNR
+
+
+--- Page 84 ---
+8. Affinity-purification of protein complexes 
+combined to Mass Spectrometry
+
+
+--- Page 86 ---
+9.
+Fluorescence Resonance Energy Transfer 
+FRET—荧光共振能量转移法（FRET）
+In vivo protein-protein interaction
+FRET荧光能量转移有三个基本条件：
+（1）给体与受体在合适的距离（1～10 nm）；
+（2）给体的发射光谱与受体的吸收光谱有一定的重叠（这是能量
+匹配的条件）；
+（3）给体与受体的偶极具有一定的空间取向（这是偶极-偶极耦合
+作用的条件）。
+
+
+--- Page 87 ---
+Fluorescence Resonance Energy Transfer FRET
+
+
+--- Page 88 ---
+FRET需要有两个探针，即荧光给体和荧光受体，
+要求给体的发射光谱与受体的吸收光谱有一定
+的重叠，而与受体的发射光谱尽量没有重叠。
+不同蛋白的吸收和发射波长不同，可根据需要
+组成不同的探针对。常用的探针有：
+荧光蛋白
+传统有机染料
+镧系染料
+
+
+--- Page 89 ---
+10. Bimolecular Fluorescence Complementation 
+(BiFC): A Visual System to Investigate Protein-Protein Interactions in 
+plants 
+
+
+--- Page 90 ---
+VirE2-nYFP and Importin a-cYFP interact and localize to the 
+cytoplasm of tobacco BY-2 cells
+mRFP
+YFP
+overlay
+VirE2-nYFP + Importin- a-cYFP 
+mRFP expression is throughout the entire cell
+
+

@@ -1,0 +1,969 @@
+# MB14(6) (74 pages)
+
+--- Page 1 ---
+Review of last week’s lecture
+• Preinitiation：
+     tRNA charging (adding the correct amino acid to the correct tRNA); 
+Dissociation of ribosomes
+• Initiation: 
+     assembly mRNA, ribosomes, and tRNA
+• Elongation:
+    reading the code and converting the information into a peptide
+• Termination：
+    ending the synthesis of a protein
+• Post-translational modification
+
+
+--- Page 2 ---
+Functional Genomics
+Use of ‘genomic scale” technologies to 
+understand the biological functions of 
+genes and DNA sequences.
+
+
+--- Page 3 ---
+NCBI RefSeq
+    截至 2026 年 5 月，全球已完成基因组测
+序的物种总量超过 18 万种；
+    其中真核生物约 3.7 万种，
+    原核生物（细菌 / 古菌）约 14.3 万种。
+
+
+--- Page 4 ---
+Approaches
+n Gene-by-gene assessment of gene function
+n Genetic dissection of biological pathways
+n Genetic identification of regulatory elements
+n Tool development
+n Specialized libraries (like yeast barcoded KOs)
+n Collections of reagents to disrupt genes
+n Genetic reagents 
+n engineered chromosomes
+n Special stocks/strains of organisms
+n P-element collections, for example
+n New experimental/computational methodologies
+
+
+--- Page 5 ---
+Genome Project Resourses
+n Sequences of various genomes
+n Sequences of most expressed genes
+n Gene expression patterns (RNA sequencing, 
+microarrays etc.)
+n Proteomics； Metabolomics； Phenomics
+n Gene functions?
+
+
+--- Page 6 ---
+Choosing tools for job
+n Basic cellular processes
+n Yeast; cultured cells
+n Cell fate determination
+n C. elegans
+n Fundamental body plan
+n Drosophila
+n Vertebrate development
+n Zebrafish
+n Disease models/ human relatedness
+n Mice
+n Gene regulation
+n Informatics; comparative genomics; molecular 
+biology; eQTL …
+
+
+--- Page 7 ---
+n Screened 86% of 19,427 genes
+n Cataloged each gene based on 
+phenotype
+n 1,722 produced a mutant phenotype
+n 2/3 of the mutant phenotypes were 
+associated with previously 
+uncharacterized genes
+n RNAi is not complete “knockout,”  
+rather “knock down.”
+Functional analysis of the Caenorhabditis 
+elegans genome using RNAi
+• Embryonic lethality
+• Sterility
+• Slow growth
+• Larval arrest
+• Adult lethal
+• High incidence males
+• Multivulva
+• Paralysis
+• “dumpy”
+• Etc.
+Kamath et al Nature 421, 231-237 (2003) 
+
+
+--- Page 8 ---
+Key findings
+n Phylogenetically conserved genes most 
+likely to be affected
+n Gene duplicates are often partially or fully 
+redundant
+n Genes on X-chromosome are not required 
+during embryonic or larval development, 
+but do have important roles in the adult
+
+
+--- Page 9 ---
+n Metabolic enzymes
+n Transcription factors
+n Fatty acid elongation 
+enzymes
+Genes affecting fat content in worms
+RNAi screen of worms eating E. 
+coli grown in Nile Red (binds fat 
+storage droplets).
+
+
+--- Page 10 ---
+Conclusions
+n Out of 16,757 genes tested:
+n 305 reduced fat or distorted fat deposition 
+pattern
+n 112 increased fat or enlarged fat droplet size
+n 261 reduced fat, but also other complications
+n Nervous system involvement
+
+
+--- Page 11 ---
+Phenotype driven approach：
+Forward genetic strategy
+Gene driven approach: 
+Reverse genetic strategy
+Investigate the 
+function of a 
+special gene
+Two strategies in functional genomics
+
+
+--- Page 12 ---
+Forward Genetics
+Phenotype
+Gene
+
+
+--- Page 13 ---
+Mutations: A Geneticist’s Best Friend
+n Defects in genes give clues to function
+n Different classes of mutations:
+n Dominant
+n Semi-dominant
+n Recessive
+n Different “morphs” (hypomorphs, hypermorphs, 
+antimorphs). Widely used in Drosophila.
+n How to get mutations: spontaneous vs induced
+
+
+--- Page 14 ---
+Spontaneous mutants - you get what you see
+Piebald(花斑)
+Albino, chinchilla
+南美粟鼠
+Agouti mutations
+belted
+Hairless, rhino allele
+A/A; brown
+
+
+--- Page 15 ---
+Why induced mutagenesis?
+n Technical Reasons:
+n Spontaneous mutations too rare
+n Futile to screen for subtle, spontaneous 
+phenotypes
+n Biological Reasons:
+n Find genes involved in certain pathways 
+n To understand what all genes do
+
+
+--- Page 16 ---
+                                  刘易斯、福尔哈德、威斯乔斯
+他们的研究揭开了胚胎如何由一个细胞发育成完美的特化器官,如脑和腿的遗传秘密，
+也建立了动物基因控制早期胚胎发育的模式 
+Nobel Prize for Forward Genetics
+
+
+--- Page 17 ---
+• Treat organism with mutagen that affects germline 
+• Outcross (diploids) to establish lineages or find dominant 
+mutations
+• Intercross to detect recessive mutations
+• Screen progeny for mutant phenotypes
+Genetic “Screens”
+
+
+--- Page 18 ---
+Types of forward genetic screens
+n Mutagenic Agents:
+n Physical agents (X-ray，γ-ray)
+n Induces deletions
+n Complicates genetic analysis
+n Chemical “point” mutagens (ENU; EMS)
+n Highly potent; many germline mutations
+n Many alleles and “morphs”
+n Difficult to identify mutation
+n Insertional mutagens
+n Fewer mutations/genome
+n Easy to clone
+
+
+--- Page 19 ---
+Types of forward genetic screens II
+n Genome-wide
+n Casts wider net
+n But chromosome location unknown, so 
+Need to genetically map
+n Region-specific
+n Need special genetic reagents (insertions; 
+deletions; inversions)
+n Know the location of mutation
+n Only access part of genome
+
+
+--- Page 20 ---
+Chemical mutagenesis
+n Ethylnitrosourea (ENU) 乙酰基亚硝基脲
+n Zebrafish, mice
+n Ethylmethanesulfonate (EMS)甲磺酸乙酯 
+n Drosophila; C.elegans; Arabidopsis
+Key: they need to mutate the germ cells at high efficiency
+
+
+--- Page 21 ---
+…ATGGGCAAATATAGCATTCCATAAAAATATATA…
+met
+gly
+lys
+tyr
+ser
+ile
+pro
+stop
+GGA
+gly
+synonymous
+ATA
+ile
+missense
+TAA
+nonsense
+stop
+TTA
+leu
+readthrough
+The effect of point mutation on protein
+同义突变
+错义突变
+无义突变＝
+终止突变
+连读突变
+
+
+--- Page 22 ---
+Replication slippage(复制滑移): In DNA replication when parental 
+strand has short repeat sequence, the slippage will occasionally 
+occur between parental strand and it’s complementary daughter 
+strand, that cause the repeat unit sequence replicate several times 
+or lose several times. 
+Microsatellite markers in map based cloning
+Huntington disease
+insertion
+deletion
+intron
+exon
+promoter
+ATGCCG……
+5‘UTR
+GT……..AG
+3‘UTR
+exon
+…...TAA
+插入突变
+缺失突变
+
+
+--- Page 23 ---
+Gain-of –function: 
+gain abnormal 
+protein acitivity
+Ectopic expression, for example 
+activation tagging
+Increased expression in specific 
+tissue, for example enhancer trap
+Mutation occur in destructive 
+domain (responsible for 
+degradation by ubiquitin system), 
+which cause protein abnormally 
+stable, for example Aux/IAA family 
+protein in plant 
+
+
+--- Page 24 ---
+Insertional mutagenesis
+• Insert vector into genome that disrupts genes
+• Allow it to happen randomly
+• Make collection of individuals, each with different insertion(s)
+• Do crosses to make insertion homozygous
+• Screen for phenotypes
+• Use inserted DNA to identify mutated gene 
+
+
+--- Page 25 ---
+Insertional mutagens
+T-DNA insertion (plants)
+Transposable elements
+Mobile elements jump from introduced DNA
+P elements in Drosophila
+Mobilize by introducing active element
+AC/DS elements in plants
+Infect/transfect with retroviral insertions or other vectors
+popular for zebrafish
+also in plants
+
+
+--- Page 26 ---
+T-DNA tagging mutagenesis
+
+
+--- Page 27 ---
+Transposable elements
+• Mobile genetic elements - they move from 
+one location in the genome to another
+Transposable 
+element
+
+
+--- Page 28 ---
+Discovered by Barbara McClintock
+The Nobel Prize in Physiology or Medicine 1983 
+
+
+--- Page 29 ---
+Certain crosses in maize resulted in large numbers of 
+mutable loci.
+– The frequency of change at those loci is much higher
+than normally observed.
+• Studies of these plants revealed a genetic element
+called “Dissociation” or Ds on the short arm of
+chromosome 9.
+• Chromosome breaks occurred at the Ds locus,
+which could be observed cytologically
+– i.e. by looking at chromosome spreads from individual
+cells, e.g. sporocytes.
+• Frequency and timing of these breaks is controlled
+by another locus, called “Activator” or Ac.
+Observations of B. McClintock (1930’s-1950’s)
+
+
+--- Page 30 ---
+Insertional Mutagenesis with Transposable Elements
+inverted 
+repeat
+inverted 
+repeat
+transposase gene
+Drosophila P element
+
+
+--- Page 31 ---
+Insertional Mutagenesis with Transposable Elements
+transposition
+DNA break
+repair of double-strand break, 
+using sister chromatid
+P insertion
+
+
+--- Page 32 ---
+IS elements and transposons
+FDR, Flanking direct repeats
+
+
+--- Page 33 ---
+Transposon mutagenesis
+Development of transposon systems for other plant species:
+• T-DNA with transposable elements 
+• Transformation with non-autonomous element 
+• Cross with plant transformed with immobilised autonomous element 
+( transposition)
+Maize transposon systems:
+• Mu: MuDR (autonomous), Mu1 to Mu8 (non-autonomous； only maize) 
+• Enhancer/Supressor-mutator (En/Spm): En or Spm (autonomous), I or 
+dSpm   (non-autonomous)
+• Activator/Dissociation (Ac/Ds): Ac (autonomous), Ds (non-autonomous)
+
+
+--- Page 34 ---
+1 kb
+HPT
+35S
+35S polyA
+LB
+RB
+pAc
+H
+H
+adh-1 I
+Ac Transposase
+E/I
+UBI/
+NOS3’
+H
+H
+HPT
+35S
+BAR
+GUS
+NOS3’
+LB
+RB
+35S polyA
+Ds3’
+Ds5’
+intron
+pDs
+H
+H
+adh-1 I
+35S
+adh –1 I 
+NOS3’
+Schematic representation of the T-DNA containing the transposon (Ds) (up) and AcTPase 
+(lower), as well as selectable markers associated with each. Both vector are based on 
+pCAMBIA1300. Abbreviations: LB, T-DNA left border; RB, T-DNA right border; HPT, hygromycin 
+phosphortransferase; 35S, CaMV35S promoter; adh-1 I, maize adh-1intron; nos3’, 3’ signal of 
+nopaline synthase; GUS, β-glucuronidase; 35S polyA, CaMV35S polyA signal; Ds5’, 5’ termini 
+of dissociation from maize, Ds3’, 3’ termini of dissociation from maize, Δ35S, CaMV 35S mini 
+promoter; intron, intron of gene for G-protein α-subunit from Arabidopsis; UBI/E/I, maize ubi-1 
+promoter/Exon/Intron; Ac transposase, transposase of activator from maize.
+T-DNA with transposable elements 
+and non-autonomous element
+
+
+--- Page 35 ---
+Ac start line
+Ds start line
+Plant with immobilized 
+autonomous element
+Plant with non-autonomous
+element
+F1
+F2
+transposition
+Select on PPTR lines 
+PCR identification of transposition. 
+Selection for plants with stable 
+insertion into other gene and without 
+transposase
+Transposon mutagenesis
+
+
+--- Page 36 ---
+Replica plate
+Mutagenesis of yeast
+Mutagenized
+with MMS(甲基汞化硫酸酯)
+Example: isolation of mutants required for DNA repair
+Radiation (or other
+DNA-damaging agents)
+Keep and identify gene
+Look for colony 
+that doesn’t grow, 
+or grows poorly
+
+
+--- Page 37 ---
+Genome-wide screens in C. elegans
+Remember: many mutations 
+throughout the genome!!!
+Dominant mutations appear here
+A hermaphrodite: it breeds with itself
+
+
+--- Page 38 ---
+Crown rootless mutant （left）
+Short root hair mutant （right）
+Mutant screen in our lab
+hairless
+WT(HJ)
+10d seedlings
+
+
+--- Page 39 ---
+Types of alleles
+Recessive
+Amorphs: nulls
+Hypomorphs: partial loss-of-function
+Dominant
+Antimorphs: counteracts wt
+- dominant negative
+Hypermorphs: gene is “overactive” or more stable
+NeoMorphs: gene gets “new” function
+-expressed in new location
+
+
+--- Page 40 ---
+TAIL-PCR
+Plasmid rescue
+Inverse PCR
+3 methods to clone the insertion site
+Apply to 
+T-DNA insertion
+Transposable elements 
+insertion
+
+
+--- Page 42 ---
+P1
+P3
+P2
+AD primer
+Specific primer
+T - D N A  o r 
+t r a n s p o s a b l e 
+element DNA
+Genomic DNA
+P3
+AD引物
+Schematic representation of amplification of genome 
+sequence flanking insertion site with TAIL-PCR.
+TAIL-PCR principle
+
+
+--- Page 43 ---
+TAIL-PCR process
+Thermal asymmetric 
+interlaced polymerase chain 
+reaction
+
+
+--- Page 44 ---
+pBsSK
+Ampr     ori
+LB
+RB
+Hind III
+Hind III
+pBsSK
+Ampr     ori
+RB
+Transform into E. coli，get Ampr clone
+T4 DNA ligase
+Schematic representation of cloning genome sequence flanking 
+insertion site with plasmid rescue. 
+Plasmid rescue
+
+
+--- Page 45 ---
+How to clone the point mutations?
+n That’s the drawback of chemical mutagenesis
+n Need to do linkage analysis and 
+recombinational mapping “Genetic mapping” 
+   
+   Screens with T-DNA insertional lines simplify 
+the linkage analysis, since you know what 
+chromosome the mutation is on.
+
+
+--- Page 46 ---
+Alleles and functional insight
+Location of 
+modification
+Interaction w/
+Protein partner
+Enzymatic function B
+Subcellular localization
+Enzymatic function A
+- Diverse alleles are best obtained with point mutations
+
+
+--- Page 47 ---
+Map based cloning
+
+
+--- Page 48 ---
+How to clone mutated target gene 
+by positional cloning?
+Map based cloning: Involves isolating a marker 
+(piece of DNA) whose location is known and which is 
+tightly linked to the gene you are trying to clone
+A powerful tool in forward genetic 
+research--------
+linkage map= genetic map (遗传图谱)
+
+
+--- Page 49 ---
+Linkage analysis: during meiosis, 2 copy homo chromosome will 
+respectively repeat itself  and form bivalent. Crossing-over or 
+recombination will occur. From the freq of crossing-over, the linkage 
+distance can be estimated.
+A      B
+A      B
+a       b
+a       b
+a        b
+A      B
+P1
+P2
+F1
+X
+AB         Ab            aB           ab
+(1-r)/2    r/2            r/2         (1-r)/2 
+1/2           0               0            1/2
+1/4         1/4             1/4           1/4
+Linkage (0<r<0.5)
+Completely linkage (r = 0)
+Independently r= 0.5
+recombination frequency: r =发生交换的配子数/总配子数
+
+
+--- Page 50 ---
+a
+a
+A
+A
+a
+A
+m1
+M1
+m1
+M1
+P1
+P2
+F1
+a
+A
+m1
+M1
+A
+M1
+a
+m1
+a
+a
+m1
+F2
+Mutant 
+m1
+M1
+m1
+m1
+M1
+M1
+Marker
+Wild type  
+P1
+P2
+Map based cloning principle
+m1
+M1
+F1
+M1
+M1
+M1
+a
+
+
+--- Page 51 ---
+Mutants from F2 population
+Marker1
+P1
+P2
+Marker2
+Marker3
+Independently
+Linkage
+Completely 
+linkage
+1
+2
+3
+8
+4
+7
+5
+6
+Map based cloning principle
+
+
+--- Page 52 ---
+Molecular marker: RFLPs (1980, Davis Bostein et al.)
+Polymorphism: a genetic locus has different forms, or alleles
+Digesting DNA from  two individuals with Restriction 
+endonucleases may yield fragments of different lengths.
+Restriction endonucleases: are enzyme which cut DNA into 
+defined fragments.
+RFLP, Restriction frangment length 
+polymorphisms
+
+
+--- Page 53 ---
+Recognition seq: Restriction endonucleases cleave DNA 
+symmetrically in both strands at short palindromic (symmetrical) 
+recognition seq to leave a 5’-phosphate and a 3’-OH. They leave 
+blunt ends, or protruding 5’- or 3’-termini.
+SmaI
+5‘-CCCGGG-3’
+3’-GGGCCC-5’
+5’-GAATTC-3’
+3’-CTTAAG-5’
+EcoRI
+A 6 bp recognition sequences will occur on average every 46 = 4096 bp in 
+random DNA sequences.
+RFLP, Restriction frangment length 
+polymorphisms
+
+
+--- Page 55 ---
+RFLP   southern   hybridization
+DNA digestion and electrophoresis
+ BamHI              DraI           EcoRI           EcoRV       HindIII        XbaI
+Nipponbare, Kasalath, IR20, 55178
+
+
+--- Page 56 ---
+An heroic story of identifying Huntington disease 
+gene by positional cloning before genomic era
+By using RFLP, Huntington disease  are found be linked 
+in 500 kb region in chromosome 4  
+CAG repeat    Normal <35,  mutant >35
+
+
+--- Page 57 ---
+After genomic sequence era, We can search 
+gene very conveniently in database
+Improve ORF (open 
+reading frame) search 
+program
+Codon bias密码子偏爱
+Exon-intron boundary
+Upstream control 
+sequence. For example: 
+CpG island in Vertebrate 
+genomes
+
+
+--- Page 58 ---
+Introduction of  4 popular markers for positional 
+cloning after finish genomic sequence project
+4 PCR based markers:
+SSLP, STS, CAPS，dCAPS
+
+
+--- Page 59 ---
+SSLP: Simple Sequence Length Polymorphism 
+(=SSR, Simple sequence repeat)
+SSLP:
+Microsatellite: 2-4bp long core sequence 
+repeated over and over many times in a row. 
+Highly polymorphic, widespread and relatively 
+uniformly distributed, ideal markers for both 
+linkage and physical mapping
+P1  P2  Het
+P1: TCTATGAGAGAGGC
+P2: TCTATGAGAGAGAGAGAGGC
+
+
+--- Page 61 ---
+STS:  Sequence Tagged Site
+STS : Any sequenced DNA fragment, its specific 
+position on chromosome is known.
+If any STS has polymorphism between alleles, and 
+the polymorphism can be detected by PCR, then it 
+can be a useful marker in linkage map
+
+
+--- Page 62 ---
+1. By using the primers to get a PCR product (a specific 
+DNA band)
+2. Restriction digesting the PCR product using a specific 
+restriction enzyme to detect polymorphisms of the digest 
+products on agrose gel
+3. Genotyping  the polymorphic bands among the population
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+Principle:
+
+
+--- Page 63 ---
+1. Amplify Target Sequence
+2. Cut with a restriction enzyme that differentiates alleles
+X
+P 1
+P 2
+Design  primers (      ) complementary to flanking regions
+Process:
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 64 ---
+3. Alleles can be differentiated by size based on loss 
+or gain of restriction site; May be able to analyze on 
+agarose gel
+Process:
+ M        P1        P2       Het
+CAPS: 
+Cleaved Amplified Polymorphic Sequence
+
+
+--- Page 65 ---
+dCAPS: Derived  Cleaved Amplified 
+Polymorphic Sequence
+-------------------GCTTCCACAAGTC--------------------------------------
+-------------------GCTTCCACAAGTT--------------------------------------
+P1
+P2
+SNP
+Design a forward primer: -----GCTTCCACGAGT-
+HinfⅠ recognize site: GANTC
+X
+P 1
+P 2
+HinfⅠ
+Each SNP can be designed as a dCAPS marker
+
+
+--- Page 66 ---
+1. F2 population construction. Cross the rice mutant with another Genotype 
+rice to get F1, self pollinate of F1 to get F2 progeny for maping.
+2. Initial mapping(初步定位). Screen 30 mutant phenotype plants in F2 
+progeny. Extract DNA of these 30 mutants. Detect the polymorphic bands 
+among this small population using markers on different chromosome. The 
+completely linkage marker are find
+3. Fine mapping(精细定位). Screen1000-2000 mutants in amplified F2 
+population. Extract DNA of these 1000-2000 mutants by pooling. Detect the 
+polymorphic bands among this big population using markers which around the 
+linkage marker which find in initial mapping. Finally a candidate gene 
+contained region can be determined between 2 most linked markers.
+4. Sequence the DNA in the region which determined in fine mapping to find 
+candidate gene.
+5. Transform wild type candidate gene into mutant to confirm this candidate 
+gene function or mutant phenotype reoccur by RNAi or mutation (gene editing)
+Procedure of map based cloning
+
+
+--- Page 67 ---
+Col
+hpa1
+We screened a short primary root mutant (plant 
+physiology, 2006, Vol. 141 pp. 1425－1435)
+Lab story on mapping
+
+
+--- Page 68 ---
+WT
+hpa1
+Mutant has very short primary root because of its 
+remarkably reduced meristem zone.
+Lab story on mapping
+
+
+--- Page 69 ---
+1 2948
+3224700bp
+3260692bp
+3313645bp
+ Recombination       
+frequency
+3398195bp
+AGI position on 
+Chromosome5
+Marker  
+name
+NGA249
+10 1220
+10 1220
+M339
+2770217bp
+M322
+M326
+M331
+M35
+3533671bp
+6 1220
+0 2948
+2 2948
+At5g10330
+Chromosome 5
+Fine mapping results with 2948 mutants from F2 population
+
+
+--- Page 70 ---
+T
+Lab story on mapping
+
+
+--- Page 71 ---
+A: two independently transgenic lines 
+with wild type HPA into mutant 
+WT hpa1 Line1 Line2
+A
+B
+B: Rescuing of the hpa1 root growth 
+defect by Histidine supplementation.
+Lab story on mapping
+
+
+--- Page 72 ---
+Gene cloning by using deep sequencing
+n Create a segregation population
+n Bulk the mutant phenotype lines and the 
+wildtype lines and sequencing.
+
+
+--- Page 73 ---
+Genome-wide Association Study (GWAS) 分析
+    通过高通量分析比较病例与对照人
+群的遗传变异（SNP），基于连锁不平
+衡（LD）原理，将基因型与表型关联，
+从而定位影响复杂性状或疾病的易感基
+因位点。
+01
+样本收集
+严格收集大
+样本量的病
+例与健康对
+照
+02
+基因分型
+检测全基因
+组数百万个
+SNP标记位
+点，获取高
+密度基因型
+数据
+03
+统计分析
+计算等位基
+因频率差异
+，筛选位点
+04
+结果验证
+可视化结果
+，并在独立
+人群样本中
+重复验证
+案例：人类身高的遗传解析
+2007
+利用GWAS研究，成功定位了第
+一个与人类身高显著相关的基
+因位点HMGA2。
+2022
+基于540万+样本的元分析，鉴
+定出超过12,000个独立遗传变
+异，累计解释了约40%的身高表
+型遗传度。
+
+
+--- Page 74 ---
+Student’s presentation (today)
+Paper: LYCHOS is a human hybrid of a 
+plant-like PIN transporter and a 
+GPCR.Nature.2024,634:1238-
+Presenter: Group 12
+
+
