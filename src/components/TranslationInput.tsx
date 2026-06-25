@@ -93,14 +93,20 @@ export function TranslationInput({
           break
         case 'Tab':
           event.preventDefault()
-          speak()
+          // If answer is wrong and not yet removed from mistakes, Tab removes from mistakes
+          if (!isCorrect && !removedFromMistakes && onRemoveMistake) {
+            setRemovedFromMistakes(true)
+            onRemoveMistake(question.id)
+          } else {
+            speak()
+          }
           break
       }
     }
 
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [Boolean(existingAnswer), onNext, onPrev, speak])
+  }, [Boolean(existingAnswer), onNext, onPrev, speak, isCorrect, removedFromMistakes, onRemoveMistake, question.id])
 
   function handleSubmit() {
     if (pending || Boolean(existingAnswer) || !input.trim()) return
@@ -156,7 +162,7 @@ export function TranslationInput({
     <div className="question-panel">
       <p className="question-text">{question.prompt}</p>
       <p className="panel-note" style={{ marginTop: 0 }}>
-        {isZhToEn ? t('tr', 'zhToEn') : t('tr', 'enToZh')}
+        {isZhToEn ? t('tr', 'zhToEn') : '请输入中文翻译（Enter 提交，←→ 切题，Space 下一题，Tab=答错时不移入错题本/答对时发音）'}
       </p>
 
       <input
