@@ -1497,14 +1497,14 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "中英名词互译",
       "number": 73,
-      "prompt": "南方杂交",
+      "prompt": "DNA印记（Southern）",
       "direction": "zh-to-en",
       "answerTerm": "Southern blot",
       "answerFullTerm": null,
       "acceptableAnswers": [
         "southern blot"
       ],
-      "chineseMeaning": "南方杂交",
+      "chineseMeaning": "DNA印记（Southern blot）",
       "examSources": []
     },
     {
@@ -1514,14 +1514,14 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "中英名词互译",
       "number": 74,
-      "prompt": "北方杂交",
+      "prompt": "RNA印记（Northern）",
       "direction": "zh-to-en",
       "answerTerm": "Northern blot",
       "answerFullTerm": null,
       "acceptableAnswers": [
         "northern blot"
       ],
-      "chineseMeaning": "北方杂交",
+      "chineseMeaning": "RNA印记（Northern blot）",
       "examSources": []
     },
     {
