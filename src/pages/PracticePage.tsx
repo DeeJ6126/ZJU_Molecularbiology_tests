@@ -153,20 +153,6 @@ export function PracticePage() {
         )}
       </div>
 
-      {/* Question prompt (with optional vocabulary picker) */}
-      <div className="panel compact-panel">
-        <div className="question-meta" style={{ marginBottom: 12 }}>
-          <span className="panel-note">#{currentQuestion.number}</span>
-          <div style={{ marginLeft: 'auto', display: 'flex', gap: 8, alignItems: 'center' }}>
-            <VocabularyPicker
-              text={currentQuestion.prompt}
-              enabled={false}
-              onPick={() => {}}
-            />
-          </div>
-        </div>
-      </div>
-
       {/* Question-type-specific input */}
       <section className="panel">
         {currentQuestion.type === 'translation' && (
