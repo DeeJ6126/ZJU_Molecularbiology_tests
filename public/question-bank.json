@@ -3012,13 +3012,14 @@
       "categoryTitle": "遗传密码与翻译",
       "parentTitle": "判断题",
       "number": 6,
-      "prompt": "原核生物翻译起始使用甲酰甲硫氨酸（fMet-tRNA^fMet），而真核生物翻译起始使用甲硫氨酸（Met-tRNAi^Met）。",
+      "prompt": "Prokaryotic translation initiation uses N-formylmethionine (fMet-tRNA^fMet), while eukaryotic translation initiation uses methionine (Met-tRNAi^Met).",
       "answerIsTrue": true,
       "explanation": "MB13(7)第24页指出原核起始氨基酸为N-formyl-methionine (fMet)；第34页对比说明真核起始氨基酸为methionine (Met)，不含甲酰基。",
       "examSources": [
         "21春夏",
         "21秋冬"
-      ]
+      ],
+      "promptCn": "原核生物翻译起始使用甲酰甲硫氨酸（fMet-tRNA^fMet），而真核生物翻译起始使用甲硫氨酸（Met-tRNAi^Met）。"
     },
     {
       "id": "true-false-6-q-017",
@@ -3027,13 +3028,14 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 17,
-      "prompt": "原核生物mRNA的5'UTR含有SD序列（Shine-Dalgarno sequence），与16S rRNA 3'端互补配对，帮助核糖体30S亚基定位起始密码子。",
+      "prompt": "In prokaryotes, the 5'UTR of mRNA contains the Shine-Dalgarno (SD) sequence, which base-pairs with the 3' end of 16S rRNA to help position the 30S ribosomal subunit at the start codon.",
       "answerIsTrue": true,
       "explanation": "MB13(7)第26-27页：SD序列为富含G的序列（consensus AGGAGGU），位于起始密码子上游约10nt处，与16S rRNA 3'端互补配对。",
       "examSources": [
         "21春夏",
         "21秋冬"
-      ]
+      ],
+      "promptCn": "原核生物mRNA的5'UTR含有SD序列（Shine-Dalgarno sequence），与16S rRNA 3'端互补配对，帮助核糖体30S亚基定位起始密码子。"
     },
     {
       "id": "true-false-1-q-007",
@@ -3042,13 +3044,14 @@
       "categoryTitle": "遗传密码与翻译",
       "parentTitle": "判断题",
       "number": 7,
-      "prompt": "在原核生物中，IF3（起始因子3）的功能是促进fMet-tRNA与30S亚基的结合。",
+      "prompt": "In prokaryotes, the function of IF3 (Initiation Factor 3) is to promote the binding of fMet-tRNA to the 30S subunit.",
       "answerIsTrue": false,
       "explanation": "MB13(7)第10页和第22页：IF3结合游离的30S亚基并阻止其与50S亚基重新结合，介导SD序列与16S rRNA的配对。促进fMet-tRNA结合的主要是IF2（需要GTP）。",
       "examSources": [
         "21春夏",
         "21秋冬"
-      ]
+      ],
+      "promptCn": "在原核生物中，IF3（起始因子3）的功能是促进fMet-tRNA与30S亚基的结合。"
     },
     {
       "id": "true-false-1-q-008",
@@ -3057,10 +3060,11 @@
       "categoryTitle": "遗传密码与翻译",
       "parentTitle": "判断题",
       "number": 8,
-      "prompt": "遗传密码具有简并性（degeneracy），意味着一个特定的密码子可以编码多种氨基酸。",
+      "prompt": "The degeneracy of the genetic code means that a given codon can encode multiple amino acids.",
       "answerIsTrue": false,
       "explanation": "MB13(7)第46页：遗传密码是unambiguous（无歧义的），一个特定密码子只编码一种氨基酸；但它是degenerate（简并的），即多种密码子可以编码同一种氨基酸。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "遗传密码具有简并性（degeneracy），意味着一个特定的密码子可以编码多种氨基酸。"
     },
     {
       "id": "true-false-3-q-011",
@@ -3069,13 +3073,14 @@
       "categoryTitle": "转录与RNA生物学",
       "parentTitle": "判断题",
       "number": 11,
-      "prompt": "真核生物Class III基因的通用转录因子中，TFIIIA是5S rRNA基因转录所必需的，但对tRNA基因的转录不是必需的。",
+      "prompt": "Among the general transcription factors for eukaryotic Class III genes, TFIIIA is required for 5S rRNA gene transcription but is not required for tRNA gene transcription.",
       "answerIsTrue": true,
       "explanation": "MB8第44页：TFIIIA is required for the synthesis of 5s rRNA, but not tRNA. TFIIIB and C are required by both.",
       "examSources": [
         "21春夏",
         "21秋冬"
-      ]
+      ],
+      "promptCn": "真核生物Class III基因的通用转录因子中，TFIIIA是5S rRNA基因转录所必需的，但对tRNA基因的转录不是必需的。"
     },
     {
       "id": "true-false-3-q-012",
@@ -3084,10 +3089,11 @@
       "categoryTitle": "转录与RNA生物学",
       "parentTitle": "判断题",
       "number": 12,
-      "prompt": "原核生物中，RNA聚合酶核心酶（core enzyme，由α2ββ'组成）可以独立识别启动子并准确起始转录。",
+      "prompt": "In prokaryotes, the RNA polymerase core enzyme (composed of α2ββ') can independently recognize promoters and accurately initiate transcription.",
       "answerIsTrue": false,
       "explanation": "MB7第10页：核心酶不能转录完整DNA，没有σ因子时丧失转录起始位点的特异性。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "原核生物中，RNA聚合酶核心酶（core enzyme，由α2ββ'组成）可以独立识别启动子并准确起始转录。"
     },
     {
       "id": "true-false-3-q-013",
@@ -3096,13 +3102,14 @@
       "categoryTitle": "转录与RNA生物学",
       "parentTitle": "判断题",
       "number": 13,
-      "prompt": "Class III启动子全部位于基因内部（gene-internal），与Class II启动子位于基因上游不同。",
+      "prompt": "All Class III promoters are located within genes (gene-internal), unlike Class II promoters which are located upstream of genes.",
       "answerIsTrue": false,
       "explanation": "MB8第26-29页：Class III启动子分为两类——经典Class III启动子位于基因内部（如5S rRNA、tRNA）；非经典Class III启动子与Class II一样位于基因上游（如U6 snRNA）。",
       "examSources": [
         "21春夏",
         "21秋冬"
-      ]
+      ],
+      "promptCn": "Class III启动子全部位于基因内部（gene-internal），与Class II启动子位于基因上游不同。"
     },
     {
       "id": "true-false-3-q-014",
@@ -3111,12 +3118,13 @@
       "categoryTitle": "转录与RNA生物学",
       "parentTitle": "判断题",
       "number": 14,
-      "prompt": "siRNA（small interfering RNA）通过RISC介导同源mRNA的序列特异性切割和降解。",
+      "prompt": "siRNA (small interfering RNA) mediates sequence-specific cleavage and degradation of homologous mRNA through RISC.",
       "answerIsTrue": true,
       "explanation": "MB12第13页和第31页：siRNA装载入RISC（含Argonaute蛋白），引导RISC识别并切割同源mRNA使其降解。",
       "examSources": [
         "21春夏"
-      ]
+      ],
+      "promptCn": "siRNA（small interfering RNA）通过RISC介导同源mRNA的序列特异性切割和降解。"
     },
     {
       "id": "true-false-3-q-015",
@@ -3125,10 +3133,11 @@
       "categoryTitle": "转录与RNA生物学",
       "parentTitle": "判断题",
       "number": 15,
-      "prompt": "ρ因子（Rho factor）是原核生物所有转录终止过程都必需的蛋白质因子。",
+      "prompt": "Rho factor is a protein factor required for all transcription termination processes in prokaryotes.",
       "answerIsTrue": false,
       "explanation": "MB7第28-35页：原核转录终止有两种机制——ρ依赖性和ρ非依赖性。后者通过发夹结构+一串T残基即可终止，不需要ρ因子。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "ρ因子（Rho factor）是原核生物所有转录终止过程都必需的蛋白质因子。"
     },
     {
       "id": "true-false-2-q-007",
@@ -3137,10 +3146,11 @@
       "categoryTitle": "DNA复制与修复",
       "parentTitle": "判断题",
       "number": 7,
-      "prompt": "RNA依赖的RNA聚合酶（RdRp）参与原核生物DNA复制过程中的引物合成。",
+      "prompt": "RNA-dependent RNA polymerase (RdRp) participates in primer synthesis during prokaryotic DNA replication.",
       "answerIsTrue": false,
       "explanation": "MB12第14页：RdRp以RNA为模板合成RNA，不参与DNA复制。DNA复制中的RNA引物由引物酶（primase）合成（MB6第35页）。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "RNA依赖的RNA聚合酶（RdRp）参与原核生物DNA复制过程中的引物合成。"
     },
     {
       "id": "true-false-6-q-018",
@@ -3149,10 +3159,11 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 18,
-      "prompt": "DNA聚合酶只能沿5'→3'方向合成新的DNA链，阅读模板链的方向为3'→5'。",
+      "prompt": "DNA polymerases can only synthesize new DNA strands in the 5'→3' direction, reading the template strand in the 3'→5' direction.",
       "answerIsTrue": true,
       "explanation": "MB6第17页：All DNA polymerases synthesize DNA in the 5' to 3' direction, reading the template 3' to 5'.",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "DNA聚合酶只能沿5'→3'方向合成新的DNA链，阅读模板链的方向为3'→5'。"
     },
     {
       "id": "true-false-2-q-008",
@@ -3161,10 +3172,11 @@
       "categoryTitle": "DNA复制与修复",
       "parentTitle": "判断题",
       "number": 8,
-      "prompt": "真核生物染色体DNA复制只有一个复制起始点，从此起始点向两个方向进行双向复制。",
+      "prompt": "Eukaryotic chromosomal DNA replication has only a single origin of replication, from which bidirectional replication proceeds.",
       "answerIsTrue": false,
       "explanation": "MB6第51页：真核生物染色体有多个复制起始点（多个replicon），原核生物染色体才只有一个起始点。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "真核生物染色体DNA复制只有一个复制起始点，从此起始点向两个方向进行双向复制。"
     },
     {
       "id": "true-false-6-q-019",
@@ -3173,13 +3185,14 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 19,
-      "prompt": "Trp操纵子中，辅阻遏蛋白（apo-repressor）在色氨酸浓度低时也能与操纵区结合，抑制结构基因的转录。",
+      "prompt": "In the Trp operon, the aporepressor can bind to the operator and repress transcription of structural genes even when tryptophan concentration is low.",
       "answerIsTrue": false,
       "explanation": "MB7第52页：Aporepressor本身无活性，必须与色氨酸结合后才能作为活性阻遏蛋白结合操纵区。Low trp, no repression。",
       "examSources": [
         "21春夏",
         "22春夏"
-      ]
+      ],
+      "promptCn": "Trp操纵子中，辅阻遏蛋白（apo-repressor）在色氨酸浓度低时也能与操纵区结合，抑制结构基因的转录。"
     },
     {
       "id": "true-false-6-q-020",
@@ -3188,13 +3201,14 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 20,
-      "prompt": "Trp操纵子仅通过阻遏机制（repression）进行转录水平的调控。",
+      "prompt": "The Trp operon is regulated at the transcriptional level solely through the repression mechanism.",
       "answerIsTrue": false,
       "explanation": "MB7第54页：Trp操纵子同时受阻遏（70倍）和衰减（attenuation，额外10倍）两种机制调控，总调控达700倍。",
       "examSources": [
         "21春夏",
         "22春夏"
-      ]
+      ],
+      "promptCn": "Trp操纵子仅通过阻遏机制（repression）进行转录水平的调控。"
     },
     {
       "id": "true-false-6-q-021",
@@ -3203,12 +3217,13 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 21,
-      "prompt": "乳糖操纵子中，别乳糖（allolactose）作为诱导物与lac阻遏蛋白结合，使阻遏蛋白从操纵区解离，从而开启操纵子转录。",
+      "prompt": "In the lac operon, allolactose acts as an inducer by binding to the lac repressor, causing the repressor to dissociate from the operator and thereby activating operon transcription.",
       "answerIsTrue": true,
       "explanation": "MB7第43页：Allolactose acts as an inducer by binding the repressor, repressor dissociates from the operator.",
       "examSources": [
         "22春夏"
-      ]
+      ],
+      "promptCn": "乳糖操纵子中，别乳糖（allolactose）作为诱导物与lac阻遏蛋白结合，使阻遏蛋白从操纵区解离，从而开启操纵子转录。"
     },
     {
       "id": "true-false-6-q-022",
@@ -3217,12 +3232,13 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 22,
-      "prompt": "乳糖操纵子（lac operon）的调控中，当葡萄糖和乳糖同时存在时，lac操纵子高效表达。",
+      "prompt": "In the regulation of the lac operon, the operon is efficiently expressed when both glucose and lactose are present.",
       "answerIsTrue": false,
       "explanation": "MB7第48页：lac操纵子的结构基因只有在葡萄糖不存在且乳糖存在时才表达。葡萄糖存在导致cAMP浓度低，CAP-cAMP复合物不能有效结合启动子（分解代谢物阻遏）。",
       "examSources": [
         "22春夏"
-      ]
+      ],
+      "promptCn": "乳糖操纵子（lac operon）的调控中，当葡萄糖和乳糖同时存在时，lac操纵子高效表达。"
     },
     {
       "id": "true-false-4-q-012",
@@ -3231,12 +3247,13 @@
       "categoryTitle": "表观遗传学",
       "parentTitle": "判断题",
       "number": 12,
-      "prompt": "大鼠的母性抚育行为（舔舐/梳理和弓背哺乳，LG-ABN）可以通过表观遗传机制影响雌性后代的抚育行为方式，从而在代际间延续。",
+      "prompt": "Maternal nurturing behavior in rats (licking/grooming and arched-back nursing, LG-ABN) can influence the nurturing behavior of female offspring through epigenetic mechanisms, thus being transmitted across generations.",
       "answerIsTrue": true,
       "explanation": "MB16(7)第54页：高LG-ABN mothering导致NGFI-A表达增加，进而GR启动子去甲基化、组蛋白乙酰化增加、GR表达升高。表观遗传标记在代际间延续。",
       "examSources": [
         "21春夏"
-      ]
+      ],
+      "promptCn": "大鼠的母性抚育行为（舔舐/梳理和弓背哺乳，LG-ABN）可以通过表观遗传机制影响雌性后代的抚育行为方式，从而在代际间延续。"
     },
     {
       "id": "true-false-4-q-013",
@@ -3245,10 +3262,11 @@
       "categoryTitle": "表观遗传学",
       "parentTitle": "判断题",
       "number": 13,
-      "prompt": "DNA甲基化通常发生在CpG二核苷酸的胞嘧啶上，启动子区域CpG岛的甲基化通常与基因转录激活相关。",
+      "prompt": "DNA methylation typically occurs at cytosines in CpG dinucleotides, and methylation of CpG islands in promoter regions is generally associated with transcriptional activation.",
       "answerIsTrue": false,
       "explanation": "MB16(7)第41-44页：启动子CpG岛的甲基化通常导致基因沉默（gene silencing），而非激活。",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "DNA甲基化通常发生在CpG二核苷酸的胞嘧啶上，启动子区域CpG岛的甲基化通常与基因转录激活相关。"
     },
     {
       "id": "true-false-4-q-014",
@@ -3257,12 +3275,13 @@
       "categoryTitle": "表观遗传学",
       "parentTitle": "判断题",
       "number": 14,
-      "prompt": "组蛋白乙酰化通常与转录活跃的染色质区域相关，而组蛋白去乙酰化通常与基因沉默相关。",
+      "prompt": "Histone acetylation is generally associated with transcriptionally active chromatin regions, while histone deacetylation is generally associated with gene silencing.",
       "answerIsTrue": true,
       "explanation": "MB16(7)第32页：Generally, histone acetylation is associated with transcriptionally active genes. Deacetylation is associated with inactive genes.",
       "examSources": [
         "22春夏"
-      ]
+      ],
+      "promptCn": "组蛋白乙酰化通常与转录活跃的染色质区域相关，而组蛋白去乙酰化通常与基因沉默相关。"
     },
     {
       "id": "true-false-5-q-014",
@@ -3271,10 +3290,11 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "判断题",
       "number": 14,
-      "prompt": "在农杆菌介导的植物遗传转化双元载体系统中，辅助质粒（helper plasmid）含有vir基因，负责编码T-DNA加工和转移所需的蛋白质。",
+      "prompt": "In the Agrobacterium-mediated plant genetic transformation binary vector system, the helper plasmid contains vir genes, which encode proteins required for T-DNA processing and transfer.",
       "answerIsTrue": true,
       "explanation": "MB4第78页：Helper plasmid containing the vir genes.",
-      "examSources": []
+      "examSources": [],
+      "promptCn": "在农杆菌介导的植物遗传转化双元载体系统中，辅助质粒（helper plasmid）含有vir基因，负责编码T-DNA加工和转移所需的蛋白质。"
     },
     {
       "id": "true-false-5-q-015",
@@ -3283,12 +3303,13 @@
       "categoryTitle": "分子克隆与实验技术",
       "parentTitle": "判断题",
       "number": 15,
-      "prompt": "Cas13家族蛋白是RNA靶向的CRISPR系统效应蛋白，可介导RNA敲降（RNA knockdown），用于抑制RNA病毒和调控基因表达。",
+      "prompt": "Cas13 family proteins are RNA-targeting CRISPR system effector proteins that mediate RNA knockdown, used for inhibiting RNA viruses and regulating gene expression.",
       "answerIsTrue": true,
       "explanation": "MB5第56页：Cas13 family proteins mediated RNA Knockdown, suppression of RNA viruses.",
       "examSources": [
         "21春夏"
-      ]
+      ],
+      "promptCn": "Cas13家族蛋白是RNA靶向的CRISPR系统效应蛋白，可介导RNA敲降（RNA knockdown），用于抑制RNA病毒和调控基因表达。"
     },
     {
       "id": "true-false-6-q-023",
@@ -3297,13 +3318,14 @@
       "categoryTitle": "原核基因表达调控",
       "parentTitle": "判断题",
       "number": 23,
-      "prompt": "蓝白斑筛选实验中，在含有IPTG和X-gal的培养基上，成功插入了外源DNA片段（使lacZ失活）的重组细菌菌落呈蓝色。",
+      "prompt": "In blue-white screening, on medium containing IPTG and X-gal, recombinant bacterial colonies with successful insertion of exogenous DNA fragments (inactivating lacZ) appear blue.",
       "answerIsTrue": false,
       "explanation": "蓝白斑筛选原理：外源DNA插入lacZ基因使其失活→不能产生β-半乳糖苷酶→无法分解X-gal→菌落呈白色。蓝色表示未插入外源片段（载体自连）。",
       "examSources": [
         "22春夏",
         "23春夏"
-      ]
+      ],
+      "promptCn": "蓝白斑筛选实验中，在含有IPTG和X-gal的培养基上，成功插入了外源DNA片段（使lacZ失活）的重组细菌菌落呈蓝色。"
     },
     {
       "id": "short-answer-q-001",
