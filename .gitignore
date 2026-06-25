@@ -26,4 +26,5 @@ __pycache__/
 *.sw?
 debug_*.txt
 
-data/!public/images/
+data/
+!public/images/
